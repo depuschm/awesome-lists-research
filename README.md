@@ -2,7 +2,7 @@
 
 What makes GitHub's most-starred "awesome" lists so good? This repository holds a data-driven study of 1,291 curated lists: their stars, structure, history and governance, measured from 1,609 cloned repositories and about 60,000 historical README snapshots, plus in-depth reviews of more than 40 lists. Data as of 25 October 2026.
 
-**Read the report:** [as a web page with interactive charts](https://depuschm.github.io/awesome-lists-research/) or [as Markdown](REPORT.md).
+**Read the report:** [as a web page with interactive charts](https://depuschm.github.io/awesome-lists-research) or [as Markdown](REPORT.md).
 
 ## Key findings
 
