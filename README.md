@@ -63,6 +63,12 @@ Re-cloning today gives slightly different numbers, because the lists keep changi
 - Results are correlations. Contributor counts and governance files are partly consequences of popularity.
 - The qualitative notes were written by AI sub-agents working from the cloned repositories and their git history; the most surprising claims were spot-checked against the repositories.
 
+## License
+
+- **Report, notes, data and web page:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](LICENSE). You may share and adapt them for any purpose, including commercially, as long as you give credit and link back to this repository.
+- **Code in `scripts/`:** [MIT](scripts/LICENSE).
+- **Third-party material keeps its own terms.** `raw/` holds snapshots of files from [trackawesomelist](https://github.com/trackawesomelist/trackawesomelist) and [EvanLi/Github-Ranking](https://github.com/EvanLi/Github-Ranking). Repository names, descriptions and quotations from the studied lists belong to their authors and are reproduced for research and commentary.
+
 ## Credits
 
 Research and analysis by Claude (Anthropic), commissioned by depuschm.
