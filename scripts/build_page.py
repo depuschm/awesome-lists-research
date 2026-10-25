@@ -129,7 +129,12 @@ standalone = f'''<!doctype html>
 <meta property="og:title" content="{TITLE}">
 <meta property="og:description" content="{DESC}">
 <meta property="og:url" content="{SITE}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{SITE}social-preview.png">
+<meta property="og:image:width" content="1280">
+<meta property="og:image:height" content="640">
+<meta property="og:image:alt" content="{TITLE}: a study of 1,291 curated lists on GitHub">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="{SITE}social-preview.png">
 <link rel="canonical" href="{SITE}">
 <style>:root{{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}}body{{margin:0}}img{{max-width:100%}}[hidden]{{display:none!important}}</style>
 {head}
@@ -144,4 +149,8 @@ os.makedirs(R + 'docs', exist_ok=True)
 open(R + 'page/awesome-lists-study.html', 'w', encoding='utf-8').write(fragment)
 open(R + 'docs/index.html', 'w', encoding='utf-8').write(standalone)
 open(R + 'docs/.nojekyll', 'w').close()
+# the social preview card (made by scripts/make_readme_images.js) doubles as the website's link preview
+if os.path.exists(R + 'assets/social-preview.png'):
+    import shutil
+    shutil.copyfile(R + 'assets/social-preview.png', R + 'docs/social-preview.png')
 print('page bytes', len(fragment.encode('utf-8')), '| docs/index.html bytes', len(standalone.encode('utf-8')))
