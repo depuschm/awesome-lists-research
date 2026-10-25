@@ -1,0 +1,671 @@
+section	subsection	repo	name	description	nested
+Platforms		sindresorhus/awesome-nodejs	Node.js	Async non-blocking event-driven JavaScript runtime built on Chrome's V8 JavaScript engine.	0
+Platforms		bcoe/awesome-cross-platform-nodejs	Cross-Platform	Writing cross-platform code on Node.js.	1
+Platforms		dypsilon/frontend-dev-bookmarks	Frontend Development		0
+Platforms		vsouza/awesome-ios	iOS	Mobile operating system for Apple phones and tablets.	0
+Platforms		JStumpp/awesome-android	Android	Mobile operating system developed by Google.	0
+Platforms		weblancaster/awesome-IoT-hybrid	IoT & Hybrid Apps		0
+Platforms		sindresorhus/awesome-electron	Electron	Cross-platform native desktop apps using JavaScript/HTML/CSS.	0
+Platforms		busterc/awesome-cordova	Cordova	JavaScript API for hybrid apps.	0
+Platforms		jondot/awesome-react-native	React Native	JavaScript framework for writing natively rendering mobile apps for iOS and Android.	0
+Platforms		Friz-zy/awesome-linux-containers	Containers		1
+Platforms		zoidbergwill/awesome-ebpf	eBPF	Virtual machine that allows you to write more efficient and powerful tracing and monitoring for Linux systems.	1
+Platforms		PandaFoss/Awesome-Arch	Arch-based Projects	Linux distributions and projects based on Arch Linux.	1
+Platforms		AppImageCommunity/awesome-appimage	AppImage	Package apps in a single file that works on various mainstream Linux distributions.	1
+Platforms		aorumbayev/awesome-omarchy	Omarchy	Opinionated Arch Linux and Hyprland desktop environment from the creator of Ruby on Rails.	1
+Platforms		agarrharr/awesome-macos-screensavers	Screensavers		1
+Platforms		jaywcjlove/awesome-mac	Apps		1
+Platforms		serhii-londar/open-source-mac-os-apps	Open Source Apps		1
+Platforms		yenchenlin/awesome-watchos	watchOS	Operating system for the Apple Watch.	0
+Platforms		deephacks/awesome-jvm	JVM		0
+Platforms		mailtoharshit/awesome-salesforce	Salesforce		0
+Platforms		donnemartin/awesome-aws	Amazon Web Services		0
+Platforms		0pandadev/awesome-windows	Windows	Consumer desktop operating system.	0
+Platforms		hlaueriksson/awesome-powertoys-run-plugins	PowerToys Run Plugins	Community plugins for the Windows quick launcher.	1
+Platforms		ipfs/awesome-ipfs	IPFS	P2P hypermedia protocol.	0
+Platforms		fuse-compound/awesome-fuse	Fuse	Mobile development tools.	0
+Platforms		ianstormtaylor/awesome-heroku	Heroku	Cloud platform as a service.	0
+Platforms		thibmaek/awesome-raspberry-pi	Raspberry Pi	Credit card-sized computer aimed at teaching kids programming, but capable of a lot more.	0
+Platforms		fregante/Awesome-WebExtensions	WebExtensions	Cross-browser extension system.	0
+Platforms		vitalets/awesome-smart-tv	Smart TV	Create apps for different TV platforms.	0
+Platforms		Kazhnuz/awesome-gnome	GNOME	Simple and distraction-free desktop environment for Linux.	0
+Platforms		francoism90/awesome-kde	KDE	A free software community dedicated to creating an open and user-friendly computing experience.	0
+Platforms		quozd/awesome-dotnet	.NET		0
+Platforms		thangchung/awesome-dotnet-core	Core		1
+Platforms		ironcev/awesome-roslyn	Roslyn	Open-source compilers and code analysis APIs for C# and VB.NET languages.	1
+Platforms		jonleibowitz/awesome-digitalocean	DigitalOcean	Cloud computing platform designed for developers.	0
+Platforms		Solido/awesome-flutter	Flutter	Google's mobile SDK for building native iOS and Android apps from a single codebase written in Dart.	0
+Platforms		frenck/awesome-home-assistant	Home Assistant	Open source home automation that puts local control and privacy first.	0
+Platforms		victorshinya/awesome-ibmcloud	IBM Cloud	Cloud platform for developers and companies.	0
+Platforms		jthegedus/awesome-firebase	Firebase	App development platform built on Google Cloud.	0
+Platforms		adafruit/awesome-adafruitio	Adafruit IO	Visualize and store data from any device.	0
+Platforms		irazasyed/awesome-cloudflare	Cloudflare	CDN, DNS, DDoS protection, and security for your site.	0
+Platforms		ravirupareliya/awesome-actions-on-google	Actions on Google	Developer platform for Google Assistant.	0
+Platforms		agucova/awesome-esp	ESP	Low-cost microcontrollers with WiFi and broad IoT applications.	0
+Platforms		denolib/awesome-deno	Deno	A secure runtime for JavaScript and TypeScript that uses V8 and is built in Rust.	0
+Platforms		balintkissdev/awesome-dos	DOS	Operating system for x86-based personal computers that was popular during the 1980s and early 1990s.	0
+Platforms		nix-community/awesome-nix	Nix	Package manager for Linux and other Unix systems that makes package management reliable and reproducible.	0
+Platforms		stn1slv/awesome-integration	Integration	Linking together different IT systems (components) to functionally cooperate as a whole.	0
+Platforms		naimo84/awesome-nodered	Node-RED	A programming tool for wiring together hardware devices, APIs, and online services.	0
+Platforms		zenitysec/awesome-low-code	Low Code	Allowing business professionals to address their needs on their own with little to no coding skills.	0
+Platforms		riderx/awesome-capacitor	Capacitor	Cross-platform open source runtime for building Web Native apps.	0
+Platforms		Esri/awesome-arcgis-developer	ArcGIS Developer	Mapping and location analysis platform for developers.	0
+Platforms		dotintent/awesome-ble	Bluetooth Low Energy	Low-power wireless communication protocol ideal for IoT, wearables, and other battery-powered applications.	0
+Platforms		MartinZikmund/awesome-uno-platform	Uno Platform	Open-source .NET UI platform for building cross-platform apps.	0
+Platforms		xavidop/awesome-firebase-genkit	Firebase Genkit	An open-source framework for building AI-powered apps and features.	0
+Platforms		shano/awesome-backstage	Backstage	Open-source platform for building Internal Developer Portals that unify tools and workflows.	0
+Programming Languages		sorrycc/awesome-javascript	JavaScript		0
+Programming Languages		wbinnssmith/awesome-promises	Promises		1
+Programming Languages		standard/awesome-standard	Standard Style	Style guide and linter.	1
+Programming Languages		bolshchikov/js-must-watch	Must Watch Talks		1
+Programming Languages		loverajoel/jstips	Tips		1
+Programming Languages		Kikobeats/awesome-network-js	Network Layer		1
+Programming Languages		parro-it/awesome-micro-npm-packages	Micro npm Packages		1
+Programming Languages		feross/awesome-mad-science	Mad Science npm Packages	Impossible sounding projects that exist.	1
+Programming Languages		maxogden/maintenance-modules	Maintenance Modules	For npm packages.	1
+Programming Languages		sindresorhus/awesome-npm	npm	Package manager.	1
+Programming Languages		avajs/awesome-ava	AVA	Test runner.	1
+Programming Languages		dustinspecker/awesome-eslint	ESLint	Linter.	1
+Programming Languages		stoeffel/awesome-fp-js	Functional Programming		1
+Programming Languages		sindresorhus/awesome-observables	Observables		1
+Programming Languages		RyanZim/awesome-npm-scripts	npm scripts	Task runner.	1
+Programming Languages		30-seconds/30-seconds-of-code	30 Seconds of Code	Code snippets you can understand in 30 seconds.	1
+Programming Languages		Richienb/awesome-ponyfills	Ponyfills	Like polyfills but without overriding native APIs.	1
+Programming Languages		matteocrippa/awesome-swift	Swift	Apple's compiled programming language that is secure, modern, programmer-friendly, and fast.	0
+Programming Languages		hsavit1/Awesome-Swift-Education	Education		1
+Programming Languages		uraimo/Awesome-Swift-Playgrounds	Playgrounds		1
+Programming Languages		vinta/awesome-python	Python	General-purpose programming language designed for readability.	0
+Programming Languages		timofurrer/awesome-asyncio	Asyncio	Asynchronous I/O in Python 3.	1
+Programming Languages		faroit/awesome-python-scientific-audio	Scientific Audio	Scientific research in audio/music.	1
+Programming Languages		adafruit/awesome-circuitpython	CircuitPython	A version of Python for microcontrollers.	1
+Programming Languages		krzjoa/awesome-python-data-science	Data Science	Data analysis and machine learning.	1
+Programming Languages		typeddjango/awesome-python-typing	Typing	Optional static typing for Python.	1
+Programming Languages		mcauser/awesome-micropython	MicroPython	A lean and efficient implementation of Python 3 for microcontrollers.	1
+Programming Languages		rust-unofficial/awesome-rust	Rust		0
+Programming Languages		pest-parser/awesome-pest	Pest	Parser generator.	1
+Programming Languages		krispo/awesome-haskell	Haskell		0
+Programming Languages		passy/awesome-purescript	PureScript		0
+Programming Languages		avelino/awesome-go	Go		0
+Programming Languages		lauris/awesome-scala	Scala		0
+Programming Languages		tindzk/awesome-scala-native	Scala Native	Optimizing ahead-of-time compiler for Scala based on LLVM.	1
+Programming Languages		markets/awesome-ruby	Ruby		0
+Programming Languages		razum2um/awesome-clojure	Clojure		0
+Programming Languages		hantuzun/awesome-clojurescript	ClojureScript		0
+Programming Languages		h4cc/awesome-elixir	Elixir		0
+Programming Languages		sporto/awesome-elm	Elm		0
+Programming Languages		drobakowski/awesome-erlang	Erlang		0
+Programming Languages		svaksha/Julia.jl	Julia	High-level dynamic programming language designed to address the needs of high-performance numerical analysis and computational science.	0
+Programming Languages		LewisJEllis/awesome-lua	Lua		0
+Programming Languages		fffaraz/awesome-cpp	C/C++	General-purpose language with a bias toward system programming and embedded, resource-constrained software.	0
+Programming Languages		qinwf/awesome-R	R	Functional programming language and environment for statistical computing and graphics.	0
+Programming Languages		iamericfletcher/awesome-r-learning-resources	Learning		1
+Programming Languages		dlang-community/awesome-d	D		0
+Programming Languages		CodyReichert/awesome-cl	Common Lisp	Powerful dynamic multiparadigm language that facilitates iterative and interactive development.	0
+Programming Languages		GustavBertram/awesome-common-lisp-learning	Learning		1
+Programming Languages		hachiojipm/awesome-perl	Perl		0
+Programming Languages		kdabir/awesome-groovy	Groovy		0
+Programming Languages		yissachar/awesome-dart	Dart		0
+Programming Languages		akullpp/awesome-java	Java	"Popular secure object-oriented language designed for flexibility to ""write once, run anywhere""."	0
+Programming Languages		eleventigers/awesome-rxjava	RxJava		1
+Programming Languages		hstsethi/awesome-j2me	J2ME	Java specification designed for old keypad phones and PDAs..	1
+Programming Languages		KotlinBy/awesome-kotlin	Kotlin		0
+Programming Languages		ocaml-community/awesome-ocaml	OCaml		0
+Programming Languages		seancoyne/awesome-coldfusion	ColdFusion		0
+Programming Languages		rabbiabram/awesome-fortran	Fortran		0
+Programming Languages		ziadoz/awesome-php	PHP	Server-side scripting language.	0
+Programming Languages		jakoch/awesome-composer	Composer	Package manager.	1
+Programming Languages		Fr0sT-Brutal/awesome-pascal	Pascal		0
+Programming Languages		ahkscript/awesome-AutoHotkey	AutoHotkey		0
+Programming Languages		J2TeaM/awesome-AutoIt	AutoIt		0
+Programming Languages		veelenga/awesome-crystal	Crystal		0
+Programming Languages		onqtam/awesome-cmake	CMake	Build, test, and package software.	0
+Programming Languages		robinrodricks/awesome-actionscript3	ActionScript 3	Object-oriented language targeting Adobe AIR.	0
+Programming Languages		joaomilho/awesome-idris	Idris	General purpose pure functional programming language with dependent types influenced by Haskell and ML.	0
+Programming Languages		ohenley/awesome-ada	Ada/SPARK	Modern programming language designed for large, long-lived apps where reliability and efficiency are essential.	0
+Programming Languages		ebraminio/awesome-qsharp	Q#	Domain-specific programming language used for expressing quantum algorithms.	0
+Programming Languages		koolamusic/awesome-imba	Imba	Programming language inspired by Ruby and Python and compiles to performant JavaScript.	0
+Programming Languages		desiderantes/awesome-vala	Vala	Programming language designed to take full advantage of the GLib and GNOME ecosystems, while preserving the speed of C code.	0
+Programming Languages		coq-community/awesome-coq	Coq	Formal language and environment for programming and specification which facilitates interactive development of machine-checked proofs.	0
+Programming Languages		vlang/awesome-v	V	Simple, fast, safe, compiled language for developing maintainable software.	0
+Programming Languages		MystenLabs/awesome-move	Move	Domain-specific programming language for writing safe smart contracts.	0
+Programming Languages		angrykoala/awesome-esolangs	Esolangs	Programming languages designed for experimentation or as jokes rather than actual use.	0
+Programming Languages		sancarn/awesome-vba	VBA	An event-driven version of Visual Basic 6.0 built into most Microsoft Office apps for automation and scripting.	0
+Programming Languages		fsprojects/awesome-fsharp	F#	A .NET-based language with focus on functional programming.	0
+Front-End Development		addyosmani/es6-tools	ES6 Tools		0
+Front-End Development		davidsonfellipe/awesome-wpo	Web Performance Optimization		0
+Front-End Development		lvwzhen/tools	Web Tools		0
+Front-End Development		awesome-css-group/awesome-css	CSS	Style sheet language that specifies how HTML elements are displayed on screen.	0
+Front-End Development		addyosmani/critical-path-css-tools	Critical-Path Tools		1
+Front-End Development		davidtheclark/scalable-css-reading-list	Scalability		1
+Front-End Development		AllThingsSmitty/must-watch-css	Must-Watch Talks		1
+Front-End Development		AllThingsSmitty/css-protips	Protips		1
+Front-End Development		troxler/awesome-css-frameworks	Frameworks		1
+Front-End Development		enaqx/awesome-react	React	JavaScript library for building user interfaces.	0
+Front-End Development		expede/awesome-relay	Relay	Framework for building data-driven React apps.	1
+Front-End Development		glauberfc/awesome-react-hooks	React Hooks	Lets you use state and other React features without writing a class.	1
+Front-End Development		web-padawan/awesome-web-components	Web Components		0
+Front-End Development		Granze/awesome-polymer	Polymer	JavaScript library to develop Web Components.	0
+Front-End Development		PatrickJS/awesome-angular	Angular	App framework.	0
+Front-End Development		sadcitizen/awesome-backbone	Backbone	App framework.	0
+Front-End Development		diegocard/awesome-html5	HTML5	Markup language used for websites & web apps.	0
+Front-End Development		willianjusten/awesome-svg	SVG	XML-based vector image format.	0
+Front-End Development		raphamorim/awesome-canvas	Canvas		0
+Front-End Development		dnbard/awesome-knockout	KnockoutJS	JavaScript library.	0
+Front-End Development		petk/awesome-dojo	Dojo Toolkit	JavaScript toolkit.	0
+Front-End Development		NoahBuscher/Inspire	Inspiration		0
+Front-End Development		ember-community-russia/awesome-ember	Ember	App framework.	0
+Front-End Development		wasabeef/awesome-android-ui	Android UI		0
+Front-End Development		cjwirth/awesome-ios-ui	iOS UI		0
+Front-End Development		Urigo/awesome-meteor	Meteor		0
+Front-End Development		sturobson/BEM-resources	BEM		0
+Front-End Development		afonsopacifer/awesome-flexbox	Flexbox		0
+Front-End Development		deanhume/typography	Web Typography		0
+Front-End Development		brunopulis/awesome-a11y	Web Accessibility		0
+Front-End Development		sachin1092/awesome-material	Material Design		0
+Front-End Development		wbkd/awesome-d3	D3	Library for producing dynamic, interactive data visualizations.	0
+Front-End Development		jonathandion/awesome-emails	Emails		0
+Front-End Development		petk/awesome-jquery	jQuery	Easy to use JavaScript library for DOM manipulation.	0
+Front-End Development		AllThingsSmitty/jquery-tips-everyone-should-know	Tips		1
+Front-End Development		notthetup/awesome-webaudio	Web Audio		0
+Front-End Development		pazguille/offline-first	Offline-First		0
+Front-End Development		agarrharr/awesome-static-website-services	Static Website Services		0
+Front-End Development		cyclejs-community/awesome-cyclejs	Cycle.js	Functional and reactive JavaScript framework.	0
+Front-End Development		dok/awesome-text-editing	Text Editing		0
+Front-End Development		fliptheweb/motion-ui-design	Motion UI Design		0
+Front-End Development		vuejs/awesome-vue	Vue.js	App framework.	0
+Front-End Development		sadcitizen/awesome-marionette	Marionette.js	App framework.	0
+Front-End Development		aurelia-contrib/awesome-aurelia	Aurelia	App framework.	0
+Front-End Development		zingchart/awesome-charting	Charting		0
+Front-End Development		candelibas/awesome-ionic	Ionic Framework		0
+Front-End Development		ChromeDevTools/awesome-chrome-devtools	Chrome DevTools		0
+Front-End Development		jdrgomes/awesome-postcss	PostCSS	CSS tool.	0
+Front-End Development		nikgraf/awesome-draft-js	Draft.js	Rich text editor framework for React.	0
+Front-End Development		TalAter/awesome-service-workers	Service Workers		0
+Front-End Development		TalAter/awesome-progressive-web-apps	Progressive Web Apps		0
+Front-End Development		choojs/awesome-choo	choo	App framework.	0
+Front-End Development		brillout/awesome-redux	Redux	State container for JavaScript apps.	0
+Front-End Development		browserify/awesome-browserify	Browserify	Module bundler.	0
+Front-End Development		Famolus/awesome-sass	Sass	CSS preprocessor.	0
+Front-End Development		websemantics/awesome-ant-design	Ant Design	Enterprise-class UI design language.	0
+Front-End Development		LucasBassetti/awesome-less	Less	CSS preprocessor.	0
+Front-End Development		sjfricke/awesome-webgl	WebGL	JavaScript API for rendering 3D graphics.	0
+Front-End Development		preactjs/awesome-preact	Preact	App framework.	0
+Front-End Development		jbmoelker/progressive-enhancement-resources	Progressive Enhancement		0
+Front-End Development		unicodeveloper/awesome-nextjs	Next.js	Framework for server-rendered React apps.	0
+Front-End Development		web-padawan/awesome-lit	lit	Library for building web components with a declarative template system.	0
+Front-End Development		automata/awesome-jamstack	JAMstack	Modern web development architecture based on client-side JavaScript, reusable APIs, and prebuilt markup.	0
+Front-End Development		henrikwirth/awesome-wordpress-gatsby	WordPress-Gatsby	Web development technology stack with WordPress as a back end and Gatsby as a front end.	0
+Front-End Development		myshov/awesome-mobile-web-development	Mobile Web Development	Creating a great mobile web experience.	0
+Front-End Development		lauthieb/awesome-storybook	Storybook	Development environment for UI components.	0
+Front-End Development		AdrienTorris/awesome-blazor	Blazor	.NET web framework using C#/Razor and HTML that runs in the browser with WebAssembly.	0
+Front-End Development		csabapalfi/awesome-pagespeed-metrics	PageSpeed Metrics	Metrics to help understand page speed and user experience.	0
+Front-End Development		aniftyco/awesome-tailwindcss	Tailwind CSS	Utility-first CSS framework for rapid UI development.	0
+Front-End Development		seed-rs/awesome-seed-rs	Seed	Rust framework for creating web apps running in WebAssembly.	0
+Front-End Development		pajaydev/awesome-web-performance-budget	Web Performance Budget	Techniques to ensure certain performance metrics for a website.	0
+Front-End Development		sergey-pimenov/awesome-web-animation	Web Animation	Animations in the browser with JavaScript, CSS, SVG, etc.	0
+Front-End Development		jetli/awesome-yew	Yew	Rust framework inspired by Elm and React for creating multi-threaded frontend web apps with WebAssembly.	0
+Front-End Development		nadunindunil/awesome-material-ui	Material-UI	Material Design React components for faster and easier web development.	0
+Front-End Development		componently-com/awesome-building-blocks-for-web-apps	Building Blocks for Web Apps	Standalone features to be integrated into web apps.	0
+Front-End Development		TheComputerM/awesome-svelte	Svelte	App framework.	0
+Front-End Development		klaufel/awesome-design-systems	Design systems	Collection of reusable components, guided by rules that ensure consistency and speed.	0
+Front-End Development		innocenzi/awesome-inertiajs	Inertia.js	Make single-page apps without building an API.	0
+Front-End Development		mdbootstrap/awesome-mdbootstrap	MDBootstrap	Templates, layouts, components, and widgets to rapidly build websites.	0
+Front-End Development		master-co/awesome-master-css	Master CSS	A virtual CSS language with enhanced syntax.	0
+Front-End Development		shopify/awesome-hydrogen	Hydrogen	Edge-first framework for building Shopify storefronts with React.	0
+Front-End Development		thoughtspile/awesome-tiny-js	Tiny JS	Frontend libraries that fit into 2 kB with dependencies.	0
+Front-End Development		joewdavies/awesome-frontend-gis	Frontend GIS	Geographic Information Systems (GIS) for web browsers.	0
+Front-End Development		mikbry/awesome-webgpu	WebGPU	JavaScript API for rendering and compute on GPUs.	0
+Front-End Development		idematos/awesome-webassembly	WebAssembly	A portable binary format for running code efficiently across platforms.	0
+Back-End Development		mjhea0/awesome-flask	Flask	Python framework.	0
+Back-End Development		veggiemonk/awesome-docker	Docker		0
+Back-End Development		iJackUA/awesome-vagrant	Vagrant	Automation virtual machine environment.	0
+Back-End Development		uralbash/awesome-pyramid	Pyramid	Python framework.	0
+Back-End Development		PerfectCarl/awesome-play1	Play1 Framework		0
+Back-End Development		friendsofcake/awesome-cakephp	CakePHP	PHP framework.	0
+Back-End Development		sitepoint-editors/awesome-symfony	Symfony	PHP framework.	0
+Back-End Development		pehapkari/awesome-symfony-education	Education		1
+Back-End Development		chiraggude/awesome-laravel	Laravel	PHP framework.	0
+Back-End Development		fukuball/Awesome-Laravel-Education	Education		1
+Back-End Development		gramantin/awesome-rails	Rails	Web app framework for Ruby.	0
+Back-End Development		hothero/awesome-rails-gem	Gems	Packages.	1
+Back-End Development		phalcon/awesome-phalcon	Phalcon	PHP framework.	0
+Back-End Development		phanan/htaccess	Useful `.htaccess` Snippets		0
+Back-End Development		fcambus/nginx-resources	nginx	Web server.	0
+Back-End Development		stve/awesome-dropwizard	Dropwizard	Java framework.	0
+Back-End Development		ramitsurana/awesome-kubernetes	Kubernetes	Open-source platform that automates Linux container operations.	0
+Back-End Development		unicodeveloper/awesome-lumen	Lumen	PHP micro-framework.	0
+Back-End Development		pmuens/awesome-serverless	Serverless Framework	Serverless computing and serverless architectures.	0
+Back-End Development		PhantomYdn/awesome-wicket	Apache Wicket	Java web app framework.	0
+Back-End Development		vert-x3/vertx-awesome	Vert.x	Toolkit for building reactive apps on the JVM.	0
+Back-End Development		shuaibiyy/awesome-terraform	Terraform	Tool for building, changing, and versioning infrastructure.	0
+Back-End Development		vapor-community/awesome-vapor	Vapor	Server-side development in Swift.	0
+Back-End Development		ucg8j/awesome-dash	Dash	Python web app framework.	0
+Back-End Development		mjhea0/awesome-fastapi	FastAPI	Python web app framework.	0
+Back-End Development		kolomied/awesome-cdk	CDK	Open-source software development framework for defining cloud infrastructure in code.	0
+Back-End Development		kdeldycke/awesome-iam	IAM	User accounts, authentication and authorization.	0
+Back-End Development		nekofar/awesome-slim	Slim	PHP framework.	0
+Back-End Development		gofiber/awesome-fiber	Fiber	Web framework built on top of Fasthttp, the fastest HTTP engine for Go.	0
+Back-End Development		DevOpsHiveHQ/awesome-kustomize	Kustomize	Kubernetes native declarative configuration management tool.	0
+Back-End Development		virtualroot/awesome-opentofu	OpenTofu	Open-source infrastructure as code tool.	0
+Back-End Development		reflex-dev/awesome-reflex	Reflex	Python web framework for building both your frontend and backend with no JavaScript.	0
+Computer Science		prakhar1989/awesome-courses	University Courses		0
+Computer Science		academic/awesome-datascience	Data Science		0
+Computer Science		siboehm/awesome-learn-datascience	Tutorials		1
+Computer Science		josephmisiti/awesome-machine-learning	Machine Learning		0
+Computer Science		ujjwalkarn/Machine-Learning-Tutorials	Tutorials		1
+Computer Science		arbox/machine-learning-with-ruby	ML with Ruby	Learning, implementing, and applying Machine Learning using Ruby.	1
+Computer Science		likedan/Awesome-CoreML-Models	Core ML Models	Models for Apple's machine learning framework.	1
+Computer Science		h2oai/awesome-h2o	H2O	Open source distributed machine learning platform written in Java with APIs in R, Python, and Scala.	1
+Computer Science		SE-ML/awesome-seml	Software Engineering for Machine Learning	From experiment to production-level machine learning.	1
+Computer Science		georgezouq/awesome-ai-in-finance	AI in Finance	Solving problems in finance with machine learning.	1
+Computer Science		n2cholas/awesome-jax	JAX	Automatic differentiation and XLA compilation brought together for high-performance machine learning research.	1
+Computer Science		altamiracorp/awesome-xai	XAI	Providing insight, explanations, and interpretability to machine learning methods.	1
+Computer Science		edobashira/speech-language-processing	Speech and Natural Language Processing		0
+Computer Science		dav009/awesome-spanish-nlp	Spanish		1
+Computer Science		arbox/nlp-with-ruby	NLP with Ruby		1
+Computer Science		seriousran/awesome-qa	Question Answering	The science of asking and answering in natural language with a machine.	1
+Computer Science		accelerated-text/awesome-nlg	Natural Language Generation	Generation of text used in data-to-text, conversational agents, and narrative generation applications.	1
+Computer Science		theimpossibleastronaut/awesome-linguistics	Linguistics		0
+Computer Science		sobolevn/awesome-cryptography	Cryptography		0
+Computer Science		pFarb/awesome-crypto-papers	Papers	Theory basics for using cryptography by non-cryptographers.	1
+Computer Science		jbhuang0604/awesome-computer-vision	Computer Vision		0
+Computer Science		ChristosChristofidis/awesome-deep-learning	Deep Learning	Neural networks.	0
+Computer Science		jtoy/awesome-tensorflow	TensorFlow	Library for machine intelligence.	1
+Computer Science		aaronhma/awesome-tensorflow-js	TensorFlow.js	WebGL-accelerated machine learning JavaScript library for training and deploying models.	1
+Computer Science		margaretmz/awesome-tensorflow-lite	TensorFlow Lite	Framework that optimizes TensorFlow models for on-device machine learning.	1
+Computer Science		terryum/awesome-deep-learning-papers	Papers	The most cited deep learning papers.	1
+Computer Science		guillaume-chevalier/awesome-deep-learning-resources	Education		1
+Computer Science		kjw0612/awesome-deep-vision	Deep Vision		0
+Computer Science		ossu/computer-science	Open Source Society University		0
+Computer Science		lucasviola/awesome-functional-programming	Functional Programming		0
+Computer Science		dspinellis/awesome-msr	Empirical Software Engineering	Evidence-based research on software systems.	0
+Computer Science		analysis-tools-dev/static-analysis	Static Analysis & Code Quality		0
+Computer Science		harpribot/awesome-information-retrieval	Information Retrieval	Learn to develop your own search engine.	0
+Computer Science		desireevl/awesome-quantum-computing	Quantum Computing	Computing that utilizes quantum mechanics and qubits on quantum computers.	0
+Computer Science		mostafatouny/awesome-theoretical-computer-science	Theoretical Computer Science	The interplay of computer science and pure mathematics, distinguished by its emphasis on mathematical rigour and technique.	0
+Computer Science		jyguyomarch/awesome-conversational-ai	Conversational AI	Build awesome chatbots and digital assistants.	0
+Computer Science		steven2358/awesome-generative-ai	Generative AI	Automatically generates a wide range of unique content in text, image, and audio format.	0
+Computer Science		Renaller/awesome-position-based-quantum-cryptography	Position-Based Quantum Cryptography	Theory on quantum cryptography that utilizes special relativistic constraints to achieve quantum-security under certain conditions.	0
+Big Data		0xnr/awesome-bigdata	Big Data		0
+Big Data		awesomedata/awesome-public-datasets	Public Datasets		0
+Big Data		youngwookim/awesome-hadoop	Hadoop	Framework for distributed storage and processing of very large data sets.	0
+Big Data		igorbarinov/awesome-data-engineering	Data Engineering		0
+Big Data		manuzhang/awesome-streaming	Streaming		0
+Big Data		awesome-spark/awesome-spark	Apache Spark	Unified engine for large-scale data processing.	0
+Big Data		ambster-public/awesome-qlik	Qlik	Business intelligence platform for data visualization, analytics, and reporting apps.	0
+Big Data		sduff/awesome-splunk	Splunk	Platform for searching, monitoring, and analyzing structured and unstructured machine-generated big data in real time.	0
+Big Data		briatte/awesome-network-analysis	Network Analysis		0
+Theory		papers-we-love/papers-we-love	Papers We Love		0
+Theory		JanVanRyswyck/awesome-talks	Talks		0
+Theory		tayllan/awesome-algorithms	Algorithms		0
+Theory		gaerae/awesome-algorithms-education	Education	Learning and practicing.	1
+Theory		enjalot/algovis	Algorithm Visualizations		0
+Theory		owainlewis/awesome-artificial-intelligence	Artificial Intelligence		0
+Theory		marcobiedermann/search-engine-optimization	Search Engine Optimization		0
+Theory		lnishan/awesome-competitive-programming	Competitive Programming		0
+Theory		rossant/awesome-math	Math		0
+Theory		passy/awesome-recursion-schemes	Recursion Schemes	Traversing nested data structures.	0
+Theory		erwanlemerrer/awesome-audit-algorithms	Audit Algorithms	Algorithmic audits of algorithms.	0
+Theory		YuzheSHI/awesome-agi-cocosci	AGI & CoCoSci	The reciprocation of Artificial General Intelligence (AGI) and Computational Cognitive Sciences (CoCoSci).	0
+Theory		sellisd/awesome-complexity	Complex Systems	The scientific field studying systems with multiple interacting parts and emergent properties.	0
+Theory		gokayfem/awesome-vlm-architectures	VLM Architectures	Vision Language Model architectures.	0
+Books		EbookFoundation/free-programming-books	Free Programming Books		0
+Books		dariubs/GoBooks	Go Books		0
+Books		RomanTsegelskyi/rbooks	R Books		0
+Books		hackerkid/Mind-Expanding-Books	Mind Expanding Books		0
+Books		TalAter/awesome-book-authoring	Book Authoring		0
+Books		sger/ElixirBooks	Elixir Books		0
+Editors		dreikanter/sublime-bookmarks	Sublime Text		0
+Editors		mhinz/vim-galore	Vim		0
+Editors		rockerBOO/awesome-neovim	Neovim	Vim-fork focused on extensibility and usability.	0
+Editors		emacs-tw/awesome-emacs	Emacs		0
+Editors		viatsko/awesome-vscode	Visual Studio Code	Cross-platform open-source text editor.	0
+Gaming		ellisonleao/magictools	Game Development		0
+Gaming		hzoo/awesome-gametalks	Game Talks		0
+Gaming		godotengine/awesome-godot	Godot	Game engine.	0
+Gaming		michelpereira/awesome-open-source-games	Open Source Games		0
+Gaming		hkirat/awesome-chess	Chess		0
+Gaming		love2d-community/awesome-love2d	LÖVE	Game engine.	0
+Gaming		pico-8/awesome-PICO-8	PICO-8	Fantasy console.	0
+Gaming		gbdev/awesome-gbdev	Game Boy Development		0
+Gaming		ConstructCommunity/awesome-construct	Construct 2	Game engine.	0
+Gaming		stetso/awesome-gideros	Gideros	Game engine.	0
+Gaming		bs-community/awesome-minecraft	Minecraft	Sandbox video game.	0
+Gaming		tomodachi94/awesome-computercraft	ComputerCraft	Minecraft mod that adds programmable computers.	0
+Gaming		leomaurodesenv/game-datasets	Game Datasets	Materials and datasets for Artificial Intelligence in games.	0
+Gaming		Dvergar/awesome-haxe-gamedev	Haxe Game Development	A high-level strongly typed programming language used to produce cross-platform native code.	0
+Gaming		rafaskb/awesome-libgdx	libGDX	Java game framework.	0
+Gaming		playcanvas/awesome-playcanvas	PlayCanvas	Game engine.	0
+Gaming		radek-sprta/awesome-game-remakes	Game Remakes	Actively maintained open-source game remakes.	0
+Gaming		flame-engine/awesome-flame	Flame	Game engine for Flutter.	0
+Gaming		mhxion/awesome-discord-communities	Discord Communities	Chat with friends and communities.	0
+Gaming		tobiasvl/awesome-chip-8	CHIP-8	Virtual computer game machine from the 70s.	0
+Gaming		michelpereira/awesome-games-of-coding	Games of Coding	Learn a programming language by making games.	0
+Gaming		strift/awesome-esports	Esports	Video games played as a sport.	0
+Gaming		notpresident35/awesome-learn-gamedev	Learn Gamedev	The craft of video game creation.	0
+Gaming		stevinz/awesome-game-engine-dev	Game Engine Development	Building software to speed up game creation.	0
+Gaming		bytecauldron/awesome-gamemaker	GameMaker	Game engine.	0
+Gaming		vhladiienko/awesome-game-production	Game Production	Leading the process of designing, developing, testing and distributing a video game from concept to release.	0
+Gaming		Symbitic/awesome-babylonjs	Babylon.js	Game engine for cross-platform web and native game development.	0
+Gaming		awesome-roblox/awesome-roblox	Roblox	Immersive platform for hosting millions of diverse experiences.	0
+Development Environment		sindresorhus/quick-look-plugins	Quick Look Plugins	For macOS.	0
+Development Environment		jondot/awesome-devenv	Dev Env		0
+Development Environment		webpro/awesome-dotfiles	Dotfiles		0
+Development Environment		alebcay/awesome-shell	Shell		0
+Development Environment		jorgebucaran/awsm.fish	Fish	User-friendly shell.	0
+Development Environment		agarrharr/awesome-cli-apps	Command-Line Apps		0
+Development Environment		unixorn/awesome-zsh-plugins	ZSH Plugins		0
+Development Environment		phillipadsmith/awesome-github	GitHub	Hosting service for Git repositories.	0
+Development Environment		stefanbuck/awesome-browser-extensions-for-github	Browser Extensions		1
+Development Environment		tiimgreen/github-cheat-sheet	Cheat Sheet		1
+Development Environment		matchai/awesome-pinned-gists	Pinned Gists	Dynamic pinned gists for your GitHub profile.	1
+Development Environment		arslanbilal/git-cheat-sheet	Git Cheat Sheet & Git Flow		0
+Development Environment		git-tips/tips	Git Tips		0
+Development Environment		stevemao/awesome-git-addons	Git Add-ons	Enhance the `git` CLI.	0
+Development Environment		compscilauren/awesome-git-hooks	Git Hooks	Scripts for automating tasks during `git` workflows.	0
+Development Environment		moul/awesome-ssh	SSH		0
+Development Environment		tvvocold/FOSS-for-Dev	FOSS for Developers		0
+Development Environment		bnb/awesome-hyper	Hyper	Cross-platform terminal app built on web technologies.	0
+Development Environment		k4m4/terminals-are-sexy	Terminals Are Sexy		0
+Development Environment		sdras/awesome-actions	GitHub Actions	Create tasks to automate your workflow and share them with others on GitHub.	0
+Development Environment		michaelbrusegard/awesome-wezterm	WezTerm	Powerful cross-platform terminal emulator.	0
+Entertainment		sindresorhus/awesome-scifi	Science Fiction	Scifi.	0
+Entertainment		RichardLitt/awesome-fantasy	Fantasy		0
+Entertainment		ayr-ton/awesome-geek-podcasts	Podcasts		0
+Entertainment		zudochkin/awesome-newsletters	Email Newsletters		0
+Entertainment		victorlaerte/awesome-it-quotes	IT Quotes		0
+Databases		numetriclabz/awesome-db	Database		0
+Databases		shlomi-noach/awesome-mysql	MySQL		0
+Databases		dahlia/awesome-sqlalchemy	SQLAlchemy		0
+Databases		mark-rushakoff/awesome-influxdb	InfluxDB		0
+Databases		neueda/awesome-neo4j	Neo4j		0
+Databases		ramnes/awesome-mongodb	MongoDB	NoSQL database.	0
+Databases		d3viant0ne/awesome-rethinkdb	RethinkDB		0
+Databases		mohataher/awesome-tinkerpop	TinkerPop	Graph computing framework.	0
+Databases		dhamaniasad/awesome-postgres	PostgreSQL	Object-relational database.	0
+Databases		quangv/awesome-couchdb	CouchDB	Document-oriented NoSQL database.	0
+Databases		rayokota/awesome-hbase	HBase	Distributed, scalable, big data store.	0
+Databases		erictleung/awesome-nosql-guides	NoSQL Guides	Help on using non-relational, distributed, open-source, and horizontally scalable databases.	0
+Databases		mgramin/awesome-db-tools	Database Tools	Everything that makes working with databases easier.	0
+Databases		vaticle/typedb-awesome	TypeDB	Logical database to organize large and complex networks of data as one body of knowledge.	0
+Databases		lyqht/awesome-supabase	Supabase	An open-source alternative to Firebase.	0
+Databases		benallfree/awesome-pocketbase	PocketBase	An open-source, Go-based backend in one file.	0
+Databases		tyaga001/awesome-neon	Neon	An open-source alternative to AWS Aurora.	0
+Media		brabadu/awesome-fonts	Fonts		0
+Media		chrissimpkins/codeface	Codeface	Text editor fonts.	0
+Media		neutraltone/awesome-stock-resources	Stock Resources		0
+Media		davisonio/awesome-gif	GIF	Image format known for animated images.	0
+Media		ciconia/awesome-music	Music		0
+Media		44bits/awesome-opensource-documents	Open Source Documents		0
+Media		willianjusten/awesome-audio-visualization	Audio Visualization		0
+Media		ebu/awesome-broadcasting	Broadcasting		0
+Media		Siilwyn/awesome-pixel-art	Pixel Art	Pixel-level digital art.	0
+Media		transitive-bullshit/awesome-ffmpeg	FFmpeg	Cross-platform solution to record, convert and stream audio and video.	0
+Media		notlmn/awesome-icons	Icons	Downloadable SVG/PNG/font icon projects.	0
+Media		stingalleman/awesome-audiovisual	Audiovisual	Lighting, audio and video in professional environments.	0
+Media		mfkl/awesome-vlc	VLC	Cross-platform media player software and streaming server.	0
+Media		Mo-way/awesome-aoip	Audio Over IP	Reliably transmit uncompressed, low-latency audio over an IP (layer 3) network.	0
+Learn		therebelrobot/awesome-workshopper	CLI Workshoppers	Interactive tutorials.	0
+Learn		karlhorky/learn-to-program	Learn to Program		0
+Learn		matteofigus/awesome-speaking	Speaking		0
+Learn		lucasviola/awesome-tech-videos	Tech Videos		0
+Learn		watson/awesome-computer-history	Computer History		0
+Learn		HollyAdele/awesome-programming-for-kids	Programming for Kids		0
+Learn		RahulBirCodes/awesome-steam	STEAM	Supplements for specific science, technology, engineering, arts, and math (STEAM) courses across all grade levels.	0
+Learn		yrgo/awesome-educational-games	Educational Games	Learn while playing.	0
+Learn		micromata/awesome-javascript-learning	JavaScript Learning		0
+Learn		micromata/awesome-css-learning	CSS Learning	Mainly about CSS – the language and the modules.	0
+Learn		dend/awesome-product-management	Product Management	Learn how to be a better product manager.	0
+Learn		liuchong/awesome-roadmaps	Roadmaps	Gives you a clear route to improve your knowledge and skills.	0
+Learn		JoseDeFreitas/awesome-youtubers	YouTubers	Watch video tutorials from YouTubers that teach you about technology.	0
+Learn		dribdat/awesome-hackathon	Hackathon	Running fun and productive hackathons.	0
+Learn		PanXProject/awesome-certificates	Certificates	Free computer science certifications to showcase your knowledge.	0
+Security		paragonie/awesome-appsec	Application Security		0
+Security		sbilly/awesome-security	Security		0
+Security		apsdehal/awesome-ctf	CTF	Capture The Flag.	0
+Security		brootware/awesome-cyber-security-university	Cyber Security University	Free educational resources that focus on learning by doing.	0
+Security		rshipp/awesome-malware-analysis	Malware Analysis		0
+Security		ashishb/android-security-awesome	Android Security		0
+Security		carpedm20/awesome-hacking	Hacking		0
+Security		daviddias/awesome-hacking-locations	Hacking Spots		0
+Security		paralax/awesome-honeypots	Honeypots	Deception trap, designed to entice an attacker into attempting to compromise the information systems in an organization.	0
+Security		meirwah/awesome-incident-response	Incident Response		0
+Security		jaredthecoder/awesome-vehicle-security	Vehicle Security and Car Hacking		0
+Security		qazbnm456/awesome-web-security	Web Security	Security of web apps & services.	0
+Security		fabacab/awesome-lockpicking	Lockpicking	The art of unlocking a lock by manipulating its components without the key.	0
+Security		fabacab/awesome-cybersecurity-blueteam	Cybersecurity Blue Team	Groups of individuals who identify security flaws in information technology systems.	0
+Security		cpuu/awesome-fuzzing	Fuzzing	Automated software testing technique that involves feeding pseudo-randomly generated input data.	0
+Security		fkie-cad/awesome-embedded-and-iot-security	Embedded and IoT Security		0
+Security		bakke92/awesome-gdpr	GDPR	Regulation on data protection and privacy for all individuals within EU.	0
+Security		TaptuIT/awesome-devsecops	DevSecOps	Integration of security practices into [DevOps](https://en.wikipedia.org/wiki/DevOps).	0
+Security		dhondta/awesome-executable-packing	Executable Packing	Packing and unpacking executable formats.	0
+Security		Karneades/awesome-malware-persistence	Malware Persistence	Techniques that adversaries use to keep access to systems across restarts.	0
+Security		kareniel/awesome-evm-security	EVM Security	Understanding the Ethereum Virtual Machine security ecosystem.	0
+Security		n0kovo/awesome-password-cracking	Password Cracking	The process of recovering passwords from data that has been stored in or transmitted by a system in scrambled form.	0
+Security		Karneades/awesome-security-card-games	Security Card Games	Train your skills and discuss various security topics.	0
+Security		satta/awesome-suricata	Suricata	Intrusion detection/prevention system and network security monitoring engine.	0
+Security		FonduAI/awesome-prompt-injection	Prompt Injection	A type of vulnerability that specifically targets machine learning models.	0
+Security		infosecB/awesome-detection-engineering	Detection Engineering	Design, build, and operate detective cybersecurity controls.	0
+Security		jacobdjwilson/awesome-annual-security-reports	Annual Security Reports	Exploring cybersecurity trends, insights, and challenges.	0
+Security		TupleType/awesome-cicd-attacks	CI/CD Attacks	Offensive research of systems and processes related to developing and deploying code.	0
+Security		cerberauth/awesome-openid-connect	OpenID Connect	Identity standard and authentication protocol built on OAuth 2.0 for user identity assertion.	0
+Content Management Systems		umbraco-community/awesome-umbraco	Umbraco		0
+Content Management Systems		refinerycms-contrib/awesome-refinerycms	Refinery CMS	Ruby on Rails CMS.	0
+Content Management Systems		springload/awesome-wagtail	Wagtail	Django CMS focused on flexibility and user experience.	0
+Content Management Systems		drmonkeyninja/awesome-textpattern	Textpattern	Lightweight PHP-based CMS.	0
+Content Management Systems		nirgn975/awesome-drupal	Drupal	Extensible PHP-based CMS.	0
+Content Management Systems		craftcms/awesome	Craft CMS	Content-first CMS.	0
+Content Management Systems		MartinMiles/Awesome-Sitecore	Sitecore	.NET digital marketing platform that combines CMS with tools for managing multiple websites.	0
+Content Management Systems		wernerkrauss/awesome-silverstripe-cms	Silverstripe CMS	PHP MVC framework that serves as a classic or headless CMS.	0
+Content Management Systems		directus-community/awesome-directus	Directus	A real-time API and app dashboard for managing SQL database content.	0
+Content Management Systems		collective/awesome-plone	Plone	Open source Python CMS.	0
+Content Management Systems		DanailMinchev/awesome-payload	Payload	Next.js native and open source headless CMS.	0
+Hardware		Kiloreux/awesome-robotics	Robotics		0
+Hardware		HQarroum/awesome-iot	Internet of Things		0
+Hardware		kitspace/awesome-electronics	Electronics	For electronic engineers and hobbyists.	0
+Hardware		rabschi/awesome-beacon	Bluetooth Beacons		0
+Hardware		gitfrage/guitarspecs	Electric Guitar Specifications	Checklist for building your own electric guitar.	0
+Hardware		beardicus/awesome-plotters	Plotters	Computer-controlled drawing machines and other visual art robots.	0
+Hardware		protontypes/awesome-robotic-tooling	Robotic Tooling	Free and open tools for professional robotic development.	0
+Hardware		szenergy/awesome-lidar	LIDAR	Sensor for measuring distances by illuminating the target with laser light.	0
+Hardware		delftopenhardware/awesome-open-hardware	Open Hardware	Open-source hardware projects.	0
+Hardware		rickstaa/awesome-adsb	ADS-B	Technology broadcasting aircraft's identity, position, and data periodically.	0
+Hardware		Matthias84/awesome-flying-fpv	Flying FPV	Open hardware and software related to drones / UAVs.	0
+Business		opencompany/awesome-open-company	Open Companies		0
+Business		mmccaff/PlacesToPostYourStartup	Places to Post Your Startup		0
+Business		domenicosolazzo/awesome-okr	OKR Methodology	Goal setting & communication best practices.	0
+Business		mezod/awesome-indie	Indie	Independent developer businesses.	0
+Business		cjbarber/ToolsOfTheTrade	Tools of the Trade	Tools used by companies on Hacker News.	0
+Business		nglgzz/awesome-clean-tech	Clean Tech	Fighting climate change with technology.	0
+Business		wardley-maps-community/awesome-wardley-maps	Wardley Maps	Provides high situational awareness to help improve strategic planning and decision making.	0
+Business		RayBB/awesome-social-enterprise	Social Enterprise	Building an organization primarily focused on social impact that is at least partially self-funded.	0
+Business		kdeldycke/awesome-engineering-team-management	Engineering Team Management	How to transition from software development to engineering management.	0
+Business		agamm/awesome-developer-first	Developer-First Products	Products that target developers as the user.	0
+Business		kdeldycke/awesome-billing	Billing	Payments, invoicing, pricing, accounting, marketplace, fraud, and business intelligence.	0
+Business		aleixmorgadas/awesome-engineering-strategy	Engineering Strategy	How to design and execute engineering strategies for tech leadership.	0
+Work		matiassingers/awesome-slack	Slack	Team collaboration.	0
+Work		filipelinhares/awesome-slack	Communities		1
+Work		lukasz-madon/awesome-remote-job	Remote Jobs		0
+Work		jyguyomarch/awesome-productivity	Productivity		0
+Work		tramcar/awesome-job-boards	Niche Job Boards		0
+Work		joho/awesome-code-review	Code Review	Reviewing code.	0
+Work		j0hnm4r5/awesome-creative-technology	Creative Technology	Businesses & groups that specialize in combining computing, design, art, and user experience.	0
+Networking		caesar0301/awesome-pcaptools	PCAPTools		0
+Networking		rtckit/awesome-rtc	Real-Time Communications	Network protocols for near simultaneous exchange of media and data.	0
+Networking		eozer/awesome-snmp	SNMP	A protocol for collecting, modifying, and organizing information about managed devices on IP networks.	0
+Networking		secdev/awesome-scapy	Scapy	Python-based interactive packet manipulation.	0
+Networking		seifrajhi/awesome-cilium	Cilium	Provides networking and security capabilities for containerized apps, microservices, and virtual machines.	0
+Decentralized Systems		igorbarinov/awesome-bitcoin	Bitcoin	Services and tools for Bitcoin software developers.	0
+Decentralized Systems		vhpoet/awesome-ripple	Ripple	Open source distributed settlement network.	0
+Decentralized Systems		machinomy/awesome-non-financial-blockchain	Non-Financial Blockchain	Applications of Blockchain beyond finance.	0
+Decentralized Systems		hyperupcall/awesome-mastodon	Mastodon	Open source decentralized microblogging network.	0
+Decentralized Systems		ttumiel/Awesome-Ethereum	Ethereum	Distributed computing platform for smart contract development.	0
+Decentralized Systems		steven2358/awesome-blockchain-ai	Blockchain AI	AI and machine-learning projects built on Blockchain.	0
+Decentralized Systems		DanailMinchev/awesome-eosio	EOSIO	A decentralized operating system supporting industrial-scale apps.	0
+Decentralized Systems		chainstack/awesome-corda	Corda	Open source Blockchain platform designed for business.	0
+Decentralized Systems		msmolyakov/awesome-waves	Waves	Open source Blockchain platform and development toolset for Web 3.0 apps and decentralized solutions.	0
+Decentralized Systems		substrate-developer-hub/awesome-substrate	Substrate	Framework for writing scalable, upgradeable blockchains in Rust.	0
+Decentralized Systems		golemfactory/awesome-golem	Golem	Open source peer-to-peer marketplace for computing resources.	0
+Decentralized Systems		friedger/awesome-stacks-chain	Stacks	A smart contract platform secured by Bitcoin.	0
+Decentralized Systems		aorumbayev/awesome-algorand	Algorand	An open-source, proof of stake Blockchain and smart contract computing platform.	0
+Decentralized Systems		zolagonano/awesome-zeronet	ZeroNet	A decentralized web-like network of peer-to-peer users.	0
+Decentralized Systems		cosmos/awesome-cosmos	Cosmos SDK	Modular framework for building app-specific blockchains in Go.	0
+Decentralized Systems		polycarbohydrate/awesome-tor	Tor	A free overlay network for enabling anonymous communication.	0
+Decentralized Systems		atblueprints/awesome-atproto	ATProto	Open, decentralized network for building social apps.	0
+Health and Social Science		caufieldjh/awesome-bioie	Biomedical Information Extraction	How to extract information from unstructured biomedical data and text.	0
+Health and Social Science		eselkin/awesome-computational-neuroscience	Computational Neuroscience	A multidisciplinary science which uses computational approaches to study the nervous system.	0
+Health and Social Science		folkswhocode/awesome-diversity	Diversity	Creating a more inclusive and diverse tech community.	0
+Health and Social Science		maehr/awesome-digital-history	Digital History	Computer-aided scientific investigation of history.	0
+Health and Social Science		KimberlyMunoz/empathy-in-engineering	Empathy in Engineering	Building and promoting more compassionate engineering cultures.	0
+Health and Social Science		kakoni/awesome-healthcare	Healthcare	Open source healthcare software for facilities, providers, developers, policy experts, and researchers.	0
+Health and Social Science		dreamingechoes/awesome-mental-health	Mental Health	Awareness and self-care in the software industry.	0
+Health and Social Science		analyticalmonk/awesome-neuroscience	Neuroscience	Study of the nervous system and brain.	0
+Health and Social Science		dh-tech/awesome-digital-humanities	Digital Humanities	Software for humanities scholars using quantitative or computational methods.	0
+Health and Social Science		IAmCoder/awesome-lucid-dreams	Lucid Dreams	A dream where one becomes aware they are dreaming.	0
+Health and Social Science		NPACore/awesome-neuroimaging	Neuroimaging	Software for analyzing brain data from living subjects.	0
+Health and Social Science		cvyl/awesome-transgender	Transgender	Someone whose gender identity differs from their assigned birth sex.	0
+Events		danvoyce/awesome-creative-tech-events	Creative Tech Events	Events around the globe for creative coding, tech, design, music, arts and cool stuff.	0
+Events		ildoc/awesome-italy-events	Events in Italy	Tech-related events in Italy.	0
+Events		awkward/awesome-netherlands-events	Events in the Netherlands	Tech-related events in the Netherlands.	0
+Testing		TheJambo/awesome-testing	Testing	Software testing.	0
+Testing		mojoaxel/awesome-regression-testing	Visual Regression Testing	Ensures changes did not break the functionality or style.	0
+Testing		christian-bromann/awesome-selenium	Selenium	Open-source browser automation framework and ecosystem.	0
+Testing		SrinivasanTarget/awesome-appium	Appium	Test automation tool for apps.	0
+Testing		sindresorhus/awesome-tap	TAP	Test Anything Protocol.	0
+Testing		aliesbelik/awesome-jmeter	JMeter	Load testing and performance measurement tool.	0
+Testing		grafana/awesome-k6	k6	Open-source, developer-centric performance monitoring and load testing solution.	0
+Testing		mxschmitt/awesome-playwright	Playwright	Node.js library to automate Chromium, Firefox and WebKit with a single API.	0
+Testing		fityanos/awesome-quality-assurance-roadmap	Quality Assurance Roadmap	How to start & build a career in software testing.	0
+Testing		aliesbelik/awesome-gatling	Gatling	Open-source load and performance testing framework based on Scala, Akka, and Netty.	0
+Testing		coderabbitai/awesome-coderabbit	CodeRabbit	AI-powered code review platform.	0
+Miscellaneous		writing-resources/awesome-scientific-writing	Scientific Writing	Distraction-free scientific writing with Markdown, reStructuredText and Jupyter notebooks.	0
+Miscellaneous		burningtree/awesome-json	JSON	Text based data interchange format.	0
+Miscellaneous		tmcw/awesome-geojson	GeoJSON		1
+Miscellaneous		secretGeek/awesomeCSV	CSV	A text file format that stores tabular data and uses a comma to separate values.	0
+Miscellaneous		AchoArnold/discount-for-student-dev	Discounts for Student Developers		0
+Miscellaneous		kyleterry/awesome-radio	Radio		0
+Miscellaneous		sindresorhus/awesome	Awesome	Recursion illustrated.	0
+Miscellaneous		0xnr/awesome-analytics	Analytics		0
+Miscellaneous		marmelab/awesome-rest	REST		0
+Miscellaneous		cicdops/awesome-ciandcd	Continuous Integration and Continuous Delivery		0
+Miscellaneous		mmcgrana/services-engineering	Services Engineering		0
+Miscellaneous		ripienaar/free-for-dev	Free for Developers		0
+Miscellaneous		melvin0008/awesome-projects-boilerplates	Boilerplate Projects		0
+Miscellaneous		matiassingers/awesome-readme	Readme		0
+Miscellaneous		MyHoneyBadger/awesome-github-wiki	GitHub Wiki	Comprehensive documentation on GitHub beyond README.	0
+Miscellaneous		NARKOZ/guides	Design and Development Guides		0
+Miscellaneous		kilimchoi/engineering-blogs	Software Engineering Blogs		0
+Miscellaneous		awesome-selfhosted/awesome-selfhosted	Self Hosted		0
+Miscellaneous		DataDaoDe/awesome-foss-apps	FOSS Production Apps		0
+Miscellaneous		alferov/awesome-gulp	Gulp	Task runner.	0
+Miscellaneous		sindresorhus/amas	AMA	Ask Me Anything.	0
+Miscellaneous		stoeffel/awesome-ama-answers	Answers		1
+Miscellaneous		ibaaj/awesome-OpenSourcePhotography	Open Source Photography		0
+Miscellaneous		eug/awesome-opengl	OpenGL	Cross-platform API for rendering 2D and 3D graphics.	0
+Miscellaneous		chentsulin/awesome-graphql	GraphQL		0
+Miscellaneous		APA-Technology-Division/urban-and-regional-planning-resources	Urban & Regional Planning	Concerning the built environment and communities.	0
+Miscellaneous		emptymalei/awesome-research	Research Tools		0
+Miscellaneous		javierluraschi/awesome-dataviz	Data Visualization		0
+Miscellaneous		mfornos/awesome-microservices	Microservices		0
+Miscellaneous		jagracey/Awesome-Unicode	Unicode	Standards, quirks, packages and resources for Unicode.	0
+Miscellaneous		Codepoints/awesome-codepoints	Code Points		1
+Miscellaneous		MunGell/awesome-for-beginners	Beginner-Friendly Projects		0
+Miscellaneous		gamontal/awesome-katas	Katas		0
+Miscellaneous		drewrwilson/toolsforactivism	Tools for Activism		0
+Miscellaneous		dylanrees/citizen-science	Citizen Science	For community-based and non-institutional scientists.	0
+Miscellaneous		hobbyquaker/awesome-mqtt	MQTT	"""Internet of Things"" connectivity protocol."	0
+Miscellaneous		cristianoliveira/awesome4girls	For Girls		0
+Miscellaneous		vorpaljs/awesome-vorpal	Vorpal	Node.js CLI framework.	0
+Miscellaneous		vinjn/awesome-vulkan	Vulkan	Low-overhead, cross-platform 3D graphics and compute API.	0
+Miscellaneous		egeerardyn/awesome-LaTeX	LaTeX	Typesetting language.	0
+Miscellaneous		antontarasenko/awesome-economics	Economics	An economist's starter kit.	0
+Miscellaneous		sublimino/awesome-funny-markov	Funny Markov Chains		0
+Miscellaneous		danielecook/Awesome-Bioinformatics	Bioinformatics		0
+Miscellaneous		hsiaoyi0504/awesome-cheminformatics	Cheminformatics	Informatics techniques applied to problems in chemistry.	0
+Miscellaneous		Siddharth11/Colorful	Colorful	Choose your next color scheme.	0
+Miscellaneous		scholtzm/awesome-steam	Steam	Digital distribution platform.	0
+Miscellaneous		hackerkid/bots	Bots	Building bots.	0
+Miscellaneous		dastergon/awesome-sre	Site Reliability Engineering		0
+Miscellaneous		xen0l/awesome-dtrace	DTrace	Dynamic tracing framework.	0
+Miscellaneous		bvolpato/awesome-userscripts	Userscripts	Enhance your browsing experience.	0
+Miscellaneous		tobiasbueschel/awesome-pokemon	Pokémon	Resources for Pokémon and Pokémon GO.	0
+Miscellaneous		exAspArk/awesome-chatops	ChatOps	Managing technical and business operations through a chat.	0
+Miscellaneous		kdeldycke/awesome-falsehood	Falsehood	Falsehoods programmers believe in.	0
+Miscellaneous		heynickc/awesome-ddd	Domain-Driven Design	Software development approach for complex needs by connecting the implementation to an evolving model.	0
+Miscellaneous		woop/awesome-quantified-self	Quantified Self	Self-tracking through technology.	0
+Miscellaneous		nicolesaidy/awesome-web-design	Web Design	For digital designers.	0
+Miscellaneous		terkelg/awesome-creative-coding	Creative Coding	Programming something expressive instead of something functional.	0
+Miscellaneous		aviaryan/awesome-no-login-web-apps	No-Login Web Apps	Web apps that work without login.	0
+Miscellaneous		johnjago/awesome-free-software	Free Software	Free as in freedom.	0
+Miscellaneous		podo/awesome-framer	Framer	Prototyping interactive UI designs.	0
+Miscellaneous		BubuAnabelas/awesome-markdown	Markdown	Markup language.	0
+Miscellaneous		mislavcimpersak/awesome-dev-fun	Dev Fun	Funny developer projects.	0
+Miscellaneous		DavidLambauer/awesome-magento2	Magento 2	Open Source eCommerce built with PHP.	0
+Miscellaneous		xiaohanyu/awesome-tikz	TikZ	Graph drawing packages for TeX/LaTeX/ConTeXt.	0
+Miscellaneous		johnjago/awesome-ad-free	Ad-Free	Alternatives without ads.	0
+Miscellaneous		roaldnefs/awesome-prometheus	Prometheus	Open-source monitoring system.	0
+Miscellaneous		homematic-community/awesome-homematic	Homematic	Smart home devices.	0
+Miscellaneous		sfischer13/awesome-ledger	Ledger	Double-entry accounting on the command-line.	0
+Miscellaneous		thomasbnt/awesome-web-monetization	Web Monetization	A free open web standard service that allows you to send money directly in your browser.	0
+Miscellaneous		johnjago/awesome-uncopyright	Uncopyright	Public domain works.	0
+Miscellaneous		Zheaoli/awesome-coins	Crypto Currency Tools & Algorithms	Digital currency where encryption is used to regulate the generation of units and verify transfers.	0
+Miscellaneous		zachflower/awesome-open-source-supporters	Open Source Supporters	Companies that offer their tools and services for free to open source projects.	0
+Miscellaneous		robinstickel/awesome-design-principles	Design Principles	Create better and more consistent designs and experiences.	0
+Miscellaneous		johnjago/awesome-theravada	Theravada	Teachings from the Theravada Buddhist tradition.	0
+Miscellaneous		inspectit-labs/awesome-inspectit	inspectIT	Open source Java app performance management tool.	0
+Miscellaneous		nayafia/awesome-maintainers	Open Source Maintainers	The experience of being an open source maintainer.	0
+Miscellaneous		xxczaki/awesome-calculators	Calculators	Tools for every platform.	0
+Miscellaneous		ZYSzys/awesome-captcha	Captcha	A type of challenge–response test used in computing to determine whether or not the user is human.	0
+Miscellaneous		markusschanta/awesome-jupyter	Jupyter	Create and share documents that contain code, equations, visualizations and narrative text.	0
+Miscellaneous		andrewda/awesome-frc	FIRST Robotics Competition	International high school robotics championship.	0
+Miscellaneous		karlhorky/awesome-speakers	Speakers	Conference and meetup speakers in the programming and design community.	0
+Miscellaneous		edm00se/awesome-board-games	Board Games	Table-top gaming fun for all.	0
+Miscellaneous		uraimo/awesome-software-patreons	Software Patreons	Fund individual programmers or the development of open source projects.	0
+Miscellaneous		ecohealthalliance/awesome-parasite	Parasite	Parasites and host-pathogen interactions.	0
+Miscellaneous		jzarca01/awesome-food	Food	Projects on GitHub related to food.	0
+Miscellaneous		alexk111/awesome-bitcoin-payment-processors	Bitcoin Payment Processors	Start accepting Bitcoin.	0
+Miscellaneous		nschloe/awesome-scientific-computing	Scientific Computing	Solving complex scientific problems using computers.	0
+Miscellaneous		ScaleLeap/awesome-amazon-seller	Amazon Sellers		0
+Miscellaneous		brycejohnston/awesome-agriculture	Agriculture	Open source technology for farming and gardening.	0
+Miscellaneous		ttt30ga/awesome-product-design	Product Design	Design a product from the initial concept to production.	0
+Miscellaneous		catalinmiron/awesome-prisma	Prisma	Turn your database into a GraphQL API.	0
+Miscellaneous		simskij/awesome-software-architecture	Software Architecture	The discipline of designing and building software.	0
+Miscellaneous		stevesong/awesome-connectivity-info	Connectivity Data and Reports	Better understand who has access to telecommunication and internet infrastructure and on what terms.	0
+Miscellaneous		stackshareio/awesome-stacks	Stacks	Tech stacks for building different apps and features.	0
+Miscellaneous		cytodata/awesome-cytodata	Cytodata	Image-based profiling of biological phenotypes for computational biologists.	0
+Miscellaneous		davisonio/awesome-irc	IRC	Open source messaging protocol.	0
+Miscellaneous		cenoura/awesome-ads	Advertising	Programmatic media and ad tech for websites.	0
+Miscellaneous		philsturgeon/awesome-earth	Earth	Find ways to resolve the climate crisis.	0
+Miscellaneous		gruhn/awesome-naming	Naming	Guides for naming things in computer science.	0
+Miscellaneous		iipc/awesome-web-archiving	Web Archiving	An effort to preserve the Web for future generations.	0
+Miscellaneous		schlessera/awesome-wp-cli	WP-CLI	Command-line interface for WordPress.	0
+Miscellaneous		mourarthur/awesome-credit-modeling	Credit Modeling	Methods for classifying credit applicants into risk classes.	0
+Miscellaneous		ansible-community/awesome-ansible	Ansible	A Python-based, open-source IT configuration management and automation platform.	0
+Miscellaneous		keller-mark/awesome-biological-visualizations	Biological Visualizations	Interactive visualization of biological data on the web.	0
+Miscellaneous		make-github-pseudonymous-again/awesome-qr-code	QR Code	A type of matrix barcode that can be used to store and share a small amount of information.	0
+Miscellaneous		sdassow/awesome-veganism	Veganism	Making the plant-based lifestyle easy and accessible.	0
+Miscellaneous		mbiesiad/awesome-translations	Translations	The transfer of the meaning of a text from one language to another.	0
+Miscellaneous		dersvenhesse/awesome-scriptable	Scriptable	An iOS app for automation in JavaScript.	0
+Miscellaneous		msub2/awesome-webxr	WebXR	Enables immersive virtual reality and augmented reality content on the web.	0
+Miscellaneous		atkirtland/awesome-computational-geometry	Computational Geometry	Computational approaches for problems in geometry.	0
+Miscellaneous		osmlab/awesome-openstreetmap	OpenStreetMap	An open data mapping project utilized by many apps and devices.	0
+Miscellaneous		inoue0426/awesome-computational-biology	Computational Biology	Computational approaches applied to problems in biology.	0
+Miscellaneous		readthedocs-examples/awesome-read-the-docs	Read the Docs	Example documentation projects to inspire and help bootstrap new documentation projects.	0
+Miscellaneous		mcanouil/awesome-quarto	Quarto	Scientific and technical open-source publishing system built on Pandoc.	0
+Miscellaneous		hallvaaw/awesome-biological-image-analysis	Biological Image Analysis	Interpreting biological phenomena using images.	0
+Miscellaneous		sindresorhus/awesome-chatgpt	ChatGPT	Artificial intelligence chatbot developed by OpenAI.	0
+Miscellaneous		sindresorhus/awesome-whisper	Whisper	Open-source AI-powered speech recognition system developed by OpenAI.	0
+Miscellaneous		shi-rudo/awesome-stock-trading	Stock Trading	Purchase and sale of equities of publicly traded companies to generate profits.	0
+Miscellaneous		airscripts/awesome-steam-deck	Steam Deck	A handheld gaming computer developed by Valve.	0
+Miscellaneous		lunohodov/awesome-astrophotography	Astrophotography	Photography of astronomical objects, celestial events, or areas of the night sky.	0
+Miscellaneous		dstdev/awesome-hpc	HPC	High Performance Computing.	0
+Miscellaneous		FoxFil/awesome-geocaching	Geocaching	Outdoor treasure-hunting activity that uses GPS-enabled devices.	0
+Miscellaneous		slevithan/awesome-regex	Regex	Specialized language for matching patterns in text.	0
+Miscellaneous		lutzh/awesome-event-driven-architecture	Event-Driven Architecture	A software architecture approach where services collaborate by publishing and subscribing to events.	0
+Miscellaneous		idematos/awesome-permacomputing	Permacomputing	Resilient and regenerative computing practices inspired by permaculture.	0
+Miscellaneous		donBarbos/awesome-standards	Standards	Proposals and standards that define and enhance software, languages, and related technologies.	0
+Miscellaneous		hesreallyhim/awesome-claude-code	Claude Code	Terminal-based AI coding assistant by Anthropic.	0
+Miscellaneous		Piebald-AI/awesome-gemini-cli	Gemini CLI	Terminal-based AI coding assistant by Google.	0
+Miscellaneous		eminyagiz42/awesome-sap-commerce	SAP Commerce	An e-commerce platform built with Java, Spring MVC, and Angular.	0
+Miscellaneous		sampart/awesome-tech-ethics	Tech Ethics	Mitigating and avoiding the potential negative effects of technology on society.	0
+Miscellaneous		Code-and-Sorts/awesome-copilot-agents	Copilot Agents	AI pair programming assistant by GitHub that provides code suggestions and completions.	0

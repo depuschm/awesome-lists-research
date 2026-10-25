@@ -1,0 +1,53 @@
+feature,label,group,kind,n,spearman_rho,p,partial_rho_age,p_partial,T1 >=50k,T2 10k-50k,T3 2k-10k,T4 <2k,top50
+first_year,Year of first commit,Timing & positioning,num,558,-0.371,1.133239638518318e-19,0.074,0.08194795639144337,2014.0,2015.0,2016.0,2017.0,2014.0
+awesome_named,"Name contains ""awesome""",Timing & positioning,bin,558,-0.137,0.0011882190182244121,-0.049,0.2453743890245727,77.3,86.6,93.8,94.1,80.0
+in_index,Listed in sindresorhus/awesome,Timing & positioning,bin,558,,,0.003,0.9449623187643089,100.0,100.0,100.0,100.0,100.0
+chinese,README mostly Chinese/Japanese/Korean,Timing & positioning,bin,558,,,0.003,0.9449623187643089,0.0,0.0,0.0,0.0,0.0
+n_entries,Entries (links) in README,Content,num,555,0.569,5.973480163674585e-49,0.563,1.1085812420778925e-47,712.0,369.0,166.0,94.0,552.0
+desc_ratio,Share of entries with a description,Content,num,555,0.05,0.23722995557430357,0.125,0.0032975868306404556,0.951,0.911,0.923,0.896,0.92
+avg_desc_words,Words per description,Content,num,532,0.092,0.03376621106033244,0.173,6.0822043961522195e-05,10.8,10.75,10.8,10.1,10.8
+n_sections_with_items,Categories with entries,Content,num,555,0.364,8.256251488139568e-19,0.342,1.0610897840602373e-16,65.0,28.0,22.0,15.0,41.0
+median_items_per_section,Median entries per category,Content,num,555,0.302,3.496488288913158e-13,0.299,6.057997644538383e-13,9.0,6.0,5.0,4.0,6.0
+big_section_share,Largest category share of entries,Content,num,555,-0.257,8.176309994561572e-10,-0.237,1.573500325718569e-08,0.106,0.144,0.159,0.214,0.124
+has_metadata_tags,Structured per-entry metadata (tags/stars/table),Content,bin,558,0.018,0.6763476082313087,0.039,0.3629892843919242,18.2,6.0,6.2,6.5,12.0
+alphabetical,Entries alphabetized (>=90% sorted pairs),Content,bin,533,0.111,0.01030654262078647,0.102,0.01829121064086754,36.8,30.2,18.9,17.9,34.1
+github_link_share,Share of links pointing to GitHub repos,Content,num,557,0.16,0.00014263352761887497,0.11,0.0091446946339325,0.576,0.457,0.47,0.351,0.61
+readme_words,README words,Content,num,557,0.526,5.631377121093831e-41,0.556,1.5790844429580667e-46,14427.0,5216.5,2631.0,1409.0,6728.5
+intro_words,Words before first section,Presentation,num,557,0.098,0.020191417000612378,0.097,0.021909747913818323,83.5,61.0,56.0,53.0,67.5
+has_toc,Table of contents,Presentation,bin,558,0.01,0.8202094009415719,0.149,0.00041072828047758166,90.9,89.6,90.3,88.9,90.0
+has_back_to_top,Back-to-top links,Presentation,bin,558,0.096,0.024032461531818938,0.103,0.014951118135587603,22.7,7.5,6.2,3.4,16.0
+has_badges,Any badges,Presentation,bin,558,-0.151,0.00034733678060515144,-0.081,0.05648262187582931,90.9,92.5,95.9,99.1,92.0
+has_awesome_badge,Awesome badge,Presentation,bin,558,-0.175,3.206631504248977e-05,-0.111,0.008734062006902328,77.3,92.5,95.9,98.8,86.0
+has_header_image,Header image/logo,Presentation,bin,558,-0.033,0.43424252255892576,0.105,0.013081067963584473,63.6,46.3,50.3,50.3,52.0
+has_centered_header,Centered HTML header,Presentation,bin,558,0.07,0.09782096321724808,0.18,1.982553586128863e-05,50.0,20.9,23.4,17.3,36.0
+emoji_per_entry,Emoji per entry,Presentation,num,555,0.225,8.581689871818832e-08,0.261,4.075550907647367e-10,0.016,0.003,0.0,0.0,0.007
+has_details_collapsible,Collapsible <details> sections,Presentation,bin,558,0.042,0.32124941501944954,0.09,0.032943771587319044,9.1,3.0,2.1,2.5,6.0
+has_translations,Translated READMEs,Presentation,bin,558,0.09,0.0344820184684118,0.091,0.032497952201533474,4.5,7.5,2.1,1.5,8.0
+has_website,Companion website config in repo,Presentation,bin,558,0.097,0.021363537347265878,0.106,0.011882190958554488,22.7,10.4,6.9,5.9,14.0
+has_contributing,CONTRIBUTING file,Process & governance,bin,558,-0.084,0.04798120421729464,0.078,0.06491843354358906,81.8,86.6,87.6,91.0,88.0
+contributing_words,CONTRIBUTING length (words),Process & governance,num,558,0.153,0.0002850232438404965,0.273,5.0347774303686405e-11,339.5,214.0,169.0,161.5,304.5
+has_pr_template,PR template,Process & governance,bin,558,0.323,5.6237948160866265e-15,0.362,1.0349851180840318e-18,63.6,47.8,20.7,10.5,56.0
+has_issue_template,Issue template/forms,Process & governance,bin,558,0.177,2.679414604845064e-05,0.205,1.0394814280406058e-06,27.3,17.9,11.0,4.9,22.0
+has_code_of_conduct,Code of conduct,Process & governance,bin,558,-0.089,0.0349920106631997,0.051,0.23125311371548601,50.0,22.4,31.7,38.3,40.0
+mentions_criteria,README states inclusion criteria,Process & governance,bin,558,0.09,0.033297686051920836,0.112,0.007850830023270116,22.7,20.9,9.7,11.4,24.0
+ci_any,Any CI (Actions/Travis),Process & governance,bin,558,0.152,0.0003095548163333409,0.198,2.3880458077688964e-06,63.6,68.7,58.6,46.6,64.0
+ci_linkcheck_any,Automated link checking,Process & governance,bin,558,0.166,7.956402532167107e-05,0.13,0.0021549958756012897,31.8,52.2,33.8,27.2,40.0
+ci_awesome_lint,awesome-lint in CI,Process & governance,bin,558,-0.09,0.03311364071474812,0.079,0.06149462745120193,4.5,9.0,19.3,20.4,6.0
+cc_license,Creative Commons license,Process & governance,bin,558,-0.118,0.005328594326250469,0.108,0.011029917197918133,40.9,49.3,57.2,62.3,40.0
+no_license,No license file,Process & governance,bin,558,0.017,0.6971947190626757,-0.143,0.0007106430124698992,27.3,32.8,27.6,28.4,38.0
+sponsor,Sponsors section or FUNDING.yml,Process & governance,bin,558,0.156,0.00021653656758624398,0.2,1.9988365007107395e-06,45.5,17.9,13.8,8.0,32.0
+mentions_unmaintained_marker,Flags unmaintained/archived entries,Process & governance,bin,558,0.154,0.0002712512309287134,0.136,0.001237510419486228,40.9,23.9,26.2,14.2,34.0
+n_commits,Commits (all time),Activity & community,num,558,0.679,9.988119262371979e-77,0.657,3.747064428312638e-70,2112.0,599.0,221.0,99.0,1358.0
+n_authors,Distinct commit authors,Activity & community,num,558,0.775,1.0587783925472838e-112,0.733,2.8991704727921426e-95,630.0,182.0,51.0,14.0,365.5
+top1_author_share,Top author share of commits,Activity & community,num,558,-0.498,2.29400410464845e-36,-0.431,1.1238361312818283e-26,0.238,0.284,0.408,0.635,0.228
+n_mergers,People who merged PRs,Activity & community,num,558,0.457,3.391787376809237e-30,0.378,1.994404044226035e-20,8.5,3.0,2.0,1.0,6.0
+max_issue_ref,Highest issue/PR number referenced,Activity & community,num,558,0.764,5.9600053511665326e-108,0.738,6.600839073537034e-97,2549.5,399.0,116.0,26.0,1257.0
+active_365,Commit in last 12 months,Activity & community,bin,558,0.313,3.550474086892719e-14,0.376,3.284764058446216e-20,95.5,68.7,69.7,47.5,84.0
+human_active_365,Human commit in last 12 months,Activity & community,bin,558,0.303,2.7065976246074355e-13,0.366,4.383667741260238e-19,90.9,67.2,68.3,46.6,80.0
+dormant_2y,No commit for 2+ years,Activity & community,bin,558,-0.319,1.0644939626300081e-14,-0.393,4.716150357160627e-22,4.5,26.9,20.7,46.6,14.0
+active_years,Calendar years with commits,Activity & community,num,558,0.613,7.729439091257019e-59,0.522,2.1105003621373565e-40,13.0,11.0,9.0,6.0,12.0
+h_entries_1y,Entries one year after launch,History,num,558,0.414,1.5538316486111e-24,0.414,1.5634627918525474e-24,422.5,208.0,96.0,66.5,308.0
+h_share_at_1y,Share of peak size reached by year 1,History,num,556,-0.448,7.918455892326935e-29,-0.41,5.8880703522595064e-24,0.341,0.486,0.564,0.778,0.381
+h_any_prune_10,Ever cut >=10% of entries in a quarter,History,bin,558,0.199,2.194667729270336e-06,0.177,2.5124515604502858e-05,50.0,25.4,22.1,12.7,40.0
+h_below_peak_10,Currently >=10% smaller than its peak,History,bin,556,0.165,8.933103680345479e-05,0.126,0.002906499043188542,31.8,17.9,13.9,7.7,28.0
+h_grew_after_y1,More than doubled in size after year 1,History,bin,556,0.361,1.5733790160714814e-18,0.324,4.828292522854325e-15,72.7,50.7,41.7,16.7,66.0

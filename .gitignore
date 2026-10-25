@@ -1,0 +1,5 @@
+# Partial clones of the studied repositories (~2.6 GB); recreate with scripts/clone_one.sh
+clones/
+.venv/
+__pycache__/
+*.pyc

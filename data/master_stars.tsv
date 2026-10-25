@@ -1,0 +1,1599 @@
+repo	stars	star_source	stars_topic	stars_tal	stars_exact	rank_awesome_list	rank_awesome	in_index	index_section	tal_category	desc
+codecrafters-io/build-your-own-x	555759	exact	556000		555759	1		0			Master programming by recreating your favorite technologies from scratch.
+sindresorhus/awesome	523739	exact	524000	497000	523739	2	1	1	Miscellaneous	Miscellaneous	Awesome lists about all kinds of interesting topics (PRs temporarily disabled)
+public-apis/public-apis	491697	exact		491000	491697			0		TOP50	A collective list of free APIs
+EbookFoundation/free-programming-books	399945	exact		399000	399945			1	Books	TOP50	:books: Freely available programming books
+vinta/awesome-python	329772	exact	330000	326000	329772	4	3	1	Programming Languages	TOP50	"The definitive list that answers ""I want to do X in Python, which tool should I use?"""
+awesome-selfhosted/awesome-selfhosted	329734	exact	330000	327000	329734	3	2	1	Miscellaneous	TOP50	A list of Free Software network services and web applications which can be hosted on your own servers
+trimstray/the-book-of-secret-knowledge	252716	exact	253000		252716	5	4	0			A collection of inspiring lists, manuals, cheatsheets, blogs, hacks, one-liners, cli/web tools and more.
+ossu/computer-science	210272	exact	210000	205000	210272	6		1	Computer Science	Computer Science	Path to a free self-taught education in Computer Science!
+avelino/awesome-go	190018	exact	190000	188000	190018	7	5	1	Programming Languages	TOP50	A curated list of awesome Go frameworks, libraries and software
+521xueweihan/HelloGitHub	183979	exact	184000		183979		6	0			Showcases fun, beginner-friendly open source projects on GitHub (bilingual on the page)
+f/prompts.chat	174274	exact	174000		174274	8		0			Share, discover, and collect prompts from the community; free, open source, and self-hostable
+f/awesome-chatgpt-prompts	172000	tal		172000				0		ChatGPT	f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
+ripienaar/free-for-dev	139968	exact	140000	140000	139968	9		1	Miscellaneous	TOP50	A list of SaaS, PaaS and IaaS offerings that have free tiers of interest to devops and infradev
+Chalarangelo/30-seconds-of-code	129306	exact	129000		129306	10		0			Coding articles to level up your development skills
+Hack-with-Github/Awesome-Hacking	123467	exact	124000	117000	123467		7	0		Miscellaneous	Collection of awesome lists for hackers and security researchers
+VoltAgent/awesome-design-md	123183	exact	123000		123183	11		0			A collection of DESIGN.md files analyzing popular brand design systems
+jaywcjlove/awesome-mac	117000	topic	117000	117000		12	8	1	Platforms	TOP50	Collecting high-quality macOS software and organizing it by category
+papers-we-love/papers-we-love	111000	topic	111000	107000			9	1	Theory	Theory	Computer science papers for reading and group discussion
+ruvnet/RuView	99400	topic	99400				10	0			Uses WiFi signals for spatial sensing, vital-sign monitoring, and presence detection without video
+iluwatar/java-design-patterns	94800	topic	94800			13		0			Design patterns implemented in Java
+MunGell/awesome-for-beginners	90700	topic	90700	90000		14	11	1	Miscellaneous	TOP50	A list of awesome beginners-friendly projects.
+DopplerHQ/awesome-interview-questions	85200	topic	85200	69000		15	12	0		Work	A curated awesome list of lists of interview questions.
+binhnguyennus/awesome-scalability	75100	topic	75100			16	13	0			The Patterns of Scalable, Reliable, and Performant Large-Scale Systems
+enaqx/awesome-react	75000	topic	75000	74000		17	14	1	Front-End Development	Front-End Development	A collection of awesome things regarding React ecosystem
+josephmisiti/awesome-machine-learning	75000	tal		75000				1	Computer Science	TOP50	A curated list of awesome Machine Learning frameworks, libraries and software.
+fffaraz/awesome-cpp	74000	topic	74000	74000		18	15	1	Programming Languages	TOP50	A curated list of awesome C++ (or C) frameworks, libraries, resources, and shiny things.
+vuejs/awesome-vue	74000	tal		74000				1	Front-End Development	TOP50	🎉 A curated list of awesome things related to Vue.js
+prakhar1989/awesome-courses	72200	topic	72200	43000		19	16	1	Computer Science	Computer Science	List of awesome university courses for learning Computer Science!
+sindresorhus/awesome-nodejs	67200	topic	67200	67000		20	17	1	Platforms	Platforms	Delightful Node.js packages and resources (submissions temporarily paused)
+Solido/awesome-flutter	61700	topic	61700	61000		21	18	1	Platforms	Miscellaneous	Curated list of Flutter libraries, tools, tutorials, and articles
+rust-unofficial/awesome-rust	60100	topic	60100	60000			19	1	Programming Languages	TOP50	Curated Rust code and resources
+tiimgreen/github-cheat-sheet	59900	topic	59900	43000		22	20	1	Development Environment	Development Environment	List of useful Git and GitHub features
+wasabeef/awesome-android-ui	58100	topic	58100	44000			21	1	Front-End Development	Miscellaneous	Curated list of Android UI/UX libraries
+hesreallyhim/awesome-claude-code	56400	topic	56400	56000		23	22	1	Miscellaneous	TOP50	Curated resources for Claude Code, including skills, agents, and tooling
+vsouza/awesome-ios	53800	topic	53800	53000			23	1	Platforms	Platforms	Curated list of iOS ecosystem projects, in Objective-C and Swift
+VoltAgent/awesome-openclaw-skills	53300	topic	53300			24	24	0			Categorized collection of 5,400+ OpenClaw skills
+dkhamsing/open-source-ios-apps	52800	topic	52800				25	0			Collaborative list of open-source iOS apps
+serhii-londar/open-source-mac-os-apps	51000	topic	51000	51000		25	26	1	Platforms	TOP50	Curated list of open source macOS applications
+lukasz-madon/awesome-remote-job	49800	topic	49800	49000		26	27	1	Work	Work	Curated list of remote jobs and related resources
+DovAmir/awesome-design-patterns	49500	topic	49500	40000		27	28	0		Computer Science	Curated list of software and architecture design patterns
+akullpp/awesome-java	49300	topic	49300	48000		28	29	1	Programming Languages	Programming Languages	Curated list of Java frameworks, libraries, and software
+brillout/awesome-react-components	48700	topic	48700	47000		29	30	0		Front-End Development	Curated list of React components and libraries
+dypsilon/frontend-dev-bookmarks	47700	topic	47700	36000		30	31	1	Platforms	Platforms	Manually curated resources for frontend web developers
+docker/awesome-compose	46600	topic	46600			31	32	0			Docker Compose sample projects
+DataExpert-io/data-engineer-handbook	44600	topic	44600				33	0			Links to data engineering learning resources
+ashishps1/awesome-system-design-resources	42800	topic	42800				34	0			System design concepts and free interview-prep resources
+goabstract/Awesome-Design-Tools	41600	topic	41600			32	35	0			Design tools and plugins for a range of design tasks
+PatrickJS/awesome-cursorrules	41000	topic	41000			33	36	0			Configuration files that customize the Cursor AI editor with custom rules
+github/awesome-copilot	40400	topic	40400				37	0			Community instructions, agents, skills, and configurations for GitHub Copilot
+deepseek-ai/awesome-deepseek-integration	39500	topic	39500				38	0			Integrations of the DeepSeek API into popular software
+alebcay/awesome-shell	37800	topic	37800	30000		34	39	1	Development Environment	Development Environment	Curated list of command-line frameworks, toolkits, and guides
+ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code	37500	topic	37500				40	0			500 AI, ML, deep learning, computer vision, and NLP projects with code
+veggiemonk/awesome-docker	37100	topic	37100	37000		35	41	1	Back-End Development	Back-End Development	Curated list of Docker resources and projects
+VoltAgent/awesome-agent-skills	36300	topic	36300			36	42	0			Curated collection of 1000+ agent skills for various coding assistants
+jondot/awesome-react-native	35700	topic	35700	36000		37		1	Platforms	Platforms	React Native components, news, tools, and learning material
+kuchin/awesome-cto	35600	topic	35600			38	43	0			Curated, opinionated resources for CTOs, with a focus on startups
+awesome-foss/awesome-sysadmin	35500	topic	35500	35000		39	44	0		TOP50	Curated list of open-source sysadmin resources
+sorrycc/awesome-javascript	35000	tal		35000				1	Programming Languages	TOP50	🐢 A collection of awesome browser-side  JavaScript libraries, resources and shiny things.
+ziadoz/awesome-php	32800	topic	32800	33000			45	1	Programming Languages	TOP50	PHP libraries, resources, and tools
+hesamsheikh/awesome-openclaw-usecases	31600	topic	31600			40		0			Community collection of OpenClaw use cases
+ascoders/weekly	31500	topic	31500				46	0			Chinese weekly digest of frontend technologies
+abhisheknaiidu/awesome-github-profile-readme	31400	topic	31400			41	47	0			Curated list of GitHub profile READMEs, updated in real time
+herrbischoff/awesome-macos-command-line	31000	topic	31000			42	48	0			Tips and tools for doing more in the macOS terminal
+e2b-dev/awesome-ai-agents	30600	topic	30600				49	0			List of autonomous AI agents
+jivoi/awesome-osint	30400	topic	30400	30000		43		0		TOP50	Curated list of open-source intelligence (OSINT) resources
+AllThingsSmitty/css-protips	30300	topic	30300	30000		44		1	Front-End Development	Front-End Development	Collection of CSS tips for improving front-end skills
+wilsonfreitas/awesome-quant	30300	topic	30300	25000		45	50	0		Finance	Curated libraries, packages, and resources for quantitative finance
+academic/awesome-datascience	30200	topic	30200	30000		46		1	Computer Science	TOP50	Resources for learning data science and applying it to real problems
+imDazui/Tvlist-awesome-m3u-m3u8	30200	topic	30200				51	0			Chinese collection of IPTV and M3U live-stream resources
+kilimchoi/engineering-blogs	30000	tal		30000				1	Miscellaneous	Miscellaneous	A curated list of engineering blogs
+aishwaryanr/awesome-generative-ai-guide	29900	topic	29900			47	52	0			Generative AI research updates, interview prep, and notebooks
+The-Art-of-Hacking/h4cker	29900	topic	29900			48		0			Resources on ethical hacking, DFIR, AI security, and related topics
+viatsko/awesome-vscode	29200	topic	29200	29000		49	53	1	Editors	Editors	Curated VS Code extensions and resources
+ChristosChristofidis/awesome-deep-learning	29100	topic	29100	25000		50	54	1	Computer Science	Computer Science	Curated deep learning tutorials, projects, and communities
+posquit0/Awesome-CV	28800	topic	28800				55	0			LaTeX template for job application CVs
+sdras/awesome-actions	28400	topic	28400	25000		51	56	1	Development Environment	Development Environment	Curated GitHub Actions for use on GitHub
+tmrts/go-patterns	28300	topic	28300				57	0			Go design patterns, recipes, and idioms
+kdeldycke/awesome-falsehood	27800	topic	27800	28000		52	58	1	Miscellaneous	TOP50	List of common false assumptions programmers make
+ashishps1/awesome-low-level-design	27600	topic	27600				59	0			Free resources for low-level design and interview prep
+enaqx/awesome-pentest	27500	topic	27500	27000		53	60	0		Security	Penetration testing resources and tools
+sindresorhus/awesome-electron	27300	topic	27300	27000		54	61	1	Platforms	Platforms	Resources for building Electron apps (submissions currently paused)
+Igglybuff/awesome-piracy	26900	topic	26900	23000		55		0		Security	Curated list of warez and piracy links
+lissy93/dashy	26800	topic	26800				62	0			Self-hostable personal dashboard with status checks, widgets, and themes
+matteocrippa/awesome-swift	26300	topic	26300	26000		56	63	1	Programming Languages	TOP50	Collaborative list of Swift libraries and resources
+alexpate/awesome-design-systems	26200	topic	26200	26000		57	64	0		TOP50	Collection of design systems
+enescingoz/awesome-n8n-templates	26100	topic	26100			58	65	0			Free n8n automation workflow templates
+VoltAgent/awesome-claude-code-subagents	26000	topic	26000			59	66	0			100+ specialized subagents for Claude Code
+tayllan/awesome-algorithms	26000	tal		26000				1	Theory	TOP50	A curated list of awesome places to learn and/or practice algorithms.
+Guovin/iptv-api	25700	topic	25700				67	0			Tool that collects, validates, and generates IPTV playlists (description in Chinese and English)
+luong-komorebi/Awesome-Linux-Software	25600	topic	25600			60		0			Curated list of Linux software applications
+djsime1/awesome-flipperzero	24500	topic	24500			61	68	0			Curated resources for the Flipper Zero device
+terryum/awesome-deep-learning-papers	24000	tal		24000				1	Computer Science	Computer Science	The most cited deep learning papers
+PicoTrex/Awesome-Nano-Banana-images	23900	topic	23900				69	0			Examples generated with Nano Banana models, plus a released dataset
+mikeroyal/Self-Hosting-Guide	23300	topic	23300			62	70	0			Guide to running and managing software on your own servers
+lissy93/personal-security-checklist	22600	topic	22600			63	71	0			Checklist of 300+ digital security and privacy tips
+git-tips/tips	22000	tal		22000				1	Development Environment	Development Environment	Most commonly used git tips and tricks.
+jbee37142/Interview_Question_for_Beginner	21800	topic	21800				72	0			Technical interview guidelines for new programmers
+quozd/awesome-dotnet	21700	topic	21700	21000		64	73	1	Platforms	Platforms	Curated .NET libraries, tools, and frameworks
+matiassingers/awesome-readme	21600	topic	21600	22000		65	74	1	Miscellaneous	TOP50	Curated collection of exemplary README files
+rockerBOO/awesome-neovim	21500	topic	21500	21000		66	75	1	Editors	TOP50	Curated Neovim plugins
+thangchung/awesome-dotnet-core	21400	topic	21400	21000		67	76	1	Platforms	Platforms	Curated .NET Core libraries, tools, and frameworks
+LiLittleCat/awesome-free-chatgpt	21300	topic	21300			68	77	0			Continuously updated list of free ChatGPT mirror sites
+EthicalML/awesome-production-machine-learning	21000	topic	21000			69	78	0			Open source tools for deploying, monitoring, and scaling ML
+Universidade-Livre/ciencia-da-computacao	21000	topic	21000			70		0			Self-directed path to learning computer science (Portuguese)
+birobirobiro/awesome-shadcn-ui	20700	topic	20700			71	79	0			Curated resources for shadcn/ui
+agarrharr/awesome-cli-apps	20600	topic	20600	21000		72	80	1	Development Environment	TOP50	Curated command-line applications
+awesome-dsh-plugin/awesome-dsh-plugin	20500	topic	20500			73	81	0			Curated plugins for DeepSeek Harness (dsh)
+pluja/awesome-privacy	20100	topic	20100	20000		74	82	0		Security	Privacy-respecting services and alternatives to mainstream apps
+Awesome-HarmonyOS/HarmonyOS	20000	topic	20000				83	0			Curated list of resources related to HarmonyOS
+RunaCapital/awesome-oss-alternatives	19800	topic	19800			75	84	0			Open-source alternatives to well-known SaaS products
+dariubs/GoBooks	19700	topic	19700	20000		76	85	1	Books	TOP50	List of Go programming books
+iCHAIT/awesome-macOS	19400	topic	19400			77	86	0			Curated applications and tools for macOS
+keon/awesome-nlp	19100	topic	19100			78	87	0			Curated resources for natural language processing
+sindresorhus/quick-look-plugins	19000	tal		19000				1	Development Environment	Development Environment	List of useful Quick Look plugins for developers
+hemanth/functional-programming-jargon	18700	topic	18700			79		0			Functional programming terms explained simply
+jordan-cutler/path-to-senior-engineer-handbook	18400	topic	18400				88	0			Resources for reaching Senior Engineer and beyond
+ujjwalkarn/Machine-Learning-Tutorials	18300	topic	18300	12000		80	89	1	Computer Science	Computer Science	Machine learning and deep learning tutorials and resources
+unixorn/awesome-zsh-plugins	18100	topic	18100	18000		81	90	1	Development Environment	TOP50	ZSH frameworks, plugins, themes, and tutorials
+mhinz/vim-galore	18000	topic	18000	15000		82	91	1	Editors	Editors	Vim tips, tricks, and guides
+jtoy/awesome-tensorflow	18000	tal		18000				1	Computer Science	Computer Science	TensorFlow - A curated list of dedicated resources http://tensorflow.org
+dexteryy/spellbook-of-modern-webdev	17900	topic	17900				92	0			Taxonomy of modern JavaScript web development
+gztchan/awesome-design	17700	topic	17700	14000			93	0		Front-End Development	Curated design resources from around the world
+ellisonleao/magictools	17600	topic	17600	18000		83	94	1	Gaming	TOP50	Game development resources
+Evolink-AI/awesome-gpt-image-2-API-Prompts	17300	topic	17300			84		0			GPT-Image-2 API and prompts
+vitejs/awesome-vite	17300	topic	17300	17000		85	96	0		Front-End Development	Curated Vite.js resources
+carpedm20/awesome-hacking	17300	topic	17300	11000			95	1	Security	Security	Hacking tutorials, tools, and resources
+thibmaek/awesome-raspberry-pi	17000	topic	17000	17000		86	98	1	Platforms	TOP50	Raspberry Pi tools, projects, and resources
+bobeff/open-source-games	17000	topic	17000			87		0			List of open source games
+composio-community/awesome-codex-skills	17000	topic	17000				97	0			Practical Codex skills for automating workflows
+jbhuang0604/awesome-computer-vision	17000	tal		17000				1	Computer Science	Computer Science	A curated list of awesome computer vision resources
+bharathgs/Awesome-pytorch-list	16700	topic	16700			88	99	0			PyTorch models, libraries, and tutorials
+rossant/awesome-math	16600	topic	16600	16000		89	100	1	Theory	Theory	Mathematics resources
+public-api-lists/public-api-lists	16200	topic	16200			90	101	0			Curated list of free public APIs
+owainlewis/awesome-artificial-intelligence	16000	tal		16000				1	Theory	Theory	A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.
+travisvn/awesome-claude-skills	15500	topic	15500			91	102	0			Claude Skills, resources, and tools
+terkelg/awesome-creative-coding	15500	topic	15500	15000		92	103	1	Miscellaneous	Miscellaneous	Generative art, data visualization, and interaction design resources
+aniftyco/awesome-tailwindcss	15200	topic	15200	15000		93	106	1	Front-End Development	Front-End Development	Tailwind CSS resources
+SwifterSwift/SwifterSwift	15200	topic	15200				104	0			Library of 500+ native Swift extensions
+ty4z2008/Qix	15200	topic	15200				105	0			Notes on machine learning, deep learning, PostgreSQL, distributed systems, Node.js, and Go
+chentsulin/awesome-graphql	15100	topic	15100	15000		94	107	1	Miscellaneous	TOP50	GraphQL resources
+sbilly/awesome-security	15000	topic	15000	14000		95		1	Security	Security	Security software, libraries, and resources
+newTendermint/awesome-bigdata	15000	tal		15000				0		TOP50	A curated list of awesome big data frameworks, ressources and other awesomeness.
+ramitsurana/awesome-kubernetes	15000	tal		15000				1	Back-End Development	Miscellaneous	A curated list for awesome kubernetes sources :ship::tada:
+paperswithbacktest/awesome-systematic-trading	14900	topic	14900			96	108	0			Libraries, strategies, and resources for systematic trading
+analysis-tools-dev/static-analysis	14900	topic	14900	15000		97		1	Computer Science	TOP50	Static analysis (SAST) tools and linters
+oxnr/awesome-bigdata	14700	topic	14700			98	110	0			Big data frameworks and resources
+taowen/awesome-lowcode	14700	topic	14700				109	0			Discussion community for low-code platform practitioners in China
+neutraltone/awesome-stock-resources	14600	topic	14600	14000		99	111	1	Media	Media	Free stock photo, video, and illustration sites
+mfornos/awesome-microservices	14600	topic	14600	14000			112	1	Miscellaneous	Miscellaneous	Microservice architecture principles and technologies
+hackerkid/Mind-Expanding-Books	14400	topic	14400	12000		100	113	1	Books	Miscellaneous	Book recommendations
+rshipp/awesome-malware-analysis	14300	topic	14300	11000		101	114	1	Security	Security	"Curated malware analysis tools and resources (tagline shown: ""Defund the Police."")"
+lnishan/awesome-competitive-programming	14200	topic	14200	13000		102	115	1	Theory	Miscellaneous	Curated competitive programming, algorithm, and data structure resources
+markets/awesome-ruby	14200	topic	14200	14000		103	116	1	Programming Languages	Programming Languages	Collection of Ruby libraries, tools, frameworks, and software
+qazbnm456/awesome-web-security	13900	topic	13900	14000		104	117	1	Security	Security	Curated web security materials and resources
+dastergon/awesome-sre	13700	topic	13700	9100		105	118	1	Miscellaneous	Miscellaneous	Curated site reliability and production engineering resources
+YouMind-OpenLab/awesome-nano-banana-pro-prompts	13700	topic	13700			106	119	0			Large prompt library for Google Gemini image generation, with previews and multiple languages
+bolshchikov/js-must-watch	13600	topic	13600	13000		107	120	1	Programming Languages	Programming Languages	Recommended JavaScript video content
+alexandresanlim/Badges4-README.md-Profile	13600	topic	13600			108	121	0			Badges for improving GitHub profile READMEs
+laoma528/awesome-zhuiju-free	13400	topic	13400			109		0			Guide to free, ad-free streaming, subtitle, and IPTV resources (Chinese-language)
+goabstract/Marketing-for-Engineers	13200	topic	13200			110		0			Curated marketing articles and tools for growing a product
+phanan/htaccess	13200	topic	13200	13000		111	122	1	Back-End Development	Back-End Development	Collection of useful .htaccess snippets
+nestjs/awesome-nestjs	13200	topic	13200			112	123	0			Curated list of NestJS-related resources
+TonnyL/Awesome_APIs	13200	topic	13200				124	0			Collection of public APIs
+rShetty/awesome-podcasts	13100	topic	13100			113	125	0			Collection of podcasts
+chiraggude/awesome-laravel	13100	topic	13100	11000			126	1	Back-End Development	Back-End Development	Laravel bookmarks, packages, tutorials, and videos
+h4cc/awesome-elixir	13000	tal		13000				1	Programming Languages	Programming Languages	A curated list of amazingly awesome Elixir and Erlang libraries, resources and shiny things. Updates:
+humiaozuzu/awesome-flask	12800	topic	12800			114	127	0			Curated Flask resources and plugins
+steven2358/awesome-generative-ai	12800	topic	12800			115	128	1	Computer Science		Curated generative AI projects and services
+skywind3000/awesome-cheatsheets	12600	topic	12600				129	0			Cheatsheets for languages, frameworks, and dev tools (Chinese-language description)
+JStumpp/awesome-android	12400	topic	12400	12000		116	130	1	Platforms	Platforms	Curated Android packages and resources
+heynickc/awesome-ddd	12400	topic	12400	12000		117	131	1	Miscellaneous	Miscellaneous	Curated resources on domain-driven design, CQRS, event sourcing, and event storming
+xgrommx/awesome-redux	12300	topic	12300			118	132	0			Redux examples and middleware
+jason5ng32/MyIP	12200	topic	12200				133	0			Multi-tool IP, network, and privacy testing toolbox
+Chalarangelo/30-seconds-of-interviews	12100	topic	12100			119		0			Collection of common programming interview questions
+k4m4/movies-for-hackers	12000	topic	12000			120	135	0			Curated list of movies for hackers and cyberpunk fans
+gristlabs/grist-core	12000	topic	12000				134	0			Spreadsheet-database hybrid application
+dhamaniasad/awesome-postgres	12000	tal		12000				1	Databases	Databases	A curated list of awesome PostgreSQL software, libraries, tools and resources, inspired by awesome-mysql
+donnemartin/awesome-aws	12000	tal		12000				1	Platforms	Platforms	A curated list of awesome Amazon Web Services (AWS) libraries, open source repos, guides, blogs, and other resources.  Featuring the Fiery Meter of AWSome.
+loverajoel/jstips	12000	tal		12000				1	Programming Languages	Programming Languages	This is about useful JS tips!
+mezod/awesome-indie	11900	topic	11900	9500		121	137	1	Business	Business	Resources for independent developers on making money
+apsdehal/awesome-ctf	11900	topic	11900	7400			136	1	Security	Security	CTF frameworks, libraries, and resources
+EmbraceAGI/awesome-chatgpt-zh	11800	topic	11800			122	138	0			Chinese-language ChatGPT guides, prompt tips, and curated tools
+mjhea0/awesome-fastapi	11700	topic	11700	12000		123	139	1	Back-End Development	Back-End Development	Curated FastAPI resources and related tools
+mehdihadeli/awesome-software-architecture	11700	topic	11700			124		0			Articles, videos, and resources on software architecture and patterns
+oz123/awesome-c	11600	topic	11600			125	140	0			Curated C frameworks, libraries, and resources
+jnv/lists	11600	topic	11600			126	141	0			A curated list of curated lists
+hackstoic/golang-open-source-projects	11600	topic	11600				142	0			Chinese-language curated list of Go projects
+mhadidg/software-architecture-books	11400	topic	11400			127	143	0			Comprehensive list of software architecture books
+edoardottt/awesome-hacker-search-engines	11400	topic	11400			128	144	0			Search engines useful for pentesting, bug bounty, and threat research
+wsvincent/awesome-django	11300	topic	11300	11000		129	145	0		TOP50	Curated Django resources and related tools
+pingcap/awesome-database-learning	11200	topic	11200			130	146	0			Learning materials on database internals
+Kristories/awesome-guidelines	11200	topic	11200			131	147	0			Programming style guides, best practices, and coding conventions
+mnfst/awesome-free-llm-apis	11200	topic	11200			132	148	0			List of permanently free LLM API providers
+unicodeveloper/awesome-nextjs	11100	topic	11100	11000		133		1	Front-End Development	TOP50	Books, videos, and articles about Next.js
+YSGStudyHards/DotNetGuide	11100	topic	11100			134		0			C#/.NET learning, interview, and development guide (Chinese)
+bnb/awesome-hyper	11000	topic	11000			135	149	1	Development Environment		Plugins, themes, and resources for the Hyper terminal
+k4m4/terminals-are-sexy	11000	tal		11000				1	Development Environment	Development Environment	💥 A curated list of Terminal frameworks, plugins & resources for CLI lovers.
+godotengine/awesome-godot	11000	tal		11000				1	Gaming	Gaming	A curated list of free/libre plugins, scripts and add-ons for Godot
+dive-into-machine-learning/dive-into-machine-learning	11000	tal		11000				0		Learn	Free ways to dive into machine learning with Python and Jupyter Notebook. Notebooks, courses, and other links. (First posted in 2016.)
+webpro/awesome-dotfiles	10900	topic	10900	11000		136	150	1	Development Environment	TOP50	Curated dotfiles resources
+Calinou/awesome-godot	10900	topic	10900			137	151	0			Free and open-source plugins, scripts, and add-ons for Godot
+OffcierCia/DeFi-Developer-Road-Map	10900	topic	10900			138	152	0			DeFi developer roadmap with tools and resources for dApp development
+hslatman/awesome-threat-intelligence	10800	topic	10800			139	153	0			Curated threat intelligence resources
+paralax/awesome-honeypots	10600	topic	10600	10000		140	154	1	Security	Security	Honeypot resources
+HKUSTDial/Supervisor-Skills	10600	topic	10600			141	155	0			AI research-mentor skills built from a PhD supervisor's experience
+yihui-dev/awesome-opus5-5-videos	10500	topic	10500			142	156	0			Viral videos made with Claude Opus 5.5, with their prompts
+rothgar/awesome-tmux	10400	topic	10400	10000		143	157	0		Development Environment	Resources for tmux
+rehooks/awesome-react-hooks	10300	topic	10300			144	158	0			React Hooks resources
+YouMind-OpenLab/awesome-gpt-image-2	10200	topic	10200			145	159	0			Prompt library for GPT Image 2, with previews and multiple languages
+awesome-lists/awesome-bash	10200	topic	10200	9800		146	160	0		Development Environment	Curated Bash scripts and resources
+Atarity/deploy-your-own-saas	10100	topic	10100			147	161	0			Self-hostable alternatives to everyday cloud services
+PatrickJS/awesome-angular	10100	topic	10100	9800		148	162	1	Front-End Development	Front-End Development	Angular resources
+lissy93/awesome-privacy	10000	topic	10000			149	163	0			Privacy and security-focused software and services
+StylishThemes/GitHub-Dark	10000	topic	10000				164	0			Dark GitHub style with syntax themes for code, editors, and notebooks
+lk-geimfari/awesomo	10000	topic	10000				165	0			List of open source projects to pick and contribute to
+kjw0612/awesome-deep-vision	10000	tal		10000				1	Computer Science	Computer Science	A curated list of deep learning resources for computer vision
+aalhour/awesome-compilers	9900	topic	9900			150	166	0			Resources on compilers, interpreters, and runtimes
+stanzhai/be-a-professional-programmer	9900	topic	9900				167	0			Resources, tools, and frameworks for professional programmers (Chinese)
+friuns2/BlackFriday-GPTs-Prompts	9800	topic	9800			151	168	0			Free GPTs that don't require a Plus subscription
+ashishb/android-security-awesome	9800	topic	9800	9800		152	169	1	Security	TOP50	Android security resources
+swyxio/spark-joy	9800	topic	9800			153		0			CSS design resources (archived; now on Forge)
+awesome-jellyfin/awesome-jellyfin	9700	topic	9700			154	170	0			Jellyfin plugins, themes, and guides
+mbasso/awesome-wasm	9700	topic	9700			155	171	0			WebAssembly ecosystem resources
+marcelscruz/public-apis	9600	topic	9600			156	172	0			Collaborative list of public APIs
+CodingDocs/awesome-java	9600	topic	9600			157		0			Java open-source projects
+kyrolabs/awesome-langchain	9600	topic	9600	9600		158	173	0		TOP50	Tools and projects built with LangChain
+troxler/awesome-css-frameworks	9600	topic	9600	9400		159	174	1	Front-End Development	Front-End Development	CSS frameworks
+jivoi/awesome-ml-for-cybersecurity	9500	topic	9500			160		0			Machine learning for cybersecurity
+meirwah/awesome-incident-response	9500	topic	9500	9400		161	175	1	Security	Security	Curated list of tools for incident response
+kmaasrud/awesome-obsidian	9500	topic	9500			162	176	0			Collection of useful resources for the Obsidian note-taking app
+yzhao062/anomaly-detection-resources	9400	topic	9400			163	177	0			Books, papers, videos, and toolboxes on anomaly detection
+emacs-tw/awesome-emacs	9400	topic	9400			164		1	Editors		Community-driven list of useful Emacs packages and tools
+AdrienTorris/awesome-blazor	9400	topic	9400	9400		165	178	1	Front-End Development	TOP50	Resources for Blazor, a .NET web framework using WebAssembly
+NirantK/awesome-project-ideas	9400	topic	9400			166	179	0			Curated ML, NLP, vision, and recommender system project ideas
+lauris/awesome-scala	9300	topic	9300	9000		167	181	1	Programming Languages	Programming Languages	Community-driven list of useful Scala libraries and tools
+nhivp/Awesome-Embedded	9300	topic	9300				180	0			Curated list of embedded programming resources
+ai-collection/ai-collection	9200	topic	9200	5600		168	182	0		Miscellaneous	Landscape collection of generative AI applications
+mendel5/alternative-front-ends	9200	topic	9200	4500		169	183	0		Miscellaneous	Open source alternative front-ends for popular internet platforms
+igorbarinov/awesome-data-engineering	9200	topic	9200	9000		170	184	1	Big Data	Big Data	Curated list of data engineering tools for software developers
+davidsonfellipe/awesome-wpo	9100	topic	9100	9000		171	185	1	Front-End Development	Front-End Development	Curated list of web performance optimization resources
+ai-boost/awesome-prompts	9100	topic	9100			172	186	0			Curated ChatGPT prompts from top GPTs, plus prompt engineering papers
+WangRongsheng/awesome-LLM-resources	9000	topic	9000			173		0			Summary of LLM resources covering agents, training, inference, and more (Chinese/English)
+cipher387/osint_stuff_tool_collection	9000	topic	9000			174	187	0			Collection of several hundred online tools for OSINT
+Freelander/Android_Data	9000	topic	9000				188	0			Android learning materials for aspiring developers
+LAMDA-NeSy/Research-Starter-Kit	8800	topic	8800			175	189	0			Guide to the basic process of doing research and writing papers (Chinese)
+amitshekhariitbhu/Android-Debug-Database	8700	topic	8700				190	0			Library for debugging Android databases and shared preferences
+frenck/awesome-home-assistant	8600	topic	8600	8600		176	192	1	Platforms	TOP50	Curated list of Home Assistant resources
+detailyang/awesome-cheatsheet	8600	topic	8600				191	0			Collection of cheatsheets
+grpc-ecosystem/awesome-grpc	8400	topic	8400			177	193	0			Curated list of useful gRPC resources
+kitspace/awesome-electronics	8300	topic	8300	8100			194	1	Hardware	Hardware	Curated resources for electronics engineers and hobbyists
+mmccaff/PlacesToPostYourStartup	8200	topic	8200	6900		178	196	1	Business	Business	Compiled links for finding places to post a startup to get beta users
+cporter202/API-mega-list	8200	topic	8200			179		0			Large collection of APIs for building applications
+rust-embedded/awesome-embedded-rust	8200	topic	8200	8100		180	197	0		Programming Languages	Curated resources for embedded and low-level Rust development
+jamez-bondos/awesome-gpt4o-images	8200	topic	8200			181		0			Curated collection of images and prompts made with GPT-4o and gpt-image-1
+samber/awesome-prometheus-alerts	8200	topic	8200				195	0			Collection of Prometheus alerting rules
+tauri-apps/awesome-tauri	8100	topic	8100			182	198	0			Resources, apps, and plugins for the Tauri framework
+bnb/awesome-developer-streams	8000	topic	8000			183	199	0			Developers who stream, across Twitch, YouTube, and similar platforms
+WenyuChiou/awesome-agentic-ai-zh	8000	topic	8000			184		0			Trilingual learning roadmap for agentic AI with curated resources
+Axorax/awesome-free-apps	8000	topic	8000			185	200	0			Curated list of free apps for PC and mobile
+JoseDeFreitas/awesome-youtubers	7900	topic	7900			186	201	1	Learn		YouTubers who teach technology topics
+jakejarvis/awesome-shodan-queries	7800	topic	7800			187	202	0			Collection of interesting Shodan search queries
+reHackable/awesome-reMarkable	7800	topic	7800			188	203	0			Projects related to the reMarkable tablet
+linsa-io/books	7700	topic	7700			189	205	0			Curated list of books
+0xInfection/Awesome-WAF	7700	topic	7700			190	206	0			Web Application Firewall resources from a security perspective
+thangchung/clean-code-dotnet	7700	topic	7700				204	0			Clean Code concepts and tools adapted for .NET
+agmmnn/awesome-blender	7500	topic	7500			191	207	0			Blender add-ons, tools, tutorials, and 3D resources
+andrew--r/frontend-case-studies	7400	topic	7400			192		0			Talks and articles on real-world frontend development
+liuchong/awesome-roadmaps	7400	topic	7400	7400		193	208	1	Learn	TOP50	Curated list of roadmaps
+Haxxnet/Compose-Examples	7400	topic	7400				209	0			Docker Compose examples for self-hosted FOSS and proprietary projects
+markodenic/web-development-resources	7400	tal		7400				0		Front-End Development	Awesome Web Development Resources.
+shekhargulati/52-technologies-in-2016	7300	topic	7300			194	211	0			Blog series learning one new technology each week in 2016
+BruceDone/awesome-crawler	7300	topic	7300				210	0			Web crawler and spider projects in various languages
+atinfo/awesome-test-automation	7200	topic	7200			195	212	0			Test automation frameworks, tools, and libraries across languages
+sobolevn/awesome-cryptography	7200	topic	7200	6300		196	213	1	Computer Science	Computer Science	Cryptography resources and links
+ChromeDevTools/awesome-chrome-devtools	7200	topic	7200	7200		197	214	1	Front-End Development	Front-End Development	Tooling and resources for Chrome DevTools and its protocol
+AllThingsSmitty/must-watch-javascript	7100	topic	7100			198		0			JavaScript talks on functional programming, performance, frameworks, and more
+EdoStra/Marketing-for-Founders	7100	topic	7100			199	215	0			Marketing resources for early-stage SaaS, apps, and startups
+RyanNielson/awesome-unity	7100	topic	7100	6700		200		0		Gaming	Unity assets, resources, and more
+likedan/Awesome-CoreML-Models	7100	topic	7100	6700		201	216	1	Computer Science	Computer Science	Large collection of Core ML models for iOS 11+
+bkrem/awesome-solidity	7100	topic	7100			202	217	0			Curated Solidity resources, libraries, and tools
+arslanbilal/git-cheat-sheet	7100	tal		7100				1	Development Environment	Development Environment	:octocat: git and git flow cheat sheet
+sottlmarek/DevSecOps	6900	topic	6900			203	218	0			Broad DevSecOps reference library
+piotrkulpinski/open-source-alternatives	6800	topic	6800			204	220	0			Open source alternatives to proprietary software
+imfunniee/gitfolio	6800	topic	6800				219	0			Personal website and blog generator for GitHub users
+humhub/humhub	6800	topic	6800				221	0			Open-source enterprise social network
+georgezouq/awesome-ai-in-finance	6700	topic	6700	6500		205	222	1	Computer Science	Computer Science	LLMs, deep learning methods, and tools for financial markets
+dastergon/awesome-chaos-engineering	6700	topic	6700			206	223	0			Chaos engineering resources
+src-d/awesome-machine-learning-on-source-code	6700	topic	6700			207	224	0			Links and papers on machine learning applied to source code
+pditommaso/awesome-pipeline	6600	topic	6600			208		0			Pipeline toolkits, inspired by Awesome Sysadmin
+shuaibiyy/awesome-tf	6600	topic	6600			209	225	0			Resources for Terraform and OpenTofu
+facundoolano/software-papers	6600	topic	6600			210		0			Papers for software engineers
+sirredbeard/awesome-wsl	6600	topic	6600	6600		211	227	0		Development Environment	Resources for Windows Subsystem for Linux
+decalage2/awesome-security-hardening	6600	topic	6600			212		0			Security hardening guides, tools, and resources
+chubin/awesome-console-services	6600	topic	6600			213	228	0			Console services reachable over network protocols
+shockerli/go-awesome	6600	topic	6600				226	0			Curated Go language resources (Chinese-language list)
+shuaibiyy/awesome-terraform	6600	tal		6600				1	Back-End Development	Back-End Development	Curated list of resources on HashiCorp's Terraform and OpenTofu
+faridrashidi/kaggle-solutions	6500	topic	6500			214		0			Collection of Kaggle competition solutions and ideas
+chrissimpkins/codeface	6500	topic	6500	5800		215	229	1	Media	Media	Typefaces for source code
+qinwf/awesome-R	6500	topic	6500	6400		216	230	1	Programming Languages	Programming Languages	R packages, frameworks, and software
+mahseema/awesome-ai-tools	6500	topic	6500	4100		217	231	0		Computer Science	Top artificial intelligence tools
+sindresorhus/awesome-chatgpt	6500	topic	6500			218	232	1	Miscellaneous		Resources for ChatGPT
+reorx/awesome-chatgpt-api	6400	topic	6400			219	233	0			Apps and tools that let users supply their own ChatGPT API keys
+vavkamil/awesome-bugbounty-tools	6400	topic	6400			220	234	0			Bug bounty tools
+VoltAgent/awesome-codex-subagents	6400	topic	6400			221		0			Collection of 130+ specialized subagents for Codex across many development tasks
+XiaomingX/ai-money-maker-handbook	6400	topic	6400				235	0			Guide to AI side-hustle income (Chinese, with English version)
+paragonie/awesome-appsec	6400	tal		6400				1	Security	Miscellaneous	A curated list of resources for learning about application security
+heilcheng/awesome-agent-skills	6300	topic	6300			222	236	0			Tutorials, guides, and directories of agent skills
+ikaijua/Awesome-AITools	6200	topic	6200			223	237	0			Curated AI-related utilities; accepts pull requests (bilingual, Chinese and English)
+Vedenin/useful-java-links	6200	topic	6200			224	238	0			"Useful Java frameworks, libraries, software, and ""hello world"" examples"
+ebertti/awesome-telegram	6200	topic	6200			225		0			Groups, channels, bots, and libraries for Telegram
+JanVanRyswyck/awesome-talks	6200	tal		6200				1	Theory	Theory	Awesome online talks and screencasts
+EwingYangs/awesome-open-gpt	6100	topic	6100			226	241	0			Open-source projects related to GPT (bilingual, Chinese and English)
+xxh/xxh	6100	topic	6100				239	0			Brings your preferred shell to remote machines over SSH
+race2infinity/The-Documentation-Compendium	6100	topic	6100				240	0			README templates and documentation-writing tips
+tensorchord/Awesome-LLMOps	6000	topic	6000			227		0			Curated list of LLMOps tools for developers
+stoeffel/awesome-fp-js	6000	tal		6000				1	Programming Languages	Programming Languages	:sunglasses: A curated list of awesome functional programming stuff in js
+secfigo/Awesome-Fuzzing	5900	topic	5900			228	242	0			Fuzzing resources: books, courses, videos, tools, and practice targets
+Wolg/awesome-swift	5900	topic	5900			229	245	0			Curated Swift frameworks, libraries, and software
+0xNyk/awesome-hermes-agent	5900	topic	5900			230	246	0			Directory of skills, plugins, tools, and guides for Nous Research's Hermes Agent
+PanXProject/awesome-certificates	5900	topic	5900			231	247	1	Learn		Curated free courses offering certificates in IT, CS, design, and business
+korfuri/awesome-monorepo	5900	topic	5900			232	248	0			Monorepo tools, software, and architectures
+micromata/awesome-javascript-learning	5900	topic	5900	5400		233	249	1	Learn	Learn	Small, curated set of JavaScript learning resources
+amitshekhariitbhu/Fast-Android-Networking	5900	topic	5900				243	0			Android networking library with HTTP/2 support
+terrakok/kmp-awesome	5900	topic	5900				244	0			Curated list of Kotlin Multiplatform libraries, tools, and more
+nao-sabemos-js/You-Dont-Know-JS	5900	topic	5900				250	0			Portuguese (PT-BR) translation of the JS book series
+AboutRSS/ALL-about-RSS	5900	tal		5900				0		Miscellaneous	A list of RSS related stuff: tools, services, communities and tutorials, etc.
+hsavit1/Awesome-Swift-Education	5800	topic	5800			234	253	1	Programming Languages		Resources for learning Swift
+lauragift21/awesome-learning-resources	5800	topic	5800			235		0			Resources on web development
+showlab/Awesome-Video-Diffusion	5800	topic	5800				251	0			Curated recent diffusion models for video generation and editing
+appcypher/awesome-mcp-servers	5800	topic	5800				252	0			Curated list of Model Context Protocol (MCP) servers
+opendigg/awesome-github-android-ui	5800	topic	5800				254	0			Collection of open-source Android UI libraries (description in Chinese)
+onlurking/awesome-infosec	5800	topic	5800				255	0			Curated list of infosec courses and training resources
+OlivierLaflamme/Cheatsheet-God	5700	topic	5700				256	0			Penetration testing reference bank and OSCP/PTP/PTX cheatsheet
+SecWiki/linux-kernel-exploits	5700	topic	5700				257	0			Collection of Linux kernel privilege-escalation exploits (description in Chinese)
+redecentralize/alternative-internet	5700	tal		5700				0		Decentralized Systems	A collection of interesting new networks and tech aiming at decentralisation (in some form).
+awesome-css-group/awesome-css	5600	topic	5600	5000		236	258	1	Front-End Development	Front-End Development	Curated CSS resources
+fabacab/awesome-cybersecurity-blueteam	5600	topic	5600	4100		237		1	Security	Security	Resources, tools, and references for cybersecurity blue teams
+sshuair/awesome-gis	5600	topic	5600				259	0			Geospatial sources: mapping and analysis tools, data, communities, and courses
+nuxt/awesome	5500	topic	5500			238	260	0			Curated list of Nuxt.js resources
+nix-community/awesome-nix	5500	topic	5500	5300		239	261	1	Platforms	Platforms	Curated resources from the Nix community
+awesome-android-root/awesome-android-root	5500	topic	5500			240	262	0			Root apps, Magisk, KernelSU, LSPosed modules, and rooting guides
+zhaoxin94/awesome-domain-adaptation	5500	topic	5500			241		0			Curated collection of resources on domain adaptation
+onqtam/awesome-cmake	5400	topic	5400	5400		242	263	1	Programming Languages	Programming Languages	Curated list of CMake resources, scripts, modules, and examples
+janikvonrotz/awesome-powershell	5400	topic	5400	3600		243	264	0		Development Environment	PowerShell resources; the repo has moved to Codeberg
+hyprland-community/awesome-hyprland	5400	topic	5400			244	265	0			Awesome list for Hyprland
+filipecalegario/awesome-vibe-coding	5400	topic	5400			245	266	0			Curated references on collaborating with AI to write code
+mgramin/awesome-db-tools	5300	topic	5300	5300		246	267	1	Databases	Databases	Tools that make working with databases easier
+sacridini/Awesome-Geospatial	5300	topic	5300			247	268	0			Long list of geospatial tools and resources
+wangzhe3224/awesome-systematic-trading	5300	topic	5300			248		0			Libraries, packages, and resources for systematic trading
+kelvins/awesome-mlops	5300	topic	5300				269	0			Curated list of MLOps tools
+cheatsnake/backend-cheats	5200	topic	5200			249	270	0			Reference document for backend developers
+nyas1/Material-You-app-list	5200	topic	5200			250	271	0			Collection of apps that support Material You design
+yinggaozhen/awesome-go-cn	5200	topic	5200			251	272	0			Chinese-language collection of Go frameworks, libraries, and software
+rajnandan1/kener	5200	topic	5200			252		0			Status page software
+lerrua/remote-jobs-brazil	5200	topic	5200			253		0			List of companies offering remote work in Brazil
+qmonnet/awesome-ebpf	5200	topic	5200			254	273	0			Curated list of eBPF-related projects
+inputsh/awesome-linux	5200	topic	5200	3500		255	274	0		Platforms	List of projects and resources for Linux
+sindresorhus/promise-fun	5200	topic	5200			256	275	0			Promise packages, patterns, chat, and tutorials
+joho/awesome-code-review	5200	topic	5200	4300		257	276	1	Work	Work	Code review resources: articles, papers, tools
+xlucn/oh-my-foss-android	5200	topic	5200				277	0			Personal collection of practical open-source Android apps
+timofurrer/awesome-asyncio	5100	topic	5100	4900		258	278	1	Programming Languages	Programming Languages	Curated list of Python asyncio frameworks, libraries, and resources
+sindresorhus/awesome-scifi	5100	topic	5100	4700		259	279	1	Entertainment	Entertainment	Recommended science fiction
+hahwul/WebHackersWeapons	5100	topic	5100			260		0			Collection of tools used by web hackers
+jorgebucaran/awsm.fish	5100	topic	5100	4800			280	1	Development Environment	Development Environment	Curated prompts, plugins, and other Fish shell resources
+dzharii/awesome-elasticsearch	5100	topic	5100				281	0			Curated resources about Elasticsearch: articles, videos, blogs, tips, and use cases
+dzharii/awesome-typescript	5100	tal		5100				0		Front-End Development	A collection of awesome TypeScript resources for client-side and server-side development. Write your awesome JavaScript in TypeScript
+willianjusten/awesome-audio-visualization	5100	tal		5100				1	Media	Media	A curated list about Audio Visualization.
+cmhungsteve/Awesome-Transformer-Attention	5000	topic	5000			261		0			Comprehensive paper list on vision transformers and attention, with code and related sites
+ai-boost/awesome-harness-engineering	4900	topic	4900			262		0			Resources on AI agent harness engineering: tools, evals, memory, MCP, permissions, and orchestration
+hemanth/awesome-pwa	4900	topic	4900			263		0			Curated Progressive Web App resources, tools, and articles
+alvinreal/awesome-opensource-ai	4900	topic	4900			264	282	0			Curated truly open-source AI projects, models, tools, and infrastructure, updated daily
+may215/awesome-termux-hacking	4900	topic	4900			265		0			Curated list of Termux hacking tools
+wbkd/awesome-d3	4900	tal		4900				1	Front-End Development	Front-End Development	A list of D3 libraries, plugins and utilities
+karlhorky/learn-to-program	4900	tal		4900				1	Learn	Learn	Educational resources to learn to program (Foundation in Web Development)
+zoidbergwill/awesome-ebpf	4900	tal		4900				1	Platforms	Platforms	A curated list of awesome projects related to eBPF.
+nikolaydubina/go-recipes	4800	topic	4800	4800		266	283	0		Programming Languages	Tools for Go projects
+nichtdax/awesome-totally-open-chatgpt	4800	topic	4800			267	284	0			Open alternatives to ChatGPT
+dustinspecker/awesome-eslint	4800	topic	4800	4800		268	286	1	Programming Languages	TOP50	ESLint plugins, configs, and related tools
+0x4D31/awesome-threat-detection	4800	topic	4800			269	287	0			Curated threat detection and threat hunting resources
+brycewang-stanford/Auto-Empirical-Research-Skills	4800	topic	4800			270		0			Collection of agent skills for empirical research across eight social science fields
+sindresorhus/awesome-npm	4800	topic	4800	4700		271	288	1	Programming Languages	Programming Languages	npm resources and tips
+INTERMT/Awesome-PyTorch-Chinese	4800	topic	4800				285	0			Comprehensive collection of PyTorch learning resources (in Chinese)
+gostor/awesome-go-storage	4700	topic	4700			272	289	0			Go storage projects and libraries
+jaredthecoder/awesome-vehicle-security	4700	topic	4700	4300		273	290	1	Security	Security	Resources for learning about vehicle security and car hacking
+xixu-me/awesome-persona-distill-skills	4700	topic	4700			274	291	0			Agent skills focused on people, relationships, memorial scenes, and methodology
+markusschanta/awesome-jupyter	4700	topic	4700	4700		275	292	1	Miscellaneous	Miscellaneous	Jupyter projects, libraries, and resources
+r0f1/datascience	4700	topic	4700			276	293	0			Python resources for data science
+webpack-contrib/awesome-webpack	4700	topic	4700			277	294	0			Webpack resources, libraries, and tools
+willianjusten/awesome-svg	4700	topic	4700			278		1	Front-End Development		Curated list of SVG resources
+Naereen/badges	4700	topic	4700				295	0			Markdown code for small badges (shields.io, forthebadge.com, etc.)
+lukasmasuch/best-of-python	4600	topic	4600			279	296	0			Ranked list of Python open-source libraries and tools, updated weekly
+phodal/awesome-iot	4600	topic	4600			280		0			IoT frameworks, libraries, OSes, and platforms
+ipfs/awesome-ipfs	4600	topic	4600	4500		281	297	1	Platforms	Platforms	Community list of IPFS projects, apps, tools, and pinning services
+Astrosp/Awesome-OSINT-List	4600	topic	4600			282		0			Collection of OSINT tools for security researchers and bug bounty hunters
+xianyu110/awesome-openclaw-tutorial	4600	topic	4600			283	298	0			Chinese OpenClaw tutorial covering setup, configuration, Skills, and Feishu integration
+fosslife/awesome-ricing	4600	topic	4600			284	299	0			Curated tools and resources for customizing Linux desktops
+ityouknow/awesome-spring-boot	4600	topic	4600				300	0			Spring Boot resources
+luban-agi/Awesome-AIGC-Tutorials	4600	topic	4600				301	0			Curated tutorials and resources for Large Language Models, AI Painting, and more.
+gbdev/awesome-gbdev	4500	topic	4500	4500		285	302	1	Gaming	Gaming	Game Boy development resources, including tools, docs, emulators, and ROMs
+love2d-community/awesome-love2d	4500	topic	4500	4500		286	303	1	Gaming	Gaming	Curated LÖVE (Love2D) libraries and resources
+HQarroum/awesome-iot	4500	topic	4500	4500		287	304	1	Hardware	TOP50	Curated Internet of Things projects and resources
+zudochkin/awesome-newsletters	4500	topic	4500	4500		288	305	1	Entertainment	Entertainment	List of newsletters
+tortuvshin/open-apps	4500	topic	4500			289		0			Self-refreshing directory of open-source application codebases
+baba-s/awesome-unity-open-source-on-github	4500	topic	4500			290		0			Categorized collection of 800+ Unity open-source projects on GitHub
+andrew--r/channels	4500	topic	4500				306	0			📺 A collection of useful YouTube channels for javascript developers and web designers
+jeffreytse/zsh-vi-mode	4500	topic	4500				307	0			💻 A better and friendly vi(vim) mode plugin for ZSH.
+parro-it/awesome-micro-npm-packages	4500	tal		4500				1	Programming Languages	Programming Languages	A curated list of small, focused npm packages.
+AlexAnys/awesome-openclaw-usecases-zh	4400	topic	4400			291		0			Chinese collection of 50 OpenClaw use cases, adapted for domestic contexts
+hal9ai/awesome-dataviz	4400	topic	4400			292		0			Curated data visualization libraries and resources
+Ravencentric/awesome-arr	4400	topic	4400			293	308	0			Collection of *arr media-automation tools and related resources
+wmariuss/awesome-devops	4400	topic	4400			294	309	0			Curated DevOps platforms, tools, practices, and resources
+openMVG/awesome_3DReconstruction_list	4400	topic	4400			295		0			Papers and resources on 3D reconstruction from images
+HumanSignal/awesome-data-labeling	4400	topic	4400			296	310	0			Curated data labeling and annotation tools
+agarrharr/awesome-macos-screensavers	4400	topic	4400	4200		297	311	1	Platforms	Miscellaneous	Curated screensavers for macOS
+denolib/awesome-deno	4400	topic	4400	4400		298	312	1	Platforms	Platforms	Curated resources related to Deno
+swapagarwal/swag-for-dev	4400	topic	4400			299	313	0			Swag and merchandise opportunities for developers
+uraimo/Awesome-Swift-Playgrounds	4400	topic	4400	4400		300	314	1	Programming Languages	Programming Languages	Curated list of Swift Playgrounds resources
+coreb1t/awesome-pentest-cheat-sheets	4400	topic	4400				315	0			Collection of the cheat sheets useful for pentesting
+QianMo/Awesome-Unity-Shader	4400	topic	4400				316	0			⛵ 关于炫酷的Unity3D Shader | About Cool Unity3D Shaders
+tortuvshin/open-source-flutter-apps	4400	tal		4400				0		TOP50	A curated, self-refreshing directory of real open-source application codebases - built for developers who want to learn from production apps and find projects worth contributing to.
+javierluraschi/awesome-dataviz	4400	tal		4400				1	Miscellaneous	Miscellaneous	:chart_with_upwards_trend:  A curated list of awesome data visualization libraries and resources.
+danielecook/Awesome-Bioinformatics	4300	topic	4300	4300		301	317	1	Miscellaneous	Miscellaneous	A curated list of awesome Bioinformatics libraries and software.
+AllThingsSmitty/jquery-tips-everyone-should-know	4300	topic	4300	4300		302		1	Front-End Development	Front-End Development	A collection of tips to help up your jQuery game. 🎮
+pedramamini/awesome-yara	4300	topic	4300			303	318	0			A curated list of awesome YARA rules, tools, and people.
+giuliacassara/awesome-social-engineering	4300	topic	4300			304		0			A curated list of awesome social engineering resources.
+yvoronoy/awesome-english	4300	topic	4300			305	319	0			A collection of awesome study resources for learners of English.
+newTendermint/awesome-analytics	4300	tal		4300				0		TOP50	A curated list of analytics frameworks, software and other tools.
+tomhuang12/awesome-k8s-resources	4200	topic	4200			306		0			A curated list of awesome Kubernetes tools and resources.
+0xor0ne/awesome-list	4200	topic	4200			307	320	0			Cybersecurity oriented awesome list
+herrbischoff/awesome-command-line-apps	4200	topic	4200			308	321	0			🐚 Use your terminal shell to do awesome things.
+DopplerHQ/awesome-bots	4200	topic	4200			309	322	0			The most awesome list about bots ⭐️🤖
+p-ranav/awesome-hpp	4200	topic	4200			310		0			A curated list of awesome header-only C++ libraries
+anu0012/awesome-computer-science-opportunities	4200	topic	4200			311	324	0			An awesome list of events and fellowship opportunities for Computer Science students
+killop/anything_about_game	4200	topic	4200			312		0			A wonderful list of Game Development resources.
+trinib/Linux-Bash-Commands	4200	topic	4200			313	326	0			Ultimate list of Linux bash commands, cheatsheets and resources
+dalinvip/Awesome-ChatGPT	4200	topic	4200				323	0			Chinese-language collection of ChatGPT learning resources, continually updated
+ligurio/awesome-ci	4200	topic	4200	4200			325	0		Development Environment	List of continuous integration services and tools
+elyase/awesome-gpt3	4200	tal		4200				0		GPT-3	
+kiloreux/awesome-robotics	4200	tal		4200				1	Hardware	Hardware	A list of awesome Robotics resources
+lirantal/nodejs-cli-apps-best-practices	4100	topic	4100			314	327	0			The largest Node.js CLI Apps best practices list ✨
+briatte/awesome-network-analysis	4100	topic	4100	4100		315	328	1	Big Data	Networking	A curated list of awesome network analysis resources.
+Zheaoli/awesome-coins	4100	topic	4100	3600		316	329	1	Miscellaneous	Miscellaneous	₿ A guide (for humans!) to cryto-currencies and their algos.
+thedaviddias/Resources-Front-End-Beginner	4100	topic	4100			317		0			💯 The most essential list of resources for Front-End beginners (🇺🇸 & 🇫🇷)
+grananqvist/Awesome-Quant-Machine-Learning-Trading	4100	topic	4100			318	330	0			Quant/Algorithm trading resources with an emphasis on Machine Learning
+jphall663/awesome-machine-learning-interpretability	4100	topic	4100			319	331	0			A curated list of awesome responsible machine learning resources.
+semlinker/awesome-typescript	4100	topic	4100			320		0			A collection of awesome TypeScript resources for client-side and server-side development
+0voice/Campus_recruitment_interview_questions	4100	topic	4100				332	0			Chinese-language collection of campus recruiting interview questions and experiences
+jinwchoi/awesome-action-recognition	4000	topic	4000			321	333	0			Curated list of action recognition and related area resources
+kakoni/awesome-healthcare	4000	topic	4000	3800		322	334	1	Health and Social Science	Health and Social Science	Open source healthcare software, libraries, tools, and resources
+mergisi/awesome-openclaw-agents	4000	topic	4000			323	335	0			162 production-ready AI agent templates for OpenClaw
+JefMari/awesome-wysiwyg-editors	4000	topic	4000			324	337	0			Curated list of WYSIWYG editors
+gamedev-skills/awesome-gamedev-agent-skills	4000	topic	4000			325		0			74 game-dev skills for AI coding agents across many engines
+anmol098/waka-readme-stats	4000	topic	4000				336	0			GitHub Action that adds developer metrics to a profile README
+stackshareio/awesome-stacks	3900	topic	3900	3300		326	338	1	Miscellaneous	Miscellaneous	Curated list of tech stacks for different applications and features
+unicodeveloper/awesome-opensource-apps	3900	topic	3900	3900		327	339	0		Miscellaneous	Curated list of open source web and mobile applications
+gramantin/awesome-rails	3900	topic	3900	3900		328	340	1	Back-End Development	Back-End Development	Curated list of resources related to Ruby on Rails
+jghoman/awesome-apache-airflow	3900	topic	3900			329	341	0			Curated list of resources about Apache Airflow
+Ly0n/awesome-robotic-tooling	3900	topic	3900			330	343	0			Tooling for robotic development in C++ and Python, with ROS and autonomous driving
+seandavi/awesome-single-cell	3900	topic	3900			331		0			Software packages and data resources for single-cell analysis
+micromata/awesome-css-learning	3900	topic	3900	2400		332	347	1	Learn	Learn	Small list of the best CSS learning resources
+arainho/awesome-api-security	3900	topic	3900			333		0			Collection of API security tools and resources, focused on open source
+youneslaaroussi/ui-buttons	3900	topic	3900			334	348	0			100 modern CSS button styles
+inputsh/awesome-c	3900	topic	3900	3000		335	349	0		Programming Languages	Continued development of an awesome-c list
+marmelab/awesome-rest	3900	topic	3900	3900			342	1	Miscellaneous	Miscellaneous	Community-maintained resources on REST API design, development, testing, and performance
+cs341-illinois/coursebook	3900	topic	3900				344	0			Open-source introductory systems programming textbook for the University of Illinois
+JCTools/JCTools	3900	topic	3900				345	0			
+hanickadot/compile-time-regular-expressions	3900	topic	3900				346	0			Compile-time regular expression library for C++
+addyosmani/es6-tools	3900	tal		3900				1	Front-End Development	Front-End Development	An aggregation of tooling for using ES6 today
+fcambus/nginx-resources	3800	topic	3800	3800		336	350	1	Back-End Development	Back-End Development	Resources covering Nginx, Nginx + Lua, OpenResty, and Tengine
+ivbeg/awesome-status-pages	3800	topic	3800			337	351	0			Status page software, services, and public status pages of major companies
+husnainfareed/awesome-ethical-hacking-resources	3800	topic	3800			338	352	0			Resources for learning ethical hacking and penetration testing
+denji/awesome-http-benchmark	3800	topic	3800			339	353	0			HTTP(S) benchmark, testing, and debugging tools, plus REST API resources
+myles/awesome-static-generators	3800	topic	3800			340		0			Curated list of static website generators
+liyupi/free-programming-resources	3800	topic	3800				354	0			Large Chinese-language collection of free programming learning resources, tutorials, and interview materials
+eosphoros-ai/Awesome-Text2SQL	3800	topic	3800				355	0			Tutorials and resources on LLMs and Text2SQL and related text-to-query tasks
+brootware/awesome-cyber-security-university	3700	topic	3700	3600		341	356	1	Security	Security	Free cybersecurity education resources and curriculum
+xyflow/awesome-node-based-uis	3700	topic	3700			342		0			Resources about node-based user interfaces
+krishnakumarsekar/awesome-quantum-machine-learning	3700	topic	3700			343	358	0			Quantum machine learning basics, algorithms, study materials, and projects
+sporto/awesome-elm	3700	topic	3700	3700		344	359	1	Programming Languages	Programming Languages	Elm tutorials, libraries, and software
+oven-sh/awesome-bun	3700	topic	3700			345	360	0			Resources related to the Bun JavaScript runtime
+dreamingechoes/awesome-mental-health	3700	topic	3700	3200		346	361	1	Health and Social Science	Health and Social Science	Mental health articles, websites, and resources for software workers
+atfortes/Awesome-LLM-Reasoning	3700	topic	3700				357	0			Papers and resources on LLM reasoning, from chain-of-thought prompting to recent reasoning models
+vinjn/awesome-vulkan	3700	tal		3700				1	Miscellaneous	Miscellaneous	Awesome Vulkan ecosystem
+yjjnls/awesome-blockchain	3600	topic	3600			347	363	0			Resources for blockchain development and applications
+mhxion/awesome-discord-communities	3600	topic	3600	3400		348	364	1	Gaming	Gaming	Discord communities for programmers
+krzjoa/awesome-python-data-science	3600	topic	3600	3400		349	365	1	Programming Languages	Programming Languages	Python data science software
+jdorfman/awesome-json-datasets	3600	topic	3600	3600		350	366	0		Miscellaneous	JSON datasets that don't require authentication
+qjcg/awesome-typst	3600	topic	3600			351	367	0			Links for the Typst typesetting system
+web-padawan/awesome-web-components	3600	topic	3600			352	369	1	Front-End Development		Web Components resources
+pawl/awesome-etl	3600	topic	3600			353	370	0			ETL frameworks, libraries, and software
+dawdle-deer/awesome-learn-gamedev	3600	topic	3600			354	371	0			Game development learning resources
+awesome-scripts/awesome-userscripts	3600	topic	3600			355	374	0			Userscripts for browsers
+vaib25vicky/awesome-mobile-security	3600	topic	3600			356	373	0			Android and iOS security tools and resources
+veelenga/awesome-crystal	3600	topic	3600	3600		357	375	1	Programming Languages	TOP50	Crystal libraries, tools, frameworks, and software
+V33RU/awesome-connected-things-sec	3600	topic	3600			358	376	0			Security resources for connected devices
+filipecalegario/awesome-generative-ai	3600	topic	3600			359	377	0			Generative AI tools, models, and references
+gmh5225/awesome-game-security	3600	topic	3600				362	0			awesome game security [Welcome to PR]
+D3Ext/aesthetic-wallpapers	3600	topic	3600				368	0			A collection of aesthetic wallpapers
+awesome-devblog/awesome-devblog	3600	topic	3600				372	0			Korean list of domestic developer/tech blogs (real names only).
+dweinstein/awesome-frida	3600	topic	3600				378	0			A curated list of Frida resources.
+mateusortiz/webcomponents-the-right-way	3600	tal		3600				0		Front-End Development	A curated list of awesome Web Components resources.
+bvolpato/awesome-userscripts	3600	tal		3600				1	Miscellaneous	Miscellaneous	📖  A curated list of Awesome Userscripts.
+xgrommx/awesome-functional-programming	3500	topic	3500			360		0			Articles and videos about functional programming
+styfle/awesome-online-ide	3500	topic	3500			361	380	0			Curated list of online development environments
+iDoka/awesome-canbus	3500	topic	3500			362	381	0			CAN bus tools, hardware, and resources for security researchers and automotive enthusiasts
+0x4D31/awesome-oscp	3500	topic	3500			363		0			Curated OSCP certification study resources
+knightnemo/Awesome-World-Models	3500	topic	3500			364		0			Curated research collection on world modeling
+styled-components/awesome-styled-components	3500	topic	3500			365	382	0			Curated styled-components resources
+qazbnm456/awesome-cve-poc	3500	topic	3500				379	0			A curated list of CVE PoCs.
+Anil-matcha/awesome-open-source-saas-alternatives	3400	topic	3400			366	384	0			Open-source alternatives to paid SaaS products, with licenses and star counts
+aviaryan/awesome-no-login-web-apps	3400	topic	3400	3400		367	386	1	Miscellaneous	Miscellaneous	Free web apps that work without logging in
+ai-boost/Awesome-GPTs	3400	topic	3400			368	387	0			Curated list of custom GPTs
+jyguyomarch/awesome-productivity	3400	topic	3400	1900		369	388	1	Work	Work	Curated productivity resources
+guanguans/favorite-link	3400	topic	3400			370	389	0			Daily-updated collection of favorite open-source projects (description in Chinese)
+codefuse-ai/Awesome-Code-LLM	3400	topic	3400				383	0			Curated survey of language modeling research for code, with related datasets
+fantastic-admin/basic	3400	topic	3400				385	0			Admin system framework for AI-assisted coding, compatible with PC and mobile
+AchoArnold/discount-for-student-dev	3400	tal		3400				1	Miscellaneous	TOP50	This is list of discounts on software (SaaS, PaaS, IaaS, etc.) and other offerings for developers who are students
+mmcgrana/services-engineering	3400	tal		3400				1	Miscellaneous	Miscellaneous	A reading list for services engineering, with a focus on cloud infrastructure services
+Keycapsss/awesome-mechanical-keyboard	3300	topic	3300			371	390	0			Open-source mechanical keyboard resources
+bergside/awesome-design-skills	3300	topic	3300			372	391	0			Collection of 67 design skill files for AI coding tools
+Meirtz/Awesome-Context-Engineering	3300	topic	3300			373		0			Survey of context engineering, covering papers, frameworks, and implementation guides
+taishi-i/awesome-ChatGPT-repositories	3300	topic	3300			374	392	0			Curated open-source repositories related to ChatGPT, the OpenAI API, and Codex
+gdcmarinho/awesome-project	3300	topic	3300			375	393	0			Curated links for project development
+michelpereira/awesome-open-source-games	3300	topic	3300	3200		376	394	1	Gaming	TOP50	Games with publicly available source code
+stefanbuck/awesome-browser-extensions-for-github	3300	topic	3300	3000		377	395	1	Development Environment	Development Environment	Browser extensions that enhance GitHub
+gunnarmorling/awesome-opensource-data-engineering	3300	topic	3300			378		0			Open-source data engineering projects
+dangkhoasdc/awesome-ai-residency	3300	topic	3300			379		0			List of AI residency programs
+desireevl/awesome-quantum-computing	3300	topic	3300	2400		380	398	1	Computer Science	Computer Science	Learning and development resources for quantum computing
+shubhamgrg04/awesome-diagramming	3300	topic	3300			381		0			Curated collection of diagramming tools used by software engineering teams
+toplap/awesome-livecoding	3300	topic	3300			382	400	0			Resources on all things livecoding
+ChartGPU/ChartGPU	3300	topic	3300			383		0			Open source, WebGPU-based charting library
+kirang89/pycrumbs	3300	topic	3300			384		0			Collection of Python bits and bytes from around the Internet
+rguo12/awesome-causality-algorithms	3300	topic	3300				396	0			Index of algorithms for learning causality from data
+cristaloleg/go-advice	3300	topic	3300				397	0			Advice and tips for Go programming
+pawelborkar/awesome-repos	3300	topic	3300				399	0			Curated list of GitHub repositories with free resources
+filipecalegario/awesome-generative-deep-art	3300	tal		3300				0		Miscellaneous	A curated list of Generative AI tools, works, models, and references
+caesar0301/awesome-pcaptools	3300	tal		3300				1	Networking	Networking	A collection of tools developed by other researchers in the Computer Science area to process network traces. All the right reserved for the original authors.
+emijrp/awesome-awesome	3200	topic	3200			385	401	0			Curated list of awesome curated lists across many topics
+ysh329/deep-learning-model-convertor	3200	topic	3200			386		0			Converting deep learning models between different frameworks
+minar09/awesome-virtual-try-on	3200	topic	3200			387		0			Research papers, projects, code, and datasets for virtual try-on
+Calinou/awesome-gamedev	3200	topic	3200			388	406	0			Free software and free culture resources for game development (mirror)
+alfred-workflows/awesome-alfred-workflows	3200	topic	3200	3100		389	407	0		Development Environment	Curated list of Alfred workflows
+gamontal/awesome-katas	3200	topic	3200	3100		390	409	1	Miscellaneous	Miscellaneous	Curated list of code katas
+rob-med/awesome-TS-anomaly-detection	3200	topic	3200			391		0			Tools and datasets for time-series anomaly detection
+jiujuan/go-collection	3200	topic	3200			392	410	0			Go study guide, from basic syntax to microservices architecture
+Bogdanp/awesome-advent-of-code	3200	topic	3200				402	0			Resources for the yearly Advent of Code challenge
+theswiftdev/awesome-xcode-extensions	3200	topic	3200				403	0			Native Xcode extensions
+dwisiswant0/awesome-oneliner-bugbounty	3200	topic	3200				404	0			One-liner scripts and tips for bug bounty hunting
+L1Xu4n/Awesome-ChatGPT-prompts-ZH_CN	3200	topic	3200				405	0			"Guide to prompting ChatGPT into a ""catgirl"" persona (Chinese)"
+lindelof/awesome-web-effect	3200	topic	3200				408	0			Compact, polished web page visual effects
+hookmaster/frida-all-in-one	3200	topic	3200				411	0			Frida operation manual (Chinese)
+websemantics/awesome-ant-design	3200	tal		3200				1	Front-End Development	Front-End Development	A curated list of Ant Design resources and related projects. The main idea is that everyone can contribute here, so we can have a central repository of informations about Ant Design that we keep up-to-date
+LewisJEllis/awesome-lua	3200	tal		3200				1	Programming Languages	Programming Languages	A curated list of quality Lua packages and resources.
+postlight/awesome-cms	3100	topic	3100			393		0			Open and closed source content management systems
+humanetech-community/awesome-humane-tech	3100	topic	3100	2800		394		0		Health and Social Science	Solutions that improve wellbeing, freedom, and society
+jslee02/awesome-robotics-libraries	3100	topic	3100			395	414	0			Curated list of robotics libraries and software
+mjebrahimi/Awesome-Microservices-DotNet	3100	topic	3100			396	415	0			Training series, articles, courses, and tools for .NET microservices
+pico-8/awesome-PICO-8	3100	topic	3100	3100		397	416	1	Gaming	Gaming	Resources, carts, and tools for PICO-8
+0PandaDEV/awesome-windows	3100	topic	3100	2900		398	419	1	Platforms	Platforms	Curated tools and apps for Windows 10/11
+dahlia/awesome-sqlalchemy	3100	topic	3100			399	420	1	Databases		Curated tools for SQLAlchemy
+eleev/ios-learning-materials	3100	topic	3100			400		0			Articles, tutorials, and repos for iOS and Apple platforms
+weiaicunzai/awesome-image-classification	3100	topic	3100			401	421	0			Deep learning image classification papers and code
+lirantal/awesome-nodejs-security	3100	topic	3100			402	422	0			Node.js security resources
+Psyhackological/AAA	3100	topic	3100				412	0			Curated list of top open-source Android apps for privacy and freedom
+ocaml-community/awesome-ocaml	3100	topic	3100	3100			413	1	Programming Languages	Programming Languages	Curated OCaml tools, frameworks, libraries, and articles
+FreedomIntelligence/OpenClaw-Medical-Skills	3100	topic	3100				417	0			Large open-source library of medical AI skills for OpenClaw
+coderjojo/creative-profile-readme	3100	topic	3100				418	0			Collection of GitHub profile READMEs
+ahkscript/awesome-AutoHotkey	3100	tal		3100				1	Programming Languages	Programming Languages	A curated list of awesome AutoHotkey libraries, library distributions, scripts, tools and resources.
+manuzhang/awesome-streaming	3000	topic	3000	3000		403	423	1	Big Data	Big Data	Stream processing frameworks and applications
+jupyter-naas/awesome-notebooks	3000	topic	3000			404	425	0			Data and AI notebook templates, organized by tool (legacy)
+rafska/awesome-local-llm	3000	topic	3000			405	426	0			Platforms, tools, and resources for running LLMs locally
+ybayle/awesome-deep-learning-music	3000	topic	3000			406	427	0			Articles on deep learning applied to music
+Kikobeats/awesome-api	3000	topic	3000			407	429	0			Resources for designing and implementing RESTful APIs
+huyingjie/Checklist-Checklist	3000	topic	3000			408	430	0			A collection of checklists
+dakshshah96/awesome-startup-credits	3000	topic	3000			409	431	0			Companies offering free or discounted plans to eligible startups
+watson/awesome-computer-history	3000	topic	3000	2300		410	432	1	Learn	Learn	Computer history videos, documentaries, and folklore
+paperswithcode/releasing-research-code	3000	topic	3000			411		0			Tips for releasing ML research code, with NeurIPS 2020 recommendations
+bytewax/awesome-public-real-time-datasets	3000	topic	3000			412		0			Public datasets with real-time data, maintained by bytewax.io
+dictcp/awesome-git	3000	topic	3000	3000		413	433	0		TOP50	Git tools, resources, and related items
+qingsongedu/time-series-transformers-review	3000	topic	3000				424	0			Curated resources on transformers for time series
+CodyReichert/awesome-cl	3000	topic	3000	3000			428	1	Programming Languages	Programming Languages	Common Lisp frameworks, libraries, and tools
+cdleon/awesome-terminals	3000	tal		3000				0		Development Environment	Terminal Emulators
+johnjago/awesome-free-software	2900	topic	2900	1900		414	434	1	Miscellaneous	Miscellaneous	Open-source, free-as-in-freedom software
+ItIsMeCall911/Awesome-Telegram-OSINT	2900	topic	2900			415	435	0			Telegram OSINT tools, sites, and resources
+simonaronsson/awesome-software-architecture	2900	topic	2900			416	437	0			Software architecture resources
+Octoday-Hub/Embodied-AI	2900	topic	2900			417		0			Embodied AI community resources: papers, projects, courses, tools, datasets, jobs (Chinese)
+redhuntlabs/Awesome-Asset-Discovery	2900	topic	2900			418		0			Asset discovery and reconnaissance resources
+editor-js/awesome-editorjs	2900	topic	2900			419	438	0			Editor.js tools, libraries, and resources
+networktocode/awesome-network-automation	2900	topic	2900			420	439	0			Network automation resources
+luo-junyu/Awesome-Agent-Papers	2900	topic	2900			421		0			Survey of LLM agent methodology, applications, and challenges
+moul/awesome-ssh	2900	topic	2900	2000		422	440	1	Development Environment	Development Environment	Curated list of SSH resources
+eastlakeside/awesome-productivity-cn	2900	topic	2900			423		0			Chinese-language list of personal productivity resources
+plenaryapp/awesome-rss-feeds	2900	topic	2900	2300		424	441	0		Miscellaneous	Curated RSS feeds and OPML files
+razum2um/awesome-clojure	2900	topic	2900	2800		425		1	Programming Languages	Programming Languages	Curated Clojure libraries and resources
+hoya012/awesome-anomaly-detection	2900	topic	2900				436	0			Anomaly detection resources
+the-akira/Computer-Science-Resources	2800	topic	2800			426		0			Resources across key computer science areas
+i365dev/awesome-seo	2800	topic	2800			427	443	0			Curated SEO, GEO, and AI search resources
+eddwebster/football_analytics	2800	topic	2800			428	444	0			Football analytics projects, data, and curated resources
+diegocard/awesome-html5	2800	topic	2800	2100		429	445	1	Front-End Development	Front-End Development	Curated HTML5 resources
+marcobiedermann/search-engine-optimization	2800	topic	2800	2500		430	446	1	Theory	Theory	Checklist of SEO tips and techniques
+woop/awesome-quantified-self	2800	topic	2800	2700		431	447	1	Miscellaneous	Miscellaneous	Self-tracking websites, devices, apps, and platforms
+emptymalei/awesome-research	2800	topic	2800	2600		432	448	1	Miscellaneous	Miscellaneous	Curated research tools (marked deprecated)
+engineering-management/awesome-engineering-management	2800	topic	2800			433	449	0			Resources for engineering management and leadership
+linsa-io/alfred-workflows	2800	topic	2800			434	450	0			Collection of Alfred workflows
+agucova/awesome-esp	2800	topic	2800	482		435	451	1	Platforms	Platforms	Curated ESP8266/ESP32 projects and code
+cipher387/Dorks-collections-list	2800	topic	2800			436	452	0			Lists of search engine dorks
+DyegoCosta/trabalhando-remoto	2800	topic	2800			437		0			Information for remote workers (Portuguese)
+user1342/Awesome-Android-Reverse-Engineering	2800	topic	2800			438	456	0			Android reverse engineering training, resources, and tools
+rust-in-blockchain/awesome-blockchain-rust	2800	topic	2800				442	0			Libraries and packages for blockchain and cryptography in Rust
+ml-tooling/best-of-web-python	2800	topic	2800				453	0			Ranked list of Python libraries for web development
+jonathandion/awesome-emails	2800	topic	2800	2400			454	1	Front-End Development	Front-End Development	Resources for building better HTML emails
+androiddevnotes/awesome-android-kotlin-apps	2800	topic	2800				455	0			Curated list of open-source Android apps written in Kotlin
+hothero/awesome-rails-gem	2800	tal		2800				1	Back-End Development	Back-End Development	A collection of awesome Ruby Gems for Rails development.
+simskij/awesome-software-architecture	2800	tal		2800				1	Miscellaneous	Miscellaneous	A curated list of resources on software architecture
+krispo/awesome-haskell	2800	tal		2800				1	Programming Languages	Programming Languages	A collection of awesome Haskell links, frameworks, libraries and software. Inspired by awesome projects line.
+ttt30ga/awesome-product-design	2700	topic	2700	2500		439	457	1	Miscellaneous	Miscellaneous	Bookmarks and resources for product designers
+Mrinank-Bhowmick/python-beginner-projects	2700	topic	2700			440		0			Beginner Python projects (page notes it is temporarily under update)
+danieldurnea/FBI-tools	2700	topic	2700			441	459	0			OSINT tools for information gathering and forensic actions
+ramnes/awesome-mongodb	2700	topic	2700	2700		442	460	1	Databases	Databases	Curated MongoDB resources, libraries, tools, and applications
+kuchin/awesome-ceo	2700	topic	2700			443	461	0			Opinionated resources for startup founders and high-growth company leaders
+jsuarezruiz/awesome-dotnet-maui	2700	topic	2700			444		0			Curated .NET MAUI libraries and resources
+iipc/awesome-web-archiving	2700	topic	2700	2600		445	462	1	Miscellaneous	Miscellaneous	Getting started with web archiving
+italiaremote/awesome-italia-remote	2700	topic	2700			446	463	0			Remote-friendly companies that hire Italian talent
+docsifyjs/awesome-docsify	2700	topic	2700			447	464	0			Curated resources related to docsify
+toolleeo/awesome-cli-apps-in-a-csv	2700	topic	2700	2600		448	465	0		Development Environment	Curated command-line (CLI/TUI) programs with source data in CSV files
+chartjs/awesome	2700	topic	2700				458	0			Chart.js resources, libraries, and plugins
+mikalv/awesome-qt-qml	2600	topic	2600			449	467	0			Curated Qt and QML libraries, resources, and projects
+erikw/vim-keybindings-everywhere-the-ultimate-list	2600	topic	2600			450		0			Which programs support Vim-like keybindings natively or via extensions
+kdeldycke/awesome-engineering-team-management	2600	topic	2600	2600		451	470	1	Business	Business	Moving from software development to engineering management
+AwesomeHomelab/awesome-homelab	2600	topic	2600			452	471	0			Top open source apps for homelab enthusiasts
+cipher387/API-s-for-OSINT	2600	topic	2600			453	472	0			APIs for gathering information on phone numbers, addresses, and domains
+phptodayorg/php-must-watch	2600	topic	2600			454	474	0			Conference talks and videos about PHP
+mesquidar/ForensicsTools	2600	topic	2600			455		0			Free and open forensics analysis tools and resources
+luban-agi/Awesome-Domain-LLM	2600	topic	2600			456		0			Open-source models, datasets, and benchmarks for vertical domains (description in Chinese)
+transitive-bullshit/awesome-puppeteer	2600	topic	2600			457	476	0			Curated Puppeteer resources
+protontypes/open-sustainable-technology	2600	topic	2600			458	478	0			Directory and analysis of open source in climate, energy, biodiversity, and natural resources
+webfuse-com/awesome-autoresearch	2600	topic	2600			459		0			Curated autonomous improvement loops and research agents inspired by Karpathy's autoresearch
+tmcw/awesome-geojson	2600	topic	2600	2500		460	483	1	Miscellaneous	Miscellaneous	GeoJSON utilities
+wxWidgets/Phoenix	2600	topic	2600				466	0			wxPython's Project Phoenix, a new implementation of wxPython
+luruke/awesome-casestudy	2600	topic	2600				468	0			Curated technical case studies on WebGL and creative development
+mauhai/awesome-jupyterlab	2600	topic	2600				469	0			Curated JupyterLab extensions and resources
+jetpack-compose/jetpack-compose-awesome	2600	topic	2600				473	0			Curated Jetpack Compose libraries, projects, and articles
+rdbende/Sun-Valley-ttk-theme	2600	topic	2600				475	0			Tkinter/ttk theme based on the Sun Valley visual style
+Blankj/awesome-comment	2600	topic	2600				477	0			Funny code comments
+rekihattori/awesome-programmers	2600	topic	2600				479	0			List of history's notable software engineers and tech pioneers
+jiang111/awesome-android-tips	2600	topic	2600				480	0			Code tips for Android
+sfermigier/awesome-functional-python	2600	topic	2600				481	0			Curated resources on functional programming in Python
+kgryte/awesome-peer-to-peer	2600	topic	2600				482	0			Resources on peer-to-peer networking
+shlomi-noach/awesome-mysql	2600	tal		2600				1	Databases	Databases	A curated list of awesome MySQL software, libraries, tools and resources
+botcrypto-io/awesome-crypto-trading-bots	2500	topic	2500			461	484	0			Curated list of crypto trading bot resources
+zigcc/awesome-zig	2500	topic	2500	2500		462	485	0		Programming Languages	Community-maintained list of Zig libraries and resources
+davidgasquez/awesome-duckdb	2500	topic	2500			463	486	0			Curated list of DuckDB resources
+hwalsuklee/awesome-deep-text-detection-recognition	2500	topic	2500			464		0			Deep learning resources for OCR text detection and recognition
+noteflakes/awesome-music	2500	topic	2500			465	487	0			Music projects, including notation and free sheet music tools
+nikgraf/awesome-draft-js	2500	topic	2500	2500		466	488	1	Front-End Development	Front-End Development	Draft.js resources
+rootsongjc/awesome-cloud-native	2500	topic	2500			467	489	0			Cloud native tools, software, and tutorials
+marcelgsantos/learning-oop-in-php	2500	topic	2500			468		0			Resources for learning OOP and design patterns in PHP
+akuity/awesome-argo	2500	topic	2500			469	490	0			Projects and resources for Argo, a CNCF graduated project
+yissachar/awesome-dart	2500	topic	2500	2500		470	491	1	Programming Languages	Programming Languages	Dart frameworks, libraries, and software
+TsinghuaC3I/Awesome-RL-for-LRMs	2500	topic	2500			471		0			Survey of reinforcement learning for large reasoning models
+he-y/Awesome-Pruning	2500	topic	2500			472		0			Neural network pruning resources
+fkie-cad/awesome-embedded-and-iot-security	2500	topic	2500	1400		473	492	1	Security	Security	Embedded and IoT security resources
+friuns2/Leaked-GPTs	2500	topic	2500			474	494	0			Collection of leaked GPT prompts and ways to try GPTs
+cbsudux/awesome-human-pose-estimation	2500	topic	2500			475		0			Human pose estimation resources
+mr-karan/awesome-investing	2500	topic	2500			476	495	0			Investment and finance resources
+yaolifeng0629/Awesome-independent-tools	2500	topic	2500			477	496	0			Tools and resources for indie development and AI products
+study8677/awesome-architecture	2500	topic	2500			478		0			System design tutorials, templates, and case studies
+yibie/awesome-jev	2500	topic	2500			479	497	0			Projects and discussions built on the Jev typed-decision model
+AI-Efficiency/Awesome-Model-Quantization	2500	topic	2500			480	498	0			Papers, benchmarks, and tools for model quantization
+eug/awesome-opengl	2500	topic	2500	2400		481	499	1	Miscellaneous	Miscellaneous	Curated OpenGL libraries, debuggers, and resources
+738/awesome-sushi	2500	topic	2500				493	0			List of sushi omakase restaurants in Korea (Korean-language)
+protontypes/awesome-robotic-tooling	2500	tal		2500				1	Hardware	Hardware	Tooling for professional robotic development in C++ and Python with a touch of ROS, autonomous driving and aerospace.
+dend/awesome-product-management	2400	topic	2400	2300		482		1	Learn	Learn	Curated resources for product and program managers
+ARPSyndicate/awesome-intelligence	2400	topic	2400			483		0			Collaboratively curated open-source intelligence (OSINT) resources
+sindresorhus/awesome-whisper	2400	topic	2400			484		1	Miscellaneous		Awesome list for Whisper, OpenAI's open-source speech recognition system
+amis92/csharp-source-generators	2400	topic	2400			485		0			C# source generators with related articles, talks, and demos
+Jason2Brownlee/awesome-llm-books	2400	topic	2400			486		0			Curated list of books on large language models
+eon01/awesome-chatgpt	2400	topic	2400			487		0			Curated ChatGPT resources, including libraries, SDKs, and APIs
+ktaranov/sqlserver-kit	2400	topic	2400			488		0			Links, scripts, tools, and best practices for Microsoft SQL Server
+agentuniverse-ai/agentUniverse	2400	topic	2400			489		0			LLM multi-agent framework for building multi-agent applications
+awesome-mqtt/awesome-mqtt	2400	topic	2400	2400		490		0		Miscellaneous	Curated MQTT brokers, clients, tools, and resources
+TheJambo/awesome-testing	2400	topic	2400	2400		491		1	Testing	TOP50	Curated list of testing resources
+kujian/frontendDaily	2400	topic	2400			492		0			Chinese-language frontend development blog and news digest
+yudataguy/awesome-japanese	2400	topic	2400			493		0			Japanese learning resources
+KrishMunot/awesome-startup	2400	topic	2400			494		0			Resources for building your own startup
+weihaox/awesome-neural-rendering	2400	topic	2400			495		0			Neural rendering resources
+SubmitGame/awesome-decomp-games	2400	topic	2400			496		0			Rated list of decompiled, recompiled, and reverse-engineered games
+nebgnahz/awesome-iot-hacks	2400	topic	2400				500	0			Collection of IoT security hacks
+jondot/awesome-devenv	2400	tal		2400				1	Development Environment	Development Environment	A curated list of awesome tools, resources and workflow tips making an awesome development environment.
+ciconia/awesome-music	2400	tal		2400				1	Media	Media	Awesome Music Projects
+mojoaxel/awesome-regression-testing	2400	tal		2400				1	Testing	Testing	🕶️ A curated list of resources around the topic: visual regression testing
+codingknite/frontend-development	2300	topic	2300			497		0			Curated frontend development resources
+thenaturalist/awesome-business-intelligence	2300	topic	2300			498		0			Curated list of business intelligence tools
+digitalblossom/alternative-frontends	2300	topic	2300			499		0			Privacy-respecting web frontends for popular services
+ChenHsing/Awesome-Video-Diffusion-Models	2300	topic	2300			500		0			Survey and list of video diffusion models
+rajasegar/awesome-htmx	2300	topic	2300			501		0			Awesome things about htmx
+hng/tech-coops	2300	topic	2300			502		0			A list of tech coops and resources concerning tech coops and worker owned cooperatives in general.
+BolajiAyodeji/awesome-technical-writing	2300	topic	2300			503		0			📚 A curated list of awesome resources: articles, books, videos, tools, podcasts about technical writing.
+jubalh/awesome-os	2300	topic	2300			504		0			A list of operating systems and stuff
+dreikanter/ruby-bookmarks	2300	topic	2300			505		0			Ruby and Ruby on Rails bookmarks collection
+kdeldycke/awesome-iam	2300	topic	2300	2300		506		1	Back-End Development	Back-End Development	👤 Identity and Access Management knowledge for cloud platforms
+latentcat/latentbox	2300	topic	2300			507		0			A collection of awesome-lists for AI, creativity and art (bilingual English/Chinese)
+Escapingbug/awesome-browser-exploit	2300	topic	2300			508		0			awesome list of browser exploitation tutorials
+stax76/awesome-mpv	2300	topic	2300			509		0			A curated list of awesome mpv resources.
+t3chnoboy/awesome-awesome-awesome	2300	topic	2300			510		0			A curated list of curated lists of awesome lists.
+StefanoCecere/awesome-opensource-unity	2300	topic	2300			511		0			A list of curated opensource Unity packages for future proof Game Developers
+Separius/awesome-sentence-embedding	2300	topic	2300			512		0			A curated list of pretrained sentence and word embedding models
+MarcSkovMadsen/awesome-streamlit	2300	topic	2300			513		0			Sharing knowledge on how awesome Streamlit is and can be
+ucg8j/awesome-dash	2300	topic	2300	2100		514		1	Back-End Development	Back-End Development	A curated list of awesome Dash (plotly) resources
+andyrewlee/awesome-agent-orchestrators	2300	topic	2300			515		0			List of agent orchestrators
+LearnPrompt/awesome-seedance	2300	topic	2300			516		0			Seedance 2.5 / 2.0 video prompt library with templates and AI-video Skills (EN / 中文 / 日本語)
+hyp1231/awesome-llm-powered-agent	2300	topic	2300			517		0			Awesome things about LLM-powered agents. Papers / Repos / Blogs / ...
+44bits/awesome-opensource-documents	2300	tal		2300				1	Media	Media	:blue_book: A curated list of awesome open source or open source licensed documents, guides, books.
+NARKOZ/guides	2300	tal		2300				1	Miscellaneous	Miscellaneous	Design and development guides
+OffcierCia/ultimate-defi-research-base	2200	topic	2200			518		0			Collection and discussion of DeFi and blockchain research and tools
+uhub/awesome-c	2200	topic	2200			519		0			A curated list of awesome C frameworks, libraries and software.
+livecycle/preevy	2200	topic	2200			520		0			Quickly deploy preview environments to the cloud!
+orbitalindex/awesome-space	2200	topic	2200			521		0			Curated list of space-related packages and resources
+arbox/machine-learning-with-ruby	2200	topic	2200	2100		522		1	Computer Science	Computer Science	Curated resources for machine learning in Ruby
+radi-cho/awesome-gpt4	2200	topic	2200			523		0			Curated prompts, tools, and resources for GPT-4
+stevemao/awesome-git-addons	2200	topic	2200	1900		524		1	Development Environment	Miscellaneous	Curated add-ons that extend the git CLI
+sudhakar3697/awesome-electron-alternatives	2200	topic	2200			525		0			Curated alternatives to Electron
+Divide-By-0/ideas-for-projects-people-would-use	2200	topic	2200			526		0			Personal collection of software ideas for problems without solutions
+fityanos/awesome-quality-assurance-roadmap	2200	topic	2200			527		1	Testing		Starting-point roadmap for a career in software QA and test automation
+wowlusitong/awesome-education	2200	topic	2200			528		0			Collection of software and services offering education discounts (in Chinese)
+ai-for-developers/awesome-ai-coding-tools	2200	topic	2200			529		0			Curated list of AI-powered coding tools
+mcanouil/awesome-quarto	2200	topic	2200			530		1	Miscellaneous		Curated Quarto talks, tools, examples, and articles
+AntBranch/awesome-github	2200	topic	2200			531		0			Curated GitHub guides, articles, tools, and resources (includes Chinese text)
+hahwul/DevSecOps	2200	topic	2200			532		0			Collection and roadmap for DevSecOps practices
+Carlos487/awesome-wpf	2200	topic	2200			533		0			Curated WPF resources, libraries, and UI controls
+YouMind-OpenLab/awesome-seedance-2-prompts	2200	topic	2200			534		0			Over 2,000 curated Seedance 2.0 video generation prompts with API guides
+imaurer/awesome-llm-json	2200	topic	2200			535		0			Resources for generating JSON from LLMs via function calling and constrained decoding
+TheComputerM/awesome-svelte	2200	topic	2200	2200		536		1	Front-End Development	Front-End Development	Curated Svelte resources
+n2cholas/awesome-jax	2200	topic	2200	2000		537		1	Computer Science	Computer Science	Curated resources for JAX
+michelpereira/awesome-games-of-coding	2200	topic	2200	2100		538		1	Gaming	Gaming	Curated games for learning a programming language
+vert-x3/vertx-awesome	2200	tal		2200				1	Back-End Development	Back-End Development	A curated list of awesome Vert.x resources, libraries, and other nice things.
+springload/awesome-wagtail	2200	tal		2200				1	Content Management Systems	Content Management Systems	A curated list of awesome packages, articles, and other cool resources from the Wagtail community.
+fkromer/awesome-ros2	2100	topic	2100	1400		539		0		Platforms	Curated resources for ROS 2
+PavelGrigoryevDS/awesome-data-analysis	2100	topic	2100			540		0			Over 500 curated resources for data analysis and data science
+anmol-baranwal/Cool-GIFs-For-GitHub	2100	topic	2100			541		0			GIFs and avatars for GitHub profiles
+syxanash/awesome-web-desktops	2100	topic	2100			542		0			Websites and web apps that look like desktop OSes
+kalaiser/awesome-cdk	2100	topic	2100	1600		543		0		Back-End Development	Resources for the AWS Cloud Development Kit
+zero-equals-false/awesome-programming-books	2100	topic	2100			544		0			Curated programming books across many CS topics
+matchai/awesome-pinned-gists	2100	topic	2100	2000		545		1	Development Environment	Development Environment	Collection of dynamic pinned GitHub gists
+zingchart/awesome-charting	2100	topic	2100	1800		546		1	Front-End Development	Front-End Development	Charting and dataviz resources, including JavaScript libraries
+vlang/awesome-v	2100	topic	2100	2100		547		1	Programming Languages	Programming Languages	V frameworks, libraries, software, and resources
+devisasari/awesome-gpt-store	2100	topic	2100			548		0			Curated list of GPTs in the GPT Store
+milabs/awesome-linux-rootkits	2100	topic	2100			549		0			Linux rootkit resources
+xioacd99/study-is-wonderful	2100	topic	2100			550		0			Public courses and study resources
+tianshanghong/awesome-anki	2100	topic	2100			551		0			Anki add-ons, decks, and resources
+pFarb/awesome-crypto-papers	2100	topic	2100	1800		552		1	Computer Science	Computer Science	Cryptography papers, articles, and tutorials
+opsre/awesome-ops	2100	topic	2100			553		0			Operations-related projects (description in Chinese; translated)
+Fr0sT-Brutal/awesome-pascal	2100	topic	2100	2000		554		1	Programming Languages	Programming Languages	Delphi, FreePascal, and Pascal frameworks and libraries
+CryptoAILab/Awesome-LM-SSP	2100	topic	2100			555		0			Reading list on safety, security, and privacy of large models
+brabadu/awesome-fonts	2100	topic	2100	2100		556		1	Media	Media	Curated list of fonts and related resources
+oshliaer/google-apps-script-awesome-list	2100	topic	2100			557		0			Links to Google Apps Script resources
+ITI/ICS-Security-Tools	2100	topic	2100			558		0			Tools and resources for industrial control system security
+ratatui/awesome-ratatui	2100	topic	2100			559		0			TUI apps and libraries built with Ratatui
+gleam-lang/awesome-gleam	2100	topic	2100			560		0			Gleam libraries, projects, and resources
+pmuens/awesome-serverless	2100	tal		2100				1	Back-End Development	Back-End Development	DEPRECATED: Curated list of resources related to serverless computing and serverless architectures.
+nicolesaidy/awesome-web-design	2100	tal		2100				1	Miscellaneous	Miscellaneous	🎨 A curated list of awesome resources for digital designers.
+ad-si/awesome-3d-printing	2000	topic	2000			561		0			Curated list of 3D printing resources
+ai4s-research/awesome-ai-for-science	2000	topic	2000			562		0			AI tools, libraries, papers, datasets, and frameworks for scientific discovery
+hslatman/awesome-industrial-control-system-security	2000	topic	2000			563		0			Resources on Industrial Control System (ICS) security
+ivan-bilan/The-NLP-Pandect	2000	topic	2000			564		0			Reference for topics related to Natural Language Processing
+vonzosten/awesome-LangGraph	2000	topic	2000			565		0			Index of the LangChain and LangGraph ecosystem for LLM and multi-agent apps
+caramaschiHG/awesome-ai-agents-2026	2000	topic	2000			566		0			List of AI agents, frameworks, and tools for 2026
+jim-schwoebel/awesome_ai_agents	2000	topic	2000			567		0			List of 1,500+ resources and tools related to AI agents
+mikbry/awesome-webgpu	2000	topic	2000			568		1	Front-End Development		Curated list of WebGPU ecosystem resources
+szabgab/awesome-for-non-programmers	2000	topic	2000			569		0			
+matteofigus/awesome-speaking	2000	topic	2000	2000		570		1	Learn	Learn	Resources about public speaking
+brunopulis/awesome-a11y	2000	topic	2000			571		1	Front-End Development		Curated list about accessibility (A11Y)
+AstraZeneca/awesome-explainable-graph-reasoning	2000	topic	2000			572		0			Research papers and software on explainability in graph machine learning
+agarrharr/awesome-static-website-services	2000	topic	2000	2000		573		1	Front-End Development	Front-End Development	Curated list of static website services
+typeddjango/awesome-python-typing	2000	topic	2000	2000		574		1	Programming Languages	Programming Languages	Python types, stubs, plugins, and tools for typing
+EinGuterWaran/awesome-opensource-boilerplates	2000	topic	2000			575		0			Free, production-ready SaaS boilerplates and starter templates
+aquadzn/learn-x-by-doing-y	2000	topic	2000			576		0			Search engine for project-based learning of technologies
+Guang000/Awesome-Dataset-Distillation	2000	topic	2000			577		0			Papers on dataset distillation and related applications
+OffcierCia/On-Chain-Investigations-Tools-List	2000	topic	2000			578		0			Tools and manuals for investigating crypto hacks and security incidents
+shahednasser/awesome-resources	2000	topic	2000			579		0			Community-contributed list of helpful resources
+hstcscolor/awesome-gameserver-cn	2000	topic	2000			580		0			Chinese-language collection of game server resources
+hilmanski/freeStuffDev	2000	topic	2000			581		0			Complete list of free stuff for developers
+ansible-community/awesome-ansible	2000	topic	2000	2000		582		1	Miscellaneous	Miscellaneous	Awesome Ansible list
+guardrailsio/awesome-golang-security	2000	topic	2000			583		0			Golang security resources and tools
+maguowei/starred	2000	topic	2000			584		0			Builds an Awesome-style list from your GitHub stars
+Kalmaegi/computer-book-list	2000	topic	2000			585		0			Computer book list ranked by Douban and Goodreads ratings
+sereneblue/awesome-oss	2000	topic	2000			586		0			Open source projects with links to contribute or donate
+fabacab/awesome-lockpicking	2000	topic	2000	961		587		1	Security	Security	Guides, tools, and resources on lock, safe, and key security
+androiddevnotes/awesome-android-learning-resources	2000	topic	2000			588		0			Android learning resources for app developers
+mthcht/awesome-lists	2000	topic	2000			589		0			Security lists for SOC, CERT, and CTI teams
+cicdops/awesome-ciandcd	2000	tal		2000				1	Miscellaneous	Miscellaneous	continuous integration and continuous delivery
+OpenMindClub/awesome-chatgpt	1900	topic	1900			590		0			Resources about ChatGPT
+p0dalirius/Awesome-RCE-techniques	1900	topic	1900			591		0			Step-by-step remote code execution techniques for various apps
+life-itself/web3	1900	topic	1900			592		0			Introduction to and critical analysis of web3 and crypto concepts
+krzemienski/awesome-video	1900	topic	1900	1900		593		0		Miscellaneous	Streaming video tools, frameworks, libraries, and learning resources
+mehcode/awesome-atom	1900	topic	1900	1900		594		0		Editors	Atom packages and resources
+bobeff/programming-math-science	1900	topic	1900			595		0			Links to free learning resources on programming, math, and science
+shahraizali/awesome-django	1900	topic	1900			596		0			Django resources and mature packages
+wq2012/awesome-diarization	1900	topic	1900			597		0			Speaker diarization papers, libraries, datasets, and resources
+brycejohnston/awesome-agriculture	1900	topic	1900	1600		598		1	Miscellaneous	Miscellaneous	Open source technology for agriculture, farming, and gardening
+best-of-lists/best-of	1900	topic	1900			599		0			Best-of lists featuring open source projects
+totogo/awesome-knowledge-graph	1900	topic	1900			600		0			Knowledge graph learning materials, databases, and tools
+XiaomingX/indie-hacker-tools-plus	1900	topic	1900			601		0			Curated tech stacks and tools for independent developers
+Cleveroad/AdaptiveTableLayout	1900	topic	1900			602		0			Android library for reading, editing, and writing CSV files
+tramcar/awesome-job-boards	1900	topic	1900	1800		603		1	Work	Work	
+OffcierCia/Crypto-OpSec-SelfGuard-RoadMap	1900	topic	1900			604		0			Research and data terminals for DeFi, blockchain, and crypto OpSec
+Olanetsoft/awesome-hackathon-projects	1900	topic	1900			605		0			Curated list of hackathon projects
+warpnet/awesome-prometheus	1900	topic	1900			606		0			Curated Prometheus resources, projects, and tools
+raphamorim/awesome-canvas	1900	topic	1900	1800		607		1	Front-End Development	Front-End Development	HTML5 Canvas examples, articles, and posts
+thinkwee/AgentsMeetRL	1900	topic	1900			608		0			Awesome list for agentic reinforcement learning
+VoltAgent/awesome-ai-agent-papers	1900	topic	1900			609		0			Collection of AI agent research papers from 2026
+XamSome/awesome-xamarin	1900	topic	1900	1900		610		0		Platforms	Libraries and tools for Xamarin mobile projects
+softwareunderground/awesome-open-geoscience	1900	topic	1900			611		0			Open-source repositories for geoscience work
+MuxaJlbl4/Awesome-PlayStation-Vita	1900	topic	1900			612		0			Resources for the PlayStation Vita
+agamm/awesome-developer-first	1900	topic	1900	1800		613		1	Business	Business	Curated developer-first tools and products
+MobilityData/awesome-transit	1900	topic	1900			614		0			Transit APIs, apps, datasets, and software
+yackermann/awesome-webauthn	1900	topic	1900			615		0			WebAuthn and passkey resources
+blanboom/awesome-home-networking-cn	1900	topic	1900			616		0			Home networking knowledge (in Chinese)
+kosmos/awesome-generative-art	1900	topic	1900			617		0			Generative art resources
+Famolus/awesome-sass	1900	tal		1900				1	Front-End Development	Front-End Development	🎨 Curated list of awesome Sass and SCSS frameworks, libraries, style guides, articles, and resources.
+deephacks/awesome-jvm	1900	tal		1900				1	Platforms	Platforms	A curated list of awesome loosely performance related JVM stuff. Inspired by awesome-python.
+thomasdarimont/awesome-keycloak	1900	tal		1900				0		Security	A curated list of resources for learning about http://www.keycloak.org
+florimondmanca/awesome-asgi	1800	topic	1800			618		0			ASGI servers, frameworks, apps, and libraries
+uhub/awesome-go	1800	topic	1800			619		0			Go frameworks, libraries, and software
+aloisdg/awesome-regex	1800	topic	1800			620		0			Regex libraries, tools, and frameworks
+hysnsec/awesome-threat-modelling	1800	topic	1800			621		0			Threat modeling resources: books, courses, videos, tools, and workshops
+guillaume-chevalier/Awesome-Deep-Learning-Resources	1800	topic	1800	1500		622		1	Computer Science	Computer Science	Personal list of deep learning resources for study and reference
+xiaohanyu/awesome-tikz	1800	topic	1800	1800		623		1	Miscellaneous	Miscellaneous	TikZ documentation, libraries, and resources
+Prat011/awesome-llm-skills	1800	topic	1800			624		0			LLM and AI agent skills, resources, and tools for customizing agent workflows
+changh95/visual-slam-roadmap	1800	topic	1800			625		0			Roadmap for becoming a Visual-SLAM developer in 2026
+mcauser/awesome-micropython	1800	topic	1800	1800		626		1	Programming Languages	Programming Languages	MicroPython libraries, frameworks, software, and resources
+mjhea0/awesome-flask	1800	topic	1800	1700		627		1	Back-End Development	Back-End Development	Flask-related resources
+ebu/awesome-broadcasting	1800	topic	1800	1800		628		1	Media	Media	Open source resources for broadcast technologies
+sirredbeard/awesome-unix	1800	topic	1800			629		0			UNIX and UNIX-like systems, including Linux, BSD, and macOS
+artix41/awesome-transfer-learning	1800	topic	1800			630		0			Transfer learning and domain adaptation papers, tutorials, and datasets
+wdhdev/free-for-life	1800	topic	1800			631		0			Collection of free services, tools, and resources
+manishbisht/Competitive-Programming	1800	topic	1800			632		0			Competitive programming solutions, templates, and data structures/algorithms material
+jaywcjlove/awesome-swift-macos-apps	1800	topic	1800			633		0			Open-source macOS applications built with Swift
+antontarasenko/awesome-economics	1800	topic	1800	1000		634		1	Miscellaneous	Miscellaneous	Links for economists
+ashishb/osx-and-ios-security-awesome	1800	topic	1800			635		0			OS X and iOS security tools
+uhub/awesome-matlab	1800	topic	1800			636		0			MATLAB frameworks, libraries, and software
+vuetifyjs/awesome	1800	topic	1800			637		0			Vuetify resources
+jakob-pennington/awesome-devsecops	1800	topic	1800			638		0			DevSecOps resources and tooling
+CUTR-at-USF/awesome-transit	1800	tal		1800				0		Miscellaneous	Community list of transit APIs, apps, datasets, research, and software :bus::star2::train::star2::steam_locomotive:
+Hiflylabs/awesome-dbt	1700	topic	1700			639		0			dbt resources
+web-padawan/awesome-lit	1700	topic	1700	1700		640		1	Front-End Development	Front-End Development	Lit resources
+mathworks-robotics/awesome-matlab-robotics	1700	topic	1700			641		0			Demos, tutorials, and utilities for robotics using MATLAB and Simulink
+analyticalmonk/awesome-neuroscience	1700	topic	1700	1300		642		1	Health and Social Science	Health and Social Science	Curated neuroscience libraries, software, and related content
+lukemurraynz/awesome-azure-architecture	1700	topic	1700			643		0			Azure architecture resources and references
+weaveworks/awesome-gitops	1700	topic	1700			644		0			Curated GitOps resources
+anubhavsrivastava/awesome-ui-component-library	1700	topic	1700			645		0			Framework component libraries and UI toolkits
+PicGo/Awesome-PicGo	1700	topic	1700			646		0			Projects that use PicGo
+icopy-site/awesome-cn	1700	topic	1700			647		0			Chinese-language collection of awesome lists
+gdamdam/awesome-decentralized-web	1700	topic	1700			648		0			Peer-to-peer, federated, and local-first protocols, apps, and tools
+faroit/awesome-python-scientific-audio	1700	topic	1700	1700		649		1	Programming Languages	Programming Languages	Python software and packages for scientific audio research
+corca-ai/awesome-llm-security	1700	topic	1700			650		0			Tools, documents, and projects on LLM security
+drobakowski/awesome-erlang	1700	topic	1700	1400		651		1	Programming Languages	Programming Languages	Erlang libraries and resources
+semantalytics/awesome-semantic-web	1700	topic	1700			652		0			Semantic web and linked data resources
+Hedlen/awesome-segment-anything	1700	topic	1700			653		0			Papers and projects related to Segment Anything
+robot-descriptions/awesome-robot-descriptions	1700	topic	1700			654		0			Robot description files (URDF, MJCF)
+C-BJ/awesome-zig	1700	topic	1700			655		0			Zig learning guide and project list
+webfuse-com/awesome-claude	1700	topic	1700			656		0			Resources related to Anthropic Claude
+nanxstats/awesome-shiny-extensions	1700	topic	1700			657		0			R and Python packages that extend Shiny
+benthecoder/yt-channels-DS-AI-ML-CS	1700	topic	1700			658		0			YouTube channels for data science, ML, and computer science
+scadastrangelove/awesome-ai-security-tools	1700	topic	1700			659		0			Tools for AI security and AI-assisted cybersecurity
+ong/awesome-decentralized-finance	1700	topic	1700			660		0			Decentralized finance (DeFi) projects
+JunweiLiang/awesome_lists	1700	topic	1700			661		0			Guides for tenure-track assistant professors and PhD students
+open-saas-directory/awesome-native-macosx-apps	1700	topic	1700			662		0			Lightweight, non-Electron native macOS apps, free and paid
+JShollaj/awesome-llm-interpretability	1700	topic	1700			663		0			Curated resources on large language model interpretability
+ivanvorobei/awesome-ios	1700	topic	1700			664		0			Collaborative list of iOS developer libraries, with previews
+awesome-spark/awesome-spark	1700	tal		1700				1	Big Data	Big Data	A curated list of awesome Apache Spark packages and resources.
+egeerardyn/awesome-LaTeX	1700	tal		1700				1	Miscellaneous	Miscellaneous	Curated list of LaTeX awesomeness
+gs00s/awesome-vue-3	1600	topic	1600			665		0			Curated resources for Vue 3
+stephrobert/awesome-french-devops	1600	topic	1600			666		0			Links for learning DevOps tools, in French
+dersvenhesse/awesome-scriptable	1600	topic	1600	1500		667		1	Miscellaneous	Miscellaneous	Curated Scriptable scripts and widgets
+janosh/awesome-normalizing-flows	1600	topic	1600			668		0			Resources on normalizing flows
+snwfdhmp/awesome-gpt-prompt-engineering	1600	topic	1600			669		0			Resources and tools for LLM prompt engineering
+rShetty/awesome-distributed-systems	1600	topic	1600			670		0			Distributed systems resources
+JesseTG/awesome-qt	1600	topic	1600	1100		671		0		Platforms	Tools, libraries, and resources for the Qt framework
+bnb/awesome-awesome-nodejs	1600	topic	1600			672		0			Awesome lists related to Node.js
+packing-box/awesome-executable-packing	1600	topic	1600	1600		673		0		Security	Resources on executable packing
+fiatjaf/awesome-loginless	1600	topic	1600			674		0			Internet services that need no login or registration
+Furthir/awesome-useful-projects	1600	topic	1600			675		0			500+ open source projects for everyday use
+kuanhungchen/awesome-tiny-object-detection	1600	topic	1600			676		0			Papers and resources on tiny object detection
+jaywcjlove/awesome-uikit	1600	topic	1600			677		0			JS frameworks, web component libraries, and admin templates
+qingsongedu/awesome-AI-for-time-series-papers	1600	topic	1600			678		0			Papers, tutorials, and surveys on AI for time series
+FancyGrid/awesome-grid	1600	topic	1600			679		0			Grid and table libraries and resources
+Kazhnuz/awesome-gnome	1600	topic	1600	1500		680		1	Platforms	Platforms	Apps, extensions, themes, and tools for GNOME
+rcalixte/awesome-wayland	1600	topic	1600			681		0			Curated resources for the Wayland display protocol
+m0nad/awesome-privilege-escalation	1600	topic	1600			682		0			Curated collection of privilege escalation techniques
+jetli/awesome-yew	1600	topic	1600	1600		683		1	Front-End Development	Front-End Development	Curated resources for the Yew framework and WebAssembly
+albarqouni/Deep-Learning-for-Medical-Applications	1600	topic	1600			684		0			Deep learning papers on medical image analysis
+jassics/awesome-aws-security	1600	topic	1600			685		0			Links, books, tutorials, and tools for AWS security
+OffcierCia/non-typical-OSINT-guide	1600	topic	1600			686		0			An unconventional OSINT guide that accepts contributions
+RichardLitt/awesome-fantasy	1600	topic	1600	1600		687		1	Entertainment	Entertainment	Recommended fantasy literature
+stanislaw/awesome-safety-critical	1600	topic	1600			688		0			Resources on programming practices for safety-critical software
+mxschmitt/awesome-playwright	1600	topic	1600	1300		689		1	Testing	Testing	Tools, utilities, and projects built on Playwright
+nschloe/awesome-scientific-computing	1600	topic	1600	1600		690		1	Miscellaneous	Miscellaneous	Software for numerical analysis and scientific computing
+steel-dev/awesome-web-agents	1600	topic	1600			691		0			Tools, frameworks, and resources for AI web agents
+sergey-pimenov/awesome-web-animation	1600	topic	1600	1600		692		1	Front-End Development	Front-End Development	Web animation libraries, books, and apps
+currentslab/awesome-vector-search	1600	topic	1600			693		0			Vector search libraries, services, and research papers
+vkarampinis/awesome-icons	1600	topic	1600	1600		694		0		Miscellaneous	Curated web font icon sets
+frankiefab100/Blockchain-Development-Resources	1600	topic	1600			695		0			Learning resources for blockchain development, smart contracts, and DApps
+hackerkid/bots	1600	topic	1600	1200		696		1	Miscellaneous	Miscellaneous	Tools for building bots
+burningtree/awesome-json	1600	topic	1600	1500		697		1	Miscellaneous	Miscellaneous	JSON libraries and resources
+soroushchehresa/awesome-coronavirus	1600	topic	1600			698		0			Projects and resources related to COVID-19
+kr1sp1n/awesome-gemini	1600	topic	1600			699		0			Resources for the Gemini protocol ecosystem
+radek-sprta/awesome-game-remakes	1600	topic	1600	1500		700		1	Gaming	Gaming	Actively maintained open-source game remakes
+Jolg42/awesome-typography	1600	topic	1600			701		0			Curated list about digital typography
+Awesome-Image-Registration-Organization/awesome-image-registration	1600	topic	1600			702		0			Books, papers, videos, and toolboxes for image registration
+jest-community/awesome-jest	1600	topic	1600			703		0			Awesome Jest packages and resources
+TalAter/awesome-service-workers	1600	tal		1600				1	Front-End Development	Front-End Development	:nut_and_bolt: A collection of awesome resources for learning Service Workers
+roaldnefs/awesome-prometheus	1600	tal		1600				1	Miscellaneous	Miscellaneous	A curated list of awesome Prometheus resources, projects and tools.
+Friz-zy/awesome-linux-containers	1600	tal		1600				1	Platforms	Platforms	A curated list of awesome Linux Containers frameworks, libraries and software
+chaofengc/Awesome-Image-Quality-Assessment	1500	topic	1500			704		0			Comprehensive collection of image quality assessment (IQA) papers
+tstanislawek/awesome-document-understanding	1500	topic	1500			705		0			Curated resources for document understanding
+ringabout/awesome-nim	1500	topic	1500			706		0			Curated Nim frameworks, libraries, software, and resources
+joggerplus/awesome-weex	1500	topic	1500			707		0			Curated Weex guides, articles, tools, and projects
+sjfricke/awesome-webgl	1500	topic	1500	1500		708		1	Front-End Development	Front-End Development	Curated WebGL libraries, resources, and references
+niri-wm/awesome-niri	1500	topic	1500			709		0			Awesome list of niri-related projects
+mikeroyal/Unreal-Engine-Guide	1500	topic	1500			710		0			Guide to developing games with Unreal Engine 5 across many platforms
+ZhiningLiu1998/awesome-imbalanced-learning	1500	topic	1500			711		0			Papers, code, frameworks, and libraries for class-imbalanced and long-tail learning
+chinaBerg/awesome-canvas	1500	topic	1500			712		0			Chinese-language collection of Canvas packages and resources
+ahundt/awesome-robotics	1500	topic	1500			713		0			Curated links and software libraries useful for robotics
+svaksha/Julia.jl	1500	topic	1500	1300		714		1	Programming Languages	Programming Languages	Curated collection of Julia programming language resources
+fregante/Awesome-WebExtensions	1500	topic	1500	1500		715		1	Platforms	Platforms	Curated resources for WebExtensions development
+SquadcastHub/awesome-sre-tools	1500	topic	1500			716		0			Curated site reliability and production engineering tools
+ayaka14732/awesome-rime	1500	topic	1500			717		0			Curated list of Rime input schemas and configurations
+sangyx/deep-finance	1500	topic	1500			718		0			Datasets, papers, and books on AI and finance
+cedrickchee/awesome-wireguard	1500	topic	1500			719		0			Curated WireGuard tools, projects, and resources
+0voice/Awesome_c-cpp_Projects	1500	topic	1500			720		0			Curated list of 500+ high-quality C/C++ projects across many domains
+mdibaiee/awesome-lite-websites	1500	topic	1500			721		0			Lightweight websites without the bloat
+strapi-community/awesome-strapi	1500	topic	1500			722		0			Curated resources related to Strapi
+ksluckow/awesome-symbolic-execution	1500	topic	1500			723		0			Research papers, lectures, videos, and tools for symbolic execution
+OpenMOSS/Awesome-WAM	1500	topic	1500			724		0			Papers and resources on World Action Models for embodied AI
+vavkamil/awesome-vulnerable-apps	1500	topic	1500			725		0			Intentionally vulnerable applications for security practice
+AwesomeVisa/awesome-immigration	1500	topic	1500			726		0			List of long-term visas
+felladrin/awesome-ai-web-search	1500	topic	1500			727		0			Software for AI-assisted web search
+MystenLabs/awesome-move	1500	topic	1500			728		1	Programming Languages		Code and content from the Move community
+lorabv/awesome-agile	1500	topic	1500			729		0			Resources on agile software development
+huhusmang/Awesome-LLMs-for-Vulnerability-Detection	1500	topic	1500			730		0			Research index on LLMs for vulnerability detection
+sindresorhus/amas	1500	topic	1500	1400		731		1	Miscellaneous	Miscellaneous	"Collection of ""Ask Me Anything"" sessions"
+soruly/awesome-acg	1500	topic	1500	1500		732		0		Miscellaneous	Technologies related to anime, comics, and games
+beardicus/awesome-plotters	1500	topic	1500	1300		733		1	Hardware	Hardware	Code and resources for plotting and drawing machines
+nioperas06/awesome-django-rest-framework	1500	topic	1500			734		0			Tools and resources for building APIs with Django REST Framework
+quemsah/awesome-claude-plugins	1500	topic	1500			735		0			Automated index of Claude Code plugins and adoption metrics
+vramana/awesome-reasonml	1500	topic	1500			736		0			Resources on the ReasonML/OCaml ecosystem
+haokaiyang/Mac-QuickLook	1500	topic	1500			737		0			QuickLook plugins and packages for macOS
+DjangoEx/awesome-python-resources	1500	topic	1500			738		0			Resources for Python development
+proyecto26/awesome-unity	1500	topic	1500			739		0			Curated list of Unity games
+gruhn/awesome-naming	1500	topic	1500	1500		740		1	Miscellaneous	Miscellaneous	Guidance on naming things well
+BillyDM/awesome-audio-dsp	1500	topic	1500			741		0			Curated audio DSP and plugin development resources (GitHub fork)
+sitepoint-editors/awesome-symfony	1500	tal		1500				1	Back-End Development	Back-End Development	A list of awesome Symfony bundles, utilities and resources.
+humanloop/awesome-chatgpt	1500	tal		1500				0		ChatGPT	Curated list of awesome tools, demos, docs for ChatGPT and GPT-3
+TalAter/awesome-progressive-web-apps	1500	tal		1500				1	Front-End Development	Front-End Development	:sunrise: A collection of awesome resources for building progressive web apps
+davidtheclark/scalable-css-reading-list	1500	tal		1500				1	Front-End Development	Front-End Development	Collected dispatches from The Quest for Scalable CSS
+wbinnssmith/awesome-promises	1500	tal		1500				1	Programming Languages	Programming Languages	A curated list of useful resources for JavaScript Promises
+AllsafeCyberSecurity/awesome-ghidra	1400	topic	1400			742		0			Curated Ghidra reverse-engineering materials
+vitalets/awesome-smart-tv	1400	topic	1400	1400		743		1	Platforms	Platforms	Resources for building Smart TV apps
+bhagyas/app-urls	1400	topic	1400			744		0			Long list of app URL schemes for iOS, macOS, and Android
+ZYSzys/awesome-captcha	1400	topic	1400	1400		745		1	Miscellaneous	Miscellaneous	CAPTCHA libraries and cracking tools
+stevinz/awesome-game-engine-dev	1400	topic	1400	1400		746		1	Gaming	Gaming	Resources for game engine development
+awesome-bootstrap-org/awesome-bootstrap	1400	topic	1400			747		0			Bootstrap tools and themes
+fsprojects/awesome-fsharp	1400	topic	1400			748		1	Programming Languages		F# frameworks, libraries, software, and resources
+cheeaun/awesome-hacker-news	1400	topic	1400	1400		749		0		Miscellaneous	Hacker News apps, libraries, and resources
+pierpaolo28/Awesome-FDE-Roadmap	1400	topic	1400			750		0			Roadmap for becoming a Forward Deployment Engineer
+iAmCorey/awesome-indie-hacker-tools	1400	topic	1400			751		0			Tech stacks and tools for indie and overseas developers (bilingual)
+alexsosn/iOS_ML	1400	topic	1400			752		0			Machine learning, AI, and NLP solutions for iOS
+yangshun/awesome-spinners	1400	topic	1400			753		0			Collection of web loading spinners
+philsturgeon/awesome-earth	1400	topic	1400	1400		754		1	Miscellaneous	Miscellaneous	Actions for addressing the climate crisis, with 326 items
+kaiiyer/awesome-vulnerable	1400	topic	1400			755		0			Intentionally vulnerable apps and systems for penetration testing practice
+not-yet-awesome-rust/not-yet-awesome-rust	1400	topic	1400			756		0			Rust code and resources the community still needs
+metrofun/machine-learning-surveys	1400	topic	1400			757		0			Machine learning surveys, tutorials, and books
+telegram-mini-apps-dev/awesome-telegram-mini-apps	1400	topic	1400			758		0			Resources for Telegram Mini Apps
+opendilab/awesome-model-based-RL	1400	topic	1400			759		0			Model-based reinforcement learning resources
+notthetup/awesome-webaudio	1400	topic	1400	1400		760		1	Front-End Development	Front-End Development	WebAudio packages and resources
+taielab/awesome-hacking-lists	1400	topic	1400			761		0			Curated penetration testing tools and productivity utilities across several domains
+hashgraph-online/awesome-codex-plugins	1400	topic	1400			762		0			Curated list of OpenAI Codex and ChatGPT plugins, skills, and resources
+margaretmz/awesome-tensorflow-lite	1400	topic	1400	960		763		1	Computer Science	Computer Science	TensorFlow Lite models, samples, tutorials, tools, and learning resources
+jaredpalmer/awesome-react-render-props	1400	topic	1400			764		0			React components that use the render props pattern
+flame-engine/awesome-flame	1400	topic	1400	1400		765		1	Gaming	Gaming	Flame games, projects, libraries, tools, and tutorials
+acgeospatial/awesome-earthobservation-code	1400	topic	1400			766		0			Earth Observation and geospatial satellite imagery tools, code, and tutorials
+aleixmorgadas/awesome-engineering-strategy	1400	topic	1400			767		1	Business		Designing and executing engineering strategies for tech leadership
+Anil-matcha/awesome-muse-connectors	1400	topic	1400			768		0			Catalog of Meta Muse integrations and community connector skills
+sergey-pronin/Awesome-Vulnerability-Research	1400	topic	1400			769		0			Curated vulnerability research resources
+zemmsoares/awesome-rices	1400	topic	1400			770		0			"Curated Unix desktop customization (""rice"") resources"
+taranjeet/awesome-gpts	1400	topic	1400			771		0			Collection of community-created GPTs
+infosecB/awesome-detection-engineering	1400	topic	1400			772		1	Security		Detection engineering for proactively identifying malicious activity
+SE-ML/awesome-seml	1400	topic	1400	1000		773		1	Computer Science	Computer Science	Articles on software engineering best practices for machine learning applications
+automata/awesome-jamstack	1400	topic	1400	1400		774		1	Front-End Development	Front-End Development	Curated Jamstack resources
+balavenkatesh3322/CV-pretrained-model	1400	topic	1400			775		0			Collection of pre-trained computer vision models
+Yuan-ManX/ai-game-devtools	1400	topic	1400			776		0			Hub of AI-powered game development tools across many categories
+bismex/Awesome-person-re-identification	1400	topic	1400			777		0			Person re-identification resources
+nrdmn/awesome-zig	1400	topic	1400			778		0			
+hetznercloud/awesome-hcloud	1400	topic	1400			779		0			Libraries, tools, and integrations for Hetzner Cloud
+kdeldycke/awesome-billing	1400	topic	1400	1300		780		1	Business	Business	Billing and payments knowledge for cloud platforms
+szenergy/awesome-lidar	1400	topic	1400	1300		781		1	Hardware	Hardware	Curated LIDAR list covering manufacturers, datasets, point cloud algorithms, frameworks, and simulators
+RyanAlberts/best-of-Agent-Harnesses	1400	topic	1400			782		0			Ranked list of 187 AI agent harnesses, plus templates, playbooks, MCP, and learning resources
+gbadev-org/awesome-gbadev	1400	topic	1400			783		0			Curated resources for Game Boy Advance development
+dubinc/oss-gallery	1400	topic	1400			784		0			Crowdsourced list of notable open-source projects, built with the Dub TypeScript SDK
+marcelscruz/dev-resources	1400	topic	1400			785		0			Collaborative list of resources for developers
+sudara/awesome-juce	1400	topic	1400			786		0			Curated JUCE modules, templates, and plugins
+domenicosolazzo/awesome-okr	1400	tal		1400				1	Business	Business	A curated list about OKR (Objective - Key Results)
+asdf-vm/asdf-plugins	1400	tal		1400				0		Computer Science	Convenience shortname repository for asdf community plugins
+igorbarinov/awesome-bitcoin	1400	tal		1400				1	Decentralized Systems	Decentralized Systems	A curated list of bitcoin services and tools for software developers
+Urigo/awesome-meteor	1400	tal		1400				1	Front-End Development	Front-End Development	A curated, community driven list of awesome Meteor packages, libraries, resources and shiny things
+gokayfem/awesome-vlm-architectures	1300	topic	1300			787		1	Theory		Visual catalog of 155+ vision-language model architectures, with papers, diagrams, and datasets
+avtzis/awesome-linux-ricing	1300	topic	1300			788		0			Curated themes, tools, and apps for customizing the Linux environment
+davisonio/awesome-irc	1300	topic	1300	1300		789		1	Miscellaneous	Miscellaneous	Curated IRC resources
+trevor-vincent/awesome-high-performance-computing	1300	topic	1300			790		0			Curated high performance computing resources
+noahbuscher/inspire	1300	topic	1300	1100		791		1	Front-End Development	Front-End Development	Collection of frontend development and web design links
+valeman/awesome-conformal-prediction	1300	topic	1300			792		0			Curated conformal prediction videos, tutorials, books, papers, theses, and libraries
+janosh/awesome-sveltekit	1300	topic	1300			793		0			Examples of SvelteKit applications in the wild
+Siddharth11/Colorful	1300	topic	1300	1200		794		1	Miscellaneous	Miscellaneous	Curated resources for choosing a color scheme
+jnmcfly/awesome-startpage	1300	topic	1300			795		0			Compiled list of notable startpage projects
+ml-tooling/best-of-python-dev	1300	topic	1300			796		0			Ranked list of Python developer tools and libraries, updated weekly
+facyber/awesome-networking	1300	topic	1300			797		0			Networking courses, books, tutorials, and other resources
+aimerou/awesome-ai-papers	1300	topic	1300			798		0			Curated list of notable AI papers
+junosuarez/awesome-npx	1300	topic	1300			799		0			Packages and resources that work well with npx
+ethibox/awesome-stacks	1300	topic	1300			800		0			Deploy 150+ open-source web apps with one Docker command
+hahwul/MobileHackersWeapons	1300	topic	1300			801		0			Collection of tools for mobile hackers and bug hunters
+ThomasVitale/awesome-spring	1300	topic	1300			802		0			Curated books, tutorials, courses, and resources for Spring
+wddadk/Offensive-OSINT-Tools	1300	topic	1300			803		0			OSINT tools for offensive security, pentesting, and red teaming
+brycewang-stanford/Awesome-Journal-Skills	1300	topic	1300			804		0			Journal-specific Claude Code/Codex skill packs for academic publishing
+julionc/awesome-shopify	1300	topic	1300			805		0			Curated Shopify resources, libraries, and open-source projects
+agile6v/awesome-nginx	1300	topic	1300			806		0			Nginx distributions, third-party modules, and active developers
+huaize2020/awesome-nodejs	1300	topic	1300			807		0			Chinese-language collection of Node.js packages and resources
+fahadshamshad/awesome-transformers-in-medical-imaging	1300	topic	1300			808		0			Resources on applying Transformers to medical imaging
+topscoder/nuclei-wordfence-cve	1300	topic	1300			809		0			WordPress Nuclei scanning templates built from Wordfence vulnerability data
+atakanaltok/awesome-useful-websites	1300	topic	1300			810		0			Hand-curated list of useful websites
+barnamenevisi/free-resources	1300	topic	1300			811		0			Persian-language archive of free programming learning resources
+myshov/awesome-mobile-web-development	1300	topic	1300	1100		812		1	Front-End Development	Front-End Development	Resources for building strong mobile web experiences
+gmelodie/awesome-wordlists	1300	topic	1300			813		0			Curated wordlists for brute-forcing and fuzzing
+linsa-io/courses	1300	topic	1300			814		0			Curated list of online courses
+vapor-community/awesome-vapor	1300	topic	1300	980		815		1	Back-End Development	Back-End Development	Curated projects related to the Vapor server-side Swift framework
+rajasegar/awesome-micro-frontends	1300	topic	1300			816		0			Posts, videos, and tutorials on micro frontends
+mfaisalkhatri/awesome-learning	1300	topic	1300			817		0			Learning resources for software test automation engineers
+DmytroLitvinov/awesome-flake8-extensions	1300	topic	1300			818		0			Curated list of flake8 extensions
+rafaskb/awesome-libgdx	1300	topic	1300	1000		819		1	Gaming	Gaming	Curated libGDX resources for game developers
+Siilwyn/awesome-pixel-art	1300	topic	1300	1300		820		1	Media	Media	Curated resources on pixel art
+valpackett/awesome-gtk	1300	topic	1300			821		0			Curated list of GTK 3 and 4 applications
+golang-china/awesome-go-zh	1300	topic	1300			822		0			Chinese-language curated Go resources, including a book collection
+irazasyed/awesome-cloudflare	1300	topic	1300	1000		823		1	Platforms	Platforms	Cloudflare Workers recipes, open-source projects, guides, and blogs
+lirantal/npm-security-best-practices	1300	topic	1300			824		0			Security best practices for the npm package manager
+binaryshrey/Awesome-Android-Open-Source-Projects	1300	topic	1300			825		0			Curated open-source Android projects
+ysymyth/awesome-language-agents	1300	topic	1300			826		0			"Language agents based on the ""Cognitive Architectures for Language Agents"" paper"
+jonaschn/awesome-he	1300	topic	1300			827		0			Homomorphic encryption libraries, software, and resources
+durgeshsamariya/Data-Science-Machine-Learning-Project-with-Source-Code	1300	topic	1300			828		0			Data science and machine learning projects with source code
+awesome-assistants/awesome-assistants	1300	topic	1300			829		0			Curated list of AI assistants, with an example Telegram bot
+Malix-Labs/Awesome-Atomic	1300	topic	1300			830		0			Knowledge base about atomic (immutable) Linux systems
+0xsline/awesome-deepseek-harness	1300	topic	1300			831		0			Plugins, tools, and infrastructure for the DeepSeek Harness ecosystem
+lvwzhen/tools	1300	tal		1300				1	Front-End Development	Front-End Development	Tools Online
+TaptuIT/awesome-devsecops	1300	tal		1300				1	Security	Security	Curating the best DevSecOps resources and tooling.
+thehappydinoa/awesome-censys-queries	1200	topic	1200			832		0			Collection of unusual Censys search queries
+yousefebrahimi0/1000-AI-collection-tools	1200	topic	1200			833		0			Categorized directory of over 1,000 AI-powered tools
+samapriya/awesome-gee-community-datasets	1200	topic	1200			834		0			Community-contributed datasets for Google Earth Engine
+weihaox/awesome-image-translation	1200	topic	1200			835		0			Resources on image-to-image translation
+jin/awesome-bazel	1200	topic	1200			836		0			Bazel rules, tooling, and resources
+ayushidalmia/awesome-fashion-ai	1200	topic	1200			837		0			Summaries of research papers on fashion and e-commerce
+originalankur/awesome-django-admin	1200	topic	1200			838		0			Django admin panel articles, packages, themes, and videos
+e2b-dev/awesome-ai-sdks	1200	topic	1200			839		0			Database of SDKs and tools for building and deploying AI agents
+Mindbaz/awesome-opensource-email	1200	topic	1200			840		0			Open-source email resources
+glauberfc/awesome-react-hooks	1200	topic	1200	1100		841		1	Front-End Development	Front-End Development	Curated list about React Hooks
+HollyAdele/awesome-programming-for-kids	1200	topic	1200	1100		842		1	Learn	Learn	Curated resources for teaching kids programming
+DangJin/awesome-iptv	1200	topic	1200			843		0			Collection of useful IPTV channel projects (description in Chinese)
+ghoullier/awesome-template-literal-types	1200	topic	1200			844		0			Curated examples of TypeScript Template Literal Types
+mostafatouny/awesome-theoretical-computer-science	1200	topic	1200	1200		845		1	Computer Science	Computer Science	Math and CS list organized by proof and logic technique
+feross/awesome-mad-science	1200	topic	1200	1000		846		1	Programming Languages	Programming Languages	npm packages that seem almost too clever to be possible
+jsuarezruiz/awesome-xamarin-forms	1200	topic	1200			847		0			Curated Xamarin.Forms libraries and resources
+jacobdjwilson/awesome-annual-security-reports	1200	topic	1200			848		1	Security		Curated list of annual cybersecurity reports
+shadawck/awesome-cli-frameworks	1200	topic	1200			849		0			Tools for building command-line interfaces in various languages
+bcoe/awesome-cross-platform-nodejs	1200	topic	1200	1200		850		1	Platforms	Platforms	Developer tools for writing cross-platform Node.js code
+benallfree/awesome-pocketbase	1200	topic	1200			851		1	Databases		Collection of PocketBase community resources
+gary23ai/awesome_OpenSetRecognition_list	1200	topic	1200			852		0			Papers and resources on open set and out-of-distribution recognition
+ankane/awesome-legal	1200	topic	1200			853		0			Free legal document templates for companies
+zukixa/cool-ai-stuff	1200	topic	1200			854		0			List of free-to-use AI APIs and sites (not endorsed by the maintainers)
+carlosperate/awesome-microbit	1200	topic	1200			855		0			Curated list of BBC micro:bit resources
+morluto/awesome-reverse-engineering	1200	topic	1200			856		0			Reverse-engineering tools and learning resources
+dashvlas/awesome-ios-interview	1200	topic	1200			857		0			iOS developer interview questions and answers (Swift and Objective-C)
+uhub/awesome-cpp	1200	topic	1200			858		0			Curated C++ frameworks, libraries, and software
+theoephraim/awesome-cloudflare-selfhosted	1200	topic	1200			859		0			Open-source apps that replace SaaS tools, self-hosted on Cloudflare
+transitive-bullshit/awesome-ffmpeg	1200	topic	1200	1200		860		1	Media	Media	Curated FFmpeg resources
+uhub/awesome-python	1200	topic	1200			861		0			Curated list of Python frameworks, libraries, and software
+CompSciLauren/awesome-git-hooks	1200	topic	1200	1100		862		1	Development Environment	Development Environment	Curated list of Git hooks
+BasixKOR/awesome-activitypub	1200	topic	1200			863		0			Awesome list of ActivityPub-based projects
+bestxtools/awesome-toolbox-chinese	1200	topic	1200			864		0			Collection of recommended online toolboxes (Chinese-language)
+0xisk/awesome-solidity-gas-optimization	1200	topic	1200			865		0			Resources on optimizing gas usage in Solidity
+obazoud/awesome-dashboard	1200	topic	1200			866		0			Curated dashboard and visualization resources
+ajay-prabhakar/awesome-flutter-ui	1200	topic	1200			867		0			Flutter UI design examples for Android and iOS
+drom/awesome-hdl	1200	topic	1200			868		0			Hardware description languages
+currenjin/site-for-developers	1200	topic	1200			869		0			Developer bookmark collection (Korean-language)
+run-as-root/awesome-magento2	1200	topic	1200	1200		870		0		Miscellaneous	Magento 2 extensions, resources, and highlights
+nayafia/awesome-maintainers	1200	topic	1200	1100		871		1	Miscellaneous	Miscellaneous	Talks, posts, and interviews on open source maintenance
+OTFCG/Awesome-Game-Analysis	1200	topic	1200			872		0			Collection of video game technical analysis resources
+curieuxjy/Awesome_Quadrupedal_Robots	1200	topic	1200			873		0			Curated list of quadruped robots
+pe3zx/my-infosec-awesome	1200	topic	1200			874		0			Links, resources, and tools on information security
+usamahz/cpu-performance-engineering	1200	topic	1200			875		0			Reading path for CPU performance engineering, with benchmarks
+junyanz/CatPapers	1200	topic	1200			876		0			Vision, learning, and graphics papers about cats
+qwdwqfwq/topconf-paper-figure-gallery	1200	topic	1200			877		0			Gallery of about 3,500 curated paper teaser figures from top ML/CV/NLP conferences
+rohitg00/awesome-claude-design	1200	topic	1200			878		0			Design prompts, recipes, and skills for Claude Design
+chengtan9907/OpenSTL	1200	topic	1200			879		0			Benchmark for spatio-temporal predictive learning
+steven2358/awesome-blockchain-ai	1200	topic	1200	1100		880		1	Decentralized Systems	Decentralized Systems	Curated list of blockchain projects for AI and ML
+Anil-matcha/awesome-gpt-6-astra	1200	topic	1200			881		0			Use cases, prompts, integrations, evaluations, and safety notes for OpenAI GPT-6 Astra
+Marcin214/awesome-automotive	1200	topic	1200			882		0			Curated free automotive engineering resources; seeking contributors
+jfilter/Sublime-Text-Plugins-for-Frontend-Web-Development	1200	topic	1200			883		0			Collection of Sublime Text plugins for frontend web development
+cedrickchee/awesome-transformer-nlp	1200	topic	1200			884		0			NLP resources on Transformers, attention, GPT, BERT, ChatGPT, LLMs, and transfer learning
+sger/ElixirBooks	1200	tal		1200				1	Books	Books	List of Elixir books
+therebelrobot/awesome-workshopper	1200	tal		1200				1	Learn	Miscellaneous	A list of CLI workshopper/adventure tutorials for various things. Inspired by awesome.
+iluwatar/30-seconds-of-java	1100	topic	1100			885		0			Tested, reusable Java 21 code snippets that are quick to understand
+SyMind/awesome-bilibili	1100	topic	1100			886		0			Bilibili creators who teach technical topics
+Corsinvest/awesome-proxmox-ve	1100	topic	1100			887		0			Proxmox VE documentation, tools, APIs, blogs, and sites
+AmazingApps/Amazing-Windows-Apps	1100	topic	1100			888		0			Showcase of Windows apps
+ArslanYM/Free-Certifications	1100	topic	1100			889		0			List of development courses that offer free certifications
+awesome-gptX/awesome-gpt	1100	topic	1100			890		0			Resources, tools, and use cases related to ChatGPT
+leomaurodesenv/game-datasets	1100	topic	1100	1100		891		1	Gaming	Gaming	Game datasets and tools for AI in games
+iDoka/awesome-embedded-software	1100	topic	1100			892		0			Software (interfaces, libraries, protocols) suited to resource-constrained embedded systems
+shaypal5/awesome-twitter-data	1100	topic	1100			893		0			Twitter datasets and related resources
+daviddias/awesome-hacking-locations	1100	topic	1100	1100		894		1	Security	Security	Hacking locations by country and city, noting power and Wi-Fi availability
+christian-bromann/awesome-selenium	1100	topic	1100	1100		895		1	Testing	Testing	Selenium resources
+ddotta/awesome-polars	1100	topic	1100	1100		896		0		Programming Languages	Polars talks, tools, examples, and articles
+TheShadow29/awesome-grounding	1100	topic	1100			897		0			Research papers on visual grounding
+weihaox/GAN-Inversion	1100	topic	1100			898		0			Survey of GAN inversion research (TPAMI 2022)
+elangosundar/awesome-README-templates	1100	topic	1100			899		0			README templates for GitHub profiles
+n0kovo/awesome-password-cracking	1100	topic	1100			900		1	Security		Tools, research, and papers on password cracking and password security
+cdwv/awesome-helm	1100	topic	1100			901		0			Community list of Helm charts and related resources
+kciter/awesome-style-guide	1100	topic	1100			902		0			Curated list of style guides
+fishttp/awesome-bluesky	1100	topic	1100			903		0			Catalog of known tools for the Bluesky platform
+PRIV-Creation/Awesome-Controllable-T2I-Diffusion-Models	1100	topic	1100			904		0			Resources on controllable text-to-image diffusion generation
+hzxie/Awesome-3D-Scene-Generation	1100	topic	1100			905		0			Curated papers on 3D scene generation (IJCV 2026)
+delftopenhardware/awesome-open-hardware	1100	topic	1100	1100		906		1	Hardware	Hardware	Useful resources for open source hardware projects
+huggingface/awesome-huggingface	1100	topic	1100			907		0			Open-source projects and apps integrated with Hugging Face libraries
+emredurukn/awesome-job-boards	1100	topic	1100			908		0			Curated list of job boards
+AcalephStorage/awesome-devops	1100	topic	1100			909		0			Curated resources for DevOps
+738/awesome-url-shortener	1100	topic	1100			910		0			Curated list of URL shorteners
+Ibexoft/awesome-startup-tools-list	1100	topic	1100			911		0			Tools (apps and services) useful for startups
+appwrite/awesome-appwrite	1100	topic	1100			912		0			Curated Appwrite resources
+hantuzun/awesome-clojurescript	1100	topic	1100	967		913		1	Programming Languages	Programming Languages	Community list of ClojureScript frameworks, libraries, and wrappers
+HillZhang1999/llm-hallucination-survey	1100	topic	1100			914		0			Reading list on hallucination in LLMs
+golangci/awesome-go-linters	1100	topic	1100			915		0			Curated list of Go linters and static analysis tools
+neurreps/awesome-neural-geometry	1100	topic	1100			916		0			Resources on geometry of representations in brains and deep networks
+hanjuku-kaso/awesome-offline-rl	1100	topic	1100			917		0			Index of offline reinforcement learning algorithms
+Neph0s/awesome-llm-role-playing-with-persona	1100	topic	1100			918		0			Resources on LLM role-playing with assigned personas
+YuzeHao2023/Awesome-MCP-Servers	1100	topic	1100			919		0			Curated list of Model Context Protocol (MCP) servers
+opendatadiscovery/awesome-data-catalogs	1100	topic	1100			920		0			Data catalogs and observability platforms
+naughtygopher/goapp	1100	topic	1100			921		0			Guidelines for structuring and building a Go web app or service
+lukasmasuch/best-of-react	1100	topic	1100			922		0			Ranked list of React open-source libraries and tools, updated weekly
+theNewDynamic/awesome-hugo	1100	topic	1100			923		0			Curated resources for the Hugo static site generator
+arbox/nlp-with-ruby	1100	topic	1100	967		924		1	Computer Science	Computer Science	Practical natural language processing tools and resources for Ruby
+cbovis/awesome-digital-nomads	1100	topic	1100			925		0			Curated resources for digital nomads
+heathersherry/Knowledge-Graph-Tutorials-and-Papers	1100	topic	1100			926		0			Tutorials and papers on knowledge graphs
+dreikanter/sublime-bookmarks	1100	topic	1100	1000		927		1	Editors	Editors	Essential plugins and resources for Sublime Text
+WecoAI/awesome-autoresearch	1100	topic	1100			928		0			AutoResearch use cases with optimization traces and open-source implementations
+msadowski/awesome-weekly-robotics	1100	topic	1100			929		0			Projects featured in the Weekly Robotics newsletter
+amio/awesome-micro	1100	topic	1100			930		0			Resources related to Zeit's micro HTTP framework
+anshumanv/awesome-anime-sources	1100	topic	1100			931		0			Curated list of anime-related websites and resources
+croqaz/awesome-decentralized	1100	topic	1100	1100		932		0		Decentralized Systems	Distributed, decentralized, and peer-to-peer apps and tools
+Anil-matcha/awesome-agent-apis	1100	topic	1100			933		0			Catalog of hosted generative-media models and third-party API tools
+shadawck/awesome-anti-forensic	1100	topic	1100			934		0			Tools for countering forensic investigations, such as encryption and steganography
+DasterProkio/awesome-ai-companion	1100	topic	1100			935		0			Open-source AI companions with memory and proactive chat
+simoninithomas/awesome-ai-tools-for-game-dev	1100	topic	1100			936		0			Curated AI tools for game developers
+uhub/awesome-javascript	1100	topic	1100			937		0			Curated JavaScript frameworks, libraries, and software
+shekhargulati/30-seconds-of-java	1100	topic	1100			938		0			Small, quick-to-understand useful Java functions
+blob42/awesome-explorables	1100	topic	1100			939		0			Curated explorable explanations (interactive articles)
+hundredrabbits/awesome-uxn	1100	topic	1100			940		0			Community resources for the Uxn computing environment
+YOURLS/awesome	1100	topic	1100			941		0			Curated list of awesome things related to YOURLS
+afonsopacifer/awesome-flexbox	1100	tal		1100				1	Front-End Development	Front-End Development	:eyeglasses: A curated list of CSS Flexible Box Layout Module or only Flexbox.
+addyosmani/critical-path-css-tools	1100	tal		1100				1	Front-End Development	Front-End Development	Tools to prioritize above-the-fold (critical-path) CSS
+melvin0008/awesome-projects-boilerplates	1100	tal		1100				1	Miscellaneous	Miscellaneous	Boilerplates for mobile and web apps
+sdnds-tw/awesome-sdn	1100	tal		1100				0		Networking	A awesome list about Software Defined Network (SDN)
+stepci/awesome-api-clients	1100	tal		1100				0		Testing	List of awesome API clients. Postman and Insomnia alternatives
+passy/awesome-recursion-schemes	1100	tal		1100				1	Theory	Theory	Resources for learning and using recursion schemes.
+svaksha/pythonidae	1000	topic	1000			942		0			Curated resources for scientific programming in Python
+jslee02/awesome-collision-detection	1000	topic	1000			943		0			Curated collision detection libraries and resources
+luisdnsantos/awesome-computer-graphics	1000	topic	1000			944		0			Curated resources for learning computer graphics
+KevinColemanInc/awesome-privacy	1000	topic	1000			945		0			Resources for limiting personal data leaks online
+SeppPenner/awesome-german-piracy	1000	topic	1000			946		0			Curated list of (mostly German) piracy sites
+guardrailsio/awesome-php-security	1000	topic	1000			947		0			PHP security resources
+LetsDefend/awesome-soc-analyst	1000	topic	1000			948		0			Resources for SOC analysts and SOC analyst candidates
+badges/awesome-badges	1000	topic	1000			949		0			Curated collection of status badge resources
+wasmlang/awesome-wasm-zh	1000	topic	1000			950		0			Curated WebAssembly (wasm) resources, in Chinese
+zacharywhitley/awesome-ocr	1000	topic	1000			951		0			
+okhosting/awesome-storage	1000	topic	1000			952		0			Open source storage tools for backup, redundancy, sharing, and encryption
+modenaxe/awesome-biomechanics	1000	topic	1000			953		0			Resources for biomechanics and human motion analysis
+ShaikhWarsi/free-ai-tools	1000	topic	1000			954		0			Free and low-cost AI tools, LLM APIs, IDEs, and agents
+ucatal/awesome-ielts	1000	topic	1000			955		0			Public resources for students preparing for IELTS
+taishi-i/awesome-japanese-nlp-resources	1000	topic	1000			956		0			Japanese NLP resources: libraries, LLMs, dictionaries, and datasets
+sroberts/awesome-iocs	1000	topic	1000			957		0			Sources of indicators of compromise and detection signatures
+4337Mafia/awesome-account-abstraction	1000	topic	1000			958		0			Resources on account abstraction (EIP-4337)
+notlmn/awesome-icons	1000	topic	1000	1000		959		1	Media	Media	Downloadable SVG, PNG, and font icon projects
+osmlab/awesome-openstreetmap	1000	topic	1000	996		960		1	Miscellaneous	Miscellaneous	Curated OpenStreetMap projects
+aleron75/mageres	1000	topic	1000			961		0			Useful Magento technical resources
+worldbench/awesome-3d-4d-world-models	1000	topic	1000			962		0			Survey of 3D and 4D world modeling (TPAMI 2026)
+cpuu/awesome-fuzzing	1000	topic	1000	990		963		1	Security	Security	Curated list of fuzzing (fuzz testing) resources for software security
+maltfield/awesome-lemmy-instances	1000	topic	1000			964		0			Comparison of different Lemmy instances
+adisonhuang/awesome-kotlin-android	1000	topic	1000			965		0			Open-source libraries, tools, and resources for Android development with Kotlin
+writing-resources/awesome-scientific-writing	1000	topic	1000	998		966		1	Miscellaneous	Miscellaneous	Tools, demos, and resources for scientific writing beyond LaTeX
+carlosperate/awesome-pyproject	1000	topic	1000			967		0			Projects that use the pyproject.toml Python configuration file
+AxiomeCG/awesome-threejs	1000	topic	1000			968		0			Curated list of Three.js resources
+alan2207/awesome-codebases	1000	topic	1000			969		0			Collection of open-source codebases worth exploring
+tehtbl/awesome-note-taking	1000	topic	1000			970		0			100+ note-taking, PKM, and knowledge management apps, open source and proprietary
+preactjs/awesome-preact	1000	topic	1000	1000		971		1	Front-End Development	Front-End Development	Curated list of resources for the Preact ecosystem
+SupeRuier/awesome-active-learning	1000	topic	1000			972		0			Resources on active learning (AL)
+ishantanu/awesome-kubectl-plugins	1000	topic	1000			973		0			Curated list of kubectl plugins
+UCYBERS/Awesome-Blackhat-Tools	1000	topic	1000			974		0			Tools officially presented at Black Hat events
+Evolink-AI/awesome-openclaw-usecases-moltbook	1000	topic	1000			975		0			Real-world OpenClaw automation examples from Moltbook
+devanshutak25/3d-resources	1000	topic	1000			976		0			CC0 reference hub of 3D, VFX, and game dev tools, assets, and tutorials
+benchflow-ai/awesome-evals	1000	topic	1000			977		0			Resources for building and evaluating AI agents: papers, tools, benchmarks
+iDoka/awesome-automotive-can-id	1000	topic	1000			978		0			Collection of CAN IDs and payloads for various car brands and models
+eselkin/awesome-computational-neuroscience	1000	topic	1000	702		979		1	Health and Social Science	Health and Social Science	List of schools and researchers in computational neuroscience
+738/awesome-devbook	1000	topic	1000			980		0			List of domestic (Korean) development books
+one-aalam/awesome-solid-js	1000	topic	1000			981		0			Curated resources for building sites with SolidJS
+sedyh/awesome-ebitengine	1000	topic	1000			982		0			Curated list of Ebitengine frameworks, libraries, and software
+youngwookim/awesome-hadoop	1000	tal		1000				1	Big Data	Big Data	A curated list of amazingly awesome Hadoop and Hadoop ecosystem resources
+numetriclabz/awesome-db	1000	tal		1000				1	Databases	Databases	A curated list of amazingly awesome database libraries, resources and shiny things by https://www.numetriclabz.com/
+jaegeral/security-apis	999	topic	999			983		0			Collective list of public APIs for security use
+prayash/awesome-gatsby	998	topic	998			984		0			Awesome list for Gatsby.js, a React static site generator
+Duan-JM/awesome-papers-fewshot	991	topic	991			985		0			Collection of few-shot learning papers
+jagracey/Awesome-Unicode	989	topic	989	809		986		1	Miscellaneous	Miscellaneous	Curated Unicode tidbits, packages, and resources
+maxbogo/awesome-ai-tools-for-ui	987	topic	987			987		0			Curated AI tools for UI/UX design
+magsther/awesome-opentelemetry	986	topic	986			988		0			Curated OpenTelemetry resources
+ccplugins/awesome-claude-code-plugins	986	topic	986			989		0			Curated Claude Code slash commands, subagents, MCP servers, and hooks
+aitemr/awesome-git-hooks	983	topic	983			990		0			Collection of Git hooks
+proyecto26/awesome-jsgames	983	topic	983			991		0			Curated list of JavaScript games
+nathanlesage/academics-on-mastodon	981	topic	981			992		0			Lists of academics on Mastodon
+petk/awesome-jquery	980	topic	980	969		993		1	Front-End Development	Front-End Development	Curated jQuery plugins and resources
+ygzgxyz/awesome-sphinxdoc	979	topic	979			994		0			Curated Sphinx documentation resources
+heyjunpenn/awesome-jev	976	topic	976			995		0			Catalog of 992 open-source projects built with Jev
+awesome-streamers/awesome-streamerrc	975	topic	975			996		0			Dotfiles for Twitch streamers
+sekwiatkowski/awesome-capsule-networks	975	topic	975			997		0			Curated capsule network resources
+xdesro/personalsit.es	975	topic	975			998		0			Directory of personal websites
+emacs-tw/awesome-elisp	972	topic	972			999		0			Curated Emacs Lisp development resources
+iCHAIT/awesome-subreddits	970	topic	970			1000		0			Curated list of programming subreddits
+tvvocold/FOSS-for-Dev	965	tal		965				1	Development Environment	Development Environment	A hub of Free and open-source software for developers
+FriendsOfCake/awesome-cakephp	933	tal		933				1	Back-End Development	Back-End Development	A curated list of amazingly awesome CakePHP plugins, resources and shiny things.
+lucasviola/awesome-functional-programming	929	tal		929				1	Computer Science	Computer Science	:alien: A curated list of functional programming resources such as blog posts, communities, discussion topics, wikis and more.
+secretGeek/AwesomeCSV	928	tal		928				1	Miscellaneous	Miscellaneous	🕶️A curated list of awesome tools for dealing with CSV.
+hzoo/awesome-gametalks	919	tal		919				1	Gaming	Gaming	:speech_balloon: A curated list of gaming talks (development, design, etc)
+dariubs/awesome-workflow-automation	915	tal		915				0		Miscellaneous	A curated list of Workflow Automation  Software, Engines and Tools
+jakoch/awesome-composer	908	tal		908				1	Programming Languages	Programming Languages	:sunglasses: A curated awesome list for Composer, Packagist, Satis, Plugins, Scripts, Composer related resources, tutorials.
+opencompany/awesome-open-company	907	tal		907				1	Business	Business	A community-curated list of awesome open companies.
+harpribot/awesome-information-retrieval	894	tal		894				1	Computer Science	Computer Science	A curated list of awesome information retrieval resources
+matiassingers/awesome-slack	893	tal		893				1	Work	Work	A curated list of awesome Slack related things
+drewrwilson/toolsforactivism	891	tal		891				1	Miscellaneous	Miscellaneous	growing list of digital tools for activism things
+fliptheweb/motion-ui-design	888	tal		888				1	Front-End Development	Front-End Development	Resources for inspiration, lists of software, libraries and other stuff related to Motion UI design, animations and transitions.
+klaufel/awesome-design-systems	885	tal		885				1	Front-End Development	Front-End Development	📒 A curated list of bookmarks, resources and articles about design systems focused on developers.
+francoism90/awesome-kde	873	tal		873				1	Platforms	Platforms	A curated list of awesome apps, extensions, modules, themes and tools for the KDE Desktop Environment.
+ohenley/awesome-ada	864	tal		864				1	Programming Languages	Programming Languages	A curated list of awesome resources related to the Ada and SPARK programming language
+gofiber/awesome-fiber	848	tal		848				1	Back-End Development	Back-End Development	✨ A curated list of awesome Fiber middlewares, boilerplates, recipes, articles and tools.
+candelibas/awesome-ionic	843	tal		843				1	Front-End Development	Front-End Development	"An ""awesome"" list of Ionic resources"
+rabschi/awesome-beacon	841	tal		841				1	Hardware	Hardware	A curated list of awesome Bluetooth beacon software and tools.
+cyclejs-community/awesome-cyclejs	822	tal		822				1	Front-End Development	Front-End Development	A curated list of awesome Cycle.js resources
+aliesbelik/awesome-jmeter	806	tal		806				1	Testing	Testing	A collection of resources covering different aspects of JMeter usage.
+exAspArk/awesome-chatops	782	tal		782				1	Miscellaneous	Miscellaneous	:robot: A collection of awesome things about ChatOps – managing operations through a chat
+grafana/awesome-k6	778	tal		778				1	Testing	Testing	A curated list of awesome tools, content and projects using k6
+Codepoints/awesome-codepoints	777	tal		777				1	Miscellaneous	Miscellaneous	Awesome Code Points
+dlang-community/awesome-d	763	tal		763				1	Programming Languages	Programming Languages	A curated list of awesome D documents, frameworks, libraries and software. Inspired by awesome-python.
+mark-rushakoff/awesome-influxdb	761	tal		761				1	Databases	Databases	A curated list of awesome projects, libraries, tools, etc. related to InfluxDB
+wardley-maps-community/awesome-wardley-maps	760	tal		760				1	Business	Business	Wardley maps community hub. Useful Wardley mapping resources
+karlhorky/awesome-speakers	757	tal		757				1	Miscellaneous	Miscellaneous	Awesome speakers in the programming and design communities
+J2TEAM/awesome-AutoIt	756	tal		756				1	Programming Languages	Programming Languages	:star: A curated list of awesome UDFs, example scripts, tools and useful resources for AutoIt.
+livewire/awesome-tall-stack	748	tal		748				0		Back-End Development	A curated list of awesome things related to the TALL stack.
+RyanZim/awesome-npm-scripts	742	tal		742				1	Programming Languages	Programming Languages	Everything awesome related to npm scripts and using npm as a build tool.
+bystritskiy/awesome-ios-books	737	tal		737				0		Books	📚 Directory of iOS books
+diessica/awesome-sketch	730	tal		730				0		Miscellaneous	:books: delightful stuff for SketchApp students.
+phillipadsmith/awesome-github	726	tal		726				1	Development Environment	Development Environment	A curated list of GitHub's awesomeness
+kdabir/awesome-groovy	720	tal		720				1	Programming Languages	Programming Languages	A curated list of awesome groovy libraries, frameworks and resources
+substrate-developer-hub/awesome-substrate	719	tal		719				1	Decentralized Systems	Decentralized Systems	A curated list of awesome projects and resources related to the Substrate blockchain development framework.
+cyberglot/awesome-answers	719	tal		719				0		Miscellaneous	Curated list of inspiring and thoughtful answers given on stackoverflow, quora, etc.
+deanhume/typography	708	tal		708				1	Front-End Development	Front-End Development	A collection of web typography resources
+seriousran/awesome-qa	706	tal		706				1	Computer Science	Computer Science	😎 A curated list of the Question Answering (QA)
+davisonio/awesome-gif	702	tal		702				1	Media	Media	A curated list of awesome GIF resources.
+adafruit/awesome-circuitpython	681	tal		681				1	Programming Languages	Programming Languages	A curated list of awesome CircuitPython guides, videos, libraries, frameworks, software and resources.
+zachflower/awesome-open-source-supporters	674	tal		674				1	Miscellaneous	Miscellaneous	⭐️ A curated list of companies that offer their services for free to Open Source projects
+BubuAnabelas/awesome-markdown	668	tal		668				1	Miscellaneous	Miscellaneous	:memo: Delightful Markdown stuff.
+yrgo/awesome-educational-games	667	tal		667				1	Learn	Learn	A curated list of awesome educational games to learn editors, languages, programming, etc
+iamericfletcher/awesome-r-learning-resources	666	tal		666				1	Programming Languages	Programming Languages	A curated collection of free resources to help deepen your understanding of the R programming language. Updated regularly. Contributions encouraged via pull request (see contributing.md).
+hachiojipm/awesome-perl	665	tal		665				1	Programming Languages	Programming Languages	A curated list of awesome Perl frameworks and libraries. Come on Pull Requests!
+jthegedus/awesome-firebase	660	tal		660				1	Platforms	Platforms	🔥 List of Firebase talks, tools, examples & articles! Translations in  🇬🇧 🇷🇺 Contributions welcome!
+mislavcimpersak/awesome-dev-fun	658	tal		658				1	Miscellaneous	Miscellaneous	A curated list of awesome fun libs/packages/languages that have no real purpose but to make a developer chuckle.
+sachin1092/awesome-material	656	tal		656				1	Front-End Development	Front-End Development	A curated list of Google's material design libraries for different frameworks.
+csabapalfi/awesome-pagespeed-metrics	656	tal		656				1	Front-End Development	Front-End Development	⚡Metrics to help understand page speed and user experience
+riderx/awesome-capacitor	638	tal		638				1	Platforms	Platforms	😎 Awesome lists of capacitor plugins. Made by Capgo
+siboehm/awesome-learn-datascience	637	tal		637				1	Computer Science	Computer Science	:chart_with_upwards_trend: Curated list of resources to help you get started with Data Science
+balintkissdev/awesome-dos	636	tal		636				1	Platforms	Platforms	Curated list of references for development of DOS applications.
+sindresorhus/awesome-tap	634	tal		634				1	Testing	Testing	Useful resources for the Test Anything Protocol
+ayr-ton/awesome-geek-podcasts	627	tal		627				1	Entertainment	Entertainment	A curated list of podcasts we like to listen to.
+hsiaoyi0504/awesome-cheminformatics	625	tal		625				1	Miscellaneous	Miscellaneous	A curated list of Cheminformatics libraries and software.
+podo/awesome-framer	622	tal		622				1	Miscellaneous	Miscellaneous	A curated list of awesome things related to Framer prototyping tool
+phalcon/awesome-phalcon	611	tal		611				1	Back-End Development	Back-End Development	A curated list of awesome Phalcon libraries and resources
+mailtoharshit/awesome-salesforce	611	tal		611				1	Platforms	Platforms	A curated list of delightful Salesforce Platform Resources
+j0hnm4r5/awesome-creative-technology	605	tal		605				1	Work	Miscellaneous	Curated list of Creative Technology groups, companies, studios, collectives, etc.
+tobiasbueschel/awesome-pokemon	599	tal		599				1	Miscellaneous	Miscellaneous	:video_game: A curated list of awesome Pokémon & Pokémon Go resources, tools and more.
+alferov/awesome-gulp	593	tal		593				1	Miscellaneous	Miscellaneous	:tropical_drink: A curated list of awesome gulp resources, plugins, and boilerplates for a better development workflow automation - http://alferov.github.io/awesome-gulp
+catalinmiron/awesome-prisma	593	tal		593				1	Miscellaneous	Miscellaneous	A collection of awesome things regarding Prisma ecosystem.
+FiloSottile/awesome-age	588	tal		588				0		Miscellaneous	A collection of projects and resources in the age file encryption ecosystem.
+antdimot/awesome-lowcode	588	tal		588				0		Miscellaneous	A collection of Awesome low-code development platform (LCDP).
+Kikobeats/awesome-network-js	585	tal		585				1	Programming Languages	Programming Languages	A :tophat: list of network layer resources written pure JS.
+PandaFoss/Awesome-Arch	582	tal		582				1	Platforms	Platforms	:sunglasses: A complete list of Arch-based projects
+lucasviola/awesome-tech-videos	579	tal		579				1	Learn	Learn	:tv: A curated list of tech conferences from youtube, vimeo, etc for us to get inspired ;)
+angrykoala/awesome-esolangs	576	tal		576				1	Programming Languages	Miscellaneous	Curated list of awesome Esoteric languages and resources
+machinomy/awesome-non-financial-blockchain	574	tal		574				1	Decentralized Systems	Decentralized Systems	Curated list of projects that build non-financial applications of blockchain
+folkswhocode/awesome-diversity	572	tal		572				1	Health and Social Science	Health and Social Science	A curated list of amazingly awesome articles, websites and resources about diversity in technology.
+stn1slv/awesome-integration	566	tal		566				1	Platforms	Platforms	A curated list of awesome system integration software and resources.
+iJackUA/awesome-vagrant	563	tal		563				1	Back-End Development	Back-End Development	A curated list of awesome Vagrant resources, plugins, tutorials and other nice things.
+bs-community/awesome-minecraft	559	tal		559				1	Gaming	Gaming	📝 The curated list of awesome things related to Minecraft.
+scholtzm/awesome-steam	558	tal		558				1	Miscellaneous	Miscellaneous	😎 A curated list of packages and resources regarding Steam development
+saharmor/awesome-chatgpt	557	tal		557				0		ChatGPT	Selected ChatGPT demos, tools, articles, and more ✨
+directus-community/awesome-directus	551	tal		551				1	Content Management Systems	Content Management Systems	A curated list of awesome things related to Directus
+Kamigami55/awesome-chatgpt	536	tal		536				0		ChatGPT	Curated list of ChatGPT related resource, tools, prompts, apps / ChatGPT 相關優質資源、工具、應用的精選清單。
+uralbash/awesome-pyramid	530	tal		530				1	Back-End Development	Back-End Development	A curated list of awesome Pyramid apps, projects and resources.
+miguelmota/awesome-amazon-alexa	524	tal		524				0		Platforms	🗣Curated list of awesome resources for the Amazon Alexa platform.
+uraimo/awesome-software-patreons	520	tal		520				1	Miscellaneous	Miscellaneous	A curated list of awesome programmers and software projects you can support!
+ironcev/awesome-roslyn	520	tal		520				1	Platforms	Platforms	Curated list of awesome Roslyn books, tutorials, open-source projects, analyzers, code fixes, refactorings, and source generators
+AppImageCommunity/awesome-appimage	513	tal		513				1	Platforms	Platforms	Lovingly crafted AppImage tools and resources
+Piebald-AI/awesome-gemini-cli	512	tal		512				1	Miscellaneous	Agentic AI	A curated list of awesome tools, extensions, and resources for Gemini CLI.
+hbokh/awesome-saltstack	512	tal		512				0		Miscellaneous	🧂 A collaborative curated list of awesome SaltStack resources, tutorials and other salted stuff.
+craftcms/awesome	491	tal		491				1	Content Management Systems	Content Management Systems	A collection of awesome Craft CMS plugins, articles, resources and shiny things.
+KimberlyMunoz/empathy-in-engineering	487	tal		487				1	Health and Social Science	Health and Social Science	A curated list of resources for building and promoting more compassionate engineering cultures
+alexk111/awesome-bitcoin-payment-processors	487	tal		487				1	Miscellaneous	Miscellaneous	🌟 A curated list of Bitcoin payment processors enabling merchants, businesses and nonprofits to accept Bitcoin payments.
+MyHoneyBadger/awesome-github-wiki	487	tal		487				1	Miscellaneous	Miscellaneous	:neckbeard: Awesome list GitHub Wikis
+weblancaster/awesome-IoT-hybrid	487	tal		487				1	Platforms	Platforms	The missing awesome list - collection of awesome IoT and Hybrid Apps frameworks, tools, resources, videos and shiny things.
+playcanvas/awesome-playcanvas	485	tal		485				1	Gaming	Gaming	A curated list of awesome PlayCanvas assets, resources, and more.
+accelerated-text/awesome-nlg	483	tal		483				1	Computer Science	Computer Science	A curated list of resources dedicated to Natural Language Generation (NLG)
+sturobson/BEM-resources	482	tal		482				1	Front-End Development	Front-End Development	Just a repo full of BEM resources
+cristianoliveira/awesome4girls	481	tal		481				1	Miscellaneous	Miscellaneous	A curated list of inclusive events/projects/initiatives for women in the tech area. :gift_heart:
+rtckit/awesome-rtc	481	tal		481				1	Networking	Networking	:satellite: A curated list of awesome Real Time Communications resources
+dspinellis/awesome-msr	480	tal		480				1	Computer Science	Computer Science	A curated repository of software engineering repository mining data sets
+SrinivasanTarget/awesome-appium	463	tal		463				1	Testing	Testing	A curated list of delightful Appium resources.
+nglgzz/awesome-clean-tech	456	tal		456				1	Business	Business	A community curated list of awesome clean tech companies
+neueda/awesome-neo4j	453	tal		453				1	Databases	Databases	A curated list of Neo4j resources.
+ScaleLeap/awesome-amazon-seller	448	tal		448				1	Miscellaneous	Miscellaneous	A curated list of tools and resources for Amazon sellers.
+robinstickel/awesome-design-principles	446	tal		446				1	Miscellaneous	Miscellaneous	✨ A curated list of awesome design principles
+victorlaerte/awesome-it-quotes	440	tal		440				1	Entertainment	Miscellaneous	This is a list of awesome IT quotes. The aim is to collect all relevant quotes said over the history of IT.
+caufieldjh/awesome-bioie	437	tal		437				1	Health and Social Science	Health and Social Science	🧫 A curated list of resources relevant to doing Biomedical Information Extraction (including BioNLP)
+gaerae/awesome-algorithms-education	436	tal		436				1	Theory	Miscellaneous	A curated list to learning and practicing about algorithm.
+zenitysec/awesome-low-code	433	tal		433				1	Platforms	Platforms	Awesome Low Code platforms, vendors, tools and resources
+tleb/awesome-mastodon	431	tal		431				0		Decentralized Systems	Curated list of awesome Mastodon-related stuff!
+theimpossibleastronaut/awesome-linguistics	430	tal		430				1	Computer Science	Computer Science	A curated list of anything remotely related to linguistics
+lauthieb/awesome-storybook	422	tal		422				1	Front-End Development	Front-End Development	A collection of awesome resources about @storybookjs ecosystem 🎨
+karimould/awesome-js-tooling-in-rust	421	tal		421				0		Front-End Development	A curated list of JavaScript tooling written in Rust
+passy/awesome-purescript	418	tal		418				1	Programming Languages	Programming Languages	A curation of awesome PureScript libraries, resources and shiny things.
+marketingtoolslist/awesome-marketing	414	tal		414				0		Miscellaneous	A curated list of awesome marketing tools and resources
+ibaaj/awesome-OpenSourcePhotography	413	tal		413				1	Miscellaneous	Miscellaneous	A list of awesome free open source software & libraries for photography. Also tools for video.
+rabbiabram/awesome-fortran	411	tal		411				1	Programming Languages	Programming Languages	Awesome list of Fortran libs
+kimtth/awesome-azure-openai-llm	409	tal		409				0		LLM	A curated collection of resources for 🌌 Azure OpenAI, 🦙 LLMs (+RAG, Agents). Monthly Updates.
+sadcitizen/awesome-backbone	403	tal		403				1	Front-End Development	Front-End Development	A list of resources for backbone.js
+Granze/awesome-polymer	393	tal		393				1	Front-End Development	Front-End Development	A collection of awesome Polymer resources.
+johnjago/awesome-uncopyright	379	tal		379				1	Miscellaneous	Miscellaneous	Curated list of all things public domain
+YuzheSHI/awesome-agi-cocosci	373	tal		373				1	Theory	Theory	An awesome & curated list for Artificial General Intelligence, an emerging inter-discipline field that combines artificial intelligence and computational cognitive sciences.
+moimikey/awesome-devtools	366	tal		366				0		Development Environment	🤖 A curated list of in-browser bookmarklets, tools, and resources for modern full-stack software engineers.
+APA-Technology-Division/urban-and-regional-planning-resources	365	tal		365				1	Miscellaneous	Miscellaneous	Community list of data & technology resources concerning the built environment and communities. 🏙️🌳🚌🚦🗺️
+coq-community/awesome-coq	364	tal		364				1	Programming Languages	Programming Languages	A curated list of awesome Coq libraries, plugins, tools, verification projects, and resources [maintainer=@palmskog]
+brillout/awesome-redux	363	tal		363				1	Front-End Development	Front-End Development	Catalog of Redux Libraries & Learning Material
+fukuball/Awesome-Laravel-Education	356	tal		356				1	Back-End Development	Back-End Development	A curated list of resources for learning about the Laravel PHP Framework
+Dvergar/awesome-haxe-gamedev	355	tal		355				1	Gaming	Gaming	Resources for game development on haxe
+joaomilho/awesome-idris	353	tal		353				1	Programming Languages	Programming Languages	𝛌 Awesome Idris resources
+maehr/awesome-digital-history	352	tal		352				1	Health and Social Science	Health and Social Science	Find primary sources online and learn how to research history digitally.
+lodthe/awesome-internships	352	tal		352				0		Work	A curated list of tech internships resources.
+naimo84/awesome-nodered	351	tal		351				1	Platforms	Platforms	A collection of interesting nodes and resources for Node-RED
+standard/awesome-standard	351	tal		351				1	Programming Languages	Programming Languages	Documenting the explosion of packages in the standard ecosystem!
+edm00se/awesome-board-games	346	tal		346				1	Miscellaneous	Miscellaneous	A curated list of awesome and exceptional board games. Please contribute!
+h2oai/awesome-h2o	345	tal		345				1	Computer Science	Computer Science	A curated list of research, applications and projects built using the H2O Machine Learning platform
+johnjago/awesome-ad-free	334	tal		334				1	Miscellaneous	Miscellaneous	Curated list of ad-free alternatives to popular services on the web
+avajs/awesome-ava	333	tal		333				1	Programming Languages	Programming Languages	Awesome AVA resources
+dav009/awesome-spanish-nlp	324	tal		324				1	Computer Science	Computer Science	Curated list of Linguistic Resources for doing NLP & CL on Spanish
+fuse-compound/awesome-fuse	322	tal		322				1	Platforms	Platforms	A curated list of awesome Fuse applications, articles, and plugins
+unicodeveloper/awesome-lumen	318	tal		318				1	Back-End Development	Back-End Development	:eyeglasses: :books: Curated list of awesome resources: books, videos, articles about using Lumen (PHP Microframework by Laravel)
+pehapkari/awesome-symfony-education	316	tal		316				1	Back-End Development	Back-End Development	Useful sources around Symfony - articles, series and books (not Bundles)
+sindresorhus/awesome-observables	316	tal		316				1	Programming Languages	Programming Languages	Awesome Observable related stuff - An Observable is a collection that arrives over time.
+Esri/awesome-arcgis-developers	315	tal		315				0		Platforms	A curated list of resources to help you with ArcGIS development, APIs, SDKs, tools, and location services
+Karneades/awesome-malware-persistence	310	tal		310				1	Security	Security	A curated list of awesome malware persistence tools and resources.
+dylanrees/citizen-science	308	tal		308				1	Miscellaneous	Miscellaneous	🔬 A repository of resources related to citizen, community-based and/or non-institutional science
+filipelinhares/awesome-slack	307	tal		307				1	Work	Work	🕶️  List of communities powered by Slack.
+aurelia-contrib/awesome-aurelia	306	tal		306				1	Front-End Development	Front-End Development	A curated list of amazingly awesome Aurelia libraries.
+DataDaoDe/awesome-foss-apps	296	tal		296				1	Miscellaneous	Miscellaneous	A curated list of awesome production grade free and open source software organized by category
+jonleibowitz/awesome-digitalocean	286	tal		286				1	Platforms	Platforms	A curated list of amazingly awesome DigitalOcean resources inspired by Awesome Sysadmin
+TalAter/awesome-book-authoring	283	tal		283				1	Books	Books	:books: A collection of awesome resources for technical book authors
+busterc/awesome-cordova	283	tal		283				1	Platforms	Platforms	:iphone: A curated list of amazingly awesome Cordova libraries, resources and shiny things.
+eleventigers/awesome-rxjava	283	tal		283				1	Programming Languages	Programming Languages	Useful resources for working with RxJava
+msub2/awesome-webxr	282	tal		282				1	Miscellaneous	Miscellaneous	All things WebXR.
+ianstormtaylor/awesome-heroku	280	tal		280				1	Platforms	Platforms	A curated list of helpful Heroku resources.
+thomasbnt/awesome-web-monetization	279	tal		279				1	Miscellaneous	Miscellaneous	🕶️ Stuffs about Web Monetization. Packages, articles, documentation links and others tools.
+tindzk/awesome-scala-native	278	tal		278				1	Programming Languages	Programming Languages	Compilation of Scala Native resources and libraries
+hkirat/awesome-chess	264	tal		264				1	Gaming	Gaming	Chess!
+stingalleman/awesome-audiovisual	263	tal		263				1	Media	Media	Curated list of audiovisual projects
+mfkl/awesome-vlc	263	tal		263				1	Media	Media	👻 A curated list of awesome VLC and LibVLC resources.
+bakke92/awesome-gdpr	263	tal		263				1	Security	Security	Protection of natural persons with regard to the processing of personal data and on the free movement of such data.
+expede/awesome-relay	257	tal		257				1	Front-End Development	Front-End Development	Awesome resources for Relay
+innocenzi/awesome-inertiajs	254	tal		254				1	Front-End Development	Front-End Development	A curated list of awesome Inertia.js resources
+Hyraze/collective-ai-tools	249	tal		249				0		Computer Science	Search across curated tools, MCP servers, prompts, skills, and trending repos, one query, every corner of the ecosystem.
+henrikwirth/awesome-wordpress-gatsby	247	tal		247				1	Front-End Development	Front-End Development	An awesome list of resources about WordPress as a headless CMS with Gatsby
+dok/awesome-text-editing	245	tal		245				1	Front-End Development	Front-End Development	Collection of text editing resources and libraries for the web
+keller-mark/awesome-biological-visualizations	241	tal		241				1	Miscellaneous	Miscellaneous	A list of web-based interactive biological data visualizations.
+ttumiel/Awesome-Ethereum	227	tal		227				1	Decentralized Systems	Decentralized Systems	A Curated List of Awesome Ethereum Resources
+desiderantes/awesome-vala	227	tal		227				1	Programming Languages	Programming Languages	A curated list of Vala projects
+jzarca01/awesome-food	221	tal		221				1	Miscellaneous	Miscellaneous	A curated list of food related projects on Github
+nadunindunil/awesome-material-ui	219	tal		219				1	Front-End Development	Front-End Development	A curated list of Material-UI resources and related projects. The main idea is that everyone can contribute here, so we can have a central repository of informations about Material-UI that we keep up-to-date
+seed-rs/awesome-seed-rs	218	tal		218				1	Front-End Development	Front-End Development	A curated list of awesome things related to Seed
+aorumbayev/awesome-algorand	217	tal		217				1	Decentralized Systems	Decentralized Systems	⚡A curated list of awesome resources related to the Ⱥlgorand Blockchain ⛓
+homematic-community/awesome-homematic	212	tal		212				1	Miscellaneous	Miscellaneous	A curated list of Homematic related links :sparkles:
+virtualroot/awesome-opentofu	210	tal		210				1	Back-End Development	DevOps	A curated list of OpenTofu tools, resources, and related projects.
+capawesome-team/awesome-capacitorjs	205	tal		205				0		Platforms	⚡️ A curated list of awesome things related to Capacitor.
+umbraco-community/awesome-umbraco	202	tal		202				1	Content Management Systems	Content Management Systems	A curated list of awesome Umbraco packages, resources and tools
+Anant/awesome-cassandra	201	tal		201				0		Databases	A curated list of the best resources in the Cassandra community.
+gitfrage/guitarspecs	197	tal		197				1	Hardware	Hardware	Overview of the electric guitar's parts specs
+Billiam/awesome-ironsworn	194	tal		194				0		Gaming	An awesome list of awesome Ironsworn projects
+RomanTsegelskyi/rbooks	192	tal		192				1	Books	Books	A curated list of #rstats books
+choojs/awesome-choo	191	tal		191				1	Front-End Development	Front-End Development	🌅 Awesome things related with choo framework
+ember-community-russia/awesome-ember	191	tal		191				1	Front-End Development	Front-End Development	A curated list of awesome Ember.js stuff like addons, articles, videos, gists and more.
+kyleterry/awesome-radio	191	tal		191				1	Miscellaneous	Miscellaneous	Awesome radio stuff
+aaronhma/awesome-tensorflow-js	188	tal		188				1	Computer Science	Computer Science	Awesome TensorFlow.js - A curated list of dedicated resources to master TensorFlow.js
+robinrodricks/awesome-actionscript3	188	tal		188				1	Programming Languages	Programming Languages	A curated list of awesome libraries and components for ActionScript 3 and Adobe AIR.
+sublimino/awesome-funny-markov	186	tal		186				1	Miscellaneous	Miscellaneous	A curated list of delightfully amusing and facetious Markov chain output.
+erictleung/awesome-nosql-guides	184	tal		184				1	Databases	Databases	:computer: Curated list of awesome resources and links about using NoSQL databases
+componently-com/awesome-building-blocks-for-web-apps	182	tal		182				1	Front-End Development	Front-End Development	Standalone features to be integrated into web applications
+eozer/awesome-snmp	182	tal		182				1	Networking	Networking	A curated list of awesome SNMP libraries, tools, and other resources.
+mbiesiad/awesome-translations	180	tal		180				1	Miscellaneous	Miscellaneous	😎 Awesome lists about Internationalization & localization stuff. l10n, g11n, m17n, i18n. Translations! 🌎🌍
+rayokota/awesome-hbase	177	tal		177				1	Databases	Databases	A curated list of awesome HBase projects and resources.
+GustavBertram/awesome-common-lisp-learning	175	tal		175				1	Programming Languages	Programming Languages	A curated list of awesome Common Lisp learning resources
+schlessera/awesome-wp-cli	170	tal		170				1	Miscellaneous	Miscellaneous	A curated list of packages and resources for WP-CLI, the command-line interface for WordPress.
+golemfactory/awesome-golem	169	tal		169				1	Decentralized Systems	Decentralized Systems	A community-curated list of awesome projects and resources related to the Golem peer-to-peer computational resources marketplace.
+vhpoet/awesome-ripple	169	tal		169				1	Decentralized Systems	Decentralized Systems	A curated list of Ripple resources
+mohataher/awesome-tinkerpop	161	tal		161				1	Databases	Databases	A curated list of useful libraries for Apache TinkerPop3 and Tinkerpop2
+quangv/awesome-couchdb	159	tal		159				1	Databases	Databases	CouchDB - curated meta resources & best practices list
+inoue0426/awesome-computational-biology	159	tal		159				1	Miscellaneous	Miscellaneous	Awesome list of computational biology.
+sadcitizen/awesome-marionette	154	tal		154				1	Front-End Development	Front-End Development	A list of resources for marionette.js
+stevesong/awesome-connectivity-info	152	tal		152				1	Miscellaneous	Miscellaneous	Awesome list of connectivity indexes and reports to help you better under who has access to communication infrastructure and on what terms.
+ildoc/awesome-italy-events	145	tal		145				1	Events	Events	Curated list of tech related events in Italy
+xn0px90/Awesome-Qubes-OS	144	tal		144				0		Miscellaneous	A curated list of awesome qubes os links
+xen0l/awesome-dtrace	141	tal		141				1	Miscellaneous	Miscellaneous	A curated list of awesome DTrace books, articles, videos, tools and resources.
+make-github-pseudonymous-again/awesome-qr-code	139	tal		139				1	Miscellaneous	Miscellaneous	A curated list of awesome QR code libraries, software and resources
+vorpaljs/awesome-vorpal	134	tal		134				1	Miscellaneous	Miscellaneous	A curated list of delightful Vorpal extensions.
+ebraminio/awesome-qsharp	132	tal		132				1	Programming Languages	Programming Languages	A curated list of Q# code and resources.
+pajaydev/awesome-web-performance-budget	131	tal		131				1	Front-End Development	Front-End Development	⚡️Articles, Websites, Tools and Case Studies to implement performance budget to a website. (PR 's welcomed)
+sfischer13/awesome-ledger	126	tal		126				1	Miscellaneous	Miscellaneous	:star: Useful resources for the Ledger command-line accounting system
+johnjago/awesome-theravada	126	tal		126				1	Miscellaneous	Miscellaneous	Curated list of Theravada Buddhist teachings
+koolamusic/awesome-imba	122	tal		122				1	Programming Languages	Programming Languages	:star: A curated list of awesome Imba frameworks, libraries, software and resources
+xavidop/awesome-firebase-genkit	119	tal		119				1	Platforms	LLM	🔥 List of Genkit talks, plugins, tools, examples & articles! Contributions welcome!
+friedger/awesome-stacks-chain	118	tal		118				1	Decentralized Systems	Decentralized Systems	A list of Awesome Stacks related stuff. Stacks, the blockchain using Proof of Transfer
+erwanlemerrer/awesome-audit-algorithms	118	tal		118				1	Theory	Theory	A curated list of algorithms and papers for auditing black-box algorithms.
+aabouzaid/awesome-kustomize	114	tal		114				0		DevOps	A curated and collaborative list of awesome Kustomize resources
+danvoyce/awesome-creative-tech-events	113	tal		113				1	Events	Events	A curated list of awesome creative tech events from around the world
+CERN/awesome-cern	109	tal		109				0		Computer Science	A curated list of awesome open source frameworks, libraries and software developed by CERN for the world
+d3viant0ne/awesome-rethinkdb	109	tal		109				1	Databases	Databases	A curated list of awesome RethinkDB resources, libraries, tools and applications
+xxczaki/awesome-calculators	109	tal		109				1	Miscellaneous	Miscellaneous	😎 A curated list of resources related to calculators!
+Strift/awesome-esports	108	tal		108				1	Gaming	Gaming	A curated list of open-source projects related to esports.
+stve/awesome-dropwizard	104	tal		104				1	Back-End Development	Back-End Development	
+mourarthur/awesome-credit-modeling	104	tal		104				1	Miscellaneous	Miscellaneous	A collection of awesome papers, articles and various resources on credit and credit risk modeling
+jbmoelker/progressive-enhancement-resources	102	tal		102				1	Front-End Development	Front-End Development	Resources on Progressive Enhancement. From concept and strategies to feature detection & testing methods. Complete with a list of (code) examples.
+RayBB/awesome-social-enterprise	100	tal		100				1	Business	Business	📗Resources to dive into the world of social enterprises 🌼
+Scottcjn/awesome-agents	99	tal		99				0		Artificial Intelligence	A curated list of AI agent platforms, frameworks, protocols, tools, and resources
+cytodata/awesome-cytodata	97	tal		97				1	Miscellaneous	Miscellaneous	A curated list of awesome cytodata resources https://www.cytodata.org/awesome-cytodata/
+phillipthelen/awesome-build123d	93	tal		93				0		Miscellaneous	A curated list of Build123d code and resources.
+andrewda/awesome-frc	93	tal		93				1	Miscellaneous	Miscellaneous	A curated list of packages and resources regarding the FIRST Robotics Competition.
+tobiasvl/awesome-chip-8	92	tal		92				1	Gaming	Gaming	List of CHIP-8 resources
+dnbard/awesome-knockout	91	tal		91				1	Front-End Development	Front-End Development	A curated list of awesome plugins for Knockout
+seancoyne/awesome-coldfusion	86	tal		86				1	Programming Languages	Programming Languages	A curated list of awesome ColdFusion frameworks, libraries and software.
+vaticle/typedb-awesome	85	tal		85				1	Databases	Databases	A curated list of awesome TypeDB frameworks libraries, software and resources.
+clutcher/awesome_jetbrains_plugins	83	tal		83				0		Editors	This is a list of all top and best plugins for Jetbrains IDEs (IntelliJ IDEA, PyCharm, WebStorm, PhpStorm, Rider, CLion, RubyMine, GoLand, RustRover, Aqua, Android Studio).
+ConstructCommunity/awesome-construct	83	tal		83				1	Gaming	Gaming	A curated list of tools, tutorials, examples, and much more, for the awesome game development engines Construct 2 and Construct 3
+browserify/awesome-browserify	82	tal		82				1	Front-End Development	Front-End Development	:crystal_ball: A curated list of awesome Browserify resources, libraries, and tools.
+aliesbelik/awesome-gatling	80	tal		80				1	Testing	Testing	A collection of resources covering different aspects of Gatling load testing tool usage.
+sduff/awesome-splunk	79	tal		79				1	Big Data	Big Data	A collection of awesome resources for Splunk
+nirgn975/awesome-drupal	79	tal		79				1	Content Management Systems	Content Management Systems	Useful resources for Drupal CMS 💧
+MartinMiles/awesome-sitecore	79	tal		79				1	Content Management Systems	Content Management Systems	Awesome lists of useful Sitecore tools, extensions and GitHub repositories
+sdassow/awesome-veganism	79	tal		79				1	Miscellaneous	Miscellaneous	curated list of awesome resources, pointers, and tips related to veganism
+collective/awesome-plone	78	tal		78				1	Content Management Systems	Content Management Systems	Add-ons and resources for the CMS Plone
+DanailMinchev/awesome-eosio	78	tal		78				1	Decentralized Systems	Decentralized Systems	:sunglasses: A curated list of awesome EOSIO resources for users and developers.
+kareniel/awesome-evm-security	77	tal		77				1	Security	Security	🕶 A high-level overview of the EVM security ecosystem
+petk/awesome-dojo	75	tal		75				1	Front-End Development	Front-End Development	A curated list of awesome Dojo JavaScript Toolkit libraries, resources and other shiny things.
+cenoura/awesome-ads	75	tal		75				1	Miscellaneous	Miscellaneous	A curated list of awesome advertising content, resources and libraries.
+victorshinya/awesome-ibmcloud	74	tal		74				1	Platforms	Platforms	A curated list of awesome IBM Cloud SDKs, open source repositories, tools, blogs and other resources.
+msmolyakov/awesome-waves	69	tal		69				1	Decentralized Systems	Decentralized Systems	Curated list of awesome things for development on Waves blockchain.
+chainstack/awesome-corda	67	tal		67				1	Decentralized Systems	Decentralized Systems	A curated list of awesome Corda resources
+PhantomYdn/awesome-wicket	66	tal		66				1	Back-End Development	Back-End Development	A curated list of awesome projects powered by Apache Wicket
+ecohealthalliance/awesome-parasite	64	tal		64				1	Miscellaneous	Miscellaneous	A curated list of host-parasite information
+ravirupareliya/awesome-actions-on-google	63	tal		63				1	Platforms	Platforms	A collection of useful things regarding Actions on Google.
+awkward/awesome-netherlands-events	61	tal		61				1	Events	Events	🦄  Curated list of awesome Dutch (tech related) events
+sfischer13/awesome-eta	59	tal		59				0		Programming Languages	:star: Useful resources for the Eta programming language
+altamiracorp/awesome-xai	54	tal		54				1	Computer Science	Computer Science	Awesome Explainable AI (XAI) and Interpretable ML Papers and Resources
+LucasBassetti/awesome-less	52	tal		52				1	Front-End Development	Front-End Development	:sunglasses: A curated list of awesome {Less}
+jyguyomarch/awesome-conversational-ai	51	tal		51				1	Computer Science	Computer Science	A curated list of delightful Conversational AI resources.
+ProductivityDirectory/awesome-productivity-tools	51	tal		51				0		Productivity Tools	My Awesome list of productivity tools and products
+wernerkrauss/awesome-silverstripe-cms	47	tal		47				1	Content Management Systems	Content Management Systems	Useful resources for Silverstripe CMS and framework
+jqhoogland/awesome-language-learning	47	tal		47				0		Learn	Awesome resources for learning languages
+Richienb/awesome-ponyfills	46	tal		46				1	Programming Languages	Programming Languages	A curated list of awesome ponyfills for writing cross-platform and cross-browser code.
+AI4LAM/awesome-ai4lam	45	tal		45				0		Library systems	A list of awesome AI in libraries, archives, and museum collections from around the world 🕶️
+taosdata/awesome-tdengine	43	tal		43				0		Databases	🎉 A curated list of awesome projects related to TDengine
+mdbootstrap/awesome-mdbootstrap	42	tal		42				1	Front-End Development	Front-End Development	A curated list of awesome things related to MDBootstrap
+PerfectCarl/awesome-play1	39	tal		39				1	Back-End Development	Back-End Development	A collection of modules, tools and resources for play1
+adafruit/awesome-adafruitio	39	tal		39				1	Platforms	Platforms	A curated list of awesome Adafruit IO guides, videos, libraries, frameworks, software and resources.
+totpero/awesome-qgis	33	tal		33				0		Development Environment	An awesome list that curates the best QGis frameworks, libraries, tools, plugins, tutorials, articles, resources and more.
+ambster-public/awesome-qlik	30	tal		30				1	Big Data	Big Data	A curated list of awesome Qlik extensions and resources for Qlik Sense and QlikView
+refinerycms-contrib/awesome-refinerycms	29	tal		29				1	Content Management Systems	Content Management Systems	A collection of awesome Refinery CMS extensions, resources and shiny things.
+abordage/awesome-mac	27	tal		27				0		Platforms	Curated collection of awesome macOS applications, tools, and resources. Auto-updated and always current with metadata, categorization, and quality filtering.
+sfischer13/awesome-frege	27	tal		27				0		Programming Languages	:star: Useful resources for the Frege programming language
+stetso/awesome-gideros	23	tal		23				1	Gaming	Gaming	A curated list of awesome Gideros resources, classes and tips.
+inspectit-labs/awesome-inspectit	22	tal		22				1	Miscellaneous	Miscellaneous	A curated list of awesome inspectIT documentations and resources.
+beansource/awesome-orgs	19	tal		19				0		Miscellaneous	🥰 List of awesome GitHub organizations
+omkar-foss/awesome-animal-care	18	tal		18				0		Health and Social Science	List of curated, practical information resources to care for dogs, cats, fishes, horses, parrots and others.
+abordage/awesome-ai	13	tal		13				0		Computer Science	Comprehensive collection of AI/ML tools, frameworks, libraries, and resources. Automatically curated and continuously updated with rich metadata and categorization.
+Intergalactic-XYZ/awesome-cropsteering	12	tal		12				0		Miscellaneous	Curated by IXYZ list of OpenSource projects in indoor/outdoor agriculture automation, crop steering and cannabis cultivation
+stan8086/awesome-distraction-blocker	11	tal		11				0		Miscellaneous	A curated list of top productivity distraction blocker apps
+nekofar/awesome-slim	10	tal		10				1	Back-End Development	Back-End Development	A curated list of awesome Slim framework packages and resources.
+mga-mirth/awesome-mirth	7	tal		7				0		Miscellaneous	List of Mirth talks, tools, examples & articles! Contributions welcome!
+santiagoxlopez/awesome-project-management	6	tal		6				0		Miscellaneous	a curated list of project management tools and things
+abordage/awesome-go	6	tal		6				0		Programming Languages	Structured collection of Go frameworks, libraries, tools, and resources. Automatically maintained and up-to-date with metadata, filtering, and comprehensive categorization.
+lightszentip/awesome-laravel-filament	5	tal		5				0		Back-End Development	A list for the topic laravel and filament
+quilloughbee/awesome-pleb-projects	4	tal		4				0		Decentralized Systems	A List of Awesome Bitcoin (Pleb) Projects
+holistics/awesome-sql-playground	1	tal		1				0		Data Engineering	A curated list of the best SQL playgrounds and online SQL compilers for practicing and testing SQL queries directly in your browser.
+selvaklnc/topics	1	tal		1				0		Miscellaneous	
+glp1guide/awesome-glp1	0			0				0		Miscellaneous	Awesome resources around the GLP1 Receptor Agonist class of treatments. Sponsored by GLP1.Guide
+junhui/awesome-pci-dss	0			0				0		Security	A curated list of PCI DSS–related resources: standards, SAQs, guidance, tooling, training, community, and example projects.
+aorumbayev/awesome-omarchy								1	Platforms		
+yenchenlin/awesome-watchos								1	Platforms		
+hlaueriksson/awesome-powertoys-run-plugins								1	Platforms		
+Esri/awesome-arcgis-developer								1	Platforms		
+dotintent/awesome-ble								1	Platforms		
+MartinZikmund/awesome-uno-platform								1	Platforms		
+shano/awesome-backstage								1	Platforms		
+maxogden/maintenance-modules								1	Programming Languages		
+30-seconds/30-seconds-of-code								1	Programming Languages		
+pest-parser/awesome-pest								1	Programming Languages		
+hstsethi/awesome-j2me								1	Programming Languages		
+KotlinBy/awesome-kotlin								1	Programming Languages		
+sancarn/awesome-vba								1	Programming Languages		
+AllThingsSmitty/must-watch-css								1	Front-End Development		
+cjwirth/awesome-ios-ui								1	Front-End Development		
+pazguille/offline-first								1	Front-End Development		
+jdrgomes/awesome-postcss								1	Front-End Development		
+master-co/awesome-master-css								1	Front-End Development		
+shopify/awesome-hydrogen								1	Front-End Development		
+thoughtspile/awesome-tiny-js								1	Front-End Development		
+joewdavies/awesome-frontend-gis								1	Front-End Development		
+idematos/awesome-webassembly								1	Front-End Development		
+kolomied/awesome-cdk								1	Back-End Development		
+DevOpsHiveHQ/awesome-kustomize								1	Back-End Development		
+reflex-dev/awesome-reflex								1	Back-End Development		
+edobashira/speech-language-processing								1	Computer Science		
+Renaller/awesome-position-based-quantum-cryptography								1	Computer Science		
+0xnr/awesome-bigdata								1	Big Data		
+awesomedata/awesome-public-datasets								1	Big Data		
+enjalot/algovis								1	Theory		
+sellisd/awesome-complexity								1	Theory		
+tomodachi94/awesome-computercraft								1	Gaming		
+notpresident35/awesome-learn-gamedev								1	Gaming		
+bytecauldron/awesome-gamemaker								1	Gaming		
+vhladiienko/awesome-game-production								1	Gaming		
+Symbitic/awesome-babylonjs								1	Gaming		
+awesome-roblox/awesome-roblox								1	Gaming		
+michaelbrusegard/awesome-wezterm								1	Development Environment		
+lyqht/awesome-supabase								1	Databases		
+tyaga001/awesome-neon								1	Databases		
+Mo-way/awesome-aoip								1	Media		
+RahulBirCodes/awesome-steam								1	Learn		
+dribdat/awesome-hackathon								1	Learn		
+dhondta/awesome-executable-packing								1	Security		
+Karneades/awesome-security-card-games								1	Security		
+satta/awesome-suricata								1	Security		
+FonduAI/awesome-prompt-injection								1	Security		
+TupleType/awesome-cicd-attacks								1	Security		
+cerberauth/awesome-openid-connect								1	Security		
+drmonkeyninja/awesome-textpattern								1	Content Management Systems		
+DanailMinchev/awesome-payload								1	Content Management Systems		
+rickstaa/awesome-adsb								1	Hardware		
+Matthias84/awesome-flying-fpv								1	Hardware		
+cjbarber/ToolsOfTheTrade								1	Business		
+secdev/awesome-scapy								1	Networking		
+seifrajhi/awesome-cilium								1	Networking		
+hyperupcall/awesome-mastodon								1	Decentralized Systems		
+zolagonano/awesome-zeronet								1	Decentralized Systems		
+cosmos/awesome-cosmos								1	Decentralized Systems		
+polycarbohydrate/awesome-tor								1	Decentralized Systems		
+atblueprints/awesome-atproto								1	Decentralized Systems		
+dh-tech/awesome-digital-humanities								1	Health and Social Science		
+IAmCoder/awesome-lucid-dreams								1	Health and Social Science		
+NPACore/awesome-neuroimaging								1	Health and Social Science		
+cvyl/awesome-transgender								1	Health and Social Science		
+coderabbitai/awesome-coderabbit								1	Testing		
+0xnr/awesome-analytics								1	Miscellaneous		
+stoeffel/awesome-ama-answers								1	Miscellaneous		
+hobbyquaker/awesome-mqtt								1	Miscellaneous		
+DavidLambauer/awesome-magento2								1	Miscellaneous		
+atkirtland/awesome-computational-geometry								1	Miscellaneous		
+readthedocs-examples/awesome-read-the-docs								1	Miscellaneous		
+hallvaaw/awesome-biological-image-analysis								1	Miscellaneous		
+shi-rudo/awesome-stock-trading								1	Miscellaneous		
+airscripts/awesome-steam-deck								1	Miscellaneous		
+lunohodov/awesome-astrophotography								1	Miscellaneous		
+dstdev/awesome-hpc								1	Miscellaneous		
+FoxFil/awesome-geocaching								1	Miscellaneous		
+slevithan/awesome-regex								1	Miscellaneous		
+lutzh/awesome-event-driven-architecture								1	Miscellaneous		
+idematos/awesome-permacomputing								1	Miscellaneous		
+donBarbos/awesome-standards								1	Miscellaneous		
+eminyagiz42/awesome-sap-commerce								1	Miscellaneous		
+sampart/awesome-tech-ethics								1	Miscellaneous		
+Code-and-Sorts/awesome-copilot-agents								1	Miscellaneous		

@@ -1,0 +1,410 @@
+lists: 1291 | all repos: 1568
+history coverage: 1289
+
+
+######## SAMPLE: census n = 861
+                                           label   n  spearman_rho  partial_rho_age  T1 >=50k  T2 10k-50k  T3 2k-10k   T4 <2k    top50
+                            Year of first commit 861        -0.199           -0.002  2015.000    2017.000   2018.000 2019.000 2016.000
+                         Name contains "awesome" 861        -0.061           -0.067    72.700      83.200     85.100   87.700   84.000
+                  Listed in sindresorhus/awesome 861         0.154            0.076    68.200      40.700     29.800   24.000   54.000
+           README mostly Chinese/Japanese/Korean 861        -0.065           -0.031     0.000       2.700      6.600    6.000    0.000
+                       Entries (links) in README 853         0.270            0.283   593.000     352.000    214.500  145.500  457.000
+             Share of entries with a description 853         0.048            0.038     0.929       0.872      0.876    0.816    0.894
+                           Words per description 768        -0.022            0.005     9.900      10.600     10.600   11.150   10.300
+                         Categories with entries 853         0.188            0.182    51.000      28.000     21.000   18.000   32.000
+                     Median entries per category 853         0.074            0.091     7.000       6.000      6.000    5.000    6.500
+               Largest category share of entries 853        -0.139           -0.141     0.106       0.170      0.177    0.205    0.170
+Structured per-entry metadata (tags/stars/table) 861         0.045            0.083    13.600      17.700     18.400   15.100   16.000
+       Entries alphabetized (>=90% sorted pairs) 808         0.071            0.060    27.800      29.000     17.100   17.700   25.600
+         Share of links pointing to GitHub repos 860         0.007           -0.009     0.388       0.374      0.398    0.400    0.368
+                                    README words 860         0.277            0.308  7584.500    5542.000   3245.000 2292.500 6593.500
+                      Words before first section 860         0.069            0.083   107.500      63.000     52.000   52.000   78.000
+                               Table of contents 861         0.034            0.009    90.900      79.600     83.000   82.900   88.000
+                               Back-to-top links 861         0.098            0.099    18.200      12.400      9.300    6.000   16.000
+                                      Any badges 861         0.010            0.017    81.800      82.300     83.200   83.100   84.000
+                                   Awesome badge 861         0.009           -0.015    72.700      75.200     70.200   72.600   80.000
+                               Header image/logo 861         0.092            0.131    77.300      59.300     48.700   43.700   64.000
+                            Centered HTML header 861         0.073            0.143    59.100      34.500     29.000   26.600   48.000
+                                 Emoji per entry 853         0.046            0.103     0.021       0.006      0.005    0.003    0.006
+                  Collapsible <details> sections 861        -0.011            0.035    13.600       9.700      8.500   10.300   10.000
+                              Translated READMEs 861         0.121            0.156     4.500      14.200      8.200    4.300   10.000
+                Companion website config in repo 861         0.067            0.060    18.200       9.700      9.600    7.100   18.000
+                               CONTRIBUTING file 861         0.115            0.093    86.400      77.900     68.600   65.700   84.000
+                     CONTRIBUTING length (words) 861         0.155            0.152   296.500     225.000    139.000  134.500  256.500
+                                     PR template 861         0.203            0.200    45.500      42.500     18.900   14.300   44.000
+                            Issue template/forms 861         0.112            0.139    36.400      22.100     12.200   10.300   26.000
+                                 Code of conduct 861        -0.001           -0.003    40.900      20.400     27.700   28.300   34.000
+                README states inclusion criteria 861         0.037            0.059    22.700      28.300     16.200   20.600   30.000
+                         Any CI (Actions/Travis) 861         0.155            0.150    54.500      61.100     44.100   36.900   56.000
+                         Automated link checking 861         0.141            0.107    27.300      37.200     21.500   17.700   24.000
+                              awesome-lint in CI 861        -0.015           -0.006     4.500       9.700     11.200   10.900    6.000
+                        Creative Commons license 861        -0.017           -0.009    36.400      48.700     45.700   49.400   44.000
+                                 No license file 861        -0.002           -0.051    31.800      26.500     26.900   26.000   28.000
+                 Sponsors section or FUNDING.yml 861         0.153            0.177    50.000      23.900     13.300   10.300   34.000
+             Flags unmaintained/archived entries 861         0.030            0.025    31.800      27.400     27.400   23.700   28.000
+                              Commits (all time) 861         0.429            0.412  1510.000     587.000    221.000  135.000 1063.500
+                         Distinct commit authors 861         0.446            0.410   387.000     129.000     39.000   20.000  266.000
+                     Top author share of commits 861        -0.217           -0.170     0.348       0.360      0.489    0.593    0.311
+                           People who merged PRs 861         0.307            0.261     6.000       3.000      2.000    1.000    5.000
+              Highest issue/PR number referenced 861         0.488            0.467  1574.000     349.000     94.000   47.500  823.500
+                        Commit in last 12 months 861         0.094            0.118    86.400      77.900     67.300   66.900   80.000
+                  Human commit in last 12 months 861         0.092            0.116    81.800      77.900     66.000   66.000   78.000
+                          No commit for 2+ years 861        -0.091           -0.123     9.100      16.800     22.900   24.900   14.000
+                     Calendar years with commits 861         0.229            0.117    10.500       8.000      7.000    6.000   10.000
+                   Entries one year after launch 859         0.197            0.237   408.000     176.000    117.000   97.000  288.000
+            Share of peak size reached by year 1 857        -0.150           -0.079     0.560       0.598      0.674    0.714    0.638
+          Ever cut >=10% of entries in a quarter 859         0.071            0.052    31.800      23.900     14.100   14.600   28.000
+           Currently >=10% smaller than its peak 857         0.114            0.103    22.700      20.400      9.700    8.000   26.000
+          More than doubled in size after year 1 857         0.168            0.125    50.000      43.400     34.300   24.900   42.000
+         tier    n  median_stars  total_stars
+0    T1 >=50k   22      103850.0    3708235.0
+1  T2 10k-50k  113       17000.0    2322400.0
+2   T3 2k-10k  376        3500.0    1538900.0
+3      T4 <2k  350        1400.0     482285.0
+{'n_lists': 861, 'total_stars': 8051820, 'top10_share': 0.35140316102446406, 'top1pct_share': 0.3187209848208231, 'top10pct_share': 0.6749697583900286, 'median_stars': 2400.0, 'gini': 0.7369718277038185}
+ first_year   n  median_stars  mean_log  n_ge_50k  n_ge_10k
+       2012   2        3200.0  3.504938         0         0
+       2013   5        3300.0  3.710305         0         2
+       2014  59        8200.0  3.963329         8        25
+       2015  88        3600.0  3.705360         4        26
+       2016  89        3100.0  3.559668         1        16
+       2017 105        2500.0  3.496634         3        13
+       2018  94        2100.0  3.464894         2         9
+       2019  79        1900.0  3.335009         0         2
+       2020  80        1900.0  3.405382         0         9
+       2021  57        1700.0  3.366145         0         6
+       2022  56        2150.0  3.457264         1         7
+       2023  51        2100.0  3.364689         0         2
+       2024  20        2400.0  3.587347         0         3
+       2025  30        2300.0  3.579916         1         6
+       2026  46        2500.0  3.538452         2         9
+
+== design_only R2=0.211 n=853
+                        b       p    x_fold
+Intercept          2.5748  0.0000  375.6709
+age                0.0498  0.0000    1.1215
+ai_era             0.2776  0.0000    1.8950
+log_entries        0.2506  0.0000    1.7806
+desc_ratio_f      -0.0768  0.0665    0.8380
+has_toc           -0.0819  0.0725    0.8281
+has_contributing   0.0439  0.2472    1.1063
+has_pr_template    0.2471  0.0000    1.7666
+ci_linkcheck_any  -0.0304  0.4348    0.9324
+has_translations   0.2459  0.0001    1.7615
+awesome_named     -0.0876  0.1125    0.8174
+in_index           0.1102  0.0037    1.2888
+has_metadata_tags  0.0635  0.1589    1.1576
+chinese           -0.1217  0.0236    0.7557
+
+== design_plus_activity R2=0.241 n=853
+                        b       p    x_fold
+Intercept          2.8662  0.0000  734.8309
+age                0.0430  0.0000    1.1042
+ai_era             0.2612  0.0000    1.8245
+log_entries        0.2435  0.0000    1.7518
+desc_ratio_f      -0.1109  0.0105    0.7747
+has_toc           -0.0884  0.0515    0.8159
+has_contributing   0.0176  0.6435    1.0415
+has_pr_template    0.2337  0.0000    1.7128
+ci_linkcheck_any  -0.0365  0.3393    0.9194
+has_translations   0.2496  0.0000    1.7768
+awesome_named     -0.1250  0.0235    0.7500
+in_index           0.1174  0.0017    1.3105
+has_metadata_tags  0.0739  0.0925    1.1855
+chinese           -0.0769  0.1499    0.8377
+active_365         0.0324  0.3538    1.0776
+top1_f            -0.3169  0.0000    0.4820
+
+== with_community R2=0.304 n=853
+                       b       p    x_fold
+Intercept         2.6363  0.0000  432.8602
+age               0.0263  0.0001    1.0625
+ai_era            0.2504  0.0000    1.7798
+log_entries       0.1377  0.0005    1.3730
+desc_ratio_f     -0.1065  0.0069    0.7826
+has_toc          -0.0777  0.0739    0.8362
+has_contributing  0.0137  0.7112    1.0321
+ci_linkcheck_any -0.0233  0.5007    0.9478
+has_translations  0.2059  0.0008    1.6065
+awesome_named    -0.1398  0.0055    0.7247
+in_index          0.0995  0.0031    1.2574
+chinese           0.0273  0.6149    1.0648
+log_authors       0.3470  0.0000    2.2231
+
+
+######## SAMPLE: index n = 558
+/home/user/awesome-research/scripts/analyze.py:156: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = stats.spearmanr(x[m], y[m])
+/home/user/awesome-research/scripts/analyze.py:156: ConstantInputWarning: An input array is constant; the correlation coefficient is not defined.
+  rho, p = stats.spearmanr(x[m], y[m])
+                                           label   n  spearman_rho  partial_rho_age  T1 >=50k  T2 10k-50k  T3 2k-10k   T4 <2k    top50
+                            Year of first commit 558        -0.371            0.074  2014.000    2015.000   2016.000 2017.000 2014.000
+                         Name contains "awesome" 558        -0.137           -0.049    77.300      86.600     93.800   94.100   80.000
+                  Listed in sindresorhus/awesome 558           NaN            0.003   100.000     100.000    100.000  100.000  100.000
+           README mostly Chinese/Japanese/Korean 558           NaN            0.003     0.000       0.000      0.000    0.000    0.000
+                       Entries (links) in README 555         0.569            0.563   712.000     369.000    166.000   94.000  552.000
+             Share of entries with a description 555         0.050            0.125     0.951       0.911      0.923    0.896    0.920
+                           Words per description 532         0.092            0.173    10.800      10.750     10.800   10.100   10.800
+                         Categories with entries 555         0.364            0.342    65.000      28.000     22.000   15.000   41.000
+                     Median entries per category 555         0.302            0.299     9.000       6.000      5.000    4.000    6.000
+               Largest category share of entries 555        -0.257           -0.237     0.106       0.144      0.159    0.214    0.124
+Structured per-entry metadata (tags/stars/table) 558         0.018            0.039    18.200       6.000      6.200    6.500   12.000
+       Entries alphabetized (>=90% sorted pairs) 533         0.111            0.102    36.800      30.200     18.900   17.900   34.100
+         Share of links pointing to GitHub repos 557         0.160            0.110     0.576       0.457      0.470    0.351    0.610
+                                    README words 557         0.526            0.556 14427.000    5216.500   2631.000 1409.000 6728.500
+                      Words before first section 557         0.098            0.097    83.500      61.000     56.000   53.000   67.500
+                               Table of contents 558         0.010            0.149    90.900      89.600     90.300   88.900   90.000
+                               Back-to-top links 558         0.096            0.103    22.700       7.500      6.200    3.400   16.000
+                                      Any badges 558        -0.151           -0.081    90.900      92.500     95.900   99.100   92.000
+                                   Awesome badge 558        -0.175           -0.111    77.300      92.500     95.900   98.800   86.000
+                               Header image/logo 558        -0.033            0.105    63.600      46.300     50.300   50.300   52.000
+                            Centered HTML header 558         0.070            0.180    50.000      20.900     23.400   17.300   36.000
+                                 Emoji per entry 555         0.225            0.261     0.016       0.003      0.000    0.000    0.007
+                  Collapsible <details> sections 558         0.042            0.090     9.100       3.000      2.100    2.500    6.000
+                              Translated READMEs 558         0.090            0.091     4.500       7.500      2.100    1.500    8.000
+                Companion website config in repo 558         0.097            0.106    22.700      10.400      6.900    5.900   14.000
+                               CONTRIBUTING file 558        -0.084            0.078    81.800      86.600     87.600   91.000   88.000
+                     CONTRIBUTING length (words) 558         0.153            0.273   339.500     214.000    169.000  161.500  304.500
+                                     PR template 558         0.323            0.362    63.600      47.800     20.700   10.500   56.000
+                            Issue template/forms 558         0.177            0.205    27.300      17.900     11.000    4.900   22.000
+                                 Code of conduct 558        -0.089            0.051    50.000      22.400     31.700   38.300   40.000
+                README states inclusion criteria 558         0.090            0.112    22.700      20.900      9.700   11.400   24.000
+                         Any CI (Actions/Travis) 558         0.152            0.198    63.600      68.700     58.600   46.600   64.000
+                         Automated link checking 558         0.166            0.130    31.800      52.200     33.800   27.200   40.000
+                              awesome-lint in CI 558        -0.090            0.079     4.500       9.000     19.300   20.400    6.000
+                        Creative Commons license 558        -0.118            0.108    40.900      49.300     57.200   62.300   40.000
+                                 No license file 558         0.017           -0.143    27.300      32.800     27.600   28.400   38.000
+                 Sponsors section or FUNDING.yml 558         0.156            0.200    45.500      17.900     13.800    8.000   32.000
+             Flags unmaintained/archived entries 558         0.154            0.136    40.900      23.900     26.200   14.200   34.000
+                              Commits (all time) 558         0.679            0.657  2112.000     599.000    221.000   99.000 1358.000
+                         Distinct commit authors 558         0.775            0.733   630.000     182.000     51.000   14.000  365.500
+                     Top author share of commits 558        -0.498           -0.431     0.238       0.284      0.408    0.635    0.228
+                           People who merged PRs 558         0.457            0.378     8.500       3.000      2.000    1.000    6.000
+              Highest issue/PR number referenced 558         0.764            0.738  2549.500     399.000    116.000   26.000 1257.000
+                        Commit in last 12 months 558         0.313            0.376    95.500      68.700     69.700   47.500   84.000
+                  Human commit in last 12 months 558         0.303            0.366    90.900      67.200     68.300   46.600   80.000
+                          No commit for 2+ years 558        -0.319           -0.393     4.500      26.900     20.700   46.600   14.000
+                     Calendar years with commits 558         0.613            0.522    13.000      11.000      9.000    6.000   12.000
+                   Entries one year after launch 558         0.414            0.414   422.500     208.000     96.000   66.500  308.000
+            Share of peak size reached by year 1 556        -0.448           -0.410     0.341       0.486      0.564    0.778    0.381
+          Ever cut >=10% of entries in a quarter 558         0.199            0.177    50.000      25.400     22.100   12.700   40.000
+           Currently >=10% smaller than its peak 556         0.165            0.126    31.800      17.900     13.900    7.700   28.000
+          More than doubled in size after year 1 556         0.361            0.324    72.700      50.700     41.700   16.700   66.000
+         tier    n  median_stars  total_stars
+0    T1 >=50k   22       75000.0    3220648.0
+1  T2 10k-50k   67       16000.0    1332600.0
+2   T3 2k-10k  145        3400.0     587700.0
+3      T4 <2k  324         580.5     231719.0
+{'n_lists': 558, 'total_stars': 5372667, 'top10_share': 0.4545504122998876, 'top1pct_share': 0.3338122388750317, 'top10pct_share': 0.7648990715411917, 'median_stars': 1400.0, 'gini': 0.837969947156385}
+ first_year   n  median_stars  mean_log  n_ge_50k  n_ge_10k
+       2012   3        3300.0  3.850967         0         1
+       2013   9        3900.0  3.916118         2         4
+       2014  93        3100.0  3.616047        12        31
+       2015 120        2150.0  3.385790         4        30
+       2016  93        1700.0  3.186223         1        12
+       2017  56        1400.0  3.049556         2         6
+       2018  55        1000.0  2.957972         0         1
+       2019  49         485.0  2.723252         0         0
+       2020  37         778.0  2.856562         0         2
+       2021  18         333.0  2.405725         0         0
+       2022  16        1150.0  2.941139         0         1
+       2023   3        2400.0  3.171781         0         0
+       2024   3        1300.0  2.893617         0         0
+       2025   3        2400.0  3.613587         1         1
+/home/user/awesome-research/scripts/analyze.py:213: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  fit = smf.ols(f, data=M).fit(cov_type='HC3')
+
+== design_only R2=0.502 n=555
+                        b       p  x_fold
+Intercept          0.1035  0.3407  1.2691
+age                0.1077  0.0000  1.2815
+ai_era             0.6083  0.0493  4.0583
+log_entries        0.9787  0.0000  9.5214
+desc_ratio_f      -0.0688  0.4383  0.8535
+has_toc            0.0505  0.5677  1.1232
+has_contributing  -0.0139  0.8790  0.9686
+has_pr_template    0.4343  0.0000  2.7183
+ci_linkcheck_any  -0.0515  0.3397  0.8882
+has_translations   0.2370  0.1390  1.7259
+awesome_named     -0.2514  0.0335  0.5606
+in_index           0.1035  0.3407  1.2691
+has_metadata_tags  0.0331  0.7735  1.0791
+chinese            0.0000     NaN  1.0000
+/home/user/awesome-research/scripts/analyze.py:213: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  fit = smf.ols(f, data=M).fit(cov_type='HC3')
+
+== design_plus_activity R2=0.580 n=555
+                        b       p  x_fold
+Intercept          0.6067  0.0000  4.0427
+age                0.0855  0.0000  1.2177
+ai_era             0.3915  0.1922  2.4634
+log_entries        0.8098  0.0000  6.4539
+desc_ratio_f      -0.1735  0.0323  0.6706
+has_toc           -0.0012  0.9882  0.9972
+has_contributing  -0.0251  0.7730  0.9438
+has_pr_template    0.3409  0.0000  2.1921
+ci_linkcheck_any  -0.0835  0.0976  0.8250
+has_translations   0.3081  0.0382  2.0329
+awesome_named     -0.2763  0.0069  0.5293
+in_index           0.6067  0.0000  4.0427
+has_metadata_tags  0.0186  0.8663  1.0438
+chinese            0.0000  0.0008  1.0000
+active_365         0.2393  0.0000  1.7351
+top1_f            -0.7103  0.0000  0.1948
+/home/user/awesome-research/scripts/analyze.py:213: SingularMatrixWarning: The design matrix is rank-deficient. The model parameters are not uniquely determined.
+  fit = smf.ols(f, data=M).fit(cov_type='HC3')
+
+== with_community R2=0.678 n=555
+                       b       p  x_fold
+Intercept         0.7209  0.0000  5.2590
+age               0.0251  0.0137  1.0594
+ai_era            0.3672  0.2848  2.3293
+log_entries       0.2896  0.0001  1.9480
+desc_ratio_f     -0.1700  0.0146  0.6761
+has_toc          -0.0630  0.3861  0.8650
+has_contributing  0.0172  0.8126  1.0404
+ci_linkcheck_any -0.0722  0.1007  0.8468
+has_translations  0.3262  0.0034  2.1194
+awesome_named    -0.2194  0.0086  0.6035
+in_index          0.7209  0.0000  5.2590
+chinese           0.0000     NaN  1.0000
+log_authors       0.8578  0.0000  7.2074
+
+
+######## SAMPLE: all n = 1291
+                                           label    n  spearman_rho  partial_rho_age  T1 >=50k  T2 10k-50k  T3 2k-10k   T4 <2k    top50
+                            Year of first commit 1291        -0.106            0.054  2015.000    2016.000   2018.000 2018.000 2015.000
+                         Name contains "awesome" 1291        -0.175           -0.177    66.700      80.300     82.700   91.200   72.000
+                  Listed in sindresorhus/awesome 1291        -0.204           -0.291    66.700      44.100     30.900   50.900   56.000
+           README mostly Chinese/Japanese/Korean 1291         0.076            0.093     3.000       5.300      7.500    3.300    2.000
+                       Entries (links) in README 1278         0.410            0.420   697.500     330.500    204.000  110.000  526.000
+             Share of entries with a description 1278        -0.066           -0.070     0.936       0.841      0.836    0.857    0.929
+                           Words per description 1163         0.050            0.068    10.100      10.500     10.700   10.400    9.900
+                         Categories with entries 1278         0.228            0.225    57.500      27.500     21.000   16.000   33.000
+                     Median entries per category 1278         0.212            0.224     8.000       6.000      6.000    5.000    7.000
+               Largest category share of entries 1278        -0.140           -0.139     0.111       0.166      0.178    0.211    0.147
+Structured per-entry metadata (tags/stars/table) 1291         0.088            0.110    24.200      13.800     16.800   11.500   20.000
+       Entries alphabetized (>=90% sorted pairs) 1208         0.082            0.075    40.700      28.100     15.700   16.400   38.100
+         Share of links pointing to GitHub repos 1289         0.056            0.047     0.474       0.371      0.400    0.364    0.486
+                                    README words 1289         0.389            0.410  8083.000    4868.000   2970.000 1697.000 6728.500
+                      Words before first section 1289         0.070            0.072    93.000      58.000     52.000   52.000   79.500
+                               Table of contents 1291        -0.053           -0.059    81.800      77.000     81.000   84.300   78.000
+                               Back-to-top links 1291         0.093            0.100    21.200      11.200      8.700    5.500   18.000
+                                      Any badges 1291        -0.132           -0.133    84.800      80.300     80.800   89.300   84.000
+                                   Awesome badge 1291        -0.186           -0.209    63.600      70.400     67.000   82.100   66.000
+                               Header image/logo 1291         0.046            0.070    72.700      55.900     46.100   45.500   64.000
+                            Centered HTML header 1291         0.110            0.152    51.500      31.600     27.500   22.100   46.000
+                                 Emoji per entry 1278         0.174            0.215     0.019       0.006      0.005    0.000    0.016
+                  Collapsible <details> sections 1291         0.075            0.102     9.100       9.200      9.000    6.400   10.000
+                              Translated READMEs 1291         0.145            0.166     6.100      13.200      8.100    3.100   10.000
+                Companion website config in repo 1291         0.082            0.080    18.200      11.200      9.400    6.400   14.000
+                               CONTRIBUTING file 1291        -0.099           -0.110    81.800      69.700     64.800   75.000   78.000
+                     CONTRIBUTING length (words) 1291         0.027            0.027   290.000     179.500    117.000  141.000  266.500
+                                     PR template 1291         0.203            0.207    51.500      37.500     16.600   12.100   48.000
+                            Issue template/forms 1291         0.137            0.155    33.300      19.700     11.100    7.800   28.000
+                                 Code of conduct 1291        -0.095           -0.089    39.400      18.400     24.500   32.000   34.000
+                README states inclusion criteria 1291         0.089            0.102    15.200      25.000     15.400   15.400   22.000
+                         Any CI (Actions/Travis) 1291         0.069            0.067    60.600      56.600     41.800   40.700   58.000
+                         Automated link checking 1291         0.063            0.043    30.300      34.200     20.700   21.000   26.000
+                              awesome-lint in CI 1291        -0.133           -0.121     3.000       7.200      9.000   14.800    4.000
+                        Creative Commons license 1291        -0.110           -0.099    36.400      45.400     40.700   52.400   36.000
+                                 No license file 1291         0.011           -0.017    27.300      29.600     31.100   27.900   30.000
+                 Sponsors section or FUNDING.yml 1291         0.135            0.147    45.500      19.700     13.600    9.700   34.000
+             Flags unmaintained/archived entries 1291         0.102            0.103    33.300      25.700     27.100   19.300   26.000
+                              Commits (all time) 1291         0.501            0.496  1945.000     543.500    210.000  111.000 1212.500
+                         Distinct commit authors 1291         0.531            0.524   471.000     102.000     39.000   15.000  340.500
+                     Top author share of commits 1291        -0.297           -0.279     0.295       0.369      0.494    0.630    0.280
+                           People who merged PRs 1291         0.313            0.295     6.000       3.000      2.000    1.000    6.000
+              Highest issue/PR number referenced 1291         0.575            0.568  1844.000     326.500     90.000   32.000 1271.000
+                        Commit in last 12 months 1291         0.207            0.232    90.900      72.400     65.700   55.400   84.000
+                  Human commit in last 12 months 1291         0.203            0.227    87.900      71.700     64.400   54.500   82.000
+                          No commit for 2+ years 1291        -0.212           -0.245     6.100      21.700     25.400   36.900   10.000
+                     Calendar years with commits 1291         0.277            0.278    12.000       8.000      7.000    6.000   10.500
+                   Entries one year after launch 1289         0.298            0.321   335.000     174.000    114.000   77.500  288.500
+            Share of peak size reached by year 1 1285        -0.219           -0.195     0.371       0.628      0.659    0.778    0.535
+          Ever cut >=10% of entries in a quarter 1289         0.105            0.094    36.400      24.300     14.500   13.400   32.000
+           Currently >=10% smaller than its peak 1285         0.114            0.105    30.300      20.500      9.700    8.300   28.600
+          More than doubled in size after year 1 1285         0.208            0.192    60.600      38.400     33.900   20.800   49.000
+         tier    n  median_stars  total_stars
+0    T1 >=50k   33       90700.0    5392123.0
+1  T2 10k-50k  152       17150.0    3138900.0
+2   T3 2k-10k  469        3500.0    1937000.0
+3      T4 <2k  637        1100.0     611952.0
+{'n_lists': 1291, 'total_stars': 11079975, 'top10_share': 0.31296379278834113, 'top1pct_share': 0.3413250481160833, 'top10pct_share': 0.7102744365397936, 'median_stars': 2000.0, 'gini': 0.78293286716691}
+ first_year   n  median_stars  mean_log  n_ge_50k  n_ge_10k
+       2012   4        3300.0  3.761066         0         1
+       2013  13        5700.0  3.886031         2         5
+       2014 110        3200.0  3.614573        12        35
+       2015 172        2450.0  3.433996         6        39
+       2016 156        2000.0  3.338679         4        23
+       2017 140        2150.0  3.326994         3        18
+       2018 126        1650.0  3.267005         2         9
+       2019 114        1550.0  3.081281         0         2
+       2020 112        1600.0  3.224354         0        10
+       2021  82        1500.0  3.124507         0         7
+       2022  74        1800.0  3.217104         1         7
+       2023  69        2100.0  3.300531         0         6
+       2024  32        2100.0  3.127872         0         5
+       2025  38        2050.0  3.275063         1         8
+       2026  49        2500.0  3.505017         2        10
+
+== design_only R2=0.283 n=1278
+                        b       p   x_fold
+Intercept          1.8082  0.0000  64.3009
+age                0.0814  0.0000   1.2062
+ai_era             0.3031  0.0002   2.0096
+log_entries        0.5164  0.0000   3.2839
+desc_ratio_f      -0.1521  0.0011   0.7046
+has_toc           -0.1284  0.0110   0.7441
+has_contributing  -0.0078  0.8557   0.9822
+has_pr_template    0.3560  0.0000   2.2701
+ci_linkcheck_any  -0.0409  0.3243   0.9101
+has_translations   0.3330  0.0000   2.1528
+awesome_named     -0.1384  0.0113   0.7271
+in_index          -0.2295  0.0000   0.5895
+has_metadata_tags  0.0626  0.2397   1.1550
+chinese            0.0504  0.4674   1.1230
+
+== design_plus_activity R2=0.370 n=1278
+                        b       p    x_fold
+Intercept          2.5153  0.0000  327.5841
+age                0.0656  0.0000    1.1632
+ai_era             0.2257  0.0031    1.6816
+log_entries        0.4340  0.0000    2.7162
+desc_ratio_f      -0.2241  0.0000    0.5969
+has_toc           -0.1401  0.0034    0.7243
+has_contributing  -0.0502  0.2242    0.8909
+has_pr_template    0.2875  0.0000    1.9387
+ci_linkcheck_any  -0.0680  0.0799    0.8550
+has_translations   0.3242  0.0000    2.1094
+awesome_named     -0.1874  0.0004    0.6495
+in_index          -0.1755  0.0000    0.6676
+has_metadata_tags  0.0749  0.1366    1.1881
+chinese            0.1610  0.0207    1.4488
+active_365         0.1819  0.0000    1.5203
+top1_f            -0.6873  0.0000    0.2054
+
+== with_community R2=0.457 n=1278
+                       b       p    x_fold
+Intercept         2.0983  0.0000  125.3983
+age               0.0342  0.0000    1.0819
+ai_era            0.2144  0.0031    1.6385
+log_entries       0.2313  0.0000    1.7032
+desc_ratio_f     -0.1880  0.0000    0.6487
+has_toc          -0.1111  0.0144    0.7742
+has_contributing -0.0570  0.1464    0.8770
+ci_linkcheck_any -0.0531  0.1223    0.8849
+has_translations  0.2734  0.0000    1.8769
+awesome_named    -0.1920  0.0001    0.6427
+in_index         -0.1612  0.0000    0.6900
+chinese           0.2968  0.0000    1.9808
+log_authors       0.6106  0.0000    4.0791
+   entries_bin   n  median_stars  p90_stars
+       (0, 50] 131        1100.0     6400.0
+     (50, 100] 285        1300.0     4940.0
+    (100, 200] 340        1700.0     7830.0
+    (200, 400] 277        2900.0    12960.0
+    (400, 800] 132        4000.0    29910.0
+   (800, 1600]  78        4800.0    57900.0
+(1600, 100000]  35        3300.0    53400.0
+saved

@@ -1,0 +1,46 @@
+repo,kind,note
+EbookFoundation/free-programming-books,list_unparsed,multi-file list (index README links to per-language files)
+521xueweihan/HelloGitHub,list_unparsed,monthly multi-file curated magazine
+VoltAgent/awesome-openclaw-skills,list_unparsed,multi-file categories (5400+ entries)
+dypsilon/frontend-dev-bookmarks,list_unparsed,multi-file list
+lk-geimfari/awesomo,list_unparsed,multi-file list by language
+mehdihadeli/awesome-software-architecture,list_unparsed,multi-file docs-site list
+ramitsurana/awesome-kubernetes,list_unparsed,docs-site list
+lissy93/awesome-privacy,list_unparsed,README generated from YAML (not committed)
+RunaCapital/awesome-oss-alternatives,list_unparsed,HTML table list
+mnfst/awesome-free-llm-apis,list_unparsed,link-less tables + data.json
+birobirobiro/awesome-shadcn-ui,list_unparsed,multi-line HTML/table format
+mhadidg/software-architecture-books,list_unparsed,book list with headings per item
+ashishpatel26/500-AI-Machine-learning-Deep-learning-Computer-vision-NLP-Projects-with-code,list_unparsed,unusual format
+ossu/computer-science,list,curriculum of linked courses
+kilimchoi/engineering-blogs,list,bare-URL list
+dariubs/GoBooks,list,book list
+sindresorhus/quick-look-plugins,list,plugin list
+f/prompts.chat,collection,prompt collection (formerly awesome-chatgpt-prompts) now a web app
+VoltAgent/awesome-design-md,collection,DESIGN.md file collection
+Shubhamsaboo/awesome-llm-apps,collection,runnable app code collection
+PatrickJS/awesome-cursorrules,collection,rule files
+enescingoz/awesome-n8n-templates,collection,workflow templates
+composio-community/awesome-codex-skills,collection,skills
+VoltAgent/awesome-claude-code-subagents,collection,subagent files
+hesamsheikh/awesome-openclaw-usecases,collection,use-case files
+The-Art-of-Hacking/h4cker,collection,resources across files
+aishwaryanr/awesome-generative-ai-guide,collection,guides
+docker/awesome-compose,collection,sample projects
+herrbischoff/awesome-macos-command-line,other,cheatsheet of commands
+ascoders/weekly,other,essays
+tmrts/go-patterns,other,code patterns
+skywind3000/awesome-cheatsheets,other,cheatsheets
+ruvnet/RuView,other,software
+SwifterSwift/SwifterSwift,other,library
+lissy93/personal-security-checklist,other,checklist
+AllThingsSmitty/css-protips,other,tips
+iluwatar/java-design-patterns,other,code (pattern implementations)
+tiimgreen/github-cheat-sheet,other,cheatsheet
+github/awesome-copilot,collection,instruction/agent/skill files
+PicoTrex/Awesome-Nano-Banana-images,collection,image prompt examples
+Evolink-AI/awesome-gpt-image-2-API-Prompts,collection,image prompt examples
+yihui-dev/awesome-opus5-5-videos,collection,video prompt examples
+Chalarangelo/30-seconds-of-interviews,other,Q&A content
+loverajoel/jstips,other,tips content
+imDazui/Tvlist-awesome-m3u-m3u8,collection,playlist files
