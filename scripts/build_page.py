@@ -91,28 +91,57 @@ html = re.sub(r'(</figure>)\s*</p>', r'\1', html)
 css = open(R + 'scripts/page.css', encoding='utf-8').read()
 js = open(R + 'scripts/page.js', encoding='utf-8').read()
 hero = open(R + 'scripts/page_hero.html', encoding='utf-8').read()
-page = f'''<title>What Makes Awesome Lists Great</title>
-<meta name="claude:viewport-fit-sides" content="cover">
+REPO = 'https://github.com/depuschm/awesome-lists-research'
+SITE = 'https://depuschm.github.io/awesome-lists-research/'
+TITLE = 'What Makes Awesome Lists Great'
+DESC = ('A data-driven study of 1,291 curated GitHub lists: what the most-starred awesome lists have in common, '
+        'what turns out not to matter, same-topic rivalries and the 2026 AI shift.')
+head = f'''<title>{TITLE}</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
 <style>
 {css}
-</style>
-<div class="page">
-{hero}
+</style>'''
+body = f'''<div class="page">
+{hero.replace('{REPO}', REPO)}
 <main class="article">
 {html}
 </main>
-<footer class="colophon"><p>Research and analysis: Claude, 25 October 2026. Data from GitHub topic pages, the sindresorhus/awesome index, trackawesomelist and EvanLi/Github-Ranking, plus 1,609 cloned repositories. Stars are rounded snapshots.</p></footer>
+<footer class="colophon"><p>Research and analysis: Claude, 25 October 2026. Data from GitHub topic pages, the sindresorhus/awesome index, trackawesomelist and EvanLi/Github-Ranking, plus 1,609 cloned repositories. Stars are rounded snapshots. Report, data and code: <a href="{REPO}" target="_blank" rel="noopener">depuschm/awesome-lists-research</a> (report and data CC BY 4.0, code MIT).</p></footer>
 </div>
 <div class="tip" id="tip" hidden></div>
 <script>
 const DATA = {json.dumps(DATA, separators=(',', ':'))};
 {js}
-</script>
+</script>'''
+
+# 1. fragment for the Claude artifact viewer (it supplies the document skeleton)
+fragment = head.replace('</title>', '</title>\n<meta name="claude:viewport-fit-sides" content="cover">', 1) + '\n' + body + '\n'
+# 2. standalone document for GitHub Pages (docs/index.html), with the same base reset the viewer applies
+standalone = f'''<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="{DESC}">
+<meta property="og:type" content="article">
+<meta property="og:title" content="{TITLE}">
+<meta property="og:description" content="{DESC}">
+<meta property="og:url" content="{SITE}">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="{SITE}">
+<style>:root{{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}}body{{margin:0}}img{{max-width:100%}}[hidden]{{display:none!important}}</style>
+{head}
+</head>
+<body>
+{body}
+</body>
+</html>
 '''
-import os
 os.makedirs(R + 'page', exist_ok=True)
-open(R + 'page/awesome-lists-study.html', 'w', encoding='utf-8').write(page)
-print('page bytes', len(page.encode('utf-8')))
+os.makedirs(R + 'docs', exist_ok=True)
+open(R + 'page/awesome-lists-study.html', 'w', encoding='utf-8').write(fragment)
+open(R + 'docs/index.html', 'w', encoding='utf-8').write(standalone)
+open(R + 'docs/.nojekyll', 'w').close()
+print('page bytes', len(fragment.encode('utf-8')), '| docs/index.html bytes', len(standalone.encode('utf-8')))

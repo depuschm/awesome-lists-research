@@ -358,3 +358,6 @@ rect.unit:hover { stroke: var(--ink); stroke-width: 1.5; }
 .ua-r { font: 500 0.8125rem/1 var(--font-mono); color: var(--muted); min-width: 2.2rem; }
 .ua-s { margin-left: auto; font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
 .ua-note { margin: 0.25rem 0 0; font: 400 0.875rem/1.45 var(--font-display); color: var(--muted); }
+.eyebrow a { color: var(--ink-2); text-decoration-color: var(--axis); text-underline-offset: 0.18em; }
+.eyebrow a:hover { color: var(--accent); }
+.colophon a { color: var(--accent); }

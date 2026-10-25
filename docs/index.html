@@ -1,0 +1,3491 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="description" content="A data-driven study of 1,291 curated GitHub lists: what the most-starred awesome lists have in common, what turns out not to matter, same-topic rivalries and the 2026 AI shift.">
+<meta property="og:type" content="article">
+<meta property="og:title" content="What Makes Awesome Lists Great">
+<meta property="og:description" content="A data-driven study of 1,291 curated GitHub lists: what the most-starred awesome lists have in common, what turns out not to matter, same-topic rivalries and the 2026 AI shift.">
+<meta property="og:url" content="https://depuschm.github.io/awesome-lists-research/">
+<meta name="twitter:card" content="summary">
+<link rel="canonical" href="https://depuschm.github.io/awesome-lists-research/">
+<style>:root{color-scheme:light;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}body{margin:0}img{max-width:100%}[hidden]{display:none!important}</style>
+<title>What Makes Awesome Lists Great</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@500;600;700&family=IBM+Plex+Serif:ital,wght@0,400;0,600;1,400&display=swap">
+<style>
+/* Layout: one ~70ch reading column; figures and wide tables break out to a 1040px measure.
+   Headings carry Markdown-style ## markers, because the subject is a genre of README files. */
+:root {
+  --bg: #fbfafc;
+  --surface: #ffffff;
+  --ink: #1c1a24;
+  --ink-2: #48455a;
+  --muted: #706c80;
+  --rule: #e4e1eb;
+  --accent: #b0206a;
+  --accent-wash: #fbeaf3;
+  --series: #2a78d6;
+  --series-wash: rgba(42, 120, 214, 0.10);
+  --deemph: #bdbac7;
+  --grid: #ebe9f0;
+  --axis: #c9c6d2;
+  --u-list: #2a78d6;
+  --u-guide: #eb6834;
+  --u-coll: #1baf7a;
+  --u-soft: #dcd9e2;
+  --shadow: 0 6px 24px rgba(28, 26, 36, 0.12);
+  --font-display: "IBM Plex Sans Condensed", "Arial Narrow", "Helvetica Neue", system-ui, sans-serif;
+  --font-body: "IBM Plex Serif", Georgia, "Times New Roman", serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  --measure: 44rem;
+  --wide: 65rem;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #131217;
+    --surface: #1b1a21;
+    --ink: #ecebf2;
+    --ink-2: #c6c3d1;
+    --muted: #9d99ad;
+    --rule: #2c2a35;
+    --accent: #f27bb7;
+    --accent-wash: #33192a;
+    --series: #3987e5;
+    --series-wash: rgba(57, 135, 229, 0.16);
+    --deemph: #4d4a57;
+    --grid: #25242c;
+    --axis: #3b3945;
+    --u-list: #3987e5;
+    --u-guide: #d95926;
+    --u-coll: #199e70;
+    --u-soft: #34323d;
+    --shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #131217;
+  --surface: #1b1a21;
+  --ink: #ecebf2;
+  --ink-2: #c6c3d1;
+  --muted: #9d99ad;
+  --rule: #2c2a35;
+  --accent: #f27bb7;
+  --accent-wash: #33192a;
+  --series: #3987e5;
+  --series-wash: rgba(57, 135, 229, 0.16);
+  --deemph: #4d4a57;
+  --grid: #25242c;
+  --axis: #3b3945;
+  --u-list: #3987e5;
+  --u-guide: #d95926;
+  --u-coll: #199e70;
+  --u-soft: #34323d;
+  --shadow: 0 6px 24px rgba(0, 0, 0, 0.5);
+  color-scheme: dark;
+}
+
+html { -webkit-text-size-adjust: 100%; }
+body {
+  background: var(--bg);
+  color: var(--ink);
+  font: 400 1.0625rem/1.65 var(--font-body);
+}
+.page {
+  padding-left: max(16px, env(safe-area-inset-left, 0px));
+  padding-right: max(16px, env(safe-area-inset-right, 0px));
+  padding-block: 0 4rem;
+}
+
+/* ---------- hero ---------- */
+.hero {
+  max-width: var(--wide);
+  margin: 0 auto;
+  padding-block: 3.5rem 2.5rem;
+  border-bottom: 1px solid var(--rule);
+  display: grid;
+  gap: 1.25rem;
+}
+.eyebrow {
+  margin: 0;
+  font: 500 0.8125rem/1.4 var(--font-mono);
+  letter-spacing: 0.02em;
+  color: var(--muted);
+}
+.eyebrow .tag { color: var(--accent); }
+.hero h1 {
+  margin: 0;
+  max-width: 18ch;
+  font: 700 clamp(2.4rem, 6.2vw, 4.4rem)/1.0 var(--font-display);
+  letter-spacing: -0.015em;
+  text-wrap: balance;
+}
+.dek {
+  margin: 0;
+  max-width: 40rem;
+  font-size: 1.1875rem;
+  line-height: 1.55;
+  color: var(--ink-2);
+}
+.entry-line {
+  margin: 0;
+  font: 400 0.875rem/1.5 var(--font-mono);
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+.entry-line b { color: var(--ink); font-weight: 500; }
+.figures {
+  margin: 0.75rem 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12.5rem, 1fr));
+  gap: 0;
+  border-top: 1px solid var(--rule);
+}
+.figures > div {
+  padding: 1rem 1.25rem 0.25rem 0;
+  display: grid;
+  gap: 0.35rem;
+  align-content: start;
+  min-width: 0;
+}
+.figures .num {
+  font: 600 2.6rem/1 var(--font-display);
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.figures .num small { font-size: 0.55em; font-weight: 500; color: var(--muted); margin-left: 0.15em; }
+.figures .lbl {
+  font: 400 0.9375rem/1.4 var(--font-display);
+  color: var(--ink-2);
+  max-width: 17rem;
+}
+
+/* ---------- article flow ---------- */
+.article { max-width: var(--wide); margin: 0 auto; }
+.article > * { max-width: var(--measure); margin-inline: auto; margin-block: 0; }
+.article > * + * { margin-top: 1.05em; }
+.article > figure.chart, .article > .table-wrap { max-width: var(--wide); }
+.article > hr { max-width: var(--wide); border: 0; border-top: 1px solid var(--rule); margin-block: 3.25rem 0; }
+.article > hr + * { margin-top: 2.5rem; }
+
+.article h2, .article h3 {
+  font-family: var(--font-display);
+  color: var(--ink);
+  text-wrap: balance;
+  scroll-margin-top: 1.5rem;
+}
+.article h2 { font-size: 2rem; line-height: 1.12; font-weight: 700; letter-spacing: -0.01em; margin-top: 2.2em; }
+.article h3 { font-size: 1.35rem; line-height: 1.25; font-weight: 600; margin-top: 1.9em; }
+.article h2::before, .article h3::before {
+  font-family: var(--font-mono);
+  font-weight: 400;
+  color: var(--accent);
+  margin-right: 0.45em;
+  font-size: 0.62em;
+  vertical-align: 0.18em;
+}
+.article h2::before { content: "##"; }
+.article h3::before { content: "###"; }
+.article h2 + *, .article h3 + * { margin-top: 0.7em; }
+
+.article p, .article li { hanging-punctuation: first; }
+.article a { color: var(--accent); text-decoration-thickness: 1px; text-underline-offset: 0.15em; }
+.article a:hover { text-decoration-thickness: 2px; }
+.article a:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 2px; }
+.article strong { font-weight: 600; color: var(--ink); }
+.article code {
+  font: 0.86em var(--font-mono);
+  background: var(--accent-wash);
+  color: var(--ink);
+  padding: 0.08em 0.3em;
+  border-radius: 3px;
+  overflow-wrap: anywhere;
+}
+.article ul, .article ol { padding-left: 1.35em; }
+.article li + li { margin-top: 0.4em; }
+.article li > ul, .article li > ol { margin-top: 0.4em; }
+
+/* Contents block: the one section awesome-lint requires every list to open with */
+#contents + ul {
+  list-style: none;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  background: var(--surface);
+  columns: 2 16rem;
+  column-gap: 2rem;
+  font: 400 0.95rem/1.5 var(--font-display);
+}
+#contents + ul li { break-inside: avoid; margin: 0 0 0.35rem; }
+#contents + ul li::before { content: "- "; font-family: var(--font-mono); color: var(--muted); }
+#contents + ul a { color: var(--ink); text-decoration: none; }
+#contents + ul a:hover { color: var(--accent); text-decoration: underline; }
+
+/* Key findings */
+#key-findings + ol { list-style: none; padding-left: 0; counter-reset: kf; }
+#key-findings + ol > li {
+  counter-increment: kf;
+  position: relative;
+  padding-left: 2.6rem;
+}
+#key-findings + ol > li + li { margin-top: 0.9em; }
+#key-findings + ol > li::before {
+  content: counter(kf, decimal-leading-zero);
+  position: absolute;
+  left: 0;
+  top: 0.12em;
+  font: 500 0.85rem/1.6 var(--font-mono);
+  color: var(--accent);
+}
+
+/* ---------- tables ---------- */
+.table-wrap {
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+  border-top: 1px solid var(--rule);
+  border-bottom: 1px solid var(--rule);
+}
+.table-wrap table {
+  border-collapse: collapse;
+  width: 100%;
+  font: 400 0.875rem/1.4 var(--font-display);
+  font-variant-numeric: tabular-nums;
+}
+.table-wrap th {
+  text-align: left;
+  font-weight: 600;
+  color: var(--ink-2);
+  font-size: 0.8125rem;
+  letter-spacing: 0.01em;
+  padding: 0.6rem 0.75rem 0.5rem 0;
+  border-bottom: 1px solid var(--axis);
+  vertical-align: bottom;
+  white-space: nowrap;
+}
+.table-wrap td {
+  padding: 0.5rem 0.75rem 0.5rem 0;
+  border-bottom: 1px solid var(--grid);
+  vertical-align: top;
+}
+.table-wrap tr:last-child td { border-bottom: 0; }
+.table-wrap td a { color: var(--ink); text-decoration-color: var(--axis); }
+.table-wrap td a:hover { color: var(--accent); }
+.table-wrap td strong { color: var(--accent); }
+
+/* ---------- figures ---------- */
+figure.chart {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+  padding: 1.25rem 1.25rem 1rem;
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 8px;
+}
+figure.chart + * { margin-top: 1.75rem; }
+figcaption { display: grid; gap: 0.25rem; margin-bottom: 1rem; }
+.fig-title { font: 600 1.125rem/1.3 var(--font-display); color: var(--ink); text-wrap: balance; }
+.fig-cap { font: 400 0.875rem/1.45 var(--font-display); color: var(--muted); }
+.chart-body { position: relative; min-width: 0; }
+.chart-body svg { display: block; overflow: visible; }
+.legend { display: flex; flex-wrap: wrap; gap: 0.4rem 1.1rem; margin-bottom: 0.85rem; font: 400 0.875rem/1.3 var(--font-display); color: var(--ink-2); }
+.legend .key { display: inline-flex; align-items: center; gap: 0.4rem; }
+.legend .key b { font-weight: 600; color: var(--ink); font-variant-numeric: tabular-nums; }
+.legend .sw { width: 0.8rem; height: 0.8rem; border-radius: 3px; display: inline-block; }
+.legend .dot { width: 0.7rem; height: 0.7rem; border-radius: 50%; display: inline-block; }
+
+.sw.u-list, rect.u-list { background: var(--u-list); fill: var(--u-list); }
+.sw.u-guide, rect.u-guide { background: var(--u-guide); fill: var(--u-guide); }
+.sw.u-coll, rect.u-coll { background: var(--u-coll); fill: var(--u-coll); }
+.sw.u-soft, rect.u-soft { background: var(--u-soft); fill: var(--u-soft); }
+rect.unit { stroke: var(--surface); stroke-width: 0; transition: opacity 120ms ease; }
+rect.unit:hover { stroke: var(--ink); stroke-width: 1.5; }
+
+.grid-line { stroke: var(--grid); stroke-width: 1; shape-rendering: crispEdges; }
+.axis-line { stroke: var(--axis); stroke-width: 1; shape-rendering: crispEdges; }
+.bar-hi { fill: var(--series); }
+.bar-lo { fill: var(--deemph); }
+.bar-hit { fill: transparent; cursor: default; }
+.db-line { stroke: var(--axis); stroke-width: 2; }
+.dot-hi { fill: var(--series); stroke: var(--surface); stroke-width: 2; }
+.dot-lo { fill: var(--muted); stroke: var(--surface); stroke-width: 2; }
+.dot.dot-hi-legend { background: var(--series); }
+.dot.dot-lo-legend { background: var(--muted); }
+.sc-dot { fill: var(--series); fill-opacity: 0.38; stroke: var(--surface); stroke-width: 1; }
+.sc-hi { fill: var(--series); fill-opacity: 1; stroke: var(--surface); stroke-width: 2; }
+.sc-ring { fill: none; stroke: var(--ink); stroke-width: 1.5; }
+.ln { fill: none; stroke: var(--series); stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.ar { fill: var(--series-wash); }
+.mk { fill: var(--series); stroke: var(--surface); stroke-width: 2; }
+.xhair { stroke: var(--ink-2); stroke-width: 1; }
+.t-muted { fill: var(--muted); font: 400 11.5px var(--font-mono); }
+.t-axis { fill: var(--muted); font: 400 12px var(--font-display); font-variant-numeric: tabular-nums; }
+.t-label { fill: var(--ink-2); font: 400 13.5px var(--font-display); }
+.t-ink { fill: var(--ink); font: 600 12.5px var(--font-display); font-variant-numeric: tabular-nums; }
+.t-head { fill: var(--ink); font: 600 13px var(--font-display); letter-spacing: 0.02em; text-transform: uppercase; }
+
+.panels { display: grid; gap: 1.25rem 1.5rem; grid-template-columns: repeat(auto-fill, minmax(min(100%, 13.5rem), 1fr)); }
+.panel { min-width: 0; display: grid; gap: 0.2rem; }
+.panel .pt { font: 600 0.9375rem/1.25 var(--font-display); color: var(--ink); overflow-wrap: anywhere; }
+.panel .pn { font: 400 0.8125rem/1.3 var(--font-display); color: var(--muted); }
+
+.tip {
+  position: fixed;
+  z-index: 50;
+  pointer-events: none;
+  max-width: 18rem;
+  padding: 0.5rem 0.65rem;
+  background: var(--surface);
+  color: var(--ink);
+  border: 1px solid var(--rule);
+  border-radius: 6px;
+  box-shadow: var(--shadow);
+  font: 400 0.8125rem/1.4 var(--font-display);
+  font-variant-numeric: tabular-nums;
+}
+.tip b { font-weight: 600; }
+.tip .mut { color: var(--muted); }
+
+.colophon {
+  max-width: var(--measure);
+  margin: 4rem auto 0;
+  padding-top: 1.25rem;
+  border-top: 1px solid var(--rule);
+  font: 400 0.875rem/1.5 var(--font-display);
+  color: var(--muted);
+}
+
+@media (max-width: 640px) {
+  body { font-size: 1rem; }
+  .hero { padding-block: 2rem 1.75rem; }
+  .article h2 { font-size: 1.6rem; }
+  figure.chart { padding: 1rem 0.85rem 0.75rem; margin-inline: -4px; }
+  .figures .num { font-size: 2.2rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  * { transition: none !important; }
+}
+.halo { paint-order: stroke; stroke: var(--surface); stroke-width: 4px; stroke-linejoin: round; }
+.unit-wrap { display: flex; flex-wrap: wrap; gap: 1.5rem 2.5rem; align-items: flex-start; }
+.unit-aside { flex: 1 1 15rem; min-width: 0; max-width: 24rem; display: grid; gap: 0.6rem; }
+.ua-h { font: 600 0.8125rem/1.3 var(--font-display); letter-spacing: 0.02em; text-transform: uppercase; color: var(--ink); }
+.ua-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 0.35rem; font: 400 0.9375rem/1.35 var(--font-display); color: var(--ink-2); }
+.ua-list li { display: flex; gap: 0.5rem; align-items: baseline; overflow-wrap: anywhere; }
+.ua-r { font: 500 0.8125rem/1 var(--font-mono); color: var(--muted); min-width: 2.2rem; }
+.ua-s { margin-left: auto; font-variant-numeric: tabular-nums; color: var(--muted); white-space: nowrap; }
+.ua-note { margin: 0.25rem 0 0; font: 400 0.875rem/1.45 var(--font-display); color: var(--muted); }
+.eyebrow a { color: var(--ink-2); text-decoration-color: var(--axis); text-underline-offset: 0.18em; }
+.eyebrow a:hover { color: var(--accent); }
+.colophon a { color: var(--accent); }
+
+</style>
+</head>
+<body>
+<div class="page">
+<header class="hero">
+  <p class="eyebrow"><span class="tag">## research report</span> · data as of 25 October 2026 · <a href="https://github.com/depuschm/awesome-lists-research" target="_blank" rel="noopener">data and code on GitHub</a></p>
+  <h1>What makes the best awesome lists great</h1>
+  <p class="dek">A study of 1,291 curated lists on GitHub: what the most-starred ones have in common, what they do differently, and what turns out not to matter. Built from 1,609 cloned repositories, about 60,000 historical README snapshots and in-depth reads of more than 40 lists.</p>
+  <p class="entry-line">- [<b>What makes awesome lists great</b>](#key-findings) - Timing, scale, pruning, governance and the 2026 AI shift, measured.</p>
+  <div class="figures">
+    <div><span class="num">5<small>of 10</small></span><span class="lbl">most-starred repositories on all of GitHub are curated lists</span></div>
+    <div><span class="num">35%<small>vs 9%</small></span><span class="lbl">of lists started in 2014–15 passed 10k stars, against lists started in 2019–22</span></div>
+    <div><span class="num">0.05</span><span class="lbl">correlation between describing every entry and stars: table stakes, not an edge</span></div>
+    <div><span class="num">202k</span><span class="lbl">stars gained by 95 lists while their content did not change for a year or more</span></div>
+  </div>
+</header>
+
+<main class="article">
+<h2 id="contents">Contents</h2>
+<ul>
+<li><a href="#key-findings">Key findings</a></li>
+<li><a href="#1-why-awesome-lists-matter">1. Why awesome lists matter</a></li>
+<li><a href="#2-how-this-study-was-done">2. How this study was done</a></li>
+<li><a href="#3-who-the-winners-are">3. Who the winners are</a></li>
+<li><a href="#4-what-separates-top-lists-from-the-rest">4. What separates top lists from the rest</a></li>
+<li><a href="#5-ten-things-the-best-lists-do">5. Ten things the best lists do</a></li>
+<li><a href="#6-same-topic-rivals-a-natural-experiment">6. Same-topic rivals: a natural experiment</a></li>
+<li><a href="#7-why-most-lists-stay-small">7. Why most lists stay small</a></li>
+<li><a href="#8-what-stars-do-and-do-not-measure">8. What stars do and do not measure</a></li>
+<li><a href="#9-2026-the-ai-inflection">9. 2026: the AI inflection</a></li>
+<li><a href="#10-playbook">10. Playbook</a></li>
+<li><a href="#appendix-a-full-feature-tables">Appendix A: full feature tables</a></li>
+<li><a href="#appendix-b-data-code-and-reproducibility">Appendix B: data, code and reproducibility</a></li>
+<li><a href="#sources">Sources</a></li>
+</ul>
+<hr />
+<h2 id="key-findings">Key findings</h2>
+<ol>
+<li><strong>Curated lists are GitHub's hall of fame.</strong> Five of the ten most-starred repositories on all of GitHub are curated link lists (nine of the top 25, fifteen of the top 100). Almost half of the top 100 (48) are not software at all.</li>
+<li><strong>Stars are extremely concentrated.</strong> Across 1,291 curated lists holding 11.1 million stars, the top 10 lists hold 31% of all stars and the top 10% hold 71% (Gini 0.78).</li>
+<li><strong>Timing is the single biggest factor.</strong> 35% of lists started in 2014–15 (when the format took off) passed 10,000 stars, against 9% of lists started in 2019–22. 40 of the 100 most-starred lists were created in 2014–15, against 21% of all lists. A second window opened with the AI wave: 19 of the top 100 were created since 2023, and lists born in that period earn about 1.9× the stars their age would predict.</li>
+<li><strong>The "quality hygiene" checklist is table stakes, not a differentiator.</strong> Descriptions on every entry, a table of contents, badges, a licence, a CONTRIBUTING file: small lists have them as often as giant ones. The share of described entries has essentially zero correlation with stars (ρ = 0.05 in the census, 0.01 inside the official index).</li>
+<li><strong>Scale and breadth do differentiate.</strong> Lists with 50k+ stars have a median of 593 entries in 51 categories; lists under 2k stars have 146 entries in 18 categories. Top lists also have more balanced taxonomies (largest category = 11% of entries vs 21%).</li>
+<li><strong>Winners launch full and keep growing for years.</strong> One year after launch, today's 50k+ lists already had a median of 408 entries (vs 97 for &lt;2k lists), and half of them more than doubled after year one (vs a quarter of small lists; 73% vs 17% inside the official index).</li>
+<li><strong>The best lists cut.</strong> 23% of 50k+ lists are currently at least 10% smaller than their peak (8% for &lt;2k lists). awesome-python went from 739 entries to 498 under a written "shortlist, not a catalog" policy; free-for-dev cut ~25% in eight cleanup PRs; awesome-react cut 65% in a week; awesome-vue cut 62%.</li>
+<li><strong>Governance scales with success.</strong> PR templates (46% vs 14%), issue forms (36% vs 10%), CI (55% vs 37%) and longer contribution guides (≈300 vs 135 words) are far more common at the top. The most effective lists turn their rules into bots and make contributors supply the evidence.</li>
+<li><strong>Communities form around winners, but they are still run by one person.</strong> Top lists have a median of 387 commit authors (vs 20) and 6 people who have merged PRs (vs 1), yet nearly every top list we read in depth has a single active gatekeeper today.</li>
+<li><strong>Design explains only part of it.</strong> Everything visible in the repository (size, age, structure, process, licence, translations, index listing) explains about 21% of the variance in log-stars in the census sample and 50% inside the official index. Topic demand, timing and distribution do the rest.</li>
+<li><strong>Same-topic rivalries confirm it: be there at the topic's birth, then stay alive.</strong> Comparing winners with same-scope rivals in 12 topics, the earliest list won 7 of 12, and the winner out-worked its rival in the first two years in 10 of 12. Six late clones launched bigger or better maintained than the leader and got 1–7% of its stars. Every overtake combined an incumbent that stalled early, a <em>different</em> product and an existing audience.</li>
+<li><strong>Stars measure the promise, not current quality.</strong> 95 lists whose content had not changed for at least a year gained 202,000 stars in that time (median +20%). Several top-30 lists have been dormant for two to four years.</li>
+<li><strong>2026 broke the contribution model.</strong> A flood of AI-generated pull requests led sindresorhus/awesome to close external PRs (no new list added in 2026), awesome-nodejs to pause submissions, and others to add honeypot checkboxes, "prove you're human" emails, account-age gates and issue-form-only intake. One MCP list went the other way and opened a fast lane for agents.</li>
+</ol>
+<hr />
+<h2 id="1-why-awesome-lists-matter">1. Why awesome lists matter</h2>
+<p>An "awesome list" is a curated Markdown README of links on one topic, in the format popularised by <a href="https://github.com/sindresorhus/awesome" target="_blank" rel="noopener">sindresorhus/awesome</a> in July 2014. The format predates it: <a href="https://github.com/ziadoz/awesome-php" target="_blank" rel="noopener">ziadoz/awesome-php</a> began as a Gist and has commits from January 2012, and vinta/awesome-python (June 2014) and avelino/awesome-go (July 2014) both credit their predecessor in their first README.</p>
+<figure class="chart" id="fig-top100" data-chart="top100"><figcaption><span class="fig-title">GitHub's 100 most-starred repositories, by kind</span><span class="fig-cap">Each square is one repository, in rank order from the top left. Ten per row. Hover for details.</span></figcaption><div class="chart-body" role="img" aria-label="GitHub's 100 most-starred repositories, by kind"></div></figure>
+
+<p><strong>Share of GitHub's 100 most-starred repositories, by kind</strong> (EvanLi/Github-Ranking snapshot, 24 Oct 2026; classification ours):</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Kind</th>
+<th>Top 10</th>
+<th>Top 25</th>
+<th>Top 100</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Curated link lists</td>
+<td>5</td>
+<td>9</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Guides, books and courses</td>
+<td>3</td>
+<td>4</td>
+<td>16</td>
+</tr>
+<tr>
+<td>AI agent skills and configs</td>
+<td>0</td>
+<td>4</td>
+<td>9</td>
+</tr>
+<tr>
+<td>Artifact collections (prompts, templates, playlists)</td>
+<td>0</td>
+<td>0</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Other non-software</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Software</td>
+<td>2</td>
+<td>7</td>
+<td>52</td>
+</tr>
+</tbody>
+</table></div>
+<p>Within the curated-list world, attention is winner-take-most:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Sample</th>
+<th>Lists</th>
+<th>Stars</th>
+<th>Top 10 share</th>
+<th>Top 10% share</th>
+<th>Gini</th>
+<th>Median</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>All lists in the corpus</td>
+<td>1,291</td>
+<td>11.1M</td>
+<td>31%</td>
+<td>71%</td>
+<td>0.78</td>
+<td>2,000</td>
+</tr>
+<tr>
+<td>Census (top-1,000 <code>awesome-list</code> topic)</td>
+<td>861</td>
+<td>8.1M</td>
+<td>35%</td>
+<td>68%</td>
+<td>0.74</td>
+<td>2,400</td>
+</tr>
+<tr>
+<td>Official index lists with known stars</td>
+<td>558</td>
+<td>5.4M</td>
+<td>46%</td>
+<td>77%</td>
+<td>0.84</td>
+<td>1,400</td>
+</tr>
+</tbody>
+</table></div>
+<p>The corpus is truncated at the bottom (lists with a few dozen stars are under-represented), so the true concentration is higher still.</p>
+<hr />
+<h2 id="2-how-this-study-was-done">2. How this study was done</h2>
+<p>The GitHub search API was not available from the research environment, so the corpus was built from three ranked sources plus the official index, and every repository was then cloned and analysed locally.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Source</th>
+<th>What it gave</th>
+<th>Size</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>GitHub topic page <code>awesome-list</code>, sorted by stars (pages 1–50)</td>
+<td>Ranked list with star counts</td>
+<td>1,000 repos (down to 970 stars)</td>
+</tr>
+<tr>
+<td>GitHub topic page <code>awesome</code>, sorted by stars (pages 1–25)</td>
+<td>Ranked list with star counts</td>
+<td>500 repos (down to 2.4k stars)</td>
+</tr>
+<tr>
+<td><a href="https://github.com/trackawesomelist/trackawesomelist" target="_blank" rel="noopener">trackawesomelist</a> README</td>
+<td>Tracked lists with star counts and last-update dates</td>
+<td>682 lists</td>
+</tr>
+<tr>
+<td><a href="https://github.com/sindresorhus/awesome" target="_blank" rel="noopener">sindresorhus/awesome</a> readme</td>
+<td>Official index membership and category</td>
+<td>670 lists</td>
+</tr>
+<tr>
+<td><a href="https://github.com/EvanLi/Github-Ranking" target="_blank" rel="noopener">EvanLi/Github-Ranking</a></td>
+<td>Exact stars for GitHub's overall top 100</td>
+<td>100 repos</td>
+</tr>
+<tr>
+<td>Partial git clones (all commits and trees; root files checked out)</td>
+<td>Full history, file tree, README, CI, templates</td>
+<td>1,609 repos, 2.4 GB</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Three analysis samples.</strong> The corpus mixes sources, and that creates a selection bias: small lists entered mostly through the official index, big ones through the topic ranking. Comparing them naively makes index membership, the Awesome badge and awesome-lint look harmful. So the statistics are run on two clean samples and the full set is used only for description:</p>
+<ul>
+<li><strong>Census (n = 861):</strong> every curated list among the 1,000 most-starred repositories tagged <code>awesome-list</code>. It is sampled purely by stars, so it is unbiased with respect to every feature.</li>
+<li><strong>Official index (n = 558):</strong> every list in sindresorhus/awesome with a known star count. All passed the same quality gate.</li>
+<li><strong>All lists (n = 1,291):</strong> for descriptive statistics only.</li>
+</ul>
+<p>After de-duplicating renamed repos and forks by root commit (30 removed), each repo was classified as a link list, an artifact collection (prompt files, rule files, templates) or other (code, books, apps); 225 non-lists were excluded and 50 classifications were set by hand.</p>
+<p><strong>Features.</strong> A custom extractor computed about 90 features per repo:</p>
+<ul>
+<li><em>History:</em> first and last commit, commits, distinct authors, top-author share, merge commits, people who merged PRs, highest issue/PR number referenced, activity by year, bot share.</li>
+<li><em>Files:</em> CONTRIBUTING, code of conduct, PR and issue templates, FUNDING.yml, CI workflows and what they check (link checking, awesome-lint, markdown lint, stale bots), licence type, translations, website configs, data files.</li>
+<li><em>README:</em> entries (format-agnostic: Markdown bullets, HTML anchors, tables, blockquotes, reference links, bare URLs, setext headings), share of entries with a description, words per description, categories, items per category, alphabetical ordering, ToC, back-to-top links, badges, images, emoji, sponsor sections, stated inclusion criteria.</li>
+</ul>
+<p><strong>README history.</strong> For 1,289 lists the README was reconstructed at every quarter since the first commit (about 60,000 historical snapshots), giving entry counts over time: size at launch, peak size, and pruning events.</p>
+<p><strong>Qualitative work.</strong> Five analysts (AI sub-agents working from the local clones and git history, with spot checks of key claims by the lead researcher) each read one archetype in depth against a shared rubric, more than 40 lists in all; one ran a same-topic rivals comparison across 12 topics plus 12 quick-check pairs; one coded a random control sample of 30 low-star lists; one reviewed the literature. Their full notes are in <code>notes/</code>.</p>
+<p><strong>Limitations.</strong></p>
+<ul>
+<li><em>Stars are a proxy.</em> They measure bookmarking and reach as much as quality (Section 8).</li>
+<li><em>No star histories.</em> GitHub's stargazer API and BigQuery were unavailable, so growth is measured in content, not stars.</li>
+<li><em>Correlation, not causation.</em> Community size, governance files and sponsorship are partly consequences of popularity. Features observable at launch (age, size in year one) are more defensible as causes.</li>
+<li><em>Rounding.</em> Topic-page stars are rounded to three significant digits.</li>
+<li><em>CI detection is keyword-based</em> and is a lower bound (awesome-go's custom Go bot does not register as a link checker; awesome-selfhosted keeps its checks in a separate data repo).</li>
+<li><em>Survivorship.</em> Lists with very few stars are under-represented.</li>
+</ul>
+<hr />
+<h2 id="3-who-the-winners-are">3. Who the winners are</h2>
+
+
+<p><strong>The 30 most-starred curated lists</strong> (stars from GitHub topic pages or EvanLi exact counts; entries from the README parser):</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>List</th>
+<th>Stars</th>
+<th>Archetype</th>
+<th>Created</th>
+<th>Entries</th>
+<th>Commit authors</th>
+<th>Commits, last 12 mo</th>
+<th>Last commit</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><a href="https://github.com/codecrafters-io/build-your-own-x" target="_blank" rel="noopener">codecrafters-io/build-your-own-x</a></td>
+<td>556k</td>
+<td>Learning &amp; knowledge</td>
+<td>2018</td>
+<td>363</td>
+<td>145</td>
+<td>19</td>
+<td>3 mo ago</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="https://github.com/sindresorhus/awesome" target="_blank" rel="noopener">sindresorhus/awesome</a></td>
+<td>524k</td>
+<td>Meta (list of lists)</td>
+<td>2014</td>
+<td>683</td>
+<td>682</td>
+<td>34</td>
+<td>52 d ago</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="https://github.com/public-apis/public-apis" target="_blank" rel="noopener">public-apis/public-apis</a></td>
+<td>492k</td>
+<td>Practical directory</td>
+<td>2016</td>
+<td>2,244</td>
+<td>2,103</td>
+<td>1,813</td>
+<td>0 d ago</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="https://github.com/EbookFoundation/free-programming-books" target="_blank" rel="noopener">EbookFoundation/free-programming-books</a></td>
+<td>400k</td>
+<td>Learning &amp; knowledge</td>
+<td>2013</td>
+<td>~13,000 (multi-file)</td>
+<td>3,548</td>
+<td>306</td>
+<td>2 d ago</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="https://github.com/vinta/awesome-python" target="_blank" rel="noopener">vinta/awesome-python</a></td>
+<td>330k</td>
+<td>Ecosystem catalog</td>
+<td>2014</td>
+<td>552</td>
+<td>588</td>
+<td>1,483</td>
+<td>2 d ago</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="https://github.com/awesome-selfhosted/awesome-selfhosted" target="_blank" rel="noopener">awesome-selfhosted/awesome-selfhosted</a></td>
+<td>330k</td>
+<td>Practical directory</td>
+<td>2015</td>
+<td>1,365</td>
+<td>1,367</td>
+<td>254</td>
+<td>2 d ago</td>
+</tr>
+<tr>
+<td>7</td>
+<td><a href="https://github.com/trimstray/the-book-of-secret-knowledge" target="_blank" rel="noopener">trimstray/the-book-of-secret-knowledge</a></td>
+<td>253k</td>
+<td>Learning &amp; knowledge</td>
+<td>2018</td>
+<td>912</td>
+<td>110</td>
+<td>0</td>
+<td>23 mo ago</td>
+</tr>
+<tr>
+<td>8</td>
+<td><a href="https://github.com/ossu/computer-science" target="_blank" rel="noopener">ossu/computer-science</a></td>
+<td>210k</td>
+<td>Learning &amp; knowledge</td>
+<td>2014</td>
+<td>78 courses</td>
+<td>185</td>
+<td>22</td>
+<td>3 mo ago</td>
+</tr>
+<tr>
+<td>9</td>
+<td><a href="https://github.com/avelino/awesome-go" target="_blank" rel="noopener">avelino/awesome-go</a></td>
+<td>190k</td>
+<td>Ecosystem catalog</td>
+<td>2014</td>
+<td>3,178</td>
+<td>2,637</td>
+<td>492</td>
+<td>1 d ago</td>
+</tr>
+<tr>
+<td>10</td>
+<td><a href="https://github.com/521xueweihan/HelloGitHub" target="_blank" rel="noopener">521xueweihan/HelloGitHub</a></td>
+<td>184k</td>
+<td>Practical directory</td>
+<td>2016</td>
+<td>multi-file (monthly issues)</td>
+<td>11</td>
+<td>15</td>
+<td>27 d ago</td>
+</tr>
+<tr>
+<td>11</td>
+<td><a href="https://github.com/f/prompts.chat" target="_blank" rel="noopener">f/prompts.chat</a></td>
+<td>174k</td>
+<td>AI-era</td>
+<td>2022</td>
+<td>2,627 prompts (CSV)</td>
+<td>1,468</td>
+<td>8,859</td>
+<td>0 d ago</td>
+</tr>
+<tr>
+<td>12</td>
+<td><a href="https://github.com/ripienaar/free-for-dev" target="_blank" rel="noopener">ripienaar/free-for-dev</a></td>
+<td>140k</td>
+<td>Practical directory</td>
+<td>2015</td>
+<td>1,363</td>
+<td>2,337</td>
+<td>913</td>
+<td>0 d ago</td>
+</tr>
+<tr>
+<td>13</td>
+<td><a href="https://github.com/Hack-with-Github/Awesome-Hacking" target="_blank" rel="noopener">Hack-with-Github/Awesome-Hacking</a></td>
+<td>123k</td>
+<td>Meta (list of lists)</td>
+<td>2016</td>
+<td>83</td>
+<td>38</td>
+<td>15</td>
+<td>3 mo ago</td>
+</tr>
+<tr>
+<td>14</td>
+<td><a href="https://github.com/VoltAgent/awesome-design-md" target="_blank" rel="noopener">VoltAgent/awesome-design-md</a></td>
+<td>123k</td>
+<td>AI-era</td>
+<td>2026</td>
+<td>84 files</td>
+<td>4</td>
+<td>66</td>
+<td>10 d ago</td>
+</tr>
+<tr>
+<td>15</td>
+<td><a href="https://github.com/jaywcjlove/awesome-mac" target="_blank" rel="noopener">jaywcjlove/awesome-mac</a></td>
+<td>117k</td>
+<td>Practical directory</td>
+<td>2016</td>
+<td>1,493</td>
+<td>1,028</td>
+<td>1,008</td>
+<td>0 d ago</td>
+</tr>
+<tr>
+<td>16</td>
+<td><a href="https://github.com/papers-we-love/papers-we-love" target="_blank" rel="noopener">papers-we-love/papers-we-love</a></td>
+<td>111k</td>
+<td>Learning &amp; knowledge</td>
+<td>2013</td>
+<td>~585 papers (multi-file)</td>
+<td>318</td>
+<td>11</td>
+<td>25 d ago</td>
+</tr>
+<tr>
+<td>17</td>
+<td><a href="https://github.com/MunGell/awesome-for-beginners" target="_blank" rel="noopener">MunGell/awesome-for-beginners</a></td>
+<td>91k</td>
+<td>Learning &amp; knowledge</td>
+<td>2015</td>
+<td>253</td>
+<td>363</td>
+<td>134</td>
+<td>23 d ago</td>
+</tr>
+<tr>
+<td>18</td>
+<td><a href="https://github.com/DopplerHQ/awesome-interview-questions" target="_blank" rel="noopener">DopplerHQ/awesome-interview-questions</a></td>
+<td>85k</td>
+<td>Meta (list of lists)</td>
+<td>2015</td>
+<td>353</td>
+<td>151</td>
+<td>0</td>
+<td>2.2 y ago</td>
+</tr>
+<tr>
+<td>19</td>
+<td><a href="https://github.com/binhnguyennus/awesome-scalability" target="_blank" rel="noopener">binhnguyennus/awesome-scalability</a></td>
+<td>75k</td>
+<td>Learning &amp; knowledge</td>
+<td>2017</td>
+<td>920</td>
+<td>31</td>
+<td>7</td>
+<td>9 mo ago</td>
+</tr>
+<tr>
+<td>20</td>
+<td><a href="https://github.com/enaqx/awesome-react" target="_blank" rel="noopener">enaqx/awesome-react</a></td>
+<td>75k</td>
+<td>Ecosystem catalog</td>
+<td>2014</td>
+<td>149</td>
+<td>672</td>
+<td>28</td>
+<td>51 d ago</td>
+</tr>
+<tr>
+<td>21</td>
+<td><a href="https://github.com/josephmisiti/awesome-machine-learning" target="_blank" rel="noopener">josephmisiti/awesome-machine-learning</a></td>
+<td>75k</td>
+<td>Ecosystem catalog</td>
+<td>2014</td>
+<td>1,254</td>
+<td>757</td>
+<td>110</td>
+<td>2 d ago</td>
+</tr>
+<tr>
+<td>22</td>
+<td><a href="https://github.com/fffaraz/awesome-cpp" target="_blank" rel="noopener">fffaraz/awesome-cpp</a></td>
+<td>74k</td>
+<td>Ecosystem catalog</td>
+<td>2014</td>
+<td>1,398</td>
+<td>495</td>
+<td>97</td>
+<td>14 d ago</td>
+</tr>
+<tr>
+<td>23</td>
+<td><a href="https://github.com/vuejs/awesome-vue" target="_blank" rel="noopener">vuejs/awesome-vue</a></td>
+<td>74k</td>
+<td>Ecosystem catalog</td>
+<td>2015</td>
+<td>1,076</td>
+<td>2,467</td>
+<td>123</td>
+<td>28 d ago</td>
+</tr>
+<tr>
+<td>24</td>
+<td><a href="https://github.com/prakhar1989/awesome-courses" target="_blank" rel="noopener">prakhar1989/awesome-courses</a></td>
+<td>72k</td>
+<td>Learning &amp; knowledge</td>
+<td>2014</td>
+<td>712</td>
+<td>147</td>
+<td>0</td>
+<td>3.9 y ago</td>
+</tr>
+<tr>
+<td>25</td>
+<td><a href="https://github.com/sindresorhus/awesome-nodejs" target="_blank" rel="noopener">sindresorhus/awesome-nodejs</a></td>
+<td>67k</td>
+<td>Ecosystem catalog</td>
+<td>2014</td>
+<td>593</td>
+<td>406</td>
+<td>6</td>
+<td>52 d ago</td>
+</tr>
+<tr>
+<td>26</td>
+<td><a href="https://github.com/Solido/awesome-flutter" target="_blank" rel="noopener">Solido/awesome-flutter</a></td>
+<td>62k</td>
+<td>Ecosystem catalog</td>
+<td>2017</td>
+<td>511</td>
+<td>368</td>
+<td>14</td>
+<td>51 d ago</td>
+</tr>
+<tr>
+<td>27</td>
+<td><a href="https://github.com/rust-unofficial/awesome-rust" target="_blank" rel="noopener">rust-unofficial/awesome-rust</a></td>
+<td>60k</td>
+<td>Ecosystem catalog</td>
+<td>2014</td>
+<td>1,947</td>
+<td>1,436</td>
+<td>1,136</td>
+<td>1 d ago</td>
+</tr>
+<tr>
+<td>28</td>
+<td><a href="https://github.com/wasabeef/awesome-android-ui" target="_blank" rel="noopener">wasabeef/awesome-android-ui</a></td>
+<td>58k</td>
+<td>Ecosystem catalog</td>
+<td>2014</td>
+<td>293</td>
+<td>80</td>
+<td>1</td>
+<td>4 mo ago</td>
+</tr>
+<tr>
+<td>29</td>
+<td><a href="https://github.com/hesreallyhim/awesome-claude-code" target="_blank" rel="noopener">hesreallyhim/awesome-claude-code</a></td>
+<td>56k</td>
+<td>AI-era</td>
+<td>2025</td>
+<td>253</td>
+<td>18</td>
+<td>1,973</td>
+<td>0 d ago</td>
+</tr>
+<tr>
+<td>30</td>
+<td><a href="https://github.com/vsouza/awesome-ios" target="_blank" rel="noopener">vsouza/awesome-ios</a></td>
+<td>54k</td>
+<td>Ecosystem catalog</td>
+<td>2014</td>
+<td>1,867</td>
+<td>1,033</td>
+<td>37</td>
+<td>58 d ago</td>
+</tr>
+</tbody>
+</table></div>
+<p>Note that only 18 of these 30 have "awesome" in their name. Commit counts for AI-era lists mostly measure automation (prompts.chat syncs each web edit as a commit; 1,823 of awesome-claude-code's 2,229 commits are bot commits).</p>
+<h3 id="five-archetypes">Five archetypes</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Archetype</th>
+<th>Examples</th>
+<th>The question it answers</th>
+<th>Typical value driver</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Ecosystem catalog</strong></td>
+<td>awesome-python, awesome-go, awesome-rust, awesome-vue</td>
+<td>"Which library should I use for X in language Y?"</td>
+<td>Being the default answer for a big language community</td>
+</tr>
+<tr>
+<td><strong>Practical directory</strong></td>
+<td>public-apis, free-for-dev, awesome-selfhosted, awesome-mac</td>
+<td>"Which free API / free tier / self-hostable app / Mac app can I use?"</td>
+<td>Standardised decision metadata per entry</td>
+</tr>
+<tr>
+<td><strong>Learning &amp; knowledge</strong></td>
+<td>build-your-own-x, free-programming-books, the-book-of-secret-knowledge, awesome-scalability</td>
+<td>"What should I learn, and from where?"</td>
+<td>Aspiration; evergreen content; a strong voice</td>
+</tr>
+<tr>
+<td><strong>Meta (list of lists)</strong></td>
+<td>sindresorhus/awesome, Awesome-Hacking, awesome-interview-questions</td>
+<td>"Which list is <em>the</em> list for topic X?"</td>
+<td>A namespace: one canonical slot per topic</td>
+</tr>
+<tr>
+<td><strong>AI-era collection</strong></td>
+<td>prompts.chat, awesome-mcp-servers, awesome-claude-code, awesome-design-md</td>
+<td>"What can I plug into my AI tool today?"</td>
+<td>Speed to a new platform; copy-pasteable artifacts</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="the-two-windows">The two windows</h3>
+<figure class="chart" id="fig-cohorts" data-chart="cohorts"><figcaption><span class="fig-title">Share of lists that reached 10,000 stars, by year of first commit</span><span class="fig-cap">Census sample (861 lists). Highlighted: the 2014–15 genesis and the 2025–26 AI wave.</span></figcaption><div class="chart-body" role="img" aria-label="Share of lists that reached 10,000 stars, by year of first commit"></div></figure>
+
+<p>Lists in the census sample by year of first commit:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>First commit</th>
+<th>Lists</th>
+<th>Median stars</th>
+<th>Share with 10k+ stars</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2014–2015</td>
+<td>147</td>
+<td>4,500</td>
+<td><strong>35%</strong></td>
+</tr>
+<tr>
+<td>2016–2018</td>
+<td>288</td>
+<td>2,500</td>
+<td>13%</td>
+</tr>
+<tr>
+<td>2019–2022</td>
+<td>272</td>
+<td>1,900</td>
+<td>9%</td>
+</tr>
+<tr>
+<td>2023–2026</td>
+<td>147</td>
+<td>2,300</td>
+<td>14%</td>
+</tr>
+</tbody>
+</table></div>
+<p>The 2014 cohort alone has a median of 8,200 stars, and 25 of its 59 census lists passed 10,000. Among the 100 most-starred lists overall, 40 were created in 2014–15, while only 21% of all lists were. The awesome-list genre was founded in a burst: all six of the big ecosystem catalogs (Python, Go, Node.js, Java, C++, Rust) were created within 19 days of each other in June–July 2014.</p>
+<p>The second window is the AI wave. 19 of the top 100 lists were created since 2023, three of them already above 50k stars. In the census regression, lists created since 2023 earn about 1.9 times the stars their age predicts.</p>
+<hr />
+<h2 id="4-what-separates-top-lists-from-the-rest">4. What separates top lists from the rest</h2>
+<figure class="chart" id="fig-dumbbell" data-chart="dumbbell"><figcaption><span class="fig-title">Top lists versus small lists, feature by feature</span><span class="fig-cap">Census sample: lists with 50k+ stars (n = 22) against lists under 2k stars (n = 350). ρ = Spearman correlation with stars across all 861 lists.</span></figcaption><div class="chart-body" role="img" aria-label="Top lists versus small lists, feature by feature"></div></figure>
+
+<p>Each feature below compares lists with 50k+ stars (n = 22) against lists with under 2k stars (n = 350) in the census sample, with the Spearman correlation against stars across all 861 census lists and the same correlation controlling for age. The official-index sample (Appendix A) shows the same directions, usually stronger.</p>
+<h3 id="41-table-stakes-what-does-not-differentiate">4.1 Table stakes: what does not differentiate</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>50k+ stars</th>
+<th>Under 2k</th>
+<th>ρ with stars</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Share of entries with a description</td>
+<td>93%</td>
+<td>82%</td>
+<td>+0.05</td>
+</tr>
+<tr>
+<td>Words per description</td>
+<td>9.9</td>
+<td>11.2</td>
+<td>−0.02</td>
+</tr>
+<tr>
+<td>Table of contents</td>
+<td>91%</td>
+<td>83%</td>
+<td>+0.03</td>
+</tr>
+<tr>
+<td>Any badge</td>
+<td>82%</td>
+<td>83%</td>
+<td>+0.01</td>
+</tr>
+<tr>
+<td>Awesome badge</td>
+<td>73%</td>
+<td>73%</td>
+<td>+0.01</td>
+</tr>
+<tr>
+<td>Creative Commons licence</td>
+<td>36%</td>
+<td>49%</td>
+<td>−0.02</td>
+</tr>
+<tr>
+<td>No licence file at all</td>
+<td>32%</td>
+<td>26%</td>
+<td>−0.00</td>
+</tr>
+<tr>
+<td>awesome-lint in CI</td>
+<td>5%</td>
+<td>11%</td>
+<td>−0.02</td>
+</tr>
+<tr>
+<td>Code of conduct</td>
+<td>41%</td>
+<td>28%</td>
+<td>−0.00</td>
+</tr>
+<tr>
+<td>Name contains "awesome"</td>
+<td>73%</td>
+<td>88%</td>
+<td>−0.06</td>
+</tr>
+</tbody>
+</table></div>
+<p>These are the rules the official index enforces, and they are worth following: they make a list usable and they are the price of admission to the index. But almost every list that has been noticed at all already follows them. Inside the official index, the share of described entries has a correlation of 0.01 with stars.</p>
+<h3 id="42-scale-and-breadth">4.2 Scale and breadth</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>50k+ stars</th>
+<th>Under 2k</th>
+<th>ρ</th>
+<th>ρ, age-controlled</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Entries in the README</td>
+<td>593</td>
+<td>146</td>
+<td>+0.27</td>
+<td>+0.28</td>
+</tr>
+<tr>
+<td>Categories with entries</td>
+<td>51</td>
+<td>18</td>
+<td>+0.19</td>
+<td>+0.18</td>
+</tr>
+<tr>
+<td>Largest category's share of entries</td>
+<td>11%</td>
+<td>21%</td>
+<td>−0.14</td>
+<td>−0.14</td>
+</tr>
+<tr>
+<td>README words</td>
+<td>7,585</td>
+<td>2,293</td>
+<td>+0.28</td>
+<td>+0.31</td>
+</tr>
+</tbody>
+</table></div>
+<figure class="chart" id="fig-scatter" data-chart="scatter"><figcaption><span class="fig-title">Entries in the README versus stars</span><span class="fig-cap">Census sample, both axes logarithmic. Spearman ρ = 0.27: bigger lists tend to have more stars, loosely.</span></figcaption><div class="chart-body" role="img" aria-label="Entries in the README versus stars"></div></figure>
+
+<p>Big lists win, but the relationship is loose (ρ ≈ 0.27) and it is not "more is better" without limit: many of the most respected lists deliberately shrank (Section 4.4). What the top lists share is <em>coverage of a broad topic with a balanced taxonomy</em>. Thin lists fake depth with headings: the control group's lists average 3–4 entries per category, and one Ember list spreads 881 entries over 130 categories.</p>
+<h3 id="43-launch-full-then-keep-growing">4.3 Launch full, then keep growing</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>50k+ stars</th>
+<th>Under 2k</th>
+<th>ρ</th>
+<th>ρ, age-controlled</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Entries one year after the first commit</td>
+<td>408</td>
+<td>97</td>
+<td>+0.20</td>
+<td>+0.24</td>
+</tr>
+<tr>
+<td>Peak size at least double the year-one size</td>
+<td>50%</td>
+<td>25%</td>
+<td>+0.17</td>
+<td>+0.13</td>
+</tr>
+<tr>
+<td>Year-one size as a share of peak</td>
+<td>56%</td>
+<td>71%</td>
+<td>−0.15</td>
+<td>−0.08</td>
+</tr>
+</tbody>
+</table></div>
+<p>In the official index the contrast is sharper: 73% of 50k+ lists more than doubled after their first year, against 17% of sub-2k lists. A third of the control group were "one-shot" launches, with half or more of all their commits in the first 90 days; none of the top four lists were. Winners arrived substantial (awesome-machine-learning had 160 entries by the end of day one; awesome-cursorrules 140 by day two; awesome-openclaw-skills 565 on day one) and then kept compounding for years.</p>
+<h3 id="44-pruning">4.4 Pruning</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>50k+ stars</th>
+<th>Under 2k</th>
+<th>ρ</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Currently ≥10% smaller than its peak</td>
+<td>23%</td>
+<td>8%</td>
+<td>+0.11</td>
+</tr>
+<tr>
+<td>Ever cut ≥10% of entries in a single quarter</td>
+<td>32%</td>
+<td>15%</td>
+<td>+0.07</td>
+</tr>
+</tbody>
+</table></div>
+<p>In the index sample the same comparison is 32% vs 8% and 50% vs 13%.</p>
+<figure class="chart" id="fig-growth" data-chart="growth"><figcaption><span class="fig-title">Entries over time: the best-kept lists cut</span><span class="fig-cap">README entries reconstructed quarter by quarter from git history. Each panel has its own vertical scale.</span></figcaption><div class="chart-body" role="img" aria-label="Entries over time: the best-kept lists cut"></div></figure>
+
+<p>The README histories show that the best-maintained lists remove things, often in large, documented purges:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>List</th>
+<th>Pruning</th>
+<th>Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>vinta/awesome-python</td>
+<td>Mar 2019 cleanup; Feb 2024 "remove old projects"; Mar 2026 redesign; Aug 2026 "shortlist" ADR with 39 section sweeps in one day</td>
+<td>739 entries (2019 peak) → 498 → ~550 now</td>
+</tr>
+<tr>
+<td>ripienaar/free-for-dev</td>
+<td>Eight owner PRs <code>cleanup1</code>…<code>cleanup8</code> (2–3 Jan 2026: "Dead entries / Not free entries / Unclear pricing"); Mar 2026 scope trim deleting whole sections</td>
+<td>1,672 → 1,273 → 1,372</td>
+</tr>
+<tr>
+<td>enaqx/awesome-react</td>
+<td>Owner purges in 2019 (−42%) and April 2023 (−65%: "Remove Redux section", "Flatten list")</td>
+<td>1,063 → 177</td>
+</tr>
+<tr>
+<td>vuejs/awesome-vue</td>
+<td>Community prune, Nov 2024</td>
+<td>3,169 → 1,215</td>
+</tr>
+<tr>
+<td>awesome-selfhosted</td>
+<td>Nightly bot flags projects with no activity for 186 days (warning) or 365 days (error); 343 removals tagged "unmaintained since <date>"</td>
+<td>Held flat at ~1.2–1.36k for three years</td>
+</tr>
+<tr>
+<td>sindresorhus/awesome</td>
+<td>Bulk removal of 25 archived lists in 2026</td>
+<td>First net decline in 12 years</td>
+</tr>
+</tbody>
+</table></div>
+<p>Lists that never prune only grow: awesome-machine-learning has grown every year since 2014 and about 12% of its entries carry a <code>[Deprecated]</code> tag from a single 2019 pass. awesome-cpp still links 39 SourceForge and 4 Google Code projects.</p>
+<h3 id="45-process-and-governance">4.5 Process and governance</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>50k+ stars</th>
+<th>Under 2k</th>
+<th>ρ</th>
+<th>ρ, age-controlled</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PR template</td>
+<td>46%</td>
+<td>14%</td>
+<td>+0.20</td>
+<td>+0.20</td>
+</tr>
+<tr>
+<td>Issue templates or forms</td>
+<td>36%</td>
+<td>10%</td>
+<td>+0.11</td>
+<td>+0.14</td>
+</tr>
+<tr>
+<td>Any CI</td>
+<td>55%</td>
+<td>37%</td>
+<td>+0.16</td>
+<td>+0.15</td>
+</tr>
+<tr>
+<td>Automated link checking (lower bound)</td>
+<td>27%</td>
+<td>18%</td>
+<td>+0.14</td>
+<td>+0.11</td>
+</tr>
+<tr>
+<td>CONTRIBUTING file</td>
+<td>86%</td>
+<td>66%</td>
+<td>+0.12</td>
+<td>+0.09</td>
+</tr>
+<tr>
+<td>CONTRIBUTING length</td>
+<td>297 words</td>
+<td>135 words</td>
+<td>+0.16</td>
+<td>+0.15</td>
+</tr>
+<tr>
+<td>Flags unmaintained or archived entries</td>
+<td>32%</td>
+<td>24%</td>
+<td>+0.03</td>
+<td>+0.03</td>
+</tr>
+</tbody>
+</table></div>
+<p>Part of this is cause, part consequence: a list that receives 50 PRs a week needs a template. The qualitative work shows <em>how</em> these documents differ. At the top they are governance documents, not boilerplate: awesome-python's ADR and overrides register, awesome-go's 2,241-word CONTRIBUTING with measurable bars and a removal protocol, free-for-dev's list of "services we do not accept". At the bottom, CONTRIBUTING files are often copied templates that do not even fit the list (awesome-scalability's tells contributors to use a <code>[List Name](link)</code> format).</p>
+<h3 id="46-community-and-maintenance">4.6 Community and maintenance</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>50k+ stars</th>
+<th>Under 2k</th>
+<th>ρ</th>
+<th>ρ, age-controlled</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Distinct commit authors</td>
+<td>387</td>
+<td>20</td>
+<td>+0.45</td>
+<td>+0.41</td>
+</tr>
+<tr>
+<td>People who merged PRs</td>
+<td>6</td>
+<td>1</td>
+<td>+0.31</td>
+<td>+0.26</td>
+</tr>
+<tr>
+<td>Top author's share of commits</td>
+<td>35%</td>
+<td>59%</td>
+<td>−0.22</td>
+<td>−0.17</td>
+</tr>
+<tr>
+<td>Highest issue/PR number referenced</td>
+<td>1,574</td>
+<td>48</td>
+<td>+0.49</td>
+<td>+0.47</td>
+</tr>
+<tr>
+<td>Any commit in the last 12 months</td>
+<td>86%</td>
+<td>67%</td>
+<td>+0.09</td>
+<td>+0.12</td>
+</tr>
+<tr>
+<td>No commit for 2+ years</td>
+<td>9%</td>
+<td>25%</td>
+<td>−0.09</td>
+<td>−0.12</td>
+</tr>
+</tbody>
+</table></div>
+<p>These are the strongest correlates, and they are mostly <em>consequences</em> of popularity: a popular list attracts contributors. Two parts are still informative. First, the top lists turned a one-person launch into a multi-contributor process (the control group's median top-author share is 71%, against 13% for awesome-python, awesome-go, awesome-selfhosted and free-for-dev). Second, maintenance matters more inside the curated index: 95% of the index's 50k+ lists had a commit in the last year, against 48% of its sub-2k lists, and 47% of the latter have been silent for two years or more.</p>
+<h3 id="47-presentation-and-money">4.7 Presentation and money</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>50k+ stars</th>
+<th>Under 2k</th>
+<th>ρ</th>
+<th>ρ, age-controlled</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Header image or logo</td>
+<td>77%</td>
+<td>44%</td>
+<td>+0.09</td>
+<td>+0.13</td>
+</tr>
+<tr>
+<td>Centred HTML header</td>
+<td>59%</td>
+<td>27%</td>
+<td>+0.07</td>
+<td>+0.14</td>
+</tr>
+<tr>
+<td>Companion website config in repo</td>
+<td>18%</td>
+<td>7%</td>
+<td>+0.07</td>
+<td>+0.06</td>
+</tr>
+<tr>
+<td>Translated READMEs</td>
+<td>5% (14% for 10k–50k)</td>
+<td>4%</td>
+<td>+0.12</td>
+<td>+0.16</td>
+</tr>
+<tr>
+<td>Sponsors section or FUNDING.yml</td>
+<td>50%</td>
+<td>10%</td>
+<td>+0.15</td>
+<td>+0.18</td>
+</tr>
+</tbody>
+</table></div>
+<p>Top lists look more finished: a logo, a centred header, a website. But visual polish alone is not a strategy: goabstract/Awesome-Design-Tools, the most heavily designed list we read (about 2,000 inline SVG labels and a generated website), gained ~40k stars in its launch year and has had no commits since September 2020. Sponsorship is a consequence of reach, and it carries risks for neutrality (Section 5, item 10).</p>
+<h3 id="48-the-rules-came-after-the-winners">4.8 The rules came after the winners</h3>
+<p>Inside the official index, the conventions the index now requires are <em>more</em> common among small lists than big ones:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Feature (index sample)</th>
+<th>50k+ stars</th>
+<th>Under 2k</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Awesome badge</td>
+<td>77%</td>
+<td>99%</td>
+</tr>
+<tr>
+<td>Any badge</td>
+<td>91%</td>
+<td>99%</td>
+</tr>
+<tr>
+<td>awesome-lint in CI</td>
+<td>5%</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Creative Commons licence</td>
+<td>41%</td>
+<td>62%</td>
+</tr>
+<tr>
+<td>CONTRIBUTING file</td>
+<td>82%</td>
+<td>91%</td>
+</tr>
+</tbody>
+</table></div>
+<p>The big early lists were admitted before these rules existed and were grandfathered. awesome-vue is MIT-licensed, which the index's PR template calls "not acceptable"; awesome-machine-learning's LICENSE file reads, in full, "Creative Commons Legal Code / No need"; awesome-react has no licence file. The quality features of the genre (description grammar, <code>#readme</code> links, the 30-day rule, review requirements) were all added between 2016 and 2026, after the audience existed.</p>
+<h3 id="49-how-much-does-design-explain">4.9 How much does design explain?</h3>
+<p>Ordinary least squares on log₁₀(stars), robust standard errors, census sample (n = 853):</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Predictor</th>
+<th>Effect on stars</th>
+<th>p</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Each additional year of age</td>
+<td>×1.12</td>
+<td>&lt;0.001</td>
+</tr>
+<tr>
+<td>Created 2023 or later (AI era)</td>
+<td>×1.90</td>
+<td>&lt;0.001</td>
+</tr>
+<tr>
+<td>10× more entries</td>
+<td>×1.78</td>
+<td>&lt;0.001</td>
+</tr>
+<tr>
+<td>PR template</td>
+<td>×1.77</td>
+<td>&lt;0.001</td>
+</tr>
+<tr>
+<td>Translated READMEs</td>
+<td>×1.76</td>
+<td>&lt;0.001</td>
+</tr>
+<tr>
+<td>Listed in the official index</td>
+<td>×1.29</td>
+<td>0.004</td>
+</tr>
+<tr>
+<td>Share of described entries, ToC, CONTRIBUTING, link-check CI, structured metadata, "awesome" in name</td>
+<td>no significant positive effect</td>
+<td>–</td>
+</tr>
+</tbody>
+</table></div>
+<p>These variables explain 21% of the variance in the census sample and 50% in the index sample (adding activity and author concentration: 24% / 58%; adding the number of contributors: 30% / 68%). The rest is topic demand, timing within the topic, distribution and luck, which is why the qualitative work matters.</p>
+<hr />
+<h2 id="5-ten-things-the-best-lists-do">5. Ten things the best lists do</h2>
+<p>These patterns come from the deep dives into more than 40 lists (notes in <code>notes/deepdive_*.md</code>), cross-checked against the data above.</p>
+<h3 id="1-claim-a-canonical-slot-early-and-keep-earning-it">1. Claim a canonical slot early, and keep earning it</h3>
+<p>Every one of the big ecosystem catalogs was created in a 19-day window in 2014 and took the generic name and the index's single slot for its topic. Those slots are durable: awesome-machine-learning (four days after the index) and awesome-react (26 days after) still hold the index's ML and React entries twelve years later. vinta/awesome-python kept gaining stars through 2021–23 while its README sat frozen at 715 entries with 48 commits in three years. The AI-era lists show the same race compressed to days: prompts.chat started 5 days after ChatGPT launched, awesome-mcp-servers 4 days after MCP was announced, awesome-agent-skills 12 days after Agent Skills.</p>
+<p>But being first is not sufficient. punkpeye/awesome-mcp-servers was the <em>third</em> MCP list (wong2's started 1.5 days earlier) and leads 96.8k stars to 4.4k; ComposioHQ's skills list beat VoltAgent's by 11 days and leads 77.8k to 36.3k. And incumbency protects only lists that stay maintained (Sections 6 and 7).</p>
+<h3 id="2-answer-one-recurring-question-with-sharp-scope">2. Answer one recurring question, with sharp scope</h3>
+<p>The strongest taglines are questions the reader already has: "The definitive list that answers 'I want to do X in Python, which tool should I use?'" (awesome-python); "a list of SaaS, PaaS and IaaS offerings that have free tiers" (free-for-dev); "Master programming by recreating your favorite technologies from scratch" (build-your-own-x). Scope is then defended in writing and delegated outward: awesome-selfhosted sends deployment tools to awesome-sysadmin and checks staticgen and dbdb.io for duplicates; awesome-nodejs bans boilerplates and SaaS SDKs outright ("The world (and this list) doesn't need yet another ORM or framework"); awesome-mcp-servers spins out remote servers and clients to sibling lists.</p>
+<h3 id="3-curate-by-deciding-scarcity-and-explicit-bars">3. Curate by deciding: scarcity and explicit bars</h3>
+<p>The manifesto says "It's a curation, not a collection", and the leading lists make that operational. Three working definitions of "awesome" emerged:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Model</th>
+<th>Example</th>
+<th>How it is enforced</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Editorial shortlist</td>
+<td>awesome-python: "up to 3 obvious choices plus up to 2 challengers", hard cap 5 per use case; a full use case admits a newcomer only by <strong>Displacement</strong> ("name the entry your project replaces"); admission judged on PyPI downloads, not stars</td>
+<td>Caps, an ADR, an overrides register, a rejected-additions register, removal evidence in every commit body</td>
+</tr>
+<tr>
+<td>Engineering hygiene</td>
+<td>awesome-go: ≥5 months of history, <code>go.mod</code>, a SemVer release, pkg.go.dev docs, ≥80% test coverage</td>
+<td>A Go bot with 12 blocking checks; submitters must put the evidence links in the PR body</td>
+</tr>
+<tr>
+<td>Popularity threshold</td>
+<td>awesome-rust: 50+ stars or 2,000+ crate downloads; awesome-nodejs: 100+ stars (ratcheted up from 30)</td>
+<td>CI in <code>src/main.rs</code>, with a commented whitelist</td>
+</tr>
+</tbody>
+</table></div>
+<p>Directories define their scope operationally instead: free-for-dev requires "a free tier, not just a free trial", lasting at least a year, with TLS on the free tier and "pricing information clearly visible without signup"; free-programming-books asks "How do we know it's really free?" and refuses anything "we'll need to remove in six months"; awesome-selfhosted routes BUSL, SSPL and Elastic-licensed software to a separate non-free page by a licence allowlist in its exporter.</p>
+<p>Only scarcity rules make a list <em>shrink</em>. Threshold and hygiene lists only grow (awesome-go 2,792 → 3,170; awesome-rust +32% in 2026), and even awesome-python's cap leaks through its taxonomy (use cases grew from 77 to 140 after the prune).</p>
+<h3 id="4-encode-decision-metadata-in-every-entry">4. Encode decision metadata in every entry</h3>
+<p>The directories that dominate their space standardise the two to five facts a reader needs to decide without clicking:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>List</th>
+<th>Per-entry metadata</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>public-apis</td>
+<td><code>Auth</code> (apiKey / OAuth / No), <code>HTTPS</code> (Yes / No), <code>CORS</code> (Yes / No / Unknown) in a table</td>
+</tr>
+<tr>
+<td>free-for-dev</td>
+<td>The free-tier limit itself: 59% of entries contain a number ("2 million requests per month…")</td>
+</tr>
+<tr>
+<td>awesome-selfhosted</td>
+<td>Licence and language tags, a ⚠ flag for dependence on a proprietary service, Demo and Source links</td>
+</tr>
+<tr>
+<td>awesome-mac</td>
+<td>Icons for open source, freeware, App Store, native</td>
+</tr>
+<tr>
+<td>awesome-courses</td>
+<td>Material icons: lecture videos, notes, assignments, readings</td>
+</tr>
+<tr>
+<td>awesome-java (2026)</td>
+<td>Generated ★ count, SPDX licence chip and a green / orange / red activity light</td>
+</tr>
+<tr>
+<td>awesome-mcp-servers</td>
+<td>A whitelist of 15 emoji for language, scope and OS, plus a quality-score badge</td>
+</tr>
+</tbody>
+</table></div>
+<p>As one analyst put it: topic lists describe; directories classify. Notably, awesome-mac dropped its early subjective icons ("hot", "recommended", "must-install") by 2019 in favour of factual ones, which can be maintained and defended across 1,500 entries.</p>
+<h3 id="5-launch-full-then-grow-for-years">5. Launch full, then grow for years</h3>
+<p>See Section 4.3. Winners arrived with a substantial first version and then kept compounding; the typical small list was a weekend launch that never got its second wind.</p>
+<h3 id="6-prune-on-purpose-and-write-down-why">6. Prune on purpose, and write down why</h3>
+<p>See Section 4.4. The distinctive practice is not just removing things but recording the reason in the commit body: "remove X (unmaintained since 2025-09-04)" (awesome-selfhosted), "It's badly maintained" (sindresorhus/awesome removing a list), "remove litellm, it got hacked twice" (awesome-python), each entry's download figure and data source (awesome-python's sweeps). That record lets maintainers answer "but X is listed" arguments, which awesome-python's ADR cites as the reason a retroactive prune was needed. Two designs coexist: <em>remove staleness</em> (awesome-python: "git history is the archive"; awesome-go: removal after notice and a 7-day grace period) or <em>show staleness</em> (awesome-java's activity lights, awesome-machine-learning's <code>[Deprecated]</code> tags). A single vetted answer earns more trust than a traffic light the reader must interpret.</p>
+<h3 id="7-turn-the-readme-into-a-pipeline">7. Turn the README into a pipeline</h3>
+<p>At scale, the README stops being hand-edited:</p>
+<ul>
+<li><strong>Data as the source of truth.</strong> awesome-selfhosted keeps 1,358 YAML files (one per entry) in a separate data repo; a tool (<code>hecat</code>) generates the README (now labelled "legacy") and the website ("recommended"), and a nightly bot refreshes stars, release dates and activity. awesome-claude-code keeps a CSV; awesome-for-beginners a JSON file; open-source-mac-os-apps a JSON file and a Swift generator; awesome-java a <code>README_SOURCE.md</code> and a Java generator.</li>
+<li><strong>Rules as bots.</strong> awesome-go's Go bot runs 12 blocking checks and, since October 2026, auto-merges add-only PRs after one maintainer approval; additions rose from about 10 to about 40 a month. awesome-rust auto-approves PRs once CI passes, which lets one maintainer merge 388 PRs in 2026. project-based-learning keeps a link-rot state machine that opens removal PRs for entries dead two weeks in a row.</li>
+<li><strong>Contributors bring the evidence.</strong> awesome-go wants pkg.go.dev and coverage links in the PR body; awesome-python wants a tier claim and a displacement argument; awesome-nodejs says "argue how it's better". Shifting the cost to submitters is what makes 2,600 authors with a 2% top-author share workable.</li>
+</ul>
+<p>The cost is contributor friction (YAML schemas, kebab-case file names, a one-week merge delay at awesome-selfhosted) and occasional regressions: awesome-for-beginners' 2022 move to JSON silently dropped the deep links to each project's beginner-issue label (222 of 257 entries had them before, 0 after).</p>
+<h3 id="8-build-distribution-into-the-list">8. Build distribution into the list</h3>
+<ul>
+<li><strong>Backlinks.</strong> The "Mentioned in Awesome" badge turns every listed project into a backlink; awesome-claude-code automatically opens a "🎉 Your project has been featured" issue with a badge snippet on every repo it lists.</li>
+<li><strong>Websites, search and LLMs.</strong> awesome-go.com has a page per project; awesome-python.com is rebuilt daily and ships an <code>llms.txt</code>, and its sponsorship pitch cites "referenced by ChatGPT and other LLMs" and first-page Google ranking; free-programming-books has a static site and a search site; awesome-selfhosted.net is now the recommended way to read it. Above roughly 1,000 entries, lists are looked up rather than read.</li>
+<li><strong>Communities and brands.</strong> Awesome-Hacking (123k stars on 141 commits) is the anchor asset of the "Hack with GitHub" social accounts; papers-we-love is the index of a real meetup community; awesome-cto feeds a Substack.</li>
+<li><strong>Hacktoberfest.</strong> 68% of free-programming-books' commits since 2023 and 35% of all awesome-for-beginners commits landed in October.</li>
+<li><strong>The index itself.</strong> Being listed in sindresorhus/awesome is associated with ×1.29 stars in the census regression.</li>
+</ul>
+<h3 id="9-ship-original-content-or-artifacts-not-only-links">9. Ship original content or artifacts, not only links</h3>
+<p>The lists that are hardest to replace contain something of their own: the-book-of-secret-knowledge's 264 shell one-liners (about 60% of its README lines); papers-we-love's 203 hosted PDFs, which cannot rot; build-your-own-x's project briefs. Pure link lists are fungible and get captured by SEO content: about 38% of awesome-interview-questions' entries now point to content-marketing or hiring sites. In the AI era the most-starred "awesome" repos are artifact collections you use directly: prompts.chat (174k), awesome-llm-apps (143k), awesome-design-md (123k with only 66 commits), against 36–97k for the pure link lists of the same era. The adjacent mega-repos make the same point: coding-interview-university (363k) and system-design-primer (375k) are study plans with checkboxes, Anki decks and solutions, not catalogs.</p>
+<h3 id="10-keep-a-voice-and-keep-neutrality">10. Keep a voice, and keep neutrality</h3>
+<p>The high-trust knowledge lists are single-author voices: awesome-scalability is ~94% one author, awesome-cto 90%, the-book-of-secret-knowledge 84%. "Opinionated" shows through what is left out and through credential tags ("Werner Vogels <em>(Amazon CTO)</em>"), not through commentary. awesome-claude-code's descriptions read like reviews.</p>
+<p>Money is tolerated where it stays out of the entries. sindresorhus/awesome rotates sponsor logos in its header only (45 "Meta tweaks" commits since 2020); awesome-python sells $99–$500/month placements under an explicit "does not influence which projects are listed" clause; awesome-go: "no monthly fee, but we have employees". Where commercial owners reach into the entries, quality measurably erodes:</p>
+<ul>
+<li><strong>public-apis:</strong> in March 2022 the APILayer account replaced the logo, pushed an entry straight to master and, after a long-time maintainer reverted it, re-applied the change and deleted the "Currently Active Maintainers" block; the community maintainers stopped committing. After four near-silent years, 869 of 874 merges since April 2026 came from one agency email; the README now opens with APILayer ads, about 18 APILayer-family entries sit inside the "neutral" tables, and alphabetical-order errors went from 0 to 55.</li>
+<li><strong>Awesome-Design-Tools:</strong> its acquirer's banners sit inside five categories and the acquisition announcement is still the first heading, six years after the last commit.</li>
+<li><strong>awesome-mac, awesome-ionic, VoltAgent's lists:</strong> sponsor and owner products listed as ordinary entries without disclosure; in awesome-ionic about 39% of entries now point to the maintaining vendor's repos.</li>
+</ul>
+<p>Non-profit stewardship (free-programming-books under the Free Ebook Foundation) and donation models limited to hosting costs (awesome-selfhosted's Liberapay) avoid this.</p>
+<hr />
+<h2 id="6-same-topic-rivals-a-natural-experiment">6. Same-topic rivals: a natural experiment</h2>
+<p>Many topics have several lists with the same scope, yet one has 2× to 70× the stars of the others. Comparing a winner with its same-topic rivals holds topic demand constant. The rivals study (<code>notes/rivals.md</code>) did this for 12 topics in depth, plus 12 quick-check pairs, measuring each list's entries at +7, +30, +90 and +365 days and reading early README versions.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Topic</th>
+<th>Winner</th>
+<th>Best same-scope rival</th>
+<th>Star ratio</th>
+<th>Did the earliest list win?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Python</td>
+<td>vinta/awesome-python</td>
+<td>best-of-python</td>
+<td>72×</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>macOS apps</td>
+<td>jaywcjlove/awesome-mac</td>
+<td>serhii-londar/open-source-mac-os-apps</td>
+<td>2.3×</td>
+<td><strong>no</strong> (iCHAIT was first)</td>
+</tr>
+<tr>
+<td>React</td>
+<td>enaqx/awesome-react</td>
+<td>brillout/awesome-react-components</td>
+<td>1.5×</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Machine learning</td>
+<td>josephmisiti/awesome-machine-learning</td>
+<td>awesome-deep-learning</td>
+<td>2.6×</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>MCP servers</td>
+<td>punkpeye/awesome-mcp-servers</td>
+<td>appcypher/awesome-mcp-servers</td>
+<td>17×</td>
+<td><strong>no</strong> (third of three, 1.7 days late)</td>
+</tr>
+<tr>
+<td>Claude Code</td>
+<td>hesreallyhim/awesome-claude-code</td>
+<td>awesome-claude-code-plugins</td>
+<td>57×</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Claude Skills</td>
+<td>ComposioHQ/awesome-claude-skills</td>
+<td>VoltAgent/awesome-agent-skills</td>
+<td>2.1×</td>
+<td><strong>no</strong> (12 hours late)</td>
+</tr>
+<tr>
+<td>iOS / Swift</td>
+<td>vsouza/awesome-ios; matteocrippa/awesome-swift</td>
+<td>ivanvorobei/awesome-ios; Wolg/awesome-swift</td>
+<td>32×; 4.5×</td>
+<td>yes; yes</td>
+</tr>
+<tr>
+<td>Hacking</td>
+<td>Hack-with-Github/Awesome-Hacking</td>
+<td>enaqx/awesome-pentest</td>
+<td>4.5×</td>
+<td><strong>no</strong></td>
+</tr>
+<tr>
+<td>Design tools</td>
+<td>goabstract/Awesome-Design-Tools</td>
+<td>gztchan/awesome-design</td>
+<td>2.4×</td>
+<td><strong>no</strong></td>
+</tr>
+<tr>
+<td>Self-hosted</td>
+<td>awesome-selfhosted</td>
+<td>mikeroyal/Self-Hosting-Guide</td>
+<td>14×</td>
+<td>yes</td>
+</tr>
+<tr>
+<td>Public APIs</td>
+<td>public-apis/public-apis</td>
+<td>public-api-lists</td>
+<td>30×</td>
+<td>yes</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>The earliest list won 7 of 12 topics (58%), 7 of 10 if two near-simultaneous launches are excluded, and 18 of 24 including the quick checks.</strong> Survivorship inflates these numbers. When rivals launched within hours of each other (MCP, Skills, Swift, React Hooks), the literal first mover won only 2 of 4. The timing variable that matters is "be there when the topic is born", not "beat the rival by a day": winners launched within days or weeks of WWDC 2014, the MCP announcement, the Skills launch, React Hooks day or the mid-2014 awesome wave.</p>
+<p><strong>What separated winners from rivals, ranked by how often it applied:</strong></p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Rank</th>
+<th>Factor</th>
+<th>Topics where it separated winner from rival</th>
+<th>Caveat</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td>Activity in the first 1–2 years</td>
+<td>10 of 12</td>
+<td>Highly active <em>late</em> rivals do not overtake a live incumbent</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Present at the topic's birth</td>
+<td>9 of 12</td>
+<td>The three later winners all overtook an incumbent that stalled within 18 months</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Distribution, brand or an existing audience</td>
+<td>~6 of 12, and all 5 overtakes</td>
+<td>Never rescued a same-scope clone against a maintained incumbent</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Scope clarity or differentiation</td>
+<td>~6 of 12</td>
+<td>Differentiation mostly produces coexistence, not victory</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Index slot</td>
+<td>5 of 12</td>
+<td>Follows timing (granted 2–53 days after launch); 5 winners never held one</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Launch completeness</td>
+<td>5 of 12</td>
+<td>Big late launches lost every time against a live incumbent</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Description quality</td>
+<td>~4 of 12</td>
+<td>Matters only against weak rivals; many losers describe 99–100% of entries</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Repo name</td>
+<td>0 of 12</td>
+<td>7 of 12 topics had identical repo names</td>
+</tr>
+</tbody>
+</table></div>
+<p><strong>Every overtake followed the same recipe:</strong></p>
+<ol>
+<li><em>The incumbent stalled early.</em> iCHAIT/awesome-macOS had 4 entries for its first month and later lost its index slot as "badly maintained"; carpedm20/awesome-hacking sat at 65 entries for 18 months; gztchan/awesome-design froze in its second year; one MCP rival stopped accepting PRs. No list in the sample was overtaken after two years of sustained activity.</li>
+<li><em>The challenger offered a different product, not a better copy:</em> Chinese-first for developers and designers (awesome-mac), a list of lists one level up (Awesome-Hacking), "tools" with every entry described (Awesome-Design-Tools), UI-only with GIF previews (awesome-android-ui), installable skill files instead of links (ComposioHQ), a merge-everything community flywheel (awesome-mcp-servers).</li>
+<li><em>The challenger brought an audience:</em> a viral WeChat article (awesome-mac), a Discord and a directory business (awesome-mcp-servers), a company channel (ComposioHQ), social accounts (Hack with GitHub), a startup team (Awesome-Design-Tools).</li>
+</ol>
+<p><strong>Head-on clones never beat a live incumbent.</strong> Six late entrants launched bigger, fresher or better maintained than the leader and each got 1–7% of its stars: uhub/awesome-python launched with 869 entries against vinta's 632; public-api-lists imported public-apis' open PRs and launched larger; marcelscruz's fork of public-apis now has 1,416 commits a year and 2,027 authors; mikeroyal/Self-Hosting-Guide launched with 957 entries; Lissy93/awesome-privacy launched with more entries, a website and an API; best-of-python offers weekly quality rankings. <strong>Differentiated neighbours coexist</strong> at 40–65% of the winner's stars (brillout's React components, awesome-deep-learning, open-source-mac-os-apps, VoltAgent's agent skills, dkhamsing's open-source iOS apps).</p>
+<p>Other regularities: in 6 of the 12 topics a rival has <em>more</em> entries than the winner; copying wording and formats is common and unpunished (punkpeye's launch intro is appcypher's, word for word); leads survive radical pruning, dormancy, freezes and commercialisation; and fake signals fail (one MCP list back-dated 3,489 commits to fake a 1,400-day history and has 1.1k stars).</p>
+<p><strong>Bottom line:</strong> a same-topic winner is best predicted by being there when the topic is born and staying visibly alive for the first 18–24 months. A later list wins only by finding an incumbent that stalled early and attacking it with a different product backed by an existing audience.</p>
+<hr />
+<h2 id="7-why-most-lists-stay-small">7. Why most lists stay small</h2>
+<p>A random, reproducible sample of 30 low-star lists (20 official-index lists under 1k stars, 10 lists with 1–3k) was read and coded by hand (<code>notes/control_group.md</code>).</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Reason the list stayed small</th>
+<th>Any</th>
+<th>Primary</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Small or off-GitHub audience (Minecraft, fonts, academic niches)</td>
+<td>63%</td>
+<td><strong>57%</strong></td>
+</tr>
+<tr>
+<td>A dominant rival already owns the topic</td>
+<td>17%</td>
+<td>17%</td>
+</tr>
+<tr>
+<td>Late arrival</td>
+<td>20%</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Low effort (fewer than 60 entries or mostly undescribed)</td>
+<td>30%</td>
+<td>7%</td>
+</tr>
+<tr>
+<td>Abandoned (no commit in the last year)</td>
+<td>53%</td>
+<td>3%</td>
+</tr>
+<tr>
+<td>Poor discoverability (opaque name, not indexed)</td>
+<td>23%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>The topic itself declined after launch</td>
+<td>27%</td>
+<td>3%</td>
+</tr>
+</tbody>
+</table></div>
+<ul>
+<li><strong>Audience is a ceiling, not a failure.</strong> <code>awesome-jmeter</code> (806 stars) and <code>awesome-gatling</code> (80) share a maintainer, template, CI and website; their stars track the tools' user bases. Framework lists track framework size: React 75k ≫ Angular 10k ≫ Svelte 2.2k &gt; Ember 191.</li>
+<li><strong>Hygiene does not separate them.</strong> The index sample's small lists describe 94% of their entries and have a ToC and CONTRIBUTING file almost universally.</li>
+<li><strong>Scale and continuity do.</strong> Control-group medians: 126 entries, 12 authors, top author 71% of commits, 0 commits last year. Top four lists: 1,335 entries, 1,852 authors, top author 13%, about 700 commits last year.</li>
+<li><strong>Effort does not rescue a declining topic.</strong> An ActionScript 3 list with 388 entries, 99.7% described, has 188 stars.</li>
+<li><strong>Incumbency only protects a maintained list.</strong> <code>awesome-games-of-coding</code> (2017) overtook the abandoned <code>awesome-educational-games</code> (2016); a 2026 AI-security list is passing a stale 2016 one.</li>
+</ul>
+<hr />
+<h2 id="8-what-stars-do-and-do-not-measure">8. What stars do and do not measure</h2>
+<figure class="chart" id="fig-dormant" data-chart="dormant"><figcaption><span class="fig-title">Stars keep coming while the content sits still</span><span class="fig-cap">Median ratio of today's stars to stars at the last content update, by time since that update (trackawesomelist snapshots, 296 lists).</span></figcaption><div class="chart-body" role="img" aria-label="Stars keep coming while the content sits still"></div></figure>
+
+<p><strong>Dormant lists keep gaining stars.</strong> trackawesomelist freezes each list's star count at its last content update. Comparing that snapshot with today's count gives the stars gained while the content was unchanged; the ratio rises steadily with time since the last update, which confirms the freeze:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Time since last content update</th>
+<th>Lists</th>
+<th>Median stars now ÷ stars at last update</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Under 6 months</td>
+<td>152</td>
+<td>1.00</td>
+</tr>
+<tr>
+<td>6–12 months</td>
+<td>49</td>
+<td>1.04</td>
+</tr>
+<tr>
+<td>1–2 years</td>
+<td>16</td>
+<td>1.09</td>
+</tr>
+<tr>
+<td>2–3 years</td>
+<td>18</td>
+<td>1.17</td>
+</tr>
+<tr>
+<td>3–5 years</td>
+<td>29</td>
+<td>1.32</td>
+</tr>
+<tr>
+<td>5+ years</td>
+<td>32</td>
+<td>1.21</td>
+</tr>
+</tbody>
+</table></div>
+<p>The 95 lists that had not changed for at least a year gained 202,000 stars in that time. awesome-courses has had no commits since November 2022 and went from 43k to 72k stars; awesome-interview-questions added "This project is no longer actively supported" in 2024 and gained 16k more. In the learning archetype especially, a star is a "learn this later" bookmark: in the developer survey by Borges and Valente, bookmarking (51%) is nearly as common a reason to star as appreciation (53%).</p>
+<p><strong>Stars track brand and distribution.</strong> Awesome-Hacking's 123k stars rest on 141 commits and a social-media brand. awesome-design-md reached 123k with 66 commits by one company.</p>
+<p><strong>Stars can be bought, briefly.</strong> He et al. (ICSE 2026) found about 6 million suspected fake stars across 18,617 repos, explicitly including a "list of awesome LLM tools" in their tutorial/demo category. Fake stars give a short boost (under two months, about 5× weaker than real stars) and hurt in the long run. No investigation names a specific awesome list as a buyer.</p>
+<p><strong>The ecosystem is ageing.</strong> Of the 670 lists in the official index, 57% had a commit in the last 12 months, 36% have been silent for two years or more, and 17% for five years or more. The index removed 25 archived lists in 2026.</p>
+<hr />
+<h2 id="9-2026-the-ai-inflection">9. 2026: the AI inflection</h2>
+<p>The deep dives independently found the same event in almost every repository: a flood of AI-generated pull requests in 2026, and a scramble to respond.</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>List</th>
+<th>Response</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>sindresorhus/awesome</td>
+<td>Mar 2026: "Fully AI-generated pull requests are not accepted"; required reviews of other PRs raised from 2 to 4. Late Aug: PR and issue creation restricted to collaborators. No list added in 2026; issue/PR numbers advanced ~740 in eight months vs ~430 in all of 2025. The maintainer reportedly posted on 1 Oct 2026: "Due to AI, I have disabled external pull requests on all my repos."</td>
+</tr>
+<tr>
+<td>sindresorhus/awesome-nodejs</td>
+<td>Submissions paused ("because of too much spam and low-quality submissions")</td>
+</tr>
+<tr>
+<td>josephmisiti/awesome-machine-learning</td>
+<td>Apr 2026: "too many PRs are being generated by LLMs… email me… to prove you're human"; inflow rose about 7×</td>
+</tr>
+<tr>
+<td>ripienaar/free-for-dev</td>
+<td>Honeypot checkbox "Large Language Models and other AI tick this box"; AGENTS.md and CLAUDE.md telling agents the repo refuses AI edits</td>
+</tr>
+<tr>
+<td>awesome-selfhosted</td>
+<td>"Done by a human, not a machine/LLM" checkbox; LLM ban formalised Sep 2026; an "AI AGENTS:" block in CONTRIBUTING</td>
+</tr>
+<tr>
+<td>hesreallyhim/awesome-claude-code</td>
+<td>Issue-form-only intake ("not possible to submit… using the <code>gh</code> CLI"), cooldowns up to a ban, a honeypot, a temporary ban on a whole spammed topic</td>
+</tr>
+<tr>
+<td>PatrickJS/awesome-cursorrules</td>
+<td>Blocks accounts younger than 30 days; a 919-line linter rejects hidden Unicode, <code>curl \| sh</code> and credential exfiltration in rule files</td>
+</tr>
+<tr>
+<td>fffaraz/awesome-cpp</td>
+<td>"PRs by accounts created after 2023 or for repos created after 2023 will also result in an instant block and report"</td>
+</tr>
+<tr>
+<td>vuejs/awesome-vue</td>
+<td>AI-built projects need three releases over at least a month</td>
+</tr>
+<tr>
+<td>punkpeye/awesome-mcp-servers</td>
+<td>The opposite: agents append 🤖🤖🤖 to PR titles to be fast-tracked; ~1,410 such PRs merged, about 37% of merges since March 2026, gated by an external build-and-introspection check</td>
+</tr>
+</tbody>
+</table></div>
+<p>At the same time, AI became curation infrastructure. 935 of awesome-python's 1,467 commits in 2026 carry a Claude co-author trailer, and the repo ships agent skills for auditing the list and reviewing PRs; awesome-mac ships a Codex maintainer skill; awesome-vue's February 2026 hygiene sweep was authored by "Claude". It cuts both ways: two weeks later an agent-made PR left a tool-output artifact (<code>Resource from plugin:github:github at repo://…</code>) on the first line of awesome-vue's README, where it has stayed for seven months.</p>
+<p>Three structural shifts follow:</p>
+<ol>
+<li><strong>Review capacity, not demand, is now the binding constraint.</strong> The lists that hit the wall first are single-merger lists with large inflow.</li>
+<li><strong>Maturity replaces taste as the first filter.</strong> When a plausible-looking repo costs nothing to generate, lists ask for time and adoption instead: 14 days of activity or 100 stars (awesome-claude-code), "brand new skills… are not accepted" (awesome-agent-skills), account age (cursorrules, awesome-cpp), a passing build (awesome-mcp-servers).</li>
+<li><strong>Security becomes a curation axis.</strong> Skills, hooks and rule files are instructions an agent will execute. Lists now publish malicious-exclusion counts (awesome-openclaw-skills: 373 malicious, 4,065 probable spam), lint for prompt injection, and add "curated, not audited" disclaimers.</li>
+</ol>
+<hr />
+<h2 id="10-playbook">10. Playbook</h2>
+<h3 id="if-you-are-starting-a-list">If you are starting a list</h3>
+<ol>
+<li><strong>Pick a topic with a large, GitHub-native audience</strong>, or the broadest framing of one. This is the biggest single lever, and the one no amount of polish can replace.</li>
+<li><strong>Arrive early or arrive better.</strong> The first credible list for a new platform has an edge measured in days. If an incumbent exists, only start a rival if you can out-maintain it; otherwise contribute to it.</li>
+<li><strong>Write the question your list answers in the first line</strong>, and a scope statement that says what you will refuse.</li>
+<li><strong>Launch with a substantial first version</strong>, with a balanced taxonomy (no category over ~15% of entries, no categories with two items).</li>
+<li><strong>Meet the table stakes:</strong> a one-line description for every entry, a ToC, consistent formatting, a CC0 licence, a CONTRIBUTING file, the badge, the <code>awesome-list</code> topic. They will not make you popular, but you cannot get into the index or keep readers' trust without them.</li>
+<li><strong>Standardise decision metadata</strong> if your list is a directory: the two to five facts a reader needs before clicking.</li>
+</ol>
+<h3 id="if-your-list-is-growing">If your list is growing</h3>
+<ol start="7">
+<li><strong>Publish measurable inclusion criteria</strong> and make submitters supply the evidence in the PR.</li>
+<li><strong>Automate the rules:</strong> link checking, format and duplicate checks, an activity check, ideally a data file as the source of truth and a generated README.</li>
+<li><strong>Prune on a schedule</strong> and write the reason in each removal commit. Decide whether you remove staleness or display it.</li>
+<li><strong>Recruit a second merger</strong> before you need one; every list that paused in 2026 had one.</li>
+<li><strong>Build reading surfaces</strong> beyond the README once you pass ~1,000 entries: a website, per-entry pages, search, an <code>llms.txt</code>.</li>
+</ol>
+<h3 id="if-your-list-is-big">If your list is big</h3>
+<ol start="12">
+<li><strong>Fence money off from entries</strong>, with a written independence clause and disclosure for anything sponsored or owned.</li>
+<li><strong>Defend the intake:</strong> issue forms or templates, a human attestation, maturity gates, and bots that do the first pass. Decide your stance on agent-made submissions explicitly; both refusal and a gated fast lane can work.</li>
+</ol>
+<h3 id="anti-patterns">Anti-patterns</h3>
+<ul>
+<li>A weekend launch that never gets a second wave of work.</li>
+<li>A taxonomy of many tiny categories that fakes depth.</li>
+<li>Copied CONTRIBUTING boilerplate that does not fit the list.</li>
+<li>Accretion without removal, or <code>[Deprecated]</code> tags that are never cleaned up.</li>
+<li>A sole maintainer with no automation and growing inflow.</li>
+<li>Sponsor entries mixed into the list without disclosure.</li>
+<li>A list on a topic that is already declining.</li>
+</ul>
+<hr />
+<h2 id="appendix-a-full-feature-tables">Appendix A: full feature tables</h2>
+<p>Medians for numeric features, percentages for yes/no features. ρ is the Spearman correlation with stars; the age-controlled ρ is a partial rank correlation holding the first-commit date constant.</p>
+<h3 id="census-sample-n-861-22-lists-with-50k-stars-113-with-10k50k-376-with-2k10k-350-under-2k">Census sample (n = 861: 22 lists with 50k+ stars, 113 with 10k–50k, 376 with 2k–10k, 350 under 2k)</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Group</th>
+<th>ρ (stars)</th>
+<th>ρ age-controlled</th>
+<th>≥50k</th>
+<th>10k–50k</th>
+<th>2k–10k</th>
+<th>&lt;2k</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Year of first commit</td>
+<td>Timing &amp; positioning</td>
+<td>-0.20</td>
+<td>-0.00</td>
+<td>2015</td>
+<td>2017</td>
+<td>2018</td>
+<td>2019</td>
+</tr>
+<tr>
+<td>Name contains "awesome"</td>
+<td>Timing &amp; positioning</td>
+<td>-0.06</td>
+<td>-0.07</td>
+<td>73%</td>
+<td>83%</td>
+<td>85%</td>
+<td>88%</td>
+</tr>
+<tr>
+<td>Listed in sindresorhus/awesome</td>
+<td>Timing &amp; positioning</td>
+<td>+0.15</td>
+<td>+0.08</td>
+<td>68%</td>
+<td>41%</td>
+<td>30%</td>
+<td>24%</td>
+</tr>
+<tr>
+<td>README mostly Chinese/Japanese/Korean</td>
+<td>Timing &amp; positioning</td>
+<td>-0.07</td>
+<td>-0.03</td>
+<td>0%</td>
+<td>3%</td>
+<td>7%</td>
+<td>6%</td>
+</tr>
+<tr>
+<td>Entries (links) in README</td>
+<td>Content</td>
+<td>+0.27</td>
+<td>+0.28</td>
+<td>593</td>
+<td>352</td>
+<td>214</td>
+<td>146</td>
+</tr>
+<tr>
+<td>Share of entries with a description</td>
+<td>Content</td>
+<td>+0.05</td>
+<td>+0.04</td>
+<td>93%</td>
+<td>87%</td>
+<td>88%</td>
+<td>82%</td>
+</tr>
+<tr>
+<td>Words per description</td>
+<td>Content</td>
+<td>-0.02</td>
+<td>+0.01</td>
+<td>9.9</td>
+<td>10.6</td>
+<td>10.6</td>
+<td>11.2</td>
+</tr>
+<tr>
+<td>Categories with entries</td>
+<td>Content</td>
+<td>+0.19</td>
+<td>+0.18</td>
+<td>51</td>
+<td>28</td>
+<td>21</td>
+<td>18</td>
+</tr>
+<tr>
+<td>Median entries per category</td>
+<td>Content</td>
+<td>+0.07</td>
+<td>+0.09</td>
+<td>7</td>
+<td>6</td>
+<td>6</td>
+<td>5</td>
+</tr>
+<tr>
+<td>Largest category share of entries</td>
+<td>Content</td>
+<td>-0.14</td>
+<td>-0.14</td>
+<td>11%</td>
+<td>17%</td>
+<td>18%</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Structured per-entry metadata (tags/stars/table)</td>
+<td>Content</td>
+<td>+0.04</td>
+<td>+0.08</td>
+<td>14%</td>
+<td>18%</td>
+<td>18%</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>Entries alphabetized (&gt;=90% sorted pairs)</td>
+<td>Content</td>
+<td>+0.07</td>
+<td>+0.06</td>
+<td>28%</td>
+<td>29%</td>
+<td>17%</td>
+<td>18%</td>
+</tr>
+<tr>
+<td>Share of links pointing to GitHub repos</td>
+<td>Content</td>
+<td>+0.01</td>
+<td>-0.01</td>
+<td>39%</td>
+<td>37%</td>
+<td>40%</td>
+<td>40%</td>
+</tr>
+<tr>
+<td>README words</td>
+<td>Content</td>
+<td>+0.28</td>
+<td>+0.31</td>
+<td>7,584</td>
+<td>5,542</td>
+<td>3,245</td>
+<td>2,292</td>
+</tr>
+<tr>
+<td>Words before first section</td>
+<td>Presentation</td>
+<td>+0.07</td>
+<td>+0.08</td>
+<td>108</td>
+<td>63</td>
+<td>52</td>
+<td>52</td>
+</tr>
+<tr>
+<td>Table of contents</td>
+<td>Presentation</td>
+<td>+0.03</td>
+<td>+0.01</td>
+<td>91%</td>
+<td>80%</td>
+<td>83%</td>
+<td>83%</td>
+</tr>
+<tr>
+<td>Back-to-top links</td>
+<td>Presentation</td>
+<td>+0.10</td>
+<td>+0.10</td>
+<td>18%</td>
+<td>12%</td>
+<td>9%</td>
+<td>6%</td>
+</tr>
+<tr>
+<td>Any badges</td>
+<td>Presentation</td>
+<td>+0.01</td>
+<td>+0.02</td>
+<td>82%</td>
+<td>82%</td>
+<td>83%</td>
+<td>83%</td>
+</tr>
+<tr>
+<td>Awesome badge</td>
+<td>Presentation</td>
+<td>+0.01</td>
+<td>-0.01</td>
+<td>73%</td>
+<td>75%</td>
+<td>70%</td>
+<td>73%</td>
+</tr>
+<tr>
+<td>Header image/logo</td>
+<td>Presentation</td>
+<td>+0.09</td>
+<td>+0.13</td>
+<td>77%</td>
+<td>59%</td>
+<td>49%</td>
+<td>44%</td>
+</tr>
+<tr>
+<td>Centered HTML header</td>
+<td>Presentation</td>
+<td>+0.07</td>
+<td>+0.14</td>
+<td>59%</td>
+<td>34%</td>
+<td>29%</td>
+<td>27%</td>
+</tr>
+<tr>
+<td>Emoji per entry</td>
+<td>Presentation</td>
+<td>+0.05</td>
+<td>+0.10</td>
+<td>0.021</td>
+<td>0.006</td>
+<td>0.005</td>
+<td>0.003</td>
+</tr>
+<tr>
+<td>Collapsible <details> sections</td>
+<td>Presentation</td>
+<td>-0.01</td>
+<td>+0.04</td>
+<td>14%</td>
+<td>10%</td>
+<td>8%</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Translated READMEs</td>
+<td>Presentation</td>
+<td>+0.12</td>
+<td>+0.16</td>
+<td>4%</td>
+<td>14%</td>
+<td>8%</td>
+<td>4%</td>
+</tr>
+<tr>
+<td>Companion website config in repo</td>
+<td>Presentation</td>
+<td>+0.07</td>
+<td>+0.06</td>
+<td>18%</td>
+<td>10%</td>
+<td>10%</td>
+<td>7%</td>
+</tr>
+<tr>
+<td>CONTRIBUTING file</td>
+<td>Process &amp; governance</td>
+<td>+0.12</td>
+<td>+0.09</td>
+<td>86%</td>
+<td>78%</td>
+<td>69%</td>
+<td>66%</td>
+</tr>
+<tr>
+<td>CONTRIBUTING length (words)</td>
+<td>Process &amp; governance</td>
+<td>+0.15</td>
+<td>+0.15</td>
+<td>296</td>
+<td>225</td>
+<td>139</td>
+<td>134</td>
+</tr>
+<tr>
+<td>PR template</td>
+<td>Process &amp; governance</td>
+<td>+0.20</td>
+<td>+0.20</td>
+<td>46%</td>
+<td>42%</td>
+<td>19%</td>
+<td>14%</td>
+</tr>
+<tr>
+<td>Issue template/forms</td>
+<td>Process &amp; governance</td>
+<td>+0.11</td>
+<td>+0.14</td>
+<td>36%</td>
+<td>22%</td>
+<td>12%</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Code of conduct</td>
+<td>Process &amp; governance</td>
+<td>-0.00</td>
+<td>-0.00</td>
+<td>41%</td>
+<td>20%</td>
+<td>28%</td>
+<td>28%</td>
+</tr>
+<tr>
+<td>README states inclusion criteria</td>
+<td>Process &amp; governance</td>
+<td>+0.04</td>
+<td>+0.06</td>
+<td>23%</td>
+<td>28%</td>
+<td>16%</td>
+<td>21%</td>
+</tr>
+<tr>
+<td>Any CI (Actions/Travis)</td>
+<td>Process &amp; governance</td>
+<td>+0.15</td>
+<td>+0.15</td>
+<td>54%</td>
+<td>61%</td>
+<td>44%</td>
+<td>37%</td>
+</tr>
+<tr>
+<td>Automated link checking</td>
+<td>Process &amp; governance</td>
+<td>+0.14</td>
+<td>+0.11</td>
+<td>27%</td>
+<td>37%</td>
+<td>22%</td>
+<td>18%</td>
+</tr>
+<tr>
+<td>awesome-lint in CI</td>
+<td>Process &amp; governance</td>
+<td>-0.01</td>
+<td>-0.01</td>
+<td>4%</td>
+<td>10%</td>
+<td>11%</td>
+<td>11%</td>
+</tr>
+<tr>
+<td>Creative Commons license</td>
+<td>Process &amp; governance</td>
+<td>-0.02</td>
+<td>-0.01</td>
+<td>36%</td>
+<td>49%</td>
+<td>46%</td>
+<td>49%</td>
+</tr>
+<tr>
+<td>No license file</td>
+<td>Process &amp; governance</td>
+<td>-0.00</td>
+<td>-0.05</td>
+<td>32%</td>
+<td>26%</td>
+<td>27%</td>
+<td>26%</td>
+</tr>
+<tr>
+<td>Sponsors section or FUNDING.yml</td>
+<td>Process &amp; governance</td>
+<td>+0.15</td>
+<td>+0.18</td>
+<td>50%</td>
+<td>24%</td>
+<td>13%</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Flags unmaintained/archived entries</td>
+<td>Process &amp; governance</td>
+<td>+0.03</td>
+<td>+0.03</td>
+<td>32%</td>
+<td>27%</td>
+<td>27%</td>
+<td>24%</td>
+</tr>
+<tr>
+<td>Commits (all time)</td>
+<td>Activity &amp; community</td>
+<td>+0.43</td>
+<td>+0.41</td>
+<td>1,510</td>
+<td>587</td>
+<td>221</td>
+<td>135</td>
+</tr>
+<tr>
+<td>Distinct commit authors</td>
+<td>Activity &amp; community</td>
+<td>+0.45</td>
+<td>+0.41</td>
+<td>387</td>
+<td>129</td>
+<td>39</td>
+<td>20</td>
+</tr>
+<tr>
+<td>Top author share of commits</td>
+<td>Activity &amp; community</td>
+<td>-0.22</td>
+<td>-0.17</td>
+<td>35%</td>
+<td>36%</td>
+<td>49%</td>
+<td>59%</td>
+</tr>
+<tr>
+<td>People who merged PRs</td>
+<td>Activity &amp; community</td>
+<td>+0.31</td>
+<td>+0.26</td>
+<td>6</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Highest issue/PR number referenced</td>
+<td>Activity &amp; community</td>
+<td>+0.49</td>
+<td>+0.47</td>
+<td>1,574</td>
+<td>349</td>
+<td>94</td>
+<td>47.5</td>
+</tr>
+<tr>
+<td>Commit in last 12 months</td>
+<td>Activity &amp; community</td>
+<td>+0.09</td>
+<td>+0.12</td>
+<td>86%</td>
+<td>78%</td>
+<td>67%</td>
+<td>67%</td>
+</tr>
+<tr>
+<td>Human commit in last 12 months</td>
+<td>Activity &amp; community</td>
+<td>+0.09</td>
+<td>+0.12</td>
+<td>82%</td>
+<td>78%</td>
+<td>66%</td>
+<td>66%</td>
+</tr>
+<tr>
+<td>No commit for 2+ years</td>
+<td>Activity &amp; community</td>
+<td>-0.09</td>
+<td>-0.12</td>
+<td>9%</td>
+<td>17%</td>
+<td>23%</td>
+<td>25%</td>
+</tr>
+<tr>
+<td>Calendar years with commits</td>
+<td>Activity &amp; community</td>
+<td>+0.23</td>
+<td>+0.12</td>
+<td>10.5</td>
+<td>8</td>
+<td>7</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Entries one year after launch</td>
+<td>History</td>
+<td>+0.20</td>
+<td>+0.24</td>
+<td>408</td>
+<td>176</td>
+<td>117</td>
+<td>97</td>
+</tr>
+<tr>
+<td>Share of peak size reached by year 1</td>
+<td>History</td>
+<td>-0.15</td>
+<td>-0.08</td>
+<td>56%</td>
+<td>60%</td>
+<td>67%</td>
+<td>71%</td>
+</tr>
+<tr>
+<td>Ever cut &gt;=10% of entries in a quarter</td>
+<td>History</td>
+<td>+0.07</td>
+<td>+0.05</td>
+<td>32%</td>
+<td>24%</td>
+<td>14%</td>
+<td>15%</td>
+</tr>
+<tr>
+<td>Currently &gt;=10% smaller than its peak</td>
+<td>History</td>
+<td>+0.11</td>
+<td>+0.10</td>
+<td>23%</td>
+<td>20%</td>
+<td>10%</td>
+<td>8%</td>
+</tr>
+<tr>
+<td>More than doubled in size after year 1</td>
+<td>History</td>
+<td>+0.17</td>
+<td>+0.12</td>
+<td>50%</td>
+<td>43%</td>
+<td>34%</td>
+<td>25%</td>
+</tr>
+</tbody>
+</table></div>
+<h3 id="official-index-sample-n-558-22-67-145-324">Official-index sample (n = 558: 22 / 67 / 145 / 324)</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Feature</th>
+<th>Group</th>
+<th>ρ (stars)</th>
+<th>ρ age-controlled</th>
+<th>≥50k</th>
+<th>10k–50k</th>
+<th>2k–10k</th>
+<th>&lt;2k</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Year of first commit</td>
+<td>Timing &amp; positioning</td>
+<td>-0.37</td>
+<td>+0.07</td>
+<td>2014</td>
+<td>2015</td>
+<td>2016</td>
+<td>2017</td>
+</tr>
+<tr>
+<td>Name contains "awesome"</td>
+<td>Timing &amp; positioning</td>
+<td>-0.14</td>
+<td>-0.05</td>
+<td>77%</td>
+<td>87%</td>
+<td>94%</td>
+<td>94%</td>
+</tr>
+<tr>
+<td>Listed in sindresorhus/awesome</td>
+<td>Timing &amp; positioning</td>
+<td>–</td>
+<td>+0.00</td>
+<td>100%</td>
+<td>100%</td>
+<td>100%</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>README mostly Chinese/Japanese/Korean</td>
+<td>Timing &amp; positioning</td>
+<td>–</td>
+<td>+0.00</td>
+<td>0%</td>
+<td>0%</td>
+<td>0%</td>
+<td>0%</td>
+</tr>
+<tr>
+<td>Entries (links) in README</td>
+<td>Content</td>
+<td>+0.57</td>
+<td>+0.56</td>
+<td>712</td>
+<td>369</td>
+<td>166</td>
+<td>94</td>
+</tr>
+<tr>
+<td>Share of entries with a description</td>
+<td>Content</td>
+<td>+0.05</td>
+<td>+0.12</td>
+<td>95%</td>
+<td>91%</td>
+<td>92%</td>
+<td>90%</td>
+</tr>
+<tr>
+<td>Words per description</td>
+<td>Content</td>
+<td>+0.09</td>
+<td>+0.17</td>
+<td>10.8</td>
+<td>10.8</td>
+<td>10.8</td>
+<td>10.1</td>
+</tr>
+<tr>
+<td>Categories with entries</td>
+<td>Content</td>
+<td>+0.36</td>
+<td>+0.34</td>
+<td>65</td>
+<td>28</td>
+<td>22</td>
+<td>15</td>
+</tr>
+<tr>
+<td>Median entries per category</td>
+<td>Content</td>
+<td>+0.30</td>
+<td>+0.30</td>
+<td>9</td>
+<td>6</td>
+<td>5</td>
+<td>4</td>
+</tr>
+<tr>
+<td>Largest category share of entries</td>
+<td>Content</td>
+<td>-0.26</td>
+<td>-0.24</td>
+<td>11%</td>
+<td>14%</td>
+<td>16%</td>
+<td>21%</td>
+</tr>
+<tr>
+<td>Structured per-entry metadata (tags/stars/table)</td>
+<td>Content</td>
+<td>+0.02</td>
+<td>+0.04</td>
+<td>18%</td>
+<td>6%</td>
+<td>6%</td>
+<td>6%</td>
+</tr>
+<tr>
+<td>Entries alphabetized (&gt;=90% sorted pairs)</td>
+<td>Content</td>
+<td>+0.11</td>
+<td>+0.10</td>
+<td>37%</td>
+<td>30%</td>
+<td>19%</td>
+<td>18%</td>
+</tr>
+<tr>
+<td>Share of links pointing to GitHub repos</td>
+<td>Content</td>
+<td>+0.16</td>
+<td>+0.11</td>
+<td>58%</td>
+<td>46%</td>
+<td>47%</td>
+<td>35%</td>
+</tr>
+<tr>
+<td>README words</td>
+<td>Content</td>
+<td>+0.53</td>
+<td>+0.56</td>
+<td>14,427</td>
+<td>5,216</td>
+<td>2,631</td>
+<td>1,409</td>
+</tr>
+<tr>
+<td>Words before first section</td>
+<td>Presentation</td>
+<td>+0.10</td>
+<td>+0.10</td>
+<td>83.5</td>
+<td>61</td>
+<td>56</td>
+<td>53</td>
+</tr>
+<tr>
+<td>Table of contents</td>
+<td>Presentation</td>
+<td>+0.01</td>
+<td>+0.15</td>
+<td>91%</td>
+<td>90%</td>
+<td>90%</td>
+<td>89%</td>
+</tr>
+<tr>
+<td>Back-to-top links</td>
+<td>Presentation</td>
+<td>+0.10</td>
+<td>+0.10</td>
+<td>23%</td>
+<td>8%</td>
+<td>6%</td>
+<td>3%</td>
+</tr>
+<tr>
+<td>Any badges</td>
+<td>Presentation</td>
+<td>-0.15</td>
+<td>-0.08</td>
+<td>91%</td>
+<td>92%</td>
+<td>96%</td>
+<td>99%</td>
+</tr>
+<tr>
+<td>Awesome badge</td>
+<td>Presentation</td>
+<td>-0.17</td>
+<td>-0.11</td>
+<td>77%</td>
+<td>92%</td>
+<td>96%</td>
+<td>99%</td>
+</tr>
+<tr>
+<td>Header image/logo</td>
+<td>Presentation</td>
+<td>-0.03</td>
+<td>+0.10</td>
+<td>64%</td>
+<td>46%</td>
+<td>50%</td>
+<td>50%</td>
+</tr>
+<tr>
+<td>Centered HTML header</td>
+<td>Presentation</td>
+<td>+0.07</td>
+<td>+0.18</td>
+<td>50%</td>
+<td>21%</td>
+<td>23%</td>
+<td>17%</td>
+</tr>
+<tr>
+<td>Emoji per entry</td>
+<td>Presentation</td>
+<td>+0.23</td>
+<td>+0.26</td>
+<td>0.016</td>
+<td>0.003</td>
+<td>0</td>
+<td>0</td>
+</tr>
+<tr>
+<td>Collapsible <details> sections</td>
+<td>Presentation</td>
+<td>+0.04</td>
+<td>+0.09</td>
+<td>9%</td>
+<td>3%</td>
+<td>2%</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>Translated READMEs</td>
+<td>Presentation</td>
+<td>+0.09</td>
+<td>+0.09</td>
+<td>4%</td>
+<td>8%</td>
+<td>2%</td>
+<td>2%</td>
+</tr>
+<tr>
+<td>Companion website config in repo</td>
+<td>Presentation</td>
+<td>+0.10</td>
+<td>+0.11</td>
+<td>23%</td>
+<td>10%</td>
+<td>7%</td>
+<td>6%</td>
+</tr>
+<tr>
+<td>CONTRIBUTING file</td>
+<td>Process &amp; governance</td>
+<td>-0.08</td>
+<td>+0.08</td>
+<td>82%</td>
+<td>87%</td>
+<td>88%</td>
+<td>91%</td>
+</tr>
+<tr>
+<td>CONTRIBUTING length (words)</td>
+<td>Process &amp; governance</td>
+<td>+0.15</td>
+<td>+0.27</td>
+<td>340</td>
+<td>214</td>
+<td>169</td>
+<td>162</td>
+</tr>
+<tr>
+<td>PR template</td>
+<td>Process &amp; governance</td>
+<td>+0.32</td>
+<td>+0.36</td>
+<td>64%</td>
+<td>48%</td>
+<td>21%</td>
+<td>10%</td>
+</tr>
+<tr>
+<td>Issue template/forms</td>
+<td>Process &amp; governance</td>
+<td>+0.18</td>
+<td>+0.20</td>
+<td>27%</td>
+<td>18%</td>
+<td>11%</td>
+<td>5%</td>
+</tr>
+<tr>
+<td>Code of conduct</td>
+<td>Process &amp; governance</td>
+<td>-0.09</td>
+<td>+0.05</td>
+<td>50%</td>
+<td>22%</td>
+<td>32%</td>
+<td>38%</td>
+</tr>
+<tr>
+<td>README states inclusion criteria</td>
+<td>Process &amp; governance</td>
+<td>+0.09</td>
+<td>+0.11</td>
+<td>23%</td>
+<td>21%</td>
+<td>10%</td>
+<td>11%</td>
+</tr>
+<tr>
+<td>Any CI (Actions/Travis)</td>
+<td>Process &amp; governance</td>
+<td>+0.15</td>
+<td>+0.20</td>
+<td>64%</td>
+<td>69%</td>
+<td>59%</td>
+<td>47%</td>
+</tr>
+<tr>
+<td>Automated link checking</td>
+<td>Process &amp; governance</td>
+<td>+0.17</td>
+<td>+0.13</td>
+<td>32%</td>
+<td>52%</td>
+<td>34%</td>
+<td>27%</td>
+</tr>
+<tr>
+<td>awesome-lint in CI</td>
+<td>Process &amp; governance</td>
+<td>-0.09</td>
+<td>+0.08</td>
+<td>4%</td>
+<td>9%</td>
+<td>19%</td>
+<td>20%</td>
+</tr>
+<tr>
+<td>Creative Commons license</td>
+<td>Process &amp; governance</td>
+<td>-0.12</td>
+<td>+0.11</td>
+<td>41%</td>
+<td>49%</td>
+<td>57%</td>
+<td>62%</td>
+</tr>
+<tr>
+<td>No license file</td>
+<td>Process &amp; governance</td>
+<td>+0.02</td>
+<td>-0.14</td>
+<td>27%</td>
+<td>33%</td>
+<td>28%</td>
+<td>28%</td>
+</tr>
+<tr>
+<td>Sponsors section or FUNDING.yml</td>
+<td>Process &amp; governance</td>
+<td>+0.16</td>
+<td>+0.20</td>
+<td>46%</td>
+<td>18%</td>
+<td>14%</td>
+<td>8%</td>
+</tr>
+<tr>
+<td>Flags unmaintained/archived entries</td>
+<td>Process &amp; governance</td>
+<td>+0.15</td>
+<td>+0.14</td>
+<td>41%</td>
+<td>24%</td>
+<td>26%</td>
+<td>14%</td>
+</tr>
+<tr>
+<td>Commits (all time)</td>
+<td>Activity &amp; community</td>
+<td>+0.68</td>
+<td>+0.66</td>
+<td>2,112</td>
+<td>599</td>
+<td>221</td>
+<td>99</td>
+</tr>
+<tr>
+<td>Distinct commit authors</td>
+<td>Activity &amp; community</td>
+<td>+0.78</td>
+<td>+0.73</td>
+<td>630</td>
+<td>182</td>
+<td>51</td>
+<td>14</td>
+</tr>
+<tr>
+<td>Top author share of commits</td>
+<td>Activity &amp; community</td>
+<td>-0.50</td>
+<td>-0.43</td>
+<td>24%</td>
+<td>28%</td>
+<td>41%</td>
+<td>64%</td>
+</tr>
+<tr>
+<td>People who merged PRs</td>
+<td>Activity &amp; community</td>
+<td>+0.46</td>
+<td>+0.38</td>
+<td>8.5</td>
+<td>3</td>
+<td>2</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Highest issue/PR number referenced</td>
+<td>Activity &amp; community</td>
+<td>+0.76</td>
+<td>+0.74</td>
+<td>2,550</td>
+<td>399</td>
+<td>116</td>
+<td>26</td>
+</tr>
+<tr>
+<td>Commit in last 12 months</td>
+<td>Activity &amp; community</td>
+<td>+0.31</td>
+<td>+0.38</td>
+<td>96%</td>
+<td>69%</td>
+<td>70%</td>
+<td>48%</td>
+</tr>
+<tr>
+<td>Human commit in last 12 months</td>
+<td>Activity &amp; community</td>
+<td>+0.30</td>
+<td>+0.37</td>
+<td>91%</td>
+<td>67%</td>
+<td>68%</td>
+<td>47%</td>
+</tr>
+<tr>
+<td>No commit for 2+ years</td>
+<td>Activity &amp; community</td>
+<td>-0.32</td>
+<td>-0.39</td>
+<td>4%</td>
+<td>27%</td>
+<td>21%</td>
+<td>47%</td>
+</tr>
+<tr>
+<td>Calendar years with commits</td>
+<td>Activity &amp; community</td>
+<td>+0.61</td>
+<td>+0.52</td>
+<td>13</td>
+<td>11</td>
+<td>9</td>
+<td>6</td>
+</tr>
+<tr>
+<td>Entries one year after launch</td>
+<td>History</td>
+<td>+0.41</td>
+<td>+0.41</td>
+<td>422</td>
+<td>208</td>
+<td>96</td>
+<td>66.5</td>
+</tr>
+<tr>
+<td>Share of peak size reached by year 1</td>
+<td>History</td>
+<td>-0.45</td>
+<td>-0.41</td>
+<td>34%</td>
+<td>49%</td>
+<td>56%</td>
+<td>78%</td>
+</tr>
+<tr>
+<td>Ever cut &gt;=10% of entries in a quarter</td>
+<td>History</td>
+<td>+0.20</td>
+<td>+0.18</td>
+<td>50%</td>
+<td>25%</td>
+<td>22%</td>
+<td>13%</td>
+</tr>
+<tr>
+<td>Currently &gt;=10% smaller than its peak</td>
+<td>History</td>
+<td>+0.17</td>
+<td>+0.13</td>
+<td>32%</td>
+<td>18%</td>
+<td>14%</td>
+<td>8%</td>
+</tr>
+<tr>
+<td>More than doubled in size after year 1</td>
+<td>History</td>
+<td>+0.36</td>
+<td>+0.32</td>
+<td>73%</td>
+<td>51%</td>
+<td>42%</td>
+<td>17%</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="appendix-b-data-code-and-reproducibility">Appendix B: data, code and reproducibility</h2>
+<p>Everything is in the <a href="https://github.com/depuschm/awesome-lists-research" target="_blank" rel="noopener">depuschm/awesome-lists-research</a> repository:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Path</th>
+<th>Contents</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>REPORT.md</code></td>
+<td>This report</td>
+</tr>
+<tr>
+<td><code>notes/</code></td>
+<td>Literature review, six archetype deep dives, rivals study, control group, analyst rubric</td>
+</tr>
+<tr>
+<td><code>data/master_stars.tsv</code></td>
+<td>1,598 repos with stars from every source, index membership and category</td>
+</tr>
+<tr>
+<td><code>data/corpus.csv</code></td>
+<td>1,568 repos × ~110 columns (features, stars, classification)</td>
+</tr>
+<tr>
+<td><code>data/analysis/lists_enriched.csv</code></td>
+<td>1,291 analysed lists with the main features and README-history metrics</td>
+</tr>
+<tr>
+<td><code>data/analysis/feature_tiers_{census,index,all}.csv</code></td>
+<td>Tier comparisons and correlations</td>
+</tr>
+<tr>
+<td><code>data/analysis/summary_*.json</code>, <code>cohorts_*.csv</code></td>
+<td>Concentration, cohorts and regression results</td>
+</tr>
+<tr>
+<td><code>data/readme_history_final.jsonl</code></td>
+<td>Quarterly README size and entry counts for 1,609 repos</td>
+</tr>
+<tr>
+<td><code>data/analysis/dormant_star_growth.csv</code></td>
+<td>Star growth while content was unchanged</td>
+</tr>
+<tr>
+<td><code>data/github_top100_classified.tsv</code></td>
+<td>GitHub's overall top 100 by kind</td>
+</tr>
+<tr>
+<td><code>data/manual_kind.csv</code>, <code>data/archetypes_top.csv</code></td>
+<td>Manual classifications</td>
+</tr>
+<tr>
+<td><code>scripts/</code></td>
+<td><code>clone_one.sh</code>, <code>extract.py</code>, <code>readme_history.py</code>, <code>build_corpus.py</code>, <code>analyze.py</code>, <code>export_viz.py</code> and the parsers</td>
+</tr>
+</tbody>
+</table></div>
+<p>To reproduce: run <code>scripts/clone_one.sh</code> over <code>data/master_stars.tsv</code>, then <code>extract.py</code> and <code>readme_history.py</code> over <code>clones/</code>, then <code>build_corpus.py</code>, <code>analyze.py</code>, <code>export_viz.py</code> and <code>build_page.py</code> (Python 3.13; see <code>requirements.txt</code> and the README for exact commands).</p>
+<h2 id="sources">Sources</h2>
+<p><strong>Data</strong></p>
+<ul>
+<li><a href="https://github.com/topics/awesome-list" target="_blank" rel="noopener">GitHub topic: awesome-list</a> - 17,872 repositories; top 1,000 by stars collected.</li>
+<li><a href="https://github.com/topics/awesome" target="_blank" rel="noopener">GitHub topic: awesome</a> - 12,754 repositories; top 500 by stars collected.</li>
+<li><a href="https://github.com/sindresorhus/awesome" target="_blank" rel="noopener">sindresorhus/awesome</a> - The official index; its manifesto, PR template and contributing rules.</li>
+<li><a href="https://github.com/sindresorhus/awesome-lint" target="_blank" rel="noopener">sindresorhus/awesome-lint</a> - The linter that gates the index.</li>
+<li><a href="https://github.com/trackawesomelist/trackawesomelist" target="_blank" rel="noopener">trackawesomelist</a> - Star snapshots and last-update dates for 682 lists.</li>
+<li><a href="https://github.com/EvanLi/Github-Ranking" target="_blank" rel="noopener">EvanLi/Github-Ranking</a> - GitHub's overall top 100 by stars.</li>
+</ul>
+<p><strong>Research</strong></p>
+<ul>
+<li><a href="https://ojs.aaai.org/index.php/HCOMP/article/view/13244" target="_blank" rel="noopener">Wu, Kropczynski, Prates &amp; Carroll, The Rise of Curation on GitHub (HCOMP 2015)</a> - First description of curation repositories as a popular category.</li>
+<li><a href="https://peerj.com/articles/cs-134/" target="_blank" rel="noopener">Wu, Wang, Kropczynski &amp; Carroll, The appropriation of GitHub for curation (PeerJ CS, 2017)</a> - Interviews with 16 curators on motivations and limits.</li>
+<li><a href="https://www.mdpi.com/1999-5903/10/3/29" target="_blank" rel="noopener">Wu, Kropczynski, Prates &amp; Carroll, Understanding How GitHub Supports Curation Repositories (Future Internet, 2018)</a> - Curation repos are more popular than software repos and mostly run by individuals.</li>
+<li><a href="https://kblincoe.github.io/publications/2014_MSR_Promises_Perils.pdf" target="_blank" rel="noopener">Kalliamvakou et al., The Promises and Perils of Mining GitHub (MSR 2014)</a> - A large share of repositories are not software.</li>
+<li><a href="https://arxiv.org/abs/1606.04984" target="_blank" rel="noopener">Borges, Hora &amp; Valente, Understanding the Factors that Impact the Popularity of GitHub Repositories (ICSME 2016)</a> - Domain effects and growth patterns.</li>
+<li><a href="https://arxiv.org/abs/1811.07643" target="_blank" rel="noopener">Borges &amp; Valente, What's in a GitHub Star? (JSS 2018)</a> - Why developers star; viral growth follows social-media promotion.</li>
+<li><a href="https://arxiv.org/abs/1908.04219" target="_blank" rel="noopener">Borges &amp; Valente, How do Developers Promote Open Source Projects? (IEEE Computer 2019)</a> - Promotion channels and the Hacker News effect.</li>
+<li><a href="https://arxiv.org/abs/2010.02472" target="_blank" rel="noopener">Fan et al., What makes a popular academic AI repository? (EMSE 2021)</a> - README links, images and licences separate popular repos.</li>
+<li><a href="https://arxiv.org/abs/2412.13459" target="_blank" rel="noopener">He et al., Six Million (Suspected) Fake Stars on GitHub (ICSE 2026)</a> - Fake-star campaigns and their short-lived effect.</li>
+</ul>
+<p><strong>Practitioner sources</strong></p>
+<ul>
+<li><a href="https://github.com/vinta/awesome-python/blob/master/docs/adr/0001-shortlist-not-catalog.md" target="_blank" rel="noopener">vinta/awesome-python: shortlist ADR</a> - The 2026 "shortlist, not a catalog" decision.</li>
+<li><a href="https://github.com/avelino/awesome-go/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">avelino/awesome-go: CONTRIBUTING</a> - Measurable quality standards and the removal protocol.</li>
+<li><a href="https://github.com/awesome-selfhosted/awesome-selfhosted-data" target="_blank" rel="noopener">awesome-selfhosted-data</a> - Data-driven list architecture and freshness checks.</li>
+<li><a href="https://github.com/ripienaar/free-for-dev/blob/master/CONTRIBUTING.md" target="_blank" rel="noopener">ripienaar/free-for-dev: CONTRIBUTING</a> - Eligibility rules and the services the list refuses.</li>
+<li><a href="https://github.com/hesreallyhim/awesome-claude-code/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">hesreallyhim/awesome-claude-code: CONTRIBUTING</a> - Issue-form intake and maturity gates.</li>
+<li><a href="https://github.com/punkpeye/awesome-mcp-servers/blob/main/CONTRIBUTING.md" target="_blank" rel="noopener">punkpeye/awesome-mcp-servers: CONTRIBUTING</a> - The agent fast lane.</li>
+<li><a href="https://hackernoon.com/the-history-of-github-awesome-lists" target="_blank" rel="noopener">HackerNoon, Awesome-Lists, Everywhere</a> - Early history of the format.</li>
+<li><a href="https://github.blog/changelog/2026-02-13-new-repository-settings-for-configuring-pull-request-access/" target="_blank" rel="noopener">GitHub changelog, 13 Feb 2026</a> - New settings to restrict pull requests.</li>
+<li><a href="https://x.com/sindresorhus/status/2105693826690298314" target="_blank" rel="noopener">Sindre Sorhus on X, 1 Oct 2026</a> - "Due to AI, I have disabled external pull requests on all my repos" (as reported in search results; not fetched directly).</li>
+</ul>
+<p>The full source list, with about 90 links, is in <code>notes/literature.md</code>.</p>
+</main>
+<footer class="colophon"><p>Research and analysis: Claude, 25 October 2026. Data from GitHub topic pages, the sindresorhus/awesome index, trackawesomelist and EvanLi/Github-Ranking, plus 1,609 cloned repositories. Stars are rounded snapshots. Report, data and code: <a href="https://github.com/depuschm/awesome-lists-research" target="_blank" rel="noopener">depuschm/awesome-lists-research</a> (report and data CC BY 4.0, code MIT).</p></footer>
+</div>
+<div class="tip" id="tip" hidden></div>
+<script>
+const DATA = {"top100":[[1,"codecrafters-io/build-your-own-x",555759,"list"],[2,"sindresorhus/awesome",523739,"list"],[3,"public-apis/public-apis",491697,"list"],[4,"freeCodeCamp/freeCodeCamp",457796,"guide"],[5,"EbookFoundation/free-programming-books",399945,"list"],[6,"openclaw/openclaw",392891,"soft"],[7,"donnemartin/system-design-primer",375342,"guide"],[8,"morluto/rea",373843,"soft"],[9,"nilbuild/developer-roadmap",370243,"guide"],[10,"jwasham/coding-interview-university",363305,"list"],[11,"vinta/awesome-python",329772,"list"],[12,"awesome-selfhosted/awesome-selfhosted",329734,"list"],[13,"obra/superpowers",304291,"coll"],[14,"mattpocock/skills",301890,"coll"],[15,"practical-tutorials/project-based-learning",287733,"list"],[16,"affaan-m/ECC",287422,"coll"],[17,"996icu/996.ICU",277157,"coll"],[18,"deepseek-ai/deepseek-harness",259606,"soft"],[19,"NousResearch/hermes-agent",256565,"soft"],[20,"torvalds/linux",253307,"soft"],[21,"trimstray/the-book-of-secret-knowledge",252716,"list"],[22,"react/react",251734,"soft"],[23,"TheAlgorithms/Python",225486,"guide"],[24,"multica-ai/andrej-karpathy-skills",222969,"coll"],[25,"anomalyco/opencode",220686,"soft"],[26,"vuejs/vue",212632,"soft"],[27,"ossu/computer-science",210272,"list"],[28,"n8n-io/n8n",208433,"soft"],[29,"DigitalPlatDev/FreeDomain",205539,"coll"],[30,"tensorflow/tensorflow",201203,"soft"],[31,"yt-dlp/yt-dlp",201059,"soft"],[32,"trekhleb/javascript-algorithms",196690,"guide"],[33,"massgravel/Microsoft-Activation-Scripts",195747,"soft"],[34,"ultraworkers/claw-code",195068,"soft"],[35,"firecrawl/firecrawl",194728,"soft"],[36,"microsoft/vscode",194254,"soft"],[37,"microsoft/markitdown",191844,"soft"],[38,"ohmyzsh/ohmyzsh",190140,"soft"],[39,"avelino/awesome-go",190018,"list"],[40,"Significant-Gravitas/AutoGPT",187724,"soft"],[41,"jackfrued/Python-100-Days",187399,"guide"],[42,"CyC2018/CS-Notes",186316,"guide"],[43,"getify/You-Dont-Know-JS",184835,"guide"],[44,"ollama/ollama",184507,"soft"],[45,"521xueweihan/HelloGitHub",183979,"list"],[46,"anthropics/skills",183329,"coll"],[47,"flutter/flutter",180348,"soft"],[48,"github/gitignore",176041,"coll"],[49,"twbs/bootstrap",175004,"soft"],[50,"DietrichGebert/ponytail",174884,"coll"],[51,"f/prompts.chat",174274,"coll"],[52,"huggingface/transformers",168050,"soft"],[53,"AUTOMATIC1111/stable-diffusion-webui",165125,"soft"],[54,"msitarzewski/agency-agents",163537,"coll"],[55,"jlevy/the-art-of-command-line",162585,"guide"],[56,"langgenius/dify",159387,"soft"],[57,"Snailclimb/JavaGuide",159220,"guide"],[58,"open-webui/open-webui",156597,"soft"],[59,"langflow-ai/langflow",155971,"soft"],[60,"clash-verge-rev/clash-verge-rev",153457,"soft"],[61,"anthropics/claude-code",153190,"soft"],[62,"Genymobile/scrcpy",152991,"soft"],[63,"langchain-ai/langchain",148342,"soft"],[64,"farion1231/cc-switch",148105,"soft"],[65,"airbnb/javascript",148049,"guide"],[66,"x1xhlol/system-prompts-and-models-of-ai-tools",144208,"coll"],[67,"vercel/next.js",143215,"soft"],[68,"yangshun/tech-interview-handbook",143125,"guide"],[69,"Shubhamsaboo/awesome-llm-apps",142835,"coll"],[70,"github/spec-kit",142616,"soft"],[71,"Comfy-Org/ComfyUI",142391,"soft"],[72,"iptv-org/iptv",142133,"coll"],[73,"ytdl-org/youtube-dl",141374,"soft"],[74,"ripienaar/free-for-dev",139968,"list"],[75,"microsoft/PowerToys",139697,"soft"],[76,"golang/go",139505,"soft"],[77,"nextlevelbuilder/ui-ux-pro-max-skill",139490,"coll"],[78,"garrytan/gstack",137405,"coll"],[79,"labuladong/fucking-algorithm",135956,"guide"],[80,"harry0703/MoneyPrinterTurbo",134610,"soft"],[81,"excalidraw/excalidraw",134444,"soft"],[82,"Graphify-Labs/graphify",133956,"soft"],[83,"ggml-org/llama.cpp",132172,"soft"],[84,"krahets/hello-algo",130938,"guide"],[85,"openai/codex",130708,"soft"],[86,"Chalarangelo/30-seconds-of-code",129306,"guide"],[87,"kubernetes/kubernetes",128591,"soft"],[88,"react/react-native",126775,"soft"],[89,"rustdesk/rustdesk",126744,"soft"],[90,"shadcn-ui/ui",126379,"soft"],[91,"electron/electron",123511,"soft"],[92,"Hack-with-Github/Awesome-Hacking",123467,"list"],[93,"VoltAgent/awesome-design-md",123183,"coll"],[94,"nodejs/node",122923,"soft"],[95,"microsoft/generative-ai-for-beginners",122026,"guide"],[96,"rust-lang/rust",120718,"soft"],[97,"justjavac/free-programming-books-zh_CN",119332,"list"],[98,"browser-use/browser-use",118989,"soft"],[99,"godotengine/godot",118977,"soft"],[100,"2dust/v2rayN",118955,"soft"]],"cohorts":[[2014,59,25,8200],[2015,88,26,3600],[2016,89,16,3100],[2017,105,13,2500],[2018,94,9,2100],[2019,79,2,1900],[2020,80,9,1900],[2021,57,6,1700],[2022,56,7,2150],[2023,51,2,2100],[2024,20,3,2400],[2025,30,6,2300],[2026,46,9,2500]],"dumbbell":[["same","Entries with a description",92.9,81.6,0.048],["same","Table of contents",90.9,82.9,0.034],["same","Awesome badge",72.7,72.6,0.009],["same","Creative Commons licence",36.4,49.4,-0.017],["more","CONTRIBUTING file",86.4,65.7,0.115],["more","Any CI workflow",54.5,36.9,0.155],["more","Pull request template",45.5,14.3,0.203],["more","Issue templates or forms",36.4,10.3,0.112],["more","Header image or logo",77.3,43.7,0.092],["more","Sponsors section or FUNDING.yml",50.0,10.3,0.153],["more","Commit in the last 12 months",86.4,66.9,0.094],["more","More than doubled after year one",50.0,24.9,0.168],["more","Now 10%+ smaller than its peak",22.7,8.0,0.114]],"scatter":[["codecrafters-io/build-your-own-x",555759,363,2018],["sindresorhus/awesome",523739,683,2014],["vinta/awesome-python",329772,552,2014],["awesome-selfhosted/awesome-selfhosted",329734,1365,2015],["trimstray/the-book-of-secret-knowledge",252716,912,2018],["ossu/computer-science",210272,78,2014],["avelino/awesome-go",190018,3178,2014],["f/prompts.chat",174274,22,2022],["ripienaar/free-for-dev",139968,1363,2015],["VoltAgent/awesome-design-md",123183,89,2026],["jaywcjlove/awesome-mac",117000,1493,2016],["MunGell/awesome-for-beginners",90700,253,2015],["DopplerHQ/awesome-interview-questions",85200,353,2015],["binhnguyennus/awesome-scalability",75100,920,2017],["enaqx/awesome-react",75000,149,2014],["fffaraz/awesome-cpp",74000,1398,2014],["prakhar1989/awesome-courses",72200,712,2014],["sindresorhus/awesome-nodejs",67200,593,2014],["Solido/awesome-flutter",61700,511,2017],["hesreallyhim/awesome-claude-code",56400,253,2025],["serhii-londar/open-source-mac-os-apps",51000,1317,2017],["lukasz-madon/awesome-remote-job",49800,526,2015],["DovAmir/awesome-design-patterns",49500,125,2018],["akullpp/awesome-java",49300,925,2014],["brillout/awesome-react-components",48700,564,2016],["docker/awesome-compose",46600,43,2020],["goabstract/Awesome-Design-Tools",41600,603,2019],["PatrickJS/awesome-cursorrules",41000,220,2024],["alebcay/awesome-shell",37800,369,2014],["veggiemonk/awesome-docker",37100,403,2014],["VoltAgent/awesome-agent-skills",36300,1170,2025],["jondot/awesome-react-native",35700,196,2015],["kuchin/awesome-cto",35600,244,2016],["awesome-foss/awesome-sysadmin",35500,357,2014],["hesamsheikh/awesome-openclaw-usecases",31600,46,2026],["abhisheknaiidu/awesome-github-profile-readme",31400,286,2020],["jivoi/awesome-osint",30400,1378,2016],["wilsonfreitas/awesome-quant",30300,753,2015],["academic/awesome-datascience",30200,993,2014],["aishwaryanr/awesome-generative-ai-guide",29900,17,2024],["The-Art-of-Hacking/h4cker",29900,1,2017],["viatsko/awesome-vscode",29200,133,2016],["ChristosChristofidis/awesome-deep-learning",29100,607,2015],["sdras/awesome-actions",28400,401,2018],["kdeldycke/awesome-falsehood",27800,146,2016],["enaqx/awesome-pentest",27500,593,2014],["sindresorhus/awesome-electron",27300,241,2015],["Igglybuff/awesome-piracy",26900,1164,2018],["matteocrippa/awesome-swift",26300,1113,2014],["alexpate/awesome-design-systems",26200,151,2017],["enescingoz/awesome-n8n-templates",26100,7,2025],["VoltAgent/awesome-claude-code-subagents",26000,175,2025],["luong-komorebi/Awesome-Linux-Software",25600,1330,2016],["djsime1/awesome-flipperzero",24500,149,2022],["mikeroyal/Self-Hosting-Guide",23300,2657,2022],["quozd/awesome-dotnet",21700,693,2014],["matiassingers/awesome-readme",21600,144,2015],["rockerBOO/awesome-neovim",21500,1481,2020],["thangchung/awesome-dotnet-core",21400,755,2016],["LiLittleCat/awesome-free-chatgpt",21300,356,2023],["EthicalML/awesome-production-machine-learning",21000,551,2018],["Universidade-Livre/ciencia-da-computacao",21000,68,2021],["agarrharr/awesome-cli-apps",20600,552,2015],["awesome-dsh-plugin/awesome-dsh-plugin",20500,989,2026],["pluja/awesome-privacy",20100,658,2020],["dariubs/GoBooks",19700,82,2015],["iCHAIT/awesome-macOS",19400,330,2015],["keon/awesome-nlp",19100,691,2015],["hemanth/functional-programming-jargon",18700,65,2015],["ujjwalkarn/Machine-Learning-Tutorials",18300,485,2015],["unixorn/awesome-zsh-plugins",18100,2594,2014],["ellisonleao/magictools",17600,452,2014],["Evolink-AI/awesome-gpt-image-2-API-Prompts",17300,514,2026],["vitejs/awesome-vite",17300,506,2020],["thibmaek/awesome-raspberry-pi",17000,318,2016],["bobeff/open-source-games",17000,186,2021],["bharathgs/Awesome-pytorch-list",16700,707,2017],["rossant/awesome-math",16600,370,2015],["public-api-lists/public-api-lists",16200,843,2020],["travisvn/awesome-claude-skills",15500,54,2025],["terkelg/awesome-creative-coding",15500,409,2016],["aniftyco/awesome-tailwindcss",15200,72,2017],["chentsulin/awesome-graphql",15100,488,2015],["sbilly/awesome-security",15000,331,2014],["paperswithbacktest/awesome-systematic-trading",14900,305,2022],["analysis-tools-dev/static-analysis",14900,667,2015],["neutraltone/awesome-stock-resources",14600,194,2015],["rshipp/awesome-malware-analysis",14300,411,2015],["lnishan/awesome-competitive-programming",14200,156,2015],["markets/awesome-ruby",14200,974,2014],["qazbnm456/awesome-web-security",13900,384,2017],["dastergon/awesome-sre",13700,479,2016],["YouMind-OpenLab/awesome-nano-banana-pro-prompts",13700,443,2025],["bolshchikov/js-must-watch",13600,88,2014],["laoma528/awesome-zhuiju-free",13400,131,2026],["goabstract/Marketing-for-Engineers",13200,362,2017],["nestjs/awesome-nestjs",13200,317,2017],["rShetty/awesome-podcasts",13100,502,2018],["humiaozuzu/awesome-flask",12800,102,2014],["steven2358/awesome-generative-ai",12800,348,2022],["JStumpp/awesome-android",12400,320,2014],["heynickc/awesome-ddd",12400,317,2016],["xgrommx/awesome-redux",12300,436,2015],["k4m4/movies-for-hackers",12000,129,2017],["mezod/awesome-indie",11900,116,2017],["EmbraceAGI/awesome-chatgpt-zh",11800,25,2023],["mjhea0/awesome-fastapi",11700,203,2020],["oz123/awesome-c",11600,638,2014],["jnv/lists",11600,1590,2013],["edoardottt/awesome-hacker-search-engines",11400,606,2022],["wsvincent/awesome-django",11300,329,2018],["pingcap/awesome-database-learning",11200,202,2020],["Kristories/awesome-guidelines",11200,167,2017],["unicodeveloper/awesome-nextjs",11100,228,2016],["YSGStudyHards/DotNetGuide",11100,652,2020],["bnb/awesome-hyper",11000,224,2016],["webpro/awesome-dotfiles",10900,100,2014],["OffcierCia/DeFi-Developer-Road-Map",10900,788,2021],["hslatman/awesome-threat-intelligence",10800,244,2015],["paralax/awesome-honeypots",10600,342,2015],["yihui-dev/awesome-opus5-5-videos",10500,48,2026],["rothgar/awesome-tmux",10400,220,2016],["rehooks/awesome-react-hooks",10300,263,2018],["YouMind-OpenLab/awesome-gpt-image-2",10200,435,2026],["awesome-lists/awesome-bash",10200,107,2016],["Atarity/deploy-your-own-saas",10100,151,2019],["PatrickJS/awesome-angular",10100,2002,2015],["aalhour/awesome-compilers",9900,346,2016],["ashishb/android-security-awesome",9800,240,2014],["swyxio/spark-joy",9800,1333,2019],["awesome-jellyfin/awesome-jellyfin",9700,218,2022],["mbasso/awesome-wasm",9700,292,2017],["kyrolabs/awesome-langchain",9600,221,2023],["troxler/awesome-css-frameworks",9600,150,2017],["jivoi/awesome-ml-for-cybersecurity",9500,163,2016],["meirwah/awesome-incident-response",9500,222,2015],["kmaasrud/awesome-obsidian",9500,183,2020],["emacs-tw/awesome-emacs",9400,750,2014],["AdrienTorris/awesome-blazor",9400,372,2018],["NirantK/awesome-project-ideas",9400,57,2017],["lauris/awesome-scala",9300,336,2014],["ai-collection/ai-collection",9200,1225,2023],["mendel5/alternative-front-ends",9200,220,2020],["igorbarinov/awesome-data-engineering",9200,313,2015],["davidsonfellipe/awesome-wpo",9100,273,2014],["ai-boost/awesome-prompts",9100,329,2024],["WangRongsheng/awesome-LLM-resources",9000,1113,2024],["cipher387/osint_stuff_tool_collection",9000,1542,2021],["frenck/awesome-home-assistant",8600,395,2018],["grpc-ecosystem/awesome-grpc",8400,347,2017],["mmccaff/PlacesToPostYourStartup",8200,103,2014],["cporter202/API-mega-list",8200,11050,2025],["rust-embedded/awesome-embedded-rust",8200,620,2018],["jamez-bondos/awesome-gpt4o-images",8200,139,2025],["tauri-apps/awesome-tauri",8100,110,2022],["bnb/awesome-developer-streams",8000,1104,2018],["Axorax/awesome-free-apps",8000,606,2024],["JoseDeFreitas/awesome-youtubers",7900,500,2020],["reHackable/awesome-reMarkable",7800,200,2018],["linsa-io/books",7700,712,2017],["0xInfection/Awesome-WAF",7700,186,2019],["agmmnn/awesome-blender",7500,749,2020],["andrew--r/frontend-case-studies",7400,943,2018],["liuchong/awesome-roadmaps",7400,73,2019],["shekhargulati/52-technologies-in-2016",7300,44,2016],["sobolevn/awesome-cryptography",7200,271,2016],["ChromeDevTools/awesome-chrome-devtools",7200,73,2016],["AllThingsSmitty/must-watch-javascript",7100,85,2014],["EdoStra/Marketing-for-Founders",7100,255,2025],["RyanNielson/awesome-unity",7100,64,2014],["likedan/Awesome-CoreML-Models",7100,65,2017],["bkrem/awesome-solidity",7100,197,2016],["piotrkulpinski/open-source-alternatives",6800,1085,2026],["georgezouq/awesome-ai-in-finance",6700,263,2018],["dastergon/awesome-chaos-engineering",6700,245,2017],["src-d/awesome-machine-learning-on-source-code",6700,265,2017],["pditommaso/awesome-pipeline",6600,246,2014],["shuaibiyy/awesome-tf",6600,486,2016],["facundoolano/software-papers",6600,332,2022],["sirredbeard/awesome-wsl",6600,215,2018],["decalage2/awesome-security-hardening",6600,208,2019],["chubin/awesome-console-services",6600,74,2017],["qinwf/awesome-R",6500,488,2014],["mahseema/awesome-ai-tools",6500,431,2023],["sindresorhus/awesome-chatgpt",6500,190,2023],["reorx/awesome-chatgpt-api",6400,124,2023],["vavkamil/awesome-bugbounty-tools",6400,410,2021],["VoltAgent/awesome-codex-subagents",6400,182,2026],["heilcheng/awesome-agent-skills",6300,356,2025],["Vedenin/useful-java-links",6200,805,2016],["ebertti/awesome-telegram",6200,374,2016],["EwingYangs/awesome-open-gpt",6100,56,2023],["tensorchord/Awesome-LLMOps",6000,516,2022],["secfigo/Awesome-Fuzzing",5900,175,2016],["Wolg/awesome-swift",5900,177,2014],["0xNyk/awesome-hermes-agent",5900,291,2026],["PanXProject/awesome-certificates",5900,224,2020],["korfuri/awesome-monorepo",5900,96,2017],["micromata/awesome-javascript-learning",5900,61,2016],["lauragift21/awesome-learning-resources",5800,501,2018],["awesome-css-group/awesome-css",5600,204,2015],["fabacab/awesome-cybersecurity-blueteam",5600,237,2018],["nuxt/awesome",5500,193,2017],["nix-community/awesome-nix",5500,203,2019],["awesome-android-root/awesome-android-root",5500,31,2024],["zhaoxin94/awesome-domain-adaptation",5500,804,2018],["onqtam/awesome-cmake",5400,150,2016],["janikvonrotz/awesome-powershell",5400,163,2015],["hyprland-community/awesome-hyprland",5400,201,2022],["filipecalegario/awesome-vibe-coding",5400,131,2025],["mgramin/awesome-db-tools",5300,320,2018],["sacridini/Awesome-Geospatial",5300,1588,2016],["wangzhe3224/awesome-systematic-trading",5300,337,2021],["cheatsnake/backend-cheats",5200,895,2022],["nyas1/Material-You-app-list",5200,1202,2022],["yinggaozhen/awesome-go-cn",5200,2803,2019],["qmonnet/awesome-ebpf",5200,258,2017],["inputsh/awesome-linux",5200,79,2015],["sindresorhus/promise-fun",5200,49,2016],["joho/awesome-code-review",5200,63,2018],["timofurrer/awesome-asyncio",5100,80,2016],["cmhungsteve/Awesome-Transformer-Attention",5000,2204,2021],["ai-boost/awesome-harness-engineering",4900,528,2026],["hemanth/awesome-pwa",4900,333,2015],["alvinreal/awesome-opensource-ai",4900,1122,2026],["may215/awesome-termux-hacking",4900,359,2019],["nichtdax/awesome-totally-open-chatgpt",4800,36,2023],["dustinspecker/awesome-eslint",4800,233,2015],["0x4D31/awesome-threat-detection",4800,309,2018],["brycewang-stanford/Auto-Empirical-Research-Skills",4800,106,2026],["sindresorhus/awesome-npm",4800,108,2016],["gostor/awesome-go-storage",4700,132,2017],["jaredthecoder/awesome-vehicle-security",4700,224,2016],["xixu-me/awesome-persona-distill-skills",4700,75,2026],["markusschanta/awesome-jupyter",4700,220,2017],["r0f1/datascience",4700,950,2018],["willianjusten/awesome-svg",4700,35,2014],["lukasmasuch/best-of-python",4600,808,2021],["phodal/awesome-iot",4600,422,2015],["ipfs/awesome-ipfs",4600,97,2015],["Astrosp/Awesome-OSINT-List",4600,1807,2022],["xianyu110/awesome-openclaw-tutorial",4600,74,2026],["fosslife/awesome-ricing",4600,528,2018],["gbdev/awesome-gbdev",4500,368,2016],["love2d-community/awesome-love2d",4500,316,2015],["HQarroum/awesome-iot",4500,164,2015],["zudochkin/awesome-newsletters",4500,310,2015],["tortuvshin/open-apps",4500,222,2019],["baba-s/awesome-unity-open-source-on-github",4500,858,2019],["AlexAnys/awesome-openclaw-usecases-zh",4400,68,2026],["hal9ai/awesome-dataviz",4400,426,2015],["Ravencentric/awesome-arr",4400,111,2023],["wmariuss/awesome-devops",4400,406,2019],["openMVG/awesome_3DReconstruction_list",4400,166,2016],["HumanSignal/awesome-data-labeling",4400,45,2019],["agarrharr/awesome-macos-screensavers",4400,48,2015],["denolib/awesome-deno",4400,214,2018],["uraimo/Awesome-Swift-Playgrounds",4400,166,2016],["danielecook/Awesome-Bioinformatics",4300,188,2014],["pedramamini/awesome-yara",4300,268,2017],["giuliacassara/awesome-social-engineering",4300,88,2017],["yvoronoy/awesome-english",4300,156,2016],["tomhuang12/awesome-k8s-resources",4200,247,2020],["0xor0ne/awesome-list",4200,1330,2022],["DopplerHQ/awesome-bots",4200,432,2017],["p-ranav/awesome-hpp",4200,263,2020],["anu0012/awesome-computer-science-opportunities",4200,153,2018],["killop/anything_about_game",4200,5595,2020],["briatte/awesome-network-analysis",4100,791,2016],["Zheaoli/awesome-coins",4100,288,2017],["thedaviddias/Resources-Front-End-Beginner",4100,181,2017],["grananqvist/Awesome-Quant-Machine-Learning-Trading",4100,124,2018],["semlinker/awesome-typescript",4100,253,2018],["jinwchoi/awesome-action-recognition",4000,184,2016],["kakoni/awesome-healthcare",4000,164,2016],["mergisi/awesome-openclaw-agents",4000,264,2026],["JefMari/awesome-wysiwyg-editors",4000,116,2017],["gamedev-skills/awesome-gamedev-agent-skills",4000,89,2026],["stackshareio/awesome-stacks",3900,209,2019],["unicodeveloper/awesome-opensource-apps",3900,147,2016],["gramantin/awesome-rails",3900,419,2014],["jghoman/awesome-apache-airflow",3900,204,2018],["Ly0n/awesome-robotic-tooling",3900,940,2019],["seandavi/awesome-single-cell",3900,539,2016],["micromata/awesome-css-learning",3900,44,2018],["arainho/awesome-api-security",3900,158,2020],["youneslaaroussi/ui-buttons",3900,101,2022],["inputsh/awesome-c",3900,388,2015],["fcambus/nginx-resources",3800,93,2014],["ivbeg/awesome-status-pages",3800,217,2017],["husnainfareed/awesome-ethical-hacking-resources",3800,100,2017],["denji/awesome-http-benchmark",3800,100,2017],["brootware/awesome-cyber-security-university",3700,144,2022],["xyflow/awesome-node-based-uis",3700,151,2022],["krishnakumarsekar/awesome-quantum-machine-learning",3700,268,2017],["sporto/awesome-elm",3700,247,2015],["oven-sh/awesome-bun",3700,91,2022],["dreamingechoes/awesome-mental-health",3700,136,2018],["yjjnls/awesome-blockchain",3600,365,2018],["mhxion/awesome-discord-communities",3600,275,2019],["krzjoa/awesome-python-data-science",3600,381,2017],["jdorfman/awesome-json-datasets",3600,155,2015],["qjcg/awesome-typst",3600,204,2023],["web-padawan/awesome-web-components",3600,529,2014],["pawl/awesome-etl",3600,66,2015],["dawdle-deer/awesome-learn-gamedev",3600,251,2022],["vaib25vicky/awesome-mobile-security",3600,246,2020],["veelenga/awesome-crystal",3600,452,2015],["V33RU/awesome-connected-things-sec",3600,900,2018],["filipecalegario/awesome-generative-ai",3600,1143,2021],["xgrommx/awesome-functional-programming",3500,883,2015],["styfle/awesome-online-ide",3500,58,2017],["iDoka/awesome-canbus",3500,257,2020],["0x4D31/awesome-oscp",3500,88,2019],["knightnemo/Awesome-World-Models",3500,769,2025],["styled-components/awesome-styled-components",3500,200,2017],["Anil-matcha/awesome-open-source-saas-alternatives",3400,295,2023],["aviaryan/awesome-no-login-web-apps",3400,203,2016],["ai-boost/Awesome-GPTs",3400,464,2023],["jyguyomarch/awesome-productivity",3400,82,2015],["guanguans/favorite-link",3400,356,2018],["bergside/awesome-design-skills",3300,136,2026],["taishi-i/awesome-ChatGPT-repositories",3300,2764,2023],["michelpereira/awesome-open-source-games",3300,436,2012],["gunnarmorling/awesome-opensource-data-engineering",3300,85,2020],["dangkhoasdc/awesome-ai-residency",3300,88,2018],["desireevl/awesome-quantum-computing",3300,139,2018],["kirang89/pycrumbs",3300,389,2013],["emijrp/awesome-awesome",3200,83,2014],["minar09/awesome-virtual-try-on",3200,312,2020],["Calinou/awesome-gamedev",3200,373,2015],["alfred-workflows/awesome-alfred-workflows",3200,88,2016],["gamontal/awesome-katas",3200,91,2015],["rob-med/awesome-TS-anomaly-detection",3200,34,2017],["jiujuan/go-collection",3200,166,2019],["jslee02/awesome-robotics-libraries",3100,230,2016],["mjebrahimi/Awesome-Microservices-DotNet",3100,243,2020],["pico-8/awesome-PICO-8",3100,95,2015],["0PandaDEV/awesome-windows",3100,379,2024],["eleev/ios-learning-materials",3100,85,2017],["weiaicunzai/awesome-image-classification",3100,218,2012],["lirantal/awesome-nodejs-security",3100,136,2018],["manuzhang/awesome-streaming",3000,142,2014],["jupyter-naas/awesome-notebooks",3000,4180,2020],["rafska/awesome-local-llm",3000,326,2025],["ybayle/awesome-deep-learning-music",3000,97,2017],["Kikobeats/awesome-api",3000,95,2015],["huyingjie/Checklist-Checklist",3000,137,2017],["dakshshah96/awesome-startup-credits",3000,53,2019],["watson/awesome-computer-history",3000,92,2016],["paperswithcode/releasing-research-code",3000,26,2020],["bytewax/awesome-public-real-time-datasets",3000,117,2023],["dictcp/awesome-git",3000,133,2015],["johnjago/awesome-free-software",2900,163,2016],["ItIsMeCall911/Awesome-Telegram-OSINT",2900,96,2021],["simonaronsson/awesome-software-architecture",2900,61,2018],["redhuntlabs/Awesome-Asset-Discovery",2900,90,2019],["editor-js/awesome-editorjs",2900,163,2020],["networktocode/awesome-network-automation",2900,352,2017],["luo-junyu/Awesome-Agent-Papers",2900,364,2025],["moul/awesome-ssh",2900,104,2016],["eastlakeside/awesome-productivity-cn",2900,103,2021],["razum2um/awesome-clojure",2900,338,2014],["i365dev/awesome-seo",2800,78,2021],["eddwebster/football_analytics",2800,2082,2021],["diegocard/awesome-html5",2800,184,2014],["marcobiedermann/search-engine-optimization",2800,114,2014],["woop/awesome-quantified-self",2800,178,2016],["emptymalei/awesome-research",2800,300,2014],["engineering-management/awesome-engineering-management",2800,344,2021],["linsa-io/alfred-workflows",2800,209,2017],["agucova/awesome-esp",2800,104,2017],["DyegoCosta/trabalhando-remoto",2800,77,2015],["user1342/Awesome-Android-Reverse-Engineering",2800,91,2023],["ttt30ga/awesome-product-design",2700,146,2017],["ramnes/awesome-mongodb",2700,191,2015],["kuchin/awesome-ceo",2700,87,2022],["jsuarezruiz/awesome-dotnet-maui",2700,180,2021],["iipc/awesome-web-archiving",2700,188,2017],["italiaremote/awesome-italia-remote",2700,396,2022],["docsifyjs/awesome-docsify",2700,285,2018],["toolleeo/awesome-cli-apps-in-a-csv",2700,2225,2017],["mikalv/awesome-qt-qml",2600,256,2017],["erikw/vim-keybindings-everywhere-the-ultimate-list",2600,306,2021],["kdeldycke/awesome-engineering-team-management",2600,370,2019],["AwesomeHomelab/awesome-homelab",2600,718,2024],["phptodayorg/php-must-watch",2600,79,2015],["mesquidar/ForensicsTools",2600,217,2020],["luban-agi/Awesome-Domain-LLM",2600,121,2023],["transitive-bullshit/awesome-puppeteer",2600,92,2018],["protontypes/open-sustainable-technology",2600,2767,2020],["webfuse-com/awesome-autoresearch",2600,107,2026],["tmcw/awesome-geojson",2600,124,2015],["botcrypto-io/awesome-crypto-trading-bots",2500,90,2021],["zigcc/awesome-zig",2500,615,2022],["davidgasquez/awesome-duckdb",2500,423,2023],["noteflakes/awesome-music",2500,140,2015],["nikgraf/awesome-draft-js",2500,116,2016],["rootsongjc/awesome-cloud-native",2500,811,2017],["marcelgsantos/learning-oop-in-php",2500,234,2015],["akuity/awesome-argo",2500,406,2021],["yissachar/awesome-dart",2500,96,2014],["he-y/Awesome-Pruning",2500,285,2019],["fkie-cad/awesome-embedded-and-iot-security",2500,131,2019],["friuns2/Leaked-GPTs",2500,320,2023],["cbsudux/awesome-human-pose-estimation",2500,87,2018],["mr-karan/awesome-investing",2500,158,2017],["yaolifeng0629/Awesome-independent-tools",2500,296,2024],["study8677/awesome-architecture",2500,84,2026],["yibie/awesome-jev",2500,687,2026],["AI-Efficiency/Awesome-Model-Quantization",2500,786,2018],["eug/awesome-opengl",2500,85,2015],["dend/awesome-product-management",2400,160,2025],["ARPSyndicate/awesome-intelligence",2400,514,2023],["sindresorhus/awesome-whisper",2400,65,2023],["amis92/csharp-source-generators",2400,274,2020],["eon01/awesome-chatgpt",2400,167,2022],["ktaranov/sqlserver-kit",2400,566,2015],["awesome-mqtt/awesome-mqtt",2400,340,2015],["TheJambo/awesome-testing",2400,223,2016],["kujian/frontendDaily",2400,187,2016],["yudataguy/awesome-japanese",2400,195,2017],["KrishMunot/awesome-startup",2400,277,2015],["SubmitGame/awesome-decomp-games",2400,2422,2026],["codingknite/frontend-development",2300,553,2020],["thenaturalist/awesome-business-intelligence",2300,231,2017],["digitalblossom/alternative-frontends",2300,119,2021],["ChenHsing/Awesome-Video-Diffusion-Models",2300,386,2023],["rajasegar/awesome-htmx",2300,197,2021],["hng/tech-coops",2300,236,2017],["BolajiAyodeji/awesome-technical-writing",2300,190,2019],["jubalh/awesome-os",2300,240,2017],["dreikanter/ruby-bookmarks",2300,337,2014],["kdeldycke/awesome-iam",2300,241,2019],["latentcat/latentbox",2300,38,2024],["Escapingbug/awesome-browser-exploit",2300,79,2018],["stax76/awesome-mpv",2300,621,2022],["StefanoCecere/awesome-opensource-unity",2300,432,2019],["Separius/awesome-sentence-embedding",2300,60,2018],["MarcSkovMadsen/awesome-streamlit",2300,96,2019],["ucg8j/awesome-dash",2300,75,2017],["andyrewlee/awesome-agent-orchestrators",2300,282,2026],["hyp1231/awesome-llm-powered-agent",2300,230,2023],["OffcierCia/ultimate-defi-research-base",2200,264,2021],["uhub/awesome-c",2200,1772,2015],["orbitalindex/awesome-space",2200,208,2019],["arbox/machine-learning-with-ruby",2200,164,2017],["radi-cho/awesome-gpt4",2200,76,2022],["sudhakar3697/awesome-electron-alternatives",2200,158,2019],["wowlusitong/awesome-education",2200,126,2018],["ai-for-developers/awesome-ai-coding-tools",2200,532,2025],["mcanouil/awesome-quarto",2200,224,2022],["AntBranch/awesome-github",2200,279,2016],["hahwul/DevSecOps",2200,50,2020],["Carlos487/awesome-wpf",2200,109,2020],["YouMind-OpenLab/awesome-seedance-2-prompts",2200,132,2026],["imaurer/awesome-llm-json",2200,52,2023],["TheComputerM/awesome-svelte",2200,202,2020],["n2cholas/awesome-jax",2200,218,2020],["michelpereira/awesome-games-of-coding",2200,42,2017],["fkromer/awesome-ros2",2100,321,2017],["PavelGrigoryevDS/awesome-data-analysis",2100,947,2025],["syxanash/awesome-web-desktops",2100,339,2019],["kalaiser/awesome-cdk",2100,114,2019],["zero-equals-false/awesome-programming-books",2100,64,2019],["matchai/awesome-pinned-gists",2100,60,2019],["zingchart/awesome-charting",2100,64,2016],["vlang/awesome-v",2100,311,2019],["devisasari/awesome-gpt-store",2100,176,2023],["milabs/awesome-linux-rootkits",2100,58,2018],["xioacd99/study-is-wonderful",2100,135,2022],["tianshanghong/awesome-anki",2100,75,2018],["pFarb/awesome-crypto-papers",2100,102,2017],["opsre/awesome-ops",2100,662,2024],["Fr0sT-Brutal/awesome-pascal",2100,519,2014],["CryptoAILab/Awesome-LM-SSP",2100,46,2024],["brabadu/awesome-fonts",2100,161,2015],["oshliaer/google-apps-script-awesome-list",2100,178,2017],["ratatui/awesome-ratatui",2100,569,2023],["gleam-lang/awesome-gleam",2100,241,2019],["ai4s-research/awesome-ai-for-science",2000,752,2026],["hslatman/awesome-industrial-control-system-security",2000,93,2015],["ivan-bilan/The-NLP-Pandect",2000,604,2020],["vonzosten/awesome-LangGraph",2000,209,2025],["caramaschiHG/awesome-ai-agents-2026",2000,309,2026],["jim-schwoebel/awesome_ai_agents",2000,1710,2025],["mikbry/awesome-webgpu",2000,155,2020],["szabgab/awesome-for-non-programmers",2000,38,2018],["matteofigus/awesome-speaking",2000,39,2015],["agarrharr/awesome-static-website-services",2000,145,2015],["typeddjango/awesome-python-typing",2000,137,2019],["EinGuterWaran/awesome-opensource-boilerplates",2000,30,2024],["Guang000/Awesome-Dataset-Distillation",2000,372,2022],["OffcierCia/On-Chain-Investigations-Tools-List",2000,734,2022],["shahednasser/awesome-resources",2000,701,2020],["hstcscolor/awesome-gameserver-cn",2000,114,2017],["ansible-community/awesome-ansible",2000,102,2017],["guardrailsio/awesome-golang-security",2000,35,2018],["Kalmaegi/computer-book-list",2000,689,2021],["sereneblue/awesome-oss",2000,438,2017],["fabacab/awesome-lockpicking",2000,54,2017],["androiddevnotes/awesome-android-learning-resources",2000,409,2020],["mthcht/awesome-lists",2000,794,2022],["OpenMindClub/awesome-chatgpt",1900,165,2023],["life-itself/web3",1900,163,2022],["krzemienski/awesome-video",1900,2284,2019],["mehcode/awesome-atom",1900,27,2015],["bobeff/programming-math-science",1900,1935,2021],["shahraizali/awesome-django",1900,357,2014],["wq2012/awesome-diarization",1900,179,2019],["brycejohnston/awesome-agriculture",1900,77,2018],["best-of-lists/best-of",1900,31,2020],["totogo/awesome-knowledge-graph",1900,113,2019],["XiaomingX/indie-hacker-tools-plus",1900,164,2024],["tramcar/awesome-job-boards",1900,105,2015],["OffcierCia/Crypto-OpSec-SelfGuard-RoadMap",1900,486,2021],["warpnet/awesome-prometheus",1900,99,2017],["raphamorim/awesome-canvas",1900,106,2014],["thinkwee/AgentsMeetRL",1900,729,2025],["VoltAgent/awesome-ai-agent-papers",1900,395,2026],["XamSome/awesome-xamarin",1900,203,2015],["softwareunderground/awesome-open-geoscience",1900,166,2017],["MuxaJlbl4/Awesome-PlayStation-Vita",1900,455,2020],["agamm/awesome-developer-first",1900,301,2020],["MobilityData/awesome-transit",1900,463,2015],["yackermann/awesome-webauthn",1900,143,2019],["blanboom/awesome-home-networking-cn",1900,415,2020],["kosmos/awesome-generative-art",1900,173,2017],["florimondmanca/awesome-asgi",1800,79,2019],["uhub/awesome-go",1800,1554,2015],["aloisdg/awesome-regex",1800,125,2015],["hysnsec/awesome-threat-modelling",1800,118,2019],["guillaume-chevalier/Awesome-Deep-Learning-Resources",1800,136,2016],["xiaohanyu/awesome-tikz",1800,111,2017],["Prat011/awesome-llm-skills",1800,78,2025],["changh95/visual-slam-roadmap",1800,382,2021],["mcauser/awesome-micropython",1800,885,2018],["mjhea0/awesome-flask",1800,167,2019],["ebu/awesome-broadcasting",1800,209,2014],["sirredbeard/awesome-unix",1800,262,2017],["artix41/awesome-transfer-learning",1800,146,2017],["wdhdev/free-for-life",1800,409,2023],["jaywcjlove/awesome-swift-macos-apps",1800,1568,2024],["antontarasenko/awesome-economics",1800,94,2016],["ashishb/osx-and-ios-security-awesome",1800,71,2015],["uhub/awesome-matlab",1800,1733,2015],["vuetifyjs/awesome",1800,67,2018],["jakob-pennington/awesome-devsecops",1800,156,2020],["Hiflylabs/awesome-dbt",1700,308,2021],["web-padawan/awesome-lit",1700,216,2018],["mathworks-robotics/awesome-matlab-robotics",1700,104,2020],["analyticalmonk/awesome-neuroscience",1700,67,2017],["lukemurraynz/awesome-azure-architecture",1700,318,2022],["weaveworks/awesome-gitops",1700,42,2019],["anubhavsrivastava/awesome-ui-component-library",1700,295,2018],["PicGo/Awesome-PicGo",1700,110,2019],["gdamdam/awesome-decentralized-web",1700,141,2016],["faroit/awesome-python-scientific-audio",1700,107,2016],["corca-ai/awesome-llm-security",1700,102,2023],["drobakowski/awesome-erlang",1700,96,2014],["semantalytics/awesome-semantic-web",1700,1096,2016],["C-BJ/awesome-zig",1700,934,2022],["webfuse-com/awesome-claude",1700,92,2025],["nanxstats/awesome-shiny-extensions",1700,700,2018],["benthecoder/yt-channels-DS-AI-ML-CS",1700,199,2021],["scadastrangelove/awesome-ai-security-tools",1700,650,2026],["ong/awesome-decentralized-finance",1700,120,2018],["open-saas-directory/awesome-native-macosx-apps",1700,247,2025],["JShollaj/awesome-llm-interpretability",1700,102,2023],["ivanvorobei/awesome-ios",1700,160,2019],["gs00s/awesome-vue-3",1600,274,2020],["stephrobert/awesome-french-devops",1600,113,2022],["dersvenhesse/awesome-scriptable",1600,69,2020],["janosh/awesome-normalizing-flows",1600,117,2019],["snwfdhmp/awesome-gpt-prompt-engineering",1600,149,2023],["JesseTG/awesome-qt",1600,146,2016],["packing-box/awesome-executable-packing",1600,762,2021],["fiatjaf/awesome-loginless",1600,40,2018],["Furthir/awesome-useful-projects",1600,550,2024],["kuanhungchen/awesome-tiny-object-detection",1600,114,2019],["jaywcjlove/awesome-uikit",1600,563,2017],["qingsongedu/awesome-AI-for-time-series-papers",1600,565,2022],["FancyGrid/awesome-grid",1600,71,2016],["Kazhnuz/awesome-gnome",1600,207,2017],["rcalixte/awesome-wayland",1600,319,2020],["m0nad/awesome-privilege-escalation",1600,189,2019],["jetli/awesome-yew",1600,201,2019],["jassics/awesome-aws-security",1600,171,2019],["OffcierCia/non-typical-OSINT-guide",1600,472,2023],["RichardLitt/awesome-fantasy",1600,219,2015],["mxschmitt/awesome-playwright",1600,95,2020],["nschloe/awesome-scientific-computing",1600,94,2018],["steel-dev/awesome-web-agents",1600,112,2025],["sergey-pimenov/awesome-web-animation",1600,109,2017],["currentslab/awesome-vector-search",1600,81,2021],["vkarampinis/awesome-icons",1600,84,2016],["frankiefab100/Blockchain-Development-Resources",1600,270,2021],["hackerkid/bots",1600,117,2016],["burningtree/awesome-json",1600,294,2015],["soroushchehresa/awesome-coronavirus",1600,236,2020],["kr1sp1n/awesome-gemini",1600,269,2020],["radek-sprta/awesome-game-remakes",1600,454,2020],["Jolg42/awesome-typography",1600,387,2016],["Awesome-Image-Registration-Organization/awesome-image-registration",1600,3941,2019],["jest-community/awesome-jest",1600,141,2018],["chaofengc/Awesome-Image-Quality-Assessment",1500,163,2021],["tstanislawek/awesome-document-understanding",1500,104,2021],["ringabout/awesome-nim",1500,443,2020],["joggerplus/awesome-weex",1500,113,2016],["sjfricke/awesome-webgl",1500,177,2017],["niri-wm/awesome-niri",1500,84,2025],["mikeroyal/Unreal-Engine-Guide",1500,1085,2021],["ZhiningLiu1998/awesome-imbalanced-learning",1500,135,2020],["chinaBerg/awesome-canvas",1500,306,2021],["ahundt/awesome-robotics",1500,79,2017],["svaksha/Julia.jl",1500,40,2013],["fregante/Awesome-WebExtensions",1500,46,2016],["SquadcastHub/awesome-sre-tools",1500,370,2019],["ayaka14732/awesome-rime",1500,261,2019],["sangyx/deep-finance",1500,70,2020],["cedrickchee/awesome-wireguard",1500,112,2021],["0voice/Awesome_c-cpp_Projects",1500,631,2025],["mdibaiee/awesome-lite-websites",1500,43,2017],["strapi-community/awesome-strapi",1500,117,2020],["ksluckow/awesome-symbolic-execution",1500,65,2017],["OpenMOSS/Awesome-WAM",1500,107,2026],["vavkamil/awesome-vulnerable-apps",1500,105,2019],["AwesomeVisa/awesome-immigration",1500,40,2019],["felladrin/awesome-ai-web-search",1500,146,2024],["MystenLabs/awesome-move",1500,145,2022],["lorabv/awesome-agile",1500,63,2017],["sindresorhus/amas",1500,186,2015],["soruly/awesome-acg",1500,217,2016],["beardicus/awesome-plotters",1500,295,2018],["nioperas06/awesome-django-rest-framework",1500,89,2017],["vramana/awesome-reasonml",1500,109,2016],["haokaiyang/Mac-QuickLook",1500,114,2018],["DjangoEx/awesome-python-resources",1500,334,2022],["proyecto26/awesome-unity",1500,85,2020],["gruhn/awesome-naming",1500,97,2019],["AllsafeCyberSecurity/awesome-ghidra",1400,51,2019],["vitalets/awesome-smart-tv",1400,75,2016],["ZYSzys/awesome-captcha",1400,61,2018],["stevinz/awesome-game-engine-dev",1400,1027,2021],["awesome-bootstrap-org/awesome-bootstrap",1400,123,2014],["fsprojects/awesome-fsharp",1400,214,2016],["cheeaun/awesome-hacker-news",1400,156,2015],["pierpaolo28/Awesome-FDE-Roadmap",1400,89,2026],["alexsosn/iOS_ML",1400,277,2015],["yangshun/awesome-spinners",1400,49,2016],["philsturgeon/awesome-earth",1400,332,2020],["kaiiyer/awesome-vulnerable",1400,189,2019],["not-yet-awesome-rust/not-yet-awesome-rust",1400,57,2018],["metrofun/machine-learning-surveys",1400,82,2017],["telegram-mini-apps-dev/awesome-telegram-mini-apps",1400,59,2023],["opendilab/awesome-model-based-RL",1400,477,2021],["notthetup/awesome-webaudio",1400,108,2015],["taielab/awesome-hacking-lists",1400,11757,2020],["hashgraph-online/awesome-codex-plugins",1400,369,2026],["margaretmz/awesome-tensorflow-lite",1400,70,2020],["jaredpalmer/awesome-react-render-props",1400,89,2017],["flame-engine/awesome-flame",1400,108,2019],["acgeospatial/awesome-earthobservation-code",1400,516,2020],["aleixmorgadas/awesome-engineering-strategy",1400,66,2022],["Anil-matcha/awesome-muse-connectors",1400,29,2024],["sergey-pronin/Awesome-Vulnerability-Research",1400,90,2017],["zemmsoares/awesome-rices",1400,254,2023],["taranjeet/awesome-gpts",1400,743,2023],["infosecB/awesome-detection-engineering",1400,79,2020],["SE-ML/awesome-seml",1400,84,2020],["automata/awesome-jamstack",1400,178,2018],["balavenkatesh3322/CV-pretrained-model",1400,102,2020],["Yuan-ManX/ai-game-devtools",1400,807,2023],["nrdmn/awesome-zig",1400,144,2019],["hetznercloud/awesome-hcloud",1400,159,2018],["kdeldycke/awesome-billing",1400,238,2019],["szenergy/awesome-lidar",1400,286,2020],["gbadev-org/awesome-gbadev",1400,82,2017],["sudara/awesome-juce",1400,284,2022],["gokayfem/awesome-vlm-architectures",1300,201,2024],["avtzis/awesome-linux-ricing",1300,357,2023],["davisonio/awesome-irc",1300,107,2016],["trevor-vincent/awesome-high-performance-computing",1300,777,2021],["noahbuscher/inspire",1300,75,2013],["valeman/awesome-conformal-prediction",1300,1059,2021],["janosh/awesome-sveltekit",1300,77,2021],["Siddharth11/Colorful",1300,105,2016],["jnmcfly/awesome-startpage",1300,71,2020],["ml-tooling/best-of-python-dev",1300,539,2021],["facyber/awesome-networking",1300,85,2018],["aimerou/awesome-ai-papers",1300,177,2023],["ThomasVitale/awesome-spring",1300,51,2020],["wddadk/Offensive-OSINT-Tools",1300,139,2022],["brycewang-stanford/Awesome-Journal-Skills",1300,760,2026],["julionc/awesome-shopify",1300,142,2016],["agile6v/awesome-nginx",1300,293,2015],["huaize2020/awesome-nodejs",1300,1010,2021],["atakanaltok/awesome-useful-websites",1300,1429,2022],["myshov/awesome-mobile-web-development",1300,101,2018],["gmelodie/awesome-wordlists",1300,43,2019],["linsa-io/courses",1300,136,2017],["vapor-community/awesome-vapor",1300,72,2018],["rajasegar/awesome-micro-frontends",1300,174,2018],["mfaisalkhatri/awesome-learning",1300,1318,2023],["DmytroLitvinov/awesome-flake8-extensions",1300,147,2018],["rafaskb/awesome-libgdx",1300,91,2019],["Siilwyn/awesome-pixel-art",1300,54,2017],["valpackett/awesome-gtk",1300,892,2018],["golang-china/awesome-go-zh",1300,133,2018],["irazasyed/awesome-cloudflare",1300,103,2019],["binaryshrey/Awesome-Android-Open-Source-Projects",1300,191,2020],["ysymyth/awesome-language-agents",1300,87,2023],["jonaschn/awesome-he",1300,88,2018],["durgeshsamariya/Data-Science-Machine-Learning-Project-with-Source-Code",1300,27,2021],["Malix-Labs/Awesome-Atomic",1300,102,2021],["0xsline/awesome-deepseek-harness",1300,846,2026],["thehappydinoa/awesome-censys-queries",1200,73,2022],["yousefebrahimi0/1000-AI-collection-tools",1200,963,2023],["jin/awesome-bazel",1200,347,2017],["ayushidalmia/awesome-fashion-ai",1200,110,2017],["originalankur/awesome-django-admin",1200,52,2016],["e2b-dev/awesome-ai-sdks",1200,36,2023],["Mindbaz/awesome-opensource-email",1200,167,2022],["glauberfc/awesome-react-hooks",1200,65,2018],["HollyAdele/awesome-programming-for-kids",1200,29,2016],["ghoullier/awesome-template-literal-types",1200,42,2020],["mostafatouny/awesome-theoretical-computer-science",1200,212,2021],["feross/awesome-mad-science",1200,56,2014],["jsuarezruiz/awesome-xamarin-forms",1200,522,2017],["jacobdjwilson/awesome-annual-security-reports",1200,549,2022],["shadawck/awesome-cli-frameworks",1200,125,2020],["bcoe/awesome-cross-platform-nodejs",1200,72,2015],["benallfree/awesome-pocketbase",1200,97,2022],["gary23ai/awesome_OpenSetRecognition_list",1200,220,2019],["ankane/awesome-legal",1200,33,2020],["zukixa/cool-ai-stuff",1200,63,2023],["carlosperate/awesome-microbit",1200,568,2016],["morluto/awesome-reverse-engineering",1200,159,2026],["uhub/awesome-cpp",1200,1653,2015],["theoephraim/awesome-cloudflare-selfhosted",1200,134,2026],["transitive-bullshit/awesome-ffmpeg",1200,34,2018],["uhub/awesome-python",1200,1843,2015],["CompSciLauren/awesome-git-hooks",1200,38,2019],["BasixKOR/awesome-activitypub",1200,59,2018],["bestxtools/awesome-toolbox-chinese",1200,154,2022],["obazoud/awesome-dashboard",1200,47,2014],["drom/awesome-hdl",1200,139,2017],["currenjin/site-for-developers",1200,389,2022],["run-as-root/awesome-magento2",1200,230,2017],["nayafia/awesome-maintainers",1200,150,2018],["OTFCG/Awesome-Game-Analysis",1200,51,2023],["curieuxjy/Awesome_Quadrupedal_Robots",1200,972,2021],["pe3zx/my-infosec-awesome",1200,916,2017],["usamahz/cpu-performance-engineering",1200,309,2026],["junyanz/CatPapers",1200,628,2016],["qwdwqfwq/topconf-paper-figure-gallery",1200,30,2026],["rohitg00/awesome-claude-design",1200,196,2026],["steven2358/awesome-blockchain-ai",1200,47,2018],["Marcin214/awesome-automotive",1200,242,2020],["jfilter/Sublime-Text-Plugins-for-Frontend-Web-Development",1200,61,2017],["cedrickchee/awesome-transformer-nlp",1200,302,2019],["SyMind/awesome-bilibili",1100,72,2023],["Corsinvest/awesome-proxmox-ve",1100,270,2020],["awesome-gptX/awesome-gpt",1100,184,2023],["leomaurodesenv/game-datasets",1100,196,2018],["iDoka/awesome-embedded-software",1100,269,2020],["shaypal5/awesome-twitter-data",1100,80,2018],["daviddias/awesome-hacking-locations",1100,75,2016],["christian-bromann/awesome-selenium",1100,96,2014],["ddotta/awesome-polars",1100,335,2023],["TheShadow29/awesome-grounding",1100,162,2018],["elangosundar/awesome-README-templates",1100,26,2020],["n0kovo/awesome-password-cracking",1100,192,2022],["cdwv/awesome-helm",1100,79,2018],["kciter/awesome-style-guide",1100,134,2016],["fishttp/awesome-bluesky",1100,104,2023],["delftopenhardware/awesome-open-hardware",1100,118,2021],["huggingface/awesome-huggingface",1100,59,2021],["emredurukn/awesome-job-boards",1100,521,2019],["AcalephStorage/awesome-devops",1100,60,2016],["738/awesome-url-shortener",1100,103,2019],["Ibexoft/awesome-startup-tools-list",1100,312,2016],["appwrite/awesome-appwrite",1100,312,2019],["hantuzun/awesome-clojurescript",1100,124,2015],["golangci/awesome-go-linters",1100,91,2018],["neurreps/awesome-neural-geometry",1100,115,2022],["hanjuku-kaso/awesome-offline-rl",1100,1157,2020],["YuzeHao2023/Awesome-MCP-Servers",1100,271,2025],["lukasmasuch/best-of-react",1100,713,2021],["theNewDynamic/awesome-hugo",1100,217,2018],["arbox/nlp-with-ruby",1100,191,2016],["cbovis/awesome-digital-nomads",1100,154,2017],["heathersherry/Knowledge-Graph-Tutorials-and-Papers",1100,57,2019],["dreikanter/sublime-bookmarks",1100,117,2014],["msadowski/awesome-weekly-robotics",1100,168,2019],["amio/awesome-micro",1100,86,2016],["anshumanv/awesome-anime-sources",1100,192,2017],["croqaz/awesome-decentralized",1100,115,2017],["shadawck/awesome-anti-forensic",1100,145,2019],["DasterProkio/awesome-ai-companion",1100,254,2026],["simoninithomas/awesome-ai-tools-for-game-dev",1100,42,2023],["uhub/awesome-javascript",1100,1709,2015],["blob42/awesome-explorables",1100,161,2017],["hundredrabbits/awesome-uxn",1100,157,2021],["YOURLS/awesome",1100,394,2017],["jslee02/awesome-collision-detection",1000,79,2016],["luisdnsantos/awesome-computer-graphics",1000,39,2018],["KevinColemanInc/awesome-privacy",1000,129,2017],["SeppPenner/awesome-german-piracy",1000,42,2020],["guardrailsio/awesome-php-security",1000,29,2018],["badges/awesome-badges",1000,59,2021],["wasmlang/awesome-wasm-zh",1000,76,2018],["zacharywhitley/awesome-ocr",1000,324,2019],["okhosting/awesome-storage",1000,47,2019],["modenaxe/awesome-biomechanics",1000,925,2020],["ShaikhWarsi/free-ai-tools",1000,136,2026],["ucatal/awesome-ielts",1000,39,2016],["taishi-i/awesome-japanese-nlp-resources",1000,1812,2022],["sroberts/awesome-iocs",1000,41,2016],["4337Mafia/awesome-account-abstraction",1000,203,2022],["notlmn/awesome-icons",1000,50,2018],["osmlab/awesome-openstreetmap",1000,155,2017],["aleron75/mageres",1000,861,2015],["cpuu/awesome-fuzzing",1000,406,2018],["maltfield/awesome-lemmy-instances",1000,485,2023],["adisonhuang/awesome-kotlin-android",1000,96,2018],["writing-resources/awesome-scientific-writing",1000,67,2018],["carlosperate/awesome-pyproject",1000,116,2019],["AxiomeCG/awesome-threejs",1000,112,2022],["alan2207/awesome-codebases",1000,38,2023],["tehtbl/awesome-note-taking",1000,117,2020],["preactjs/awesome-preact",1000,158,2017],["SupeRuier/awesome-active-learning",1000,73,2019],["UCYBERS/Awesome-Blackhat-Tools",1000,38,2025],["devanshutak25/3d-resources",1000,4744,2025],["benchflow-ai/awesome-evals",1000,407,2026],["iDoka/awesome-automotive-can-id",1000,157,2020],["738/awesome-devbook",1000,192,2021],["one-aalam/awesome-solid-js",1000,201,2021],["sedyh/awesome-ebitengine",1000,156,2021],["prayash/awesome-gatsby",998,135,2017],["Duan-JM/awesome-papers-fewshot",991,28,2019],["jagracey/Awesome-Unicode",989,410,2016],["maxbogo/awesome-ai-tools-for-ui",987,66,2026],["magsther/awesome-opentelemetry",986,288,2022],["ccplugins/awesome-claude-code-plugins",986,295,2025],["aitemr/awesome-git-hooks",983,48,2018],["proyecto26/awesome-jsgames",983,197,2020],["nathanlesage/academics-on-mastodon",981,270,2022],["petk/awesome-jquery",980,182,2014],["heyjunpenn/awesome-jev",976,1016,2026],["sekwiatkowski/awesome-capsule-networks",975,68,2018],["iCHAIT/awesome-subreddits",970,182,2016]],"growth":[["awesome-python","Shortlist policy: 739 \u2192 498",[["2014-07-01",244],["2014-10-01",570],["2015-01-01",594],["2015-04-01",610],["2015-07-01",630],["2015-10-01",647],["2016-01-01",645],["2016-04-01",649],["2016-07-01",659],["2016-10-01",663],["2017-01-01",664],["2017-04-01",686],["2017-07-01",695],["2017-10-01",699],["2018-01-01",711],["2018-04-01",719],["2018-07-01",730],["2018-10-01",736],["2019-01-01",739],["2019-04-01",676],["2019-07-01",678],["2019-10-01",680],["2020-01-01",672],["2020-04-01",671],["2020-07-01",684],["2020-10-01",710],["2021-01-01",715],["2021-04-01",716],["2021-07-01",715],["2021-10-01",715],["2022-01-01",715],["2022-04-01",715],["2022-07-01",715],["2022-10-01",715],["2023-01-01",715],["2023-04-01",715],["2023-07-01",715],["2023-10-01",716],["2024-01-01",716],["2024-04-01",593],["2024-07-01",594],["2024-10-01",595],["2025-01-01",595],["2025-04-01",595],["2025-07-01",595],["2025-10-01",598],["2026-01-01",601],["2026-04-01",526],["2026-07-01",574],["2026-10-01",514],["2026-10-25",552]]],["free-for-dev","Eight cleanup PRs in Jan 2026",[["2015-04-01",114],["2015-07-01",301],["2015-10-01",350],["2016-01-01",395],["2016-04-01",404],["2016-07-01",430],["2016-10-01",440],["2017-01-01",457],["2017-04-01",462],["2017-07-01",466],["2017-10-01",467],["2018-01-01",485],["2018-04-01",488],["2018-07-01",493],["2018-10-01",464],["2019-01-01",468],["2019-04-01",478],["2019-07-01",487],["2019-10-01",514],["2020-01-01",643],["2020-04-01",702],["2020-07-01",750],["2020-10-01",816],["2021-01-01",856],["2021-04-01",960],["2021-07-01",1039],["2021-10-01",1102],["2022-01-01",1159],["2022-04-01",1227],["2022-07-01",1286],["2022-10-01",1320],["2023-01-01",1341],["2023-04-01",1369],["2023-07-01",1385],["2023-10-01",1453],["2024-01-01",1476],["2024-04-01",1505],["2024-07-01",1537],["2024-10-01",1556],["2025-01-01",1577],["2025-04-01",1604],["2025-07-01",1594],["2025-10-01",1618],["2026-01-01",1639],["2026-04-01",1222],["2026-07-01",1252],["2026-10-01",1322],["2026-10-25",1363]]],["awesome-react","Owner purges in 2019 and 2023",[["2014-10-01",418],["2015-01-01",555],["2015-04-01",631],["2015-07-01",651],["2015-10-01",727],["2016-01-01",757],["2016-04-01",645],["2016-07-01",662],["2016-10-01",679],["2017-01-01",706],["2017-04-01",706],["2017-07-01",706],["2017-10-01",706],["2018-01-01",808],["2018-04-01",837],["2018-07-01",883],["2018-10-01",908],["2019-01-01",949],["2019-04-01",960],["2019-07-01",614],["2019-10-01",542],["2020-01-01",463],["2020-04-01",480],["2020-07-01",504],["2020-10-01",509],["2021-01-01",525],["2021-04-01",550],["2021-07-01",439],["2021-10-01",442],["2022-01-01",448],["2022-04-01",454],["2022-07-01",454],["2022-10-01",454],["2023-01-01",454],["2023-04-01",454],["2023-07-01",156],["2023-10-01",144],["2024-01-01",144],["2024-04-01",130],["2024-07-01",133],["2024-10-01",133],["2025-01-01",132],["2025-04-01",132],["2025-07-01",132],["2025-10-01",129],["2026-01-01",135],["2026-04-01",141],["2026-07-01",141],["2026-10-01",149],["2026-10-25",149]]],["awesome-vue","Community prune, Nov 2024",[["2016-01-01",129],["2016-04-01",220],["2016-07-01",335],["2016-10-01",482],["2017-01-01",686],["2017-04-01",516],["2017-07-01",713],["2017-10-01",947],["2018-01-01",1175],["2018-04-01",1385],["2018-07-01",1611],["2018-10-01",1734],["2019-01-01",1896],["2019-04-01",2022],["2019-07-01",2116],["2019-10-01",2170],["2020-01-01",2171],["2020-04-01",2364],["2020-07-01",2461],["2020-10-01",2507],["2021-01-01",2554],["2021-04-01",2611],["2021-07-01",2656],["2021-10-01",2700],["2022-01-01",2746],["2022-04-01",2780],["2022-07-01",2811],["2022-10-01",2834],["2023-01-01",2857],["2023-04-01",2865],["2023-07-01",2903],["2023-10-01",2925],["2024-01-01",2945],["2024-04-01",2946],["2024-07-01",2989],["2024-10-01",3001],["2025-01-01",1082],["2025-04-01",1097],["2025-07-01",1120],["2025-10-01",1132],["2026-01-01",1139],["2026-04-01",1019],["2026-07-01",1043],["2026-10-01",1071],["2026-10-25",1076]]],["awesome-selfhosted","Held flat by nightly checks",[["2015-07-01",194],["2015-10-01",348],["2016-01-01",463],["2016-04-01",526],["2016-07-01",564],["2016-10-01",645],["2017-01-01",711],["2017-04-01",730],["2017-07-01",749],["2017-10-01",789],["2018-01-01",832],["2018-04-01",856],["2018-07-01",880],["2018-10-01",891],["2019-01-01",927],["2019-04-01",940],["2019-07-01",938],["2019-10-01",989],["2020-01-01",1028],["2020-04-01",1049],["2020-07-01",1095],["2020-10-01",1100],["2021-01-01",1100],["2021-04-01",1136],["2021-07-01",1158],["2021-10-01",1188],["2022-01-01",1218],["2022-04-01",1225],["2022-07-01",1262],["2022-10-01",1288],["2023-01-01",1314],["2023-04-01",1321],["2023-07-01",1304],["2023-10-01",1249],["2024-01-01",1227],["2024-04-01",1212],["2024-07-01",1210],["2024-10-01",1235],["2025-01-01",1259],["2025-04-01",1275],["2025-07-01",1284],["2025-10-01",1296],["2026-01-01",1313],["2026-04-01",1322],["2026-07-01",1338],["2026-10-01",1359],["2026-10-25",1365]]],["awesome-go","Hygiene bar: grows steadily",[["2014-10-01",319],["2015-01-01",386],["2015-04-01",455],["2015-07-01",576],["2015-10-01",644],["2016-01-01",751],["2016-04-01",833],["2016-07-01",886],["2016-10-01",936],["2017-01-01",1011],["2017-04-01",1084],["2017-07-01",1180],["2017-10-01",1244],["2018-01-01",1356],["2018-04-01",1436],["2018-07-01",1487],["2018-10-01",1543],["2019-01-01",1592],["2019-04-01",1683],["2019-07-01",1779],["2019-10-01",1836],["2020-01-01",1892],["2020-04-01",1976],["2020-07-01",2022],["2020-10-01",2085],["2021-01-01",2142],["2021-04-01",2197],["2021-07-01",2236],["2021-10-01",2304],["2022-01-01",2381],["2022-04-01",2433],["2022-07-01",2475],["2022-10-01",2512],["2023-01-01",2544],["2023-04-01",2562],["2023-07-01",2607],["2023-10-01",2633],["2024-01-01",2671],["2024-04-01",2706],["2024-07-01",2741],["2024-10-01",2800],["2025-01-01",2792],["2025-04-01",2767],["2025-07-01",2778],["2025-10-01",2778],["2026-01-01",2801],["2026-04-01",2879],["2026-07-01",2993],["2026-10-01",3133],["2026-10-25",3178]]],["awesome-machine-learning","Never pruned: accretes",[["2014-10-01",455],["2015-01-01",491],["2015-04-01",499],["2015-07-01",533],["2015-10-01",550],["2016-01-01",575],["2016-04-01",632],["2016-07-01",665],["2016-10-01",685],["2017-01-01",701],["2017-04-01",712],["2017-07-01",740],["2017-10-01",767],["2018-01-01",782],["2018-04-01",803],["2018-07-01",817],["2018-10-01",838],["2019-01-01",863],["2019-04-01",856],["2019-07-01",873],["2019-10-01",896],["2020-01-01",914],["2020-04-01",926],["2020-07-01",944],["2020-10-01",966],["2021-01-01",1002],["2021-04-01",1022],["2021-07-01",1031],["2021-10-01",1037],["2022-01-01",1056],["2022-04-01",1072],["2022-07-01",1084],["2022-10-01",1090],["2023-01-01",1102],["2023-04-01",1105],["2023-07-01",1114],["2023-10-01",1123],["2024-01-01",1128],["2024-04-01",1140],["2024-07-01",1146],["2024-10-01",1148],["2025-01-01",1154],["2025-04-01",1160],["2025-07-01",1173],["2025-10-01",1179],["2026-01-01",1186],["2026-04-01",1214],["2026-07-01",1221],["2026-10-01",1249],["2026-10-25",1254]]],["awesome-mcp-servers","AI era: 0 \u2192 4,648 in under 2 years",[["2025-01-01",172],["2025-04-01",421],["2025-07-01",815],["2025-10-01",951],["2026-01-01",1100],["2026-04-01",1822],["2026-07-01",2835],["2026-10-01",4103],["2026-10-25",4648]]]],"dormant":[["<6 mo",152,1.0],["6-12 mo",49,1.041],["1-2 y",16,1.094],["2-3 y",18,1.174],["3-5 y",29,1.32],["5+ y",32,1.207]]};
+(function () {
+  const NS = 'http://www.w3.org/2000/svg';
+  const tip = document.getElementById('tip');
+
+  function S(tag, attrs, parent) {
+    const e = document.createElementNS(NS, tag);
+    for (const k in attrs) e.setAttribute(k, attrs[k]);
+    if (parent) parent.appendChild(e);
+    return e;
+  }
+  function T(parent, x, y, s, cls, anchor) {
+    const t = S('text', { x, y, class: cls || 't-axis', 'text-anchor': anchor || 'start' }, parent);
+    t.textContent = s;
+    return t;
+  }
+  function H(tag, cls, html) {
+    const e = document.createElement(tag);
+    if (cls) e.className = cls;
+    if (html != null) e.innerHTML = html;
+    return e;
+  }
+  function k(n) {
+    if (n >= 1e6) return (n / 1e6).toFixed(1).replace(/\.0$/, '') + 'M';
+    if (n >= 1e4) return Math.round(n / 1e3) + 'k';
+    if (n >= 1e3) return (n / 1e3).toFixed(1).replace(/\.0$/, '') + 'k';
+    return String(n);
+  }
+  const fmt = n => n.toLocaleString('en-US');
+  function esc(s) { return String(s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
+
+  function placeTip(ev) {
+    const pad = 14;
+    const r = tip.getBoundingClientRect();
+    let x = ev.clientX + pad, y = ev.clientY + pad;
+    if (x + r.width > window.innerWidth - 8) x = ev.clientX - r.width - pad;
+    if (y + r.height > window.innerHeight - 8) y = ev.clientY - r.height - pad;
+    tip.style.left = Math.max(8, x) + 'px';
+    tip.style.top = Math.max(8, y) + 'px';
+  }
+  function showTip(html, ev) { tip.innerHTML = html; tip.hidden = false; placeTip(ev); }
+  function hideTip() { tip.hidden = true; }
+  function bindTip(el, fn) {
+    el.addEventListener('pointerenter', e => showTip(fn(), e));
+    el.addEventListener('pointermove', placeTip);
+    el.addEventListener('pointerleave', hideTip);
+  }
+  // column with 4px rounded data-end, square at the baseline
+  function colPath(x, y, w, h, r) {
+    r = Math.max(0, Math.min(r, w / 2, h));
+    return `M${x},${y + h}V${y + r}Q${x},${y} ${x + r},${y}H${x + w - r}Q${x + w},${y} ${x + w},${y + r}V${y + h}Z`;
+  }
+
+  /* ---------- 1. GitHub top 100 unit chart ---------- */
+  function top100(body) {
+    const groups = [['list', 'Curated link lists'], ['guide', 'Guides, books and courses'], ['coll', 'AI skills, configs and other collections'], ['soft', 'Software']];
+    const counts = {};
+    DATA.top100.forEach(d => { counts[d[3]] = (counts[d[3]] || 0) + 1; });
+    const lg = H('div', 'legend');
+    groups.forEach(([g, label]) => lg.appendChild(H('span', 'key', `<i class="sw u-${g}"></i>${label} <b>${counts[g] || 0}</b>`)));
+    body.appendChild(lg);
+    const wrap = H('div', 'unit-wrap');
+    body.appendChild(wrap);
+    const W = body.clientWidth;
+    const side = W >= 760;
+    const cols = 10, gap = 4, labelW = 52;
+    const cell = Math.max(14, Math.min(38, Math.floor((W - labelW - gap * (cols - 1)) / cols)));
+    const width = labelW + cols * cell + (cols - 1) * gap, height = 10 * cell + 9 * gap;
+    const svg = S('svg', { width, height }, wrap);
+    const names = Object.fromEntries(groups);
+    if (side) {
+      const top10 = DATA.top100.slice(0, 10).filter(d => d[3] === 'list');
+      const aside = H('div', 'unit-aside');
+      aside.appendChild(H('div', 'ua-h', 'Curated lists in the top 10'));
+      const ol = H('ul', 'ua-list');
+      top10.forEach(d => ol.appendChild(H('li', '', `<span class="ua-r">#${d[0]}</span> ${esc(d[1])} <span class="ua-s">${k(d[2])}</span>`)));
+      aside.appendChild(ol);
+      aside.appendChild(H('p', 'ua-note', 'Nine of the top 25 and fifteen of the top 100 are curated lists. Almost half of the top 100 are not software at all.'));
+      wrap.appendChild(aside);
+    }
+    for (let r = 0; r < 10; r++) T(svg, labelW - 10, r * (cell + gap) + cell / 2 + 4, `${r * 10 + 1}–${r * 10 + 10}`, 't-muted', 'end');
+    DATA.top100.forEach((d, i) => {
+      const r = Math.floor(i / cols), c = i % cols;
+      const rect = S('rect', { x: labelW + c * (cell + gap), y: r * (cell + gap), width: cell, height: cell, rx: 3, class: `unit u-${d[3]}` }, svg);
+      bindTip(rect, () => `<b>#${d[0]} ${esc(d[1])}</b><br>${fmt(d[2])} stars<br><span class="mut">${names[d[3]]}</span>`);
+    });
+  }
+
+  /* ---------- 2. cohorts ---------- */
+  function columns(body, rows, opt) {
+    const W = body.clientWidth, Hh = opt.height || 250;
+    const m = { t: 22, r: 6, b: 30, l: 44 };
+    const iw = W - m.l - m.r, ih = Hh - m.t - m.b;
+    const svg = S('svg', { width: W, height: Hh }, body);
+    const band = iw / rows.length, bw = Math.min(24, band * 0.62);
+    const y = v => m.t + ih - (v / opt.max) * ih;
+    opt.ticks.forEach(v => {
+      S('line', { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), class: v === 0 ? 'axis-line' : 'grid-line' }, svg);
+      T(svg, m.l - 8, y(v) + 4, opt.tickFmt(v), 't-axis', 'end');
+    });
+    rows.forEach((d, i) => {
+      const cx = m.l + band * i + band / 2;
+      const v = opt.value(d), yy = y(v);
+      S('path', { d: colPath(cx - bw / 2, yy, bw, m.t + ih - yy, 4), class: opt.hi(d) ? 'bar-hi' : 'bar-lo' }, svg);
+      const lab = opt.label(d, band);
+      if (lab) T(svg, cx, yy - 7, lab, 't-ink', 'middle');
+      const lbl = opt.xLabel(d, band);
+      if (lbl) T(svg, cx, Hh - 8, lbl, 't-axis', 'middle');
+      const hit = S('rect', { x: m.l + band * i, y: m.t, width: band, height: ih, class: 'bar-hit' }, svg);
+      bindTip(hit, () => opt.tip(d));
+    });
+  }
+  function cohorts(body) {
+    const rows = DATA.cohorts.map(d => ({ year: d[0], n: d[1], n10: d[2], med: d[3], share: d[2] / d[1] }));
+    const hiYears = new Set([2014, 2015, 2025, 2026]);
+    columns(body, rows, {
+      height: 260, max: 0.45, ticks: [0, 0.1, 0.2, 0.3, 0.4],
+      tickFmt: v => Math.round(v * 100) + '%',
+      value: d => d.share,
+      hi: d => hiYears.has(d.year),
+      label: (d, band) => hiYears.has(d.year) && !(band < 34 && d.year === 2025) ? Math.round(d.share * 100) + '%' : '',
+      xLabel: (d, band) => band >= 38 ? String(d.year) : (band >= 22 ? '’' + String(d.year).slice(2) : (d.year % 4 === 2 ? '’' + String(d.year).slice(2) : '')),
+      tip: d => `<b>Started in ${d.year}</b><br>${d.n10} of ${d.n} lists reached 10k+ stars (${Math.round(d.share * 100)}%)<br><span class="mut">Median ${fmt(d.med)} stars</span>`,
+    });
+  }
+
+  /* ---------- 3. dumbbell ---------- */
+  function dumbbell(body) {
+    const lg = H('div', 'legend');
+    lg.appendChild(H('span', 'key', '<i class="dot dot-lo-legend"></i>Lists under 2k stars'));
+    lg.appendChild(H('span', 'key', '<i class="dot dot-hi-legend"></i>Lists with 50k+ stars'));
+    body.appendChild(lg);
+    const W = body.clientWidth, narrow = W < 620;
+    const labelW = narrow ? 0 : 236, right = 74;
+    const x0 = labelW + (narrow ? 8 : 16), x1 = W - right;
+    const x = v => x0 + (v / 100) * (x1 - x0);
+    const rowH = narrow ? 50 : 32, headH = 36;
+    const groups = [['same', 'About the same at every tier'], ['more', 'More common among the most-starred']];
+    let total = 26;
+    groups.forEach(([g]) => { total += headH + DATA.dumbbell.filter(d => d[0] === g).length * rowH; });
+    const svg = S('svg', { width: W, height: total }, body);
+    [0, 25, 50, 75, 100].forEach(v => {
+      S('line', { x1: x(v), x2: x(v), y1: 18, y2: total, class: v === 0 ? 'axis-line' : 'grid-line' }, svg);
+      T(svg, x(v), 12, v + '%', 't-axis', 'middle');
+    });
+    let yCur = 26;
+    groups.forEach(([g, title]) => {
+      T(svg, 0, yCur + 24, title, 't-head');
+      yCur += headH;
+      DATA.dumbbell.filter(d => d[0] === g).forEach(d => {
+        const [, label, hi, lo, rho] = d;
+        const cy = yCur + (narrow ? 32 : rowH / 2);
+        if (narrow) T(svg, 0, yCur + 14, label, 't-label');
+        else T(svg, 0, cy + 4.5, label, 't-label');
+        S('line', { x1: x(Math.min(hi, lo)), x2: x(Math.max(hi, lo)), y1: cy, y2: cy, class: 'db-line' }, svg);
+        S('circle', { cx: x(lo), cy, r: 5.5, class: 'dot-lo' }, svg);
+        S('circle', { cx: x(hi), cy, r: 5.5, class: 'dot-hi' }, svg);
+        const right = Math.max(hi, lo), left = Math.min(hi, lo);
+        T(svg, x(right) + 10, cy + 4.5, Math.round(right) + '%', 't-ink');
+        T(svg, x(left) - 10, cy + 4.5, Math.round(left) + '%', 't-ink', 'end');
+        const hit = S('rect', { x: 0, y: yCur, width: W, height: rowH, class: 'bar-hit' }, svg);
+        bindTip(hit, () => `<b>${esc(label)}</b><br>50k+ stars: ${hi.toFixed(0)}%<br>Under 2k stars: ${lo.toFixed(0)}%<br><span class="mut">Spearman ρ with stars: ${rho >= 0 ? '+' : ''}${rho.toFixed(2)}</span>`);
+        yCur += rowH;
+      });
+    });
+  }
+
+  /* ---------- 4. scatter ---------- */
+  function scatter(body) {
+    const W = body.clientWidth, Hh = W < 600 ? 330 : 430;
+    const m = { t: 14, r: 18, b: 44, l: 54 };
+    const iw = W - m.l - m.r, ih = Hh - m.t - m.b;
+    const lx = Math.log10, X0 = lx(10), X1 = lx(20000), Y0 = lx(900), Y1 = lx(700000);
+    const x = v => m.l + (lx(Math.max(10, v)) - X0) / (X1 - X0) * iw;
+    const y = v => m.t + ih - (lx(v) - Y0) / (Y1 - Y0) * ih;
+    const svg = S('svg', { width: W, height: Hh }, body);
+    [1000, 10000, 100000].forEach(v => { S('line', { x1: m.l, x2: W - m.r, y1: y(v), y2: y(v), class: 'grid-line' }, svg); T(svg, m.l - 8, y(v) + 4, k(v), 't-axis', 'end'); });
+    [10, 100, 1000, 10000].forEach(v => { S('line', { x1: x(v), x2: x(v), y1: m.t, y2: m.t + ih, class: 'grid-line' }, svg); T(svg, x(v), m.t + ih + 18, k(v), 't-axis', 'middle'); });
+    S('line', { x1: m.l, x2: W - m.r, y1: m.t + ih, y2: m.t + ih, class: 'axis-line' }, svg);
+    T(svg, m.l + iw, Hh - 4, 'Entries in README →', 't-muted', 'end');
+    T(svg, m.l - 46, m.t - 2, 'Stars', 't-muted');
+    const pts = DATA.scatter.map(d => ({ repo: d[0], stars: d[1], n: d[2], year: d[3], px: x(d[2]), py: y(d[1]) }));
+    const labels = { 'vinta/awesome-python': 'end', 'avelino/awesome-go': 'end', 'enaqx/awesome-react': 'end', 'hesreallyhim/awesome-claude-code': 'start', 'uhub/awesome-python': 'end', 'rust-unofficial/awesome-rust': 'start' };
+    const g = S('g', {}, svg);
+    pts.forEach(p => S('circle', { cx: p.px, cy: p.py, r: 4, class: labels[p.repo] ? 'sc-hi' : 'sc-dot' }, g));
+    pts.filter(p => labels[p.repo]).forEach(p => {
+      const a = labels[p.repo];
+      if (W < 520 && (p.repo === 'rust-unofficial/awesome-rust' || p.repo === 'enaqx/awesome-react')) return;
+      const aa = (W < 600 && p.repo === 'hesreallyhim/awesome-claude-code') ? 'end' : a;
+      T(svg, p.px + (aa === 'end' ? -9 : 9), p.py + 4, p.repo, 't-ink halo', aa);
+    });
+    const ring = S('circle', { r: 7, class: 'sc-ring', visibility: 'hidden' }, svg);
+    const overlay = S('rect', { x: m.l, y: m.t, width: iw, height: ih, class: 'bar-hit' }, svg);
+    overlay.addEventListener('pointermove', ev => {
+      const b = svg.getBoundingClientRect(), mx = ev.clientX - b.left, my = ev.clientY - b.top;
+      let best = null, bd = 196;
+      pts.forEach(p => { const dd = (p.px - mx) ** 2 + (p.py - my) ** 2; if (dd < bd) { bd = dd; best = p; } });
+      if (!best) { ring.setAttribute('visibility', 'hidden'); hideTip(); return; }
+      ring.setAttribute('cx', best.px); ring.setAttribute('cy', best.py); ring.setAttribute('visibility', 'visible');
+      showTip(`<b>${esc(best.repo)}</b><br>${fmt(best.stars)} stars · ${fmt(best.n)} entries<br><span class="mut">First commit ${best.year}</span>`, ev);
+    });
+    overlay.addEventListener('pointerleave', () => { ring.setAttribute('visibility', 'hidden'); hideTip(); });
+  }
+
+  /* ---------- 5. growth small multiples ---------- */
+  function niceMax(v) {
+    const p = Math.pow(10, Math.floor(Math.log10(v)));
+    for (const s of [1, 1.5, 2, 2.5, 3, 4, 5, 6, 8, 10]) if (s * p >= v) return s * p;
+    return 10 * p;
+  }
+  function growth(body) {
+    const grid = H('div', 'panels');
+    body.appendChild(grid);
+    const t0 = Date.UTC(2014, 6, 1), t1 = Date.UTC(2026, 9, 25);
+    const toT = s => { const [a, b, c] = s.split('-').map(Number); return Date.UTC(a, b - 1, c); };
+    const panels = DATA.growth.map(([repo, note, pts]) => {
+      const p = H('div', 'panel');
+      p.appendChild(H('div', 'pt', esc(repo)));
+      p.appendChild(H('div', 'pn', esc(note)));
+      const holder = H('div', '');
+      p.appendChild(holder);
+      grid.appendChild(p);
+      return { repo, pts, holder };
+    });
+    panels.forEach(({ pts, holder }) => {
+      const W = holder.clientWidth || 220, Hh = 128;
+      const m = { t: 18, r: 34, b: 20, l: 4 };
+      const iw = W - m.l - m.r, ih = Hh - m.t - m.b;
+      const data = pts.map(([d, e]) => ({ t: toT(d), d, e }));
+      const peak = data.reduce((a, b) => (b.e > a.e ? b : a));
+      const ymax = niceMax(peak.e * 1.08);
+      const x = t => m.l + (t - t0) / (t1 - t0) * iw;
+      const y = v => m.t + ih - v / ymax * ih;
+      const svg = S('svg', { width: W, height: Hh }, holder);
+      S('line', { x1: m.l, x2: m.l + iw, y1: y(ymax), y2: y(ymax), class: 'grid-line' }, svg);
+      T(svg, m.l + iw + 4, y(ymax) + 4, k(ymax), 't-muted');
+      S('line', { x1: m.l, x2: m.l + iw, y1: y(0), y2: y(0), class: 'axis-line' }, svg);
+      T(svg, m.l + iw + 4, y(0) + 4, '0', 't-muted');
+      [2014, 2018, 2022, 2026].forEach(yr => { const xx = x(Date.UTC(yr, 0, 1)); if (xx >= m.l) T(svg, xx, Hh - 4, '’' + String(yr).slice(2), 't-muted', 'middle'); });
+      const line = data.map((p, i) => `${i ? 'L' : 'M'}${x(p.t).toFixed(1)},${y(p.e).toFixed(1)}`).join('');
+      S('path', { d: line + `L${x(data[data.length - 1].t)},${y(0)}L${x(data[0].t)},${y(0)}Z`, class: 'ar' }, svg);
+      S('path', { d: line, class: 'ln' }, svg);
+      const last = data[data.length - 1];
+      S('circle', { cx: x(last.t), cy: y(last.e), r: 4, class: 'mk' }, svg);
+      if (peak !== last && (peak.e - last.e) / peak.e > 0.05) {
+        S('circle', { cx: x(peak.t), cy: y(peak.e), r: 4, class: 'mk' }, svg);
+        const left = x(peak.t) > m.l + iw * 0.6;
+        T(svg, x(peak.t) + (left ? -7 : 7), y(peak.e) - 6, 'peak ' + fmt(peak.e), 't-ink', left ? 'end' : 'start');
+        T(svg, x(last.t) - 4, y(last.e) + 18 > m.t + ih ? y(last.e) - 9 : y(last.e) + 18, 'now ' + fmt(last.e), 't-ink', 'end');
+      } else {
+        T(svg, x(last.t) - 8, y(last.e) - 8, fmt(last.e), 't-ink', 'end');
+      }
+      const xh = S('line', { y1: m.t, y2: m.t + ih, class: 'xhair', visibility: 'hidden' }, svg);
+      const dot = S('circle', { r: 4.5, class: 'mk', visibility: 'hidden' }, svg);
+      const overlay = S('rect', { x: m.l, y: 0, width: iw, height: Hh, class: 'bar-hit' }, svg);
+      overlay.addEventListener('pointermove', ev => {
+        const b = svg.getBoundingClientRect(), mx = ev.clientX - b.left;
+        let best = data[0];
+        data.forEach(p => { if (Math.abs(x(p.t) - mx) < Math.abs(x(best.t) - mx)) best = p; });
+        xh.setAttribute('x1', x(best.t)); xh.setAttribute('x2', x(best.t)); xh.setAttribute('visibility', 'visible');
+        dot.setAttribute('cx', x(best.t)); dot.setAttribute('cy', y(best.e)); dot.setAttribute('visibility', 'visible');
+        const label = best === last ? 'Now (Oct 2026)' : new Date(best.t - 864e5).toLocaleDateString('en-US', { month: 'short', year: 'numeric', timeZone: 'UTC' });
+        showTip(`<b>${label}</b><br>${fmt(best.e)} entries`, ev);
+      });
+      overlay.addEventListener('pointerleave', () => { xh.setAttribute('visibility', 'hidden'); dot.setAttribute('visibility', 'hidden'); hideTip(); });
+    });
+  }
+
+  /* ---------- 6. dormant star growth ---------- */
+  function dormant(body) {
+    const rows = DATA.dormant.map(d => ({ b: d[0], n: d[1], r: d[2], g: d[2] - 1 }));
+    columns(body, rows, {
+      height: 240, max: 0.36, ticks: [0, 0.1, 0.2, 0.3],
+      tickFmt: v => '+' + Math.round(v * 100) + '%',
+      value: d => Math.max(0, d.g),
+      hi: () => true,
+      label: d => '+' + Math.round(d.g * 100) + '%',
+      xLabel: d => d.b,
+      tip: d => `<b>Last content update ${d.b} ago</b><br>${d.n} lists<br><span class="mut">Median stars now ÷ stars then: ×${d.r.toFixed(2)}</span>`,
+    });
+  }
+
+  const R = { top100, cohorts, dumbbell, scatter, growth, dormant };
+  function render(fig) {
+    const body = fig.querySelector('.chart-body');
+    body.innerHTML = '';
+    try { R[fig.dataset.chart](body); } catch (e) { body.textContent = 'Chart failed to render.'; console.error(e); }
+  }
+  const figs = Array.from(document.querySelectorAll('figure.chart'));
+  figs.forEach(render);
+  let lastW = figs.map(f => f.clientWidth);
+  let timer = null;
+  window.addEventListener('resize', () => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      figs.forEach((f, i) => { if (f.clientWidth !== lastW[i]) { lastW[i] = f.clientWidth; render(f); } });
+    }, 120);
+  });
+  if (document.fonts && document.fonts.ready) document.fonts.ready.then(() => figs.forEach(render));
+})();
+
+</script>
+</body>
+</html>

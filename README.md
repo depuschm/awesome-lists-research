@@ -2,7 +2,7 @@
 
 What makes GitHub's most-starred "awesome" lists so good? This repository holds a data-driven study of 1,291 curated lists: their stars, structure, history and governance, measured from 1,609 cloned repositories and about 60,000 historical README snapshots, plus in-depth reviews of more than 40 lists. Data as of 25 October 2026.
 
-**Read the report: [REPORT.md](REPORT.md)**
+**Read the report:** [as a web page with interactive charts](https://depuschm.github.io/awesome-lists-research/) or [as Markdown](REPORT.md).
 
 ## Key findings
 
@@ -20,7 +20,8 @@ What makes GitHub's most-starred "awesome" lists so good? This repository holds 
 | Path | Contents |
 |---|---|
 | `REPORT.md` | The full report |
-| `page/awesome-lists-study.html` | The report as a web page with interactive charts |
+| `docs/index.html` | The report as a web page with interactive charts, served by GitHub Pages |
+| `page/awesome-lists-study.html` | The same page as an HTML fragment (for embedding viewers that supply their own document skeleton) |
 | `notes/` | Literature review, five archetype deep dives, same-topic rivals study, low-star control group, analyst rubric |
 | `data/master_stars.tsv` | 1,598 repositories with stars from every source, index membership and category |
 | `data/corpus.csv` | 1,568 repositories × ~110 features, with classification |
@@ -50,7 +51,7 @@ ls -d clones/*/ | xargs -P 4 -n 10 python3 -I scripts/readme_history.py > data/r
 .venv/bin/python scripts/build_corpus.py
 .venv/bin/python scripts/analyze.py
 .venv/bin/python scripts/export_viz.py
-.venv/bin/python scripts/build_page.py
+.venv/bin/python scripts/build_page.py   # writes docs/index.html and page/awesome-lists-study.html
 ```
 
 Re-cloning today gives slightly different numbers, because the lists keep changing. The rankings in `data/topic_*.tsv` were collected from GitHub topic pages, whose star counts are rounded.
