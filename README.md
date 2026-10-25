@@ -15,14 +15,20 @@ What makes GitHub's most-starred "awesome" lists so good? This repository holds 
 - Dormant lists keep gaining stars: 95 lists unchanged for a year or more gained 202,000 stars in that time.
 - In 2026, AI-generated pull requests forced several top lists to close or restrict outside submissions.
 
+## Which repositories were studied
+
+All 1,609 repositories are listed in [REPOSITORIES.md](REPOSITORIES.md), each linked to the exact commit that was analysed: 1,291 curated lists in the statistics, plus the repos that were cloned and then excluded (not lists, duplicates, no star data) and the few used only for qualitative comparison. The same list is in [`data/repositories.tsv`](data/repositories.tsv) for scripts. The repositories themselves are not included, as copies or as submodules, to keep this repo small; `scripts/clone_one.sh owner/repo <sha>` re-creates any snapshot.
+
 ## Repository layout
 
 | Path | Contents |
 |---|---|
 | `REPORT.md` | The full report |
+| `REPOSITORIES.md` | Every repository studied, with its status and a link to the exact commit analysed |
 | `docs/index.html` | The report as a web page with interactive charts, served by GitHub Pages |
 | `page/awesome-lists-study.html` | The same page as an HTML fragment (for embedding viewers that supply their own document skeleton) |
 | `notes/` | Literature review, five archetype deep dives, same-topic rivals study, low-star control group, analyst rubric |
+| `data/repositories.tsv` | The same list, machine-readable: status, stars, census/index membership, pinned commit SHA and date |
 | `data/master_stars.tsv` | 1,598 repositories with stars from every source, index membership and category |
 | `data/corpus.csv` | 1,568 repositories × ~110 features, with classification |
 | `data/features.jsonl` | Raw extracted features, one JSON object per repository |
@@ -40,8 +46,8 @@ Requires Python 3.13 and git.
 ```sh
 python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 
-# 1. Clone every repository in the corpus (partial, sparse clones; ~2.6 GB)
-tail -n +2 data/master_stars.tsv | cut -f1 | xargs -P 8 -I{} scripts/clone_one.sh {}
+# 1. Clone every repository at the exact commit analysed (partial, sparse clones; ~2.6 GB)
+tail -n +2 data/repositories.tsv | awk -F'\t' '$11 != "" {print $1, $11}' | xargs -P 8 -n 2 scripts/clone_one.sh
 
 # 2. Extract features and reconstruct README histories
 ls -d clones/*/ | xargs -P 4 -n 25 python3 -I scripts/extract.py > data/features.jsonl
@@ -52,9 +58,10 @@ ls -d clones/*/ | xargs -P 4 -n 10 python3 -I scripts/readme_history.py > data/r
 .venv/bin/python scripts/analyze.py
 .venv/bin/python scripts/export_viz.py
 .venv/bin/python scripts/build_page.py   # writes docs/index.html and page/awesome-lists-study.html
+.venv/bin/python scripts/make_manifest.py # rewrites REPOSITORIES.md and data/repositories.tsv from clones/
 ```
 
-Re-cloning today gives slightly different numbers, because the lists keep changing. The rankings in `data/topic_*.tsv` were collected from GitHub topic pages, whose star counts are rounded.
+Cloning at the pinned commits reproduces the analysed snapshots; time-based features are measured against a fixed date (25 October 2026), and star counts are fixed snapshots in `data/`. If a list's owner has rewritten its history, the pinned commit may be gone and `clone_one.sh` warns and falls back to the current version. The rankings in `data/topic_*.tsv` were collected from GitHub topic pages, whose star counts are rounded.
 
 ## Method notes and limitations
 

@@ -88,7 +88,7 @@ The GitHub search API was not available from the research environment, so the co
 - **Official index (n = 558):** every list in sindresorhus/awesome with a known star count. All passed the same quality gate.
 - **All lists (n = 1,291):** for descriptive statistics only.
 
-After de-duplicating renamed repos and forks by root commit (30 removed), each repo was classified as a link list, an artifact collection (prompt files, rule files, templates) or other (code, books, apps); 225 non-lists were excluded and 50 classifications were set by hand.
+After de-duplicating by root commit (30 rows removed: 28 renamed repos or forks, and 2 repos that had been cloned twice under different capitalisation), each repo was classified as a link list, an artifact collection (prompt files, rule files, templates) or other (code, books, apps); 225 non-lists were excluded and 50 classifications were set by hand.
 
 **Features.** A custom extractor computed about 90 features per repo:
 
