@@ -425,7 +425,7 @@ rect.unit:hover { stroke: var(--ink); stroke-width: 1.5; }
 <ol>
 <li><strong>Curated lists are GitHub's hall of fame.</strong> Five of the ten most-starred repositories on all of GitHub are curated link lists (nine of the top 25, fifteen of the top 100). Almost half of the top 100 (48) are not software at all.</li>
 <li><strong>Stars are extremely concentrated.</strong> Across 1,291 curated lists holding 11.1 million stars, the top 10 lists hold 31% of all stars and the top 10% hold 71% (Gini 0.78).</li>
-<li><strong>Timing is the single biggest factor.</strong> 35% of lists started in 2014–15 (when the format took off) passed 10,000 stars, against 9% of lists started in 2019–22. 40 of the 100 most-starred lists were created in 2014–15, against 21% of all lists. A second window opened with the AI wave: 19 of the top 100 were created since 2023, and lists born in that period earn about 1.9× the stars their age would predict.</li>
+<li><strong>Getting in early is the biggest single advantage, because stars compound.</strong> 35% of lists started in 2014–15 (when the format took off) passed 10,000 stars, against 9% of lists started in 2019–22. Part of that gap is simply time live, but not all of it: lists started in January–July 2014 passed 10k stars nearly twice as often as lists started a few months later (39% vs 21%), and lists whose content stood still kept growing about 5% a year in proportion to their size, the signature of preferential attachment (see <a href="#timing-or-exposure">Timing or exposure?</a>). 40 of the 100 most-starred lists were created in 2014–15, against 21% of all lists. A second window opened with the AI wave: 19 of the top 100 were created since 2023, and lists born in that period earn about 1.9× the stars their age would predict.</li>
 <li><strong>The "quality hygiene" checklist is table stakes, not a differentiator.</strong> Descriptions on every entry, a table of contents, badges, a licence, a CONTRIBUTING file: small lists have them as often as giant ones. The share of described entries has essentially zero correlation with stars (ρ = 0.05 in the census, 0.01 inside the official index).</li>
 <li><strong>Scale and breadth do differentiate.</strong> Lists with 50k+ stars have a median of 593 entries in 51 categories; lists under 2k stars have 146 entries in 18 categories. Top lists also have more balanced taxonomies (largest category = 11% of entries vs 21%).</li>
 <li><strong>Winners launch full and keep growing for years.</strong> One year after launch, today's 50k+ lists already had a median of 408 entries (vs 97 for &lt;2k lists), and half of them more than doubled after year one (vs a quarter of small lists; 73% vs 17% inside the official index).</li>
@@ -1041,6 +1041,104 @@ rect.unit:hover { stroke: var(--ink); stroke-width: 1.5; }
 </table></div>
 <p>The 2014 cohort alone has a median of 8,200 stars, and 25 of its 59 census lists passed 10,000. Among the 100 most-starred lists overall, 40 were created in 2014–15, while only 21% of all lists were. The awesome-list genre was founded in a burst: all six of the big ecosystem catalogs (Python, Go, Node.js, Java, C++, Rust) were created within 19 days of each other in June–July 2014.</p>
 <p>The second window is the AI wave. 19 of the top 100 lists were created since 2023, three of them already above 50k stars. In the census regression, lists created since 2023 earn about 1.9 times the stars their age predicts.</p>
+<h3 id="timing-or-exposure">Timing or exposure?</h3>
+<p>A reader asked a fair question after publication: are early lists ahead because they were early, or simply because they have been collecting stars for longer? In a single snapshot the two are the same number, so the cohort table above cannot separate them on its own. (The regression in Section 4.9 and every age-controlled correlation do hold time live constant.) Three further checks, in <a href="https://github.com/depuschm/awesome-lists-research/blob/main/scripts/timing_exposure.py" target="_blank" rel="noopener"><code>scripts/timing_exposure.py</code></a>, point to the same answer: being early matters because it starts a compounding process.</p>
+<p><strong>1. Adjusting for time live narrows the typical gap, but not the big wins.</strong> Census sample:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>First commit</th>
+<th>Lists</th>
+<th>Median years live</th>
+<th>Median stars</th>
+<th>Median stars per year live</th>
+<th>Share with 10k+ stars</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>2014–2015</td>
+<td>147</td>
+<td>11.6</td>
+<td>4,500</td>
+<td>390</td>
+<td>35%</td>
+</tr>
+<tr>
+<td>2016–2018</td>
+<td>288</td>
+<td>9.4</td>
+<td>2,500</td>
+<td>272</td>
+<td>13%</td>
+</tr>
+<tr>
+<td>2019–2022</td>
+<td>272</td>
+<td>6.1</td>
+<td>1,900</td>
+<td>312</td>
+<td>9%</td>
+</tr>
+<tr>
+<td>2023–2024</td>
+<td>71</td>
+<td>3.3</td>
+<td>2,100</td>
+<td>730</td>
+<td>7%</td>
+</tr>
+<tr>
+<td>2025–2026</td>
+<td>76</td>
+<td>0.7</td>
+<td>2,450</td>
+<td>4,800</td>
+<td>20%</td>
+</tr>
+</tbody>
+</table></div>
+<p>Per year live, the typical 2014–15 list earns only about 25–45% more than later ones, so much of the raw difference in typical stars is exposure. The share that became giants is a different story: 2014–15 lists passed 10k stars 2.6 times as often as 2016–18 lists, with only about two more years live. (The young cohorts' per-year rates are inflated: the census only includes lists that already have about 1,000 stars, so a list a few months old is in it only if it grew very fast.)</p>
+<p><strong>2. A few months' head start mattered more than years of exposure.</strong> All analysed lists from the founding wave:</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Started</th>
+<th>Lists</th>
+<th>Share with 10k+ stars</th>
+<th>Median stars</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>January–July 2014</td>
+<td>67</td>
+<td>39%</td>
+<td>6,600</td>
+</tr>
+<tr>
+<td>August–December 2014</td>
+<td>43</td>
+<td>21%</td>
+<td>2,500</td>
+</tr>
+<tr>
+<td>January–June 2015</td>
+<td>83</td>
+<td>25%</td>
+<td>2,600</td>
+</tr>
+<tr>
+<td>July–December 2015</td>
+<td>89</td>
+<td>20%</td>
+<td>2,000</td>
+</tr>
+</tbody>
+</table></div>
+<p>Lists started in the first seven months of 2014, when sindresorhus/awesome launched and the big catalogs claimed their topics, passed 10k stars nearly twice as often as lists started a few months later: a negligible difference in exposure after twelve years. The earliest lists also claimed the broadest topics (Python, Go, Node.js), so topic size is mixed into this effect.</p>
+<p><strong>3. Growth is proportional to size.</strong> Among the 95 lists whose content did not change for a year or more, every size band grew about 5% a year (smallest third 4.6%, middle third 5.1%, largest third 4.8%; the correlation between size and relative growth is −0.06). Absolute gains therefore scale with size: about 56 stars a year for lists around 1,100 stars, about 700 for lists around 12,500 (correlation +0.65). Growth in proportion to what a list already has is the textbook signature of preferential attachment: stars flow to whatever already ranks, through sorted topic pages, search results, the index and links.</p>
+<p><strong>Reading.</strong> Timing works through compounding. Being among the first credible lists in a new topic puts a list into the ranked set early, and proportional growth widens the lead year after year. That fits the rivals study (Section 6), where lists launched within two days of each other ended up 17–22 times apart. What this study cannot measure is how much of the compounding comes from GitHub's own sorting, because star histories were not available.</p>
 <hr />
 <h2 id="4-what-separates-top-lists-from-the-rest">4. What separates top lists from the rest</h2>
 <figure class="chart" id="fig-dumbbell" data-chart="dumbbell"><figcaption><span class="fig-title">Top lists versus small lists, feature by feature</span><span class="fig-cap">Census sample: lists with 50k+ stars (n = 22) against lists under 2k stars (n = 350). ρ = Spearman correlation with stars across all 861 lists.</span></figcaption><div class="chart-body" role="img" aria-label="Top lists versus small lists, feature by feature"></div></figure>
@@ -1914,7 +2012,7 @@ rect.unit:hover { stroke: var(--ink); stroke-width: 1.5; }
 </tr>
 </tbody>
 </table></div>
-<p>The 95 lists that had not changed for at least a year gained 202,000 stars in that time. awesome-courses has had no commits since November 2022 and went from 43k to 72k stars; awesome-interview-questions added "This project is no longer actively supported" in 2024 and gained 16k more. In the learning archetype especially, a star is a "learn this later" bookmark: in the developer survey by Borges and Valente, bookmarking (51%) is nearly as common a reason to star as appreciation (53%).</p>
+<p>The 95 lists that had not changed for at least a year gained 202,000 stars in that time. awesome-courses has had no commits since November 2022 and went from 43k to 72k stars; awesome-interview-questions added "This project is no longer actively supported" in 2024 and gained 16k more. In the learning archetype especially, a star is a "learn this later" bookmark: in the developer survey by Borges and Valente, bookmarking (51%) is nearly as common a reason to star as appreciation (53%). These dormant lists also grew in proportion to their size, about 5% a year at every size, the pattern of preferential attachment (see <a href="#timing-or-exposure">Timing or exposure?</a>).</p>
 <p><strong>Stars track brand and distribution.</strong> Awesome-Hacking's 123k stars rest on 141 commits and a social-media brand. awesome-design-md reached 123k with 66 commits by one company.</p>
 <p><strong>Stars can be bought, briefly.</strong> He et al. (ICSE 2026) found about 6 million suspected fake stars across 18,617 repos, explicitly including a "list of awesome LLM tools" in their tutorial/demo category. Fake stars give a short boost (under two months, about 5× weaker than real stars) and hurt in the long run. No investigation names a specific awesome list as a buyer.</p>
 <p><strong>The ecosystem is ageing.</strong> Of the 670 lists in the official index, 57% had a commit in the last 12 months, 36% have been silent for two years or more, and 17% for five years or more. The index removed 25 archived lists in 2026.</p>
@@ -1983,7 +2081,7 @@ rect.unit:hover { stroke: var(--ink); stroke-width: 1.5; }
 <h3 id="if-you-are-starting-a-list">If you are starting a list</h3>
 <ol>
 <li><strong>Pick a topic with a large, GitHub-native audience</strong>, or the broadest framing of one. This is the biggest single lever, and the one no amount of polish can replace.</li>
-<li><strong>Arrive early or arrive better.</strong> The first credible list for a new platform has an edge measured in days. If an incumbent exists, only start a rival if you can out-maintain it; otherwise contribute to it.</li>
+<li><strong>Arrive early or arrive better.</strong> The first credible list for a new platform has an edge measured in days, and because stars grow in proportion to what a list already has, that edge compounds. If an incumbent exists, only start a rival if you can out-maintain it; otherwise contribute to it.</li>
 <li><strong>Write the question your list answers in the first line</strong>, and a scope statement that says what you will refuse.</li>
 <li><strong>Launch with a substantial first version</strong>, with a balanced taxonomy (no category over ~15% of entries, no categories with two items).</li>
 <li><strong>Meet the table stakes:</strong> a one-line description for every entry, a ToC, consistent formatting, a CC0 licence, a CONTRIBUTING file, the badge, the <code>awesome-list</code> topic. They will not make you popular, but you cannot get into the index or keep readers' trust without them.</li>
@@ -3136,6 +3234,10 @@ rect.unit:hover { stroke: var(--ink); stroke-width: 1.5; }
 <td>Star growth while content was unchanged</td>
 </tr>
 <tr>
+<td><code>data/analysis/timing_exposure.json</code></td>
+<td>Timing-versus-exposure checks</td>
+</tr>
+<tr>
 <td><code>data/github_top100_classified.tsv</code></td>
 <td>GitHub's overall top 100 by kind</td>
 </tr>
@@ -3145,7 +3247,7 @@ rect.unit:hover { stroke: var(--ink); stroke-width: 1.5; }
 </tr>
 <tr>
 <td><code>scripts/</code></td>
-<td><code>clone_one.sh</code>, <code>extract.py</code>, <code>readme_history.py</code>, <code>build_corpus.py</code>, <code>analyze.py</code>, <code>export_viz.py</code> and the parsers</td>
+<td><code>clone_one.sh</code>, <code>extract.py</code>, <code>readme_history.py</code>, <code>build_corpus.py</code>, <code>analyze.py</code>, <code>timing_exposure.py</code>, <code>export_viz.py</code>, <code>build_page.py</code>, <code>make_manifest.py</code>, <code>make_readme_images.js</code> and the parsers</td>
 </tr>
 </tbody>
 </table></div>

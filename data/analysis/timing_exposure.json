@@ -1,0 +1,100 @@
+{
+ "cohorts_census": [
+  {
+   "cohort": "2014-2015",
+   "n": 147,
+   "median_years_live": 11.6,
+   "share_10k": 0.347,
+   "median_stars": 4500,
+   "median_stars_per_year": 390
+  },
+  {
+   "cohort": "2016-2018",
+   "n": 288,
+   "median_years_live": 9.4,
+   "share_10k": 0.132,
+   "median_stars": 2500,
+   "median_stars_per_year": 272
+  },
+  {
+   "cohort": "2019-2022",
+   "n": 272,
+   "median_years_live": 6.1,
+   "share_10k": 0.088,
+   "median_stars": 1900,
+   "median_stars_per_year": 312
+  },
+  {
+   "cohort": "2023-2024",
+   "n": 71,
+   "median_years_live": 3.3,
+   "share_10k": 0.07,
+   "median_stars": 2100,
+   "median_stars_per_year": 730
+  },
+  {
+   "cohort": "2025-2026",
+   "n": 76,
+   "median_years_live": 0.7,
+   "share_10k": 0.197,
+   "median_stars": 2450,
+   "median_stars_per_year": 4800
+  }
+ ],
+ "wave_windows": [
+  {
+   "window": "Jan-Jul 2014",
+   "n": 67,
+   "share_10k": 0.388,
+   "median_stars": 6600
+  },
+  {
+   "window": "Aug-Dec 2014",
+   "n": 43,
+   "share_10k": 0.209,
+   "median_stars": 2500
+  },
+  {
+   "window": "Jan-Jun 2015",
+   "n": 83,
+   "share_10k": 0.253,
+   "median_stars": 2600
+  },
+  {
+   "window": "Jul-Dec 2015",
+   "n": 89,
+   "share_10k": 0.202,
+   "median_stars": 2000
+  }
+ ],
+ "proportional_growth": {
+  "n": 95,
+  "rho_size_vs_stars_gained_per_year": 0.65,
+  "p_abs": 9.350237953211378e-13,
+  "rho_size_vs_relative_growth_per_year": -0.06,
+  "p_rel": 0.5623649476910831,
+  "terciles": [
+   {
+    "size": "smallest third",
+    "n": 32,
+    "median_stars": 1100,
+    "median_gain_per_year": 56,
+    "median_growth_per_year": 0.046
+   },
+   {
+    "size": "middle third",
+    "n": 31,
+    "median_stars": 2500,
+    "median_gain_per_year": 128,
+    "median_growth_per_year": 0.051
+   },
+   {
+    "size": "largest third",
+    "n": 32,
+    "median_stars": 12500,
+    "median_gain_per_year": 704,
+    "median_growth_per_year": 0.048
+   }
+  ]
+ }
+}

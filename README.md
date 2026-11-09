@@ -23,7 +23,7 @@ What makes GitHub's most-starred "awesome" lists so good? This study measured 1,
 
 | Separates the top lists | Barely matters |
 |---|---|
-| **Arriving when a topic is born.** 35% of lists started in 2014–15 passed 10k stars, against 9% of lists started in 2019–22. The AI wave opened a second window. | **Describing every entry.** Correlation with stars: 0.05. Small lists do it as often as giant ones. |
+| **Getting in early, then compounding.** 35% of lists started in 2014–15 passed 10k stars, against 9% of lists started in 2019–22. Part of that is time live, but lists from Jan–Jul 2014 did nearly twice as well as lists started months later, and stars grow in proportion to size. | **Describing every entry.** Correlation with stars: 0.05. Small lists do it as often as giant ones. |
 | **Scale and breadth.** Lists with 50k+ stars have a median of 593 entries in 51 categories; lists under 2k stars have 146 in 18. | **Table of contents, badges, licence.** Equally common at every tier. |
 | **Growing for years after launch.** Half of the 50k+ lists more than doubled after year one, against a quarter of small lists. | **The official rules.** The Awesome badge, awesome-lint and Creative Commons licences are no more common at the top; inside the index, small lists follow them more often (badge: 99% vs 77%). |
 | **Pruning on purpose.** 23% of 50k+ lists are now at least 10% smaller than their peak, against 8% of small lists. | **Being bigger than a live incumbent.** Six late clones that launched larger or better maintained got 1–7% of the leader's stars. |
@@ -134,6 +134,7 @@ ls -d clones/*/ | xargs -P 4 -n 10 python3 -I scripts/readme_history.py > data/r
 # 3. Build the corpus, run the statistics, rebuild the page
 .venv/bin/python scripts/build_corpus.py
 .venv/bin/python scripts/analyze.py
+.venv/bin/python scripts/timing_exposure.py
 .venv/bin/python scripts/export_viz.py
 .venv/bin/python scripts/build_page.py    # writes docs/index.html and page/awesome-lists-study.html
 .venv/bin/python scripts/make_manifest.py # rewrites REPOSITORIES.md and data/repositories.tsv from clones/

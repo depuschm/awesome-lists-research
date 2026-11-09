@@ -26,7 +26,7 @@ Data as of 25 October 2026. Corpus: 1,609 cloned repositories, 1,291 curated lis
 
 1. **Curated lists are GitHub's hall of fame.** Five of the ten most-starred repositories on all of GitHub are curated link lists (nine of the top 25, fifteen of the top 100). Almost half of the top 100 (48) are not software at all.
 2. **Stars are extremely concentrated.** Across 1,291 curated lists holding 11.1 million stars, the top 10 lists hold 31% of all stars and the top 10% hold 71% (Gini 0.78).
-3. **Timing is the single biggest factor.** 35% of lists started in 2014–15 (when the format took off) passed 10,000 stars, against 9% of lists started in 2019–22. 40 of the 100 most-starred lists were created in 2014–15, against 21% of all lists. A second window opened with the AI wave: 19 of the top 100 were created since 2023, and lists born in that period earn about 1.9× the stars their age would predict.
+3. **Getting in early is the biggest single advantage, because stars compound.** 35% of lists started in 2014–15 (when the format took off) passed 10,000 stars, against 9% of lists started in 2019–22. Part of that gap is simply time live, but not all of it: lists started in January–July 2014 passed 10k stars nearly twice as often as lists started a few months later (39% vs 21%), and lists whose content stood still kept growing about 5% a year in proportion to their size, the signature of preferential attachment (see [Timing or exposure?](#timing-or-exposure)). 40 of the 100 most-starred lists were created in 2014–15, against 21% of all lists. A second window opened with the AI wave: 19 of the top 100 were created since 2023, and lists born in that period earn about 1.9× the stars their age would predict.
 4. **The "quality hygiene" checklist is table stakes, not a differentiator.** Descriptions on every entry, a table of contents, badges, a licence, a CONTRIBUTING file: small lists have them as often as giant ones. The share of described entries has essentially zero correlation with stars (ρ = 0.05 in the census, 0.01 inside the official index).
 5. **Scale and breadth do differentiate.** Lists with 50k+ stars have a median of 593 entries in 51 categories; lists under 2k stars have 146 entries in 18 categories. Top lists also have more balanced taxonomies (largest category = 11% of entries vs 21%).
 6. **Winners launch full and keep growing for years.** One year after launch, today's 50k+ lists already had a median of 408 entries (vs 97 for <2k lists), and half of them more than doubled after year one (vs a quarter of small lists; 73% vs 17% inside the official index).
@@ -178,6 +178,37 @@ Lists in the census sample by year of first commit:
 The 2014 cohort alone has a median of 8,200 stars, and 25 of its 59 census lists passed 10,000. Among the 100 most-starred lists overall, 40 were created in 2014–15, while only 21% of all lists were. The awesome-list genre was founded in a burst: all six of the big ecosystem catalogs (Python, Go, Node.js, Java, C++, Rust) were created within 19 days of each other in June–July 2014.
 
 The second window is the AI wave. 19 of the top 100 lists were created since 2023, three of them already above 50k stars. In the census regression, lists created since 2023 earn about 1.9 times the stars their age predicts.
+
+### Timing or exposure?
+
+A reader asked a fair question after publication: are early lists ahead because they were early, or simply because they have been collecting stars for longer? In a single snapshot the two are the same number, so the cohort table above cannot separate them on its own. (The regression in Section 4.9 and every age-controlled correlation do hold time live constant.) Three further checks, in [`scripts/timing_exposure.py`](https://github.com/depuschm/awesome-lists-research/blob/main/scripts/timing_exposure.py), point to the same answer: being early matters because it starts a compounding process.
+
+**1. Adjusting for time live narrows the typical gap, but not the big wins.** Census sample:
+
+| First commit | Lists | Median years live | Median stars | Median stars per year live | Share with 10k+ stars |
+|---|---|---|---|---|---|
+| 2014–2015 | 147 | 11.6 | 4,500 | 390 | 35% |
+| 2016–2018 | 288 | 9.4 | 2,500 | 272 | 13% |
+| 2019–2022 | 272 | 6.1 | 1,900 | 312 | 9% |
+| 2023–2024 | 71 | 3.3 | 2,100 | 730 | 7% |
+| 2025–2026 | 76 | 0.7 | 2,450 | 4,800 | 20% |
+
+Per year live, the typical 2014–15 list earns only about 25–45% more than later ones, so much of the raw difference in typical stars is exposure. The share that became giants is a different story: 2014–15 lists passed 10k stars 2.6 times as often as 2016–18 lists, with only about two more years live. (The young cohorts' per-year rates are inflated: the census only includes lists that already have about 1,000 stars, so a list a few months old is in it only if it grew very fast.)
+
+**2. A few months' head start mattered more than years of exposure.** All analysed lists from the founding wave:
+
+| Started | Lists | Share with 10k+ stars | Median stars |
+|---|---|---|---|
+| January–July 2014 | 67 | 39% | 6,600 |
+| August–December 2014 | 43 | 21% | 2,500 |
+| January–June 2015 | 83 | 25% | 2,600 |
+| July–December 2015 | 89 | 20% | 2,000 |
+
+Lists started in the first seven months of 2014, when sindresorhus/awesome launched and the big catalogs claimed their topics, passed 10k stars nearly twice as often as lists started a few months later: a negligible difference in exposure after twelve years. The earliest lists also claimed the broadest topics (Python, Go, Node.js), so topic size is mixed into this effect.
+
+**3. Growth is proportional to size.** Among the 95 lists whose content did not change for a year or more, every size band grew about 5% a year (smallest third 4.6%, middle third 5.1%, largest third 4.8%; the correlation between size and relative growth is −0.06). Absolute gains therefore scale with size: about 56 stars a year for lists around 1,100 stars, about 700 for lists around 12,500 (correlation +0.65). Growth in proportion to what a list already has is the textbook signature of preferential attachment: stars flow to whatever already ranks, through sorted topic pages, search results, the index and links.
+
+**Reading.** Timing works through compounding. Being among the first credible lists in a new topic puts a list into the ranked set early, and proportional growth widens the lead year after year. That fits the rivals study (Section 6), where lists launched within two days of each other ended up 17–22 times apart. What this study cannot measure is how much of the compounding comes from GitHub's own sorting, because star histories were not available.
 
 ---
 
@@ -495,7 +526,7 @@ A random, reproducible sample of 30 low-star lists (20 official-index lists unde
 | 3–5 years | 29 | 1.32 |
 | 5+ years | 32 | 1.21 |
 
-The 95 lists that had not changed for at least a year gained 202,000 stars in that time. awesome-courses has had no commits since November 2022 and went from 43k to 72k stars; awesome-interview-questions added "This project is no longer actively supported" in 2024 and gained 16k more. In the learning archetype especially, a star is a "learn this later" bookmark: in the developer survey by Borges and Valente, bookmarking (51%) is nearly as common a reason to star as appreciation (53%).
+The 95 lists that had not changed for at least a year gained 202,000 stars in that time. awesome-courses has had no commits since November 2022 and went from 43k to 72k stars; awesome-interview-questions added "This project is no longer actively supported" in 2024 and gained 16k more. In the learning archetype especially, a star is a "learn this later" bookmark: in the developer survey by Borges and Valente, bookmarking (51%) is nearly as common a reason to star as appreciation (53%). These dormant lists also grew in proportion to their size, about 5% a year at every size, the pattern of preferential attachment (see [Timing or exposure?](#timing-or-exposure)).
 
 **Stars track brand and distribution.** Awesome-Hacking's 123k stars rest on 141 commits and a social-media brand. awesome-design-md reached 123k with 66 commits by one company.
 
@@ -537,7 +568,7 @@ Three structural shifts follow:
 ### If you are starting a list
 
 1. **Pick a topic with a large, GitHub-native audience**, or the broadest framing of one. This is the biggest single lever, and the one no amount of polish can replace.
-2. **Arrive early or arrive better.** The first credible list for a new platform has an edge measured in days. If an incumbent exists, only start a rival if you can out-maintain it; otherwise contribute to it.
+2. **Arrive early or arrive better.** The first credible list for a new platform has an edge measured in days, and because stars grow in proportion to what a list already has, that edge compounds. If an incumbent exists, only start a rival if you can out-maintain it; otherwise contribute to it.
 3. **Write the question your list answers in the first line**, and a scope statement that says what you will refuse.
 4. **Launch with a substantial first version**, with a balanced taxonomy (no category over ~15% of entries, no categories with two items).
 5. **Meet the table stakes:** a one-line description for every entry, a ToC, consistent formatting, a CC0 licence, a CONTRIBUTING file, the badge, the `awesome-list` topic. They will not make you popular, but you cannot get into the index or keep readers' trust without them.
@@ -702,9 +733,10 @@ Everything is in the [depuschm/awesome-lists-research](https://github.com/depusc
 | `data/analysis/summary_*.json`, `cohorts_*.csv` | Concentration, cohorts and regression results |
 | `data/readme_history_final.jsonl` | Quarterly README size and entry counts for 1,609 repos |
 | `data/analysis/dormant_star_growth.csv` | Star growth while content was unchanged |
+| `data/analysis/timing_exposure.json` | Timing-versus-exposure checks |
 | `data/github_top100_classified.tsv` | GitHub's overall top 100 by kind |
 | `data/manual_kind.csv`, `data/archetypes_top.csv` | Manual classifications |
-| `scripts/` | `clone_one.sh`, `extract.py`, `readme_history.py`, `build_corpus.py`, `analyze.py`, `export_viz.py` and the parsers |
+| `scripts/` | `clone_one.sh`, `extract.py`, `readme_history.py`, `build_corpus.py`, `analyze.py`, `timing_exposure.py`, `export_viz.py`, `build_page.py`, `make_manifest.py`, `make_readme_images.js` and the parsers |
 
 To reproduce: run `scripts/clone_one.sh` over `data/master_stars.tsv`, then `extract.py` and `readme_history.py` over `clones/`, then `build_corpus.py`, `analyze.py`, `export_viz.py` and `build_page.py` (Python 3.13; see `requirements.txt` and the README for exact commands).
 

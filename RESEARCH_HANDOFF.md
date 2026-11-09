@@ -84,6 +84,7 @@ Read every note in full yourself, and spot-check the surprising claims against t
 - **Correlations:** Spearman correlation with the outcome, plus a partial correlation controlling for age.
 - **Two sorts of feature:** separate "table stakes" (equally common at every tier) from differentiators.
 - **Cohorts:** results by creation year, to find the windows when items could win.
+- **Timing vs exposure:** in a single snapshot, start date and time live are the same number, so a cohort gap alone can't say whether being early or simply being around longer made the difference (a reader caught this after the last study). Also report the outcome per year live, compare launch windows only months apart, and test whether growth is proportional to size (preferential attachment). Try hard to get real outcome histories (for stars: stargazer timestamps or GH Archive).
 - **Concentration:** top-10 share, top-10% share and the Gini coefficient.
 - **Regression:** OLS on log(outcome) with robust standard errors, in two or three nested models (design-only, then adding activity, then community). Report R² honestly.
 - **Causes vs consequences:** say which features are probably consequences of popularity (contributors, templates, sponsors) and which can be measured at launch.
